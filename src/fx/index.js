@@ -244,6 +244,3006 @@ import * as critters_jellyfish from "./critters/jellyfish.js";
 import * as critters_slime from "./critters/slime.js";
 import * as critters_snake from "./critters/snake.js";
 import * as critters_wisp from "./critters/wisp.js";
+import * as magic_blood_blood_aura from "./magic-blood/blood-aura.js";
+import * as magic_blood_blood_aura_ancient from "./magic-blood/blood-aura-ancient.js";
+import * as magic_blood_blood_aura_greater from "./magic-blood/blood-aura-greater.js";
+import * as magic_blood_blood_aura_lesser from "./magic-blood/blood-aura-lesser.js";
+import * as magic_blood_blood_aura_wild from "./magic-blood/blood-aura-wild.js";
+import * as magic_blood_blood_beam from "./magic-blood/blood-beam.js";
+import * as magic_blood_blood_beam_ancient from "./magic-blood/blood-beam-ancient.js";
+import * as magic_blood_blood_beam_greater from "./magic-blood/blood-beam-greater.js";
+import * as magic_blood_blood_beam_lesser from "./magic-blood/blood-beam-lesser.js";
+import * as magic_blood_blood_beam_wild from "./magic-blood/blood-beam-wild.js";
+import * as magic_blood_blood_bolt from "./magic-blood/blood-bolt.js";
+import * as magic_blood_blood_bolt_ancient from "./magic-blood/blood-bolt-ancient.js";
+import * as magic_blood_blood_bolt_greater from "./magic-blood/blood-bolt-greater.js";
+import * as magic_blood_blood_bolt_lesser from "./magic-blood/blood-bolt-lesser.js";
+import * as magic_blood_blood_bolt_wild from "./magic-blood/blood-bolt-wild.js";
+import * as magic_blood_blood_burst from "./magic-blood/blood-burst.js";
+import * as magic_blood_blood_burst_ancient from "./magic-blood/blood-burst-ancient.js";
+import * as magic_blood_blood_burst_greater from "./magic-blood/blood-burst-greater.js";
+import * as magic_blood_blood_burst_lesser from "./magic-blood/blood-burst-lesser.js";
+import * as magic_blood_blood_burst_wild from "./magic-blood/blood-burst-wild.js";
+import * as magic_blood_blood_charge from "./magic-blood/blood-charge.js";
+import * as magic_blood_blood_charge_ancient from "./magic-blood/blood-charge-ancient.js";
+import * as magic_blood_blood_charge_greater from "./magic-blood/blood-charge-greater.js";
+import * as magic_blood_blood_charge_lesser from "./magic-blood/blood-charge-lesser.js";
+import * as magic_blood_blood_charge_wild from "./magic-blood/blood-charge-wild.js";
+import * as magic_blood_blood_circle from "./magic-blood/blood-circle.js";
+import * as magic_blood_blood_circle_ancient from "./magic-blood/blood-circle-ancient.js";
+import * as magic_blood_blood_circle_greater from "./magic-blood/blood-circle-greater.js";
+import * as magic_blood_blood_circle_lesser from "./magic-blood/blood-circle-lesser.js";
+import * as magic_blood_blood_circle_wild from "./magic-blood/blood-circle-wild.js";
+import * as magic_blood_blood_cloud from "./magic-blood/blood-cloud.js";
+import * as magic_blood_blood_cloud_ancient from "./magic-blood/blood-cloud-ancient.js";
+import * as magic_blood_blood_cloud_greater from "./magic-blood/blood-cloud-greater.js";
+import * as magic_blood_blood_cloud_lesser from "./magic-blood/blood-cloud-lesser.js";
+import * as magic_blood_blood_cloud_wild from "./magic-blood/blood-cloud-wild.js";
+import * as magic_blood_blood_crescent from "./magic-blood/blood-crescent.js";
+import * as magic_blood_blood_crescent_ancient from "./magic-blood/blood-crescent-ancient.js";
+import * as magic_blood_blood_crescent_greater from "./magic-blood/blood-crescent-greater.js";
+import * as magic_blood_blood_crescent_lesser from "./magic-blood/blood-crescent-lesser.js";
+import * as magic_blood_blood_crescent_wild from "./magic-blood/blood-crescent-wild.js";
+import * as magic_blood_blood_dash from "./magic-blood/blood-dash.js";
+import * as magic_blood_blood_dash_ancient from "./magic-blood/blood-dash-ancient.js";
+import * as magic_blood_blood_dash_greater from "./magic-blood/blood-dash-greater.js";
+import * as magic_blood_blood_dash_lesser from "./magic-blood/blood-dash-lesser.js";
+import * as magic_blood_blood_dash_wild from "./magic-blood/blood-dash-wild.js";
+import * as magic_blood_blood_flare from "./magic-blood/blood-flare.js";
+import * as magic_blood_blood_flare_ancient from "./magic-blood/blood-flare-ancient.js";
+import * as magic_blood_blood_flare_greater from "./magic-blood/blood-flare-greater.js";
+import * as magic_blood_blood_flare_lesser from "./magic-blood/blood-flare-lesser.js";
+import * as magic_blood_blood_flare_wild from "./magic-blood/blood-flare-wild.js";
+import * as magic_blood_blood_impact from "./magic-blood/blood-impact.js";
+import * as magic_blood_blood_impact_ancient from "./magic-blood/blood-impact-ancient.js";
+import * as magic_blood_blood_impact_greater from "./magic-blood/blood-impact-greater.js";
+import * as magic_blood_blood_impact_lesser from "./magic-blood/blood-impact-lesser.js";
+import * as magic_blood_blood_impact_wild from "./magic-blood/blood-impact-wild.js";
+import * as magic_blood_blood_meteor from "./magic-blood/blood-meteor.js";
+import * as magic_blood_blood_meteor_ancient from "./magic-blood/blood-meteor-ancient.js";
+import * as magic_blood_blood_meteor_greater from "./magic-blood/blood-meteor-greater.js";
+import * as magic_blood_blood_meteor_lesser from "./magic-blood/blood-meteor-lesser.js";
+import * as magic_blood_blood_meteor_wild from "./magic-blood/blood-meteor-wild.js";
+import * as magic_blood_blood_nova from "./magic-blood/blood-nova.js";
+import * as magic_blood_blood_nova_ancient from "./magic-blood/blood-nova-ancient.js";
+import * as magic_blood_blood_nova_greater from "./magic-blood/blood-nova-greater.js";
+import * as magic_blood_blood_nova_lesser from "./magic-blood/blood-nova-lesser.js";
+import * as magic_blood_blood_nova_wild from "./magic-blood/blood-nova-wild.js";
+import * as magic_blood_blood_orb from "./magic-blood/blood-orb.js";
+import * as magic_blood_blood_orb_ancient from "./magic-blood/blood-orb-ancient.js";
+import * as magic_blood_blood_orb_greater from "./magic-blood/blood-orb-greater.js";
+import * as magic_blood_blood_orb_lesser from "./magic-blood/blood-orb-lesser.js";
+import * as magic_blood_blood_orb_wild from "./magic-blood/blood-orb-wild.js";
+import * as magic_blood_blood_orbit from "./magic-blood/blood-orbit.js";
+import * as magic_blood_blood_orbit_ancient from "./magic-blood/blood-orbit-ancient.js";
+import * as magic_blood_blood_orbit_greater from "./magic-blood/blood-orbit-greater.js";
+import * as magic_blood_blood_orbit_lesser from "./magic-blood/blood-orbit-lesser.js";
+import * as magic_blood_blood_orbit_wild from "./magic-blood/blood-orbit-wild.js";
+import * as magic_blood_blood_pillar from "./magic-blood/blood-pillar.js";
+import * as magic_blood_blood_pillar_ancient from "./magic-blood/blood-pillar-ancient.js";
+import * as magic_blood_blood_pillar_greater from "./magic-blood/blood-pillar-greater.js";
+import * as magic_blood_blood_pillar_lesser from "./magic-blood/blood-pillar-lesser.js";
+import * as magic_blood_blood_pillar_wild from "./magic-blood/blood-pillar-wild.js";
+import * as magic_blood_blood_portal from "./magic-blood/blood-portal.js";
+import * as magic_blood_blood_portal_ancient from "./magic-blood/blood-portal-ancient.js";
+import * as magic_blood_blood_portal_greater from "./magic-blood/blood-portal-greater.js";
+import * as magic_blood_blood_portal_lesser from "./magic-blood/blood-portal-lesser.js";
+import * as magic_blood_blood_portal_wild from "./magic-blood/blood-portal-wild.js";
+import * as magic_blood_blood_rain from "./magic-blood/blood-rain.js";
+import * as magic_blood_blood_rain_ancient from "./magic-blood/blood-rain-ancient.js";
+import * as magic_blood_blood_rain_greater from "./magic-blood/blood-rain-greater.js";
+import * as magic_blood_blood_rain_lesser from "./magic-blood/blood-rain-lesser.js";
+import * as magic_blood_blood_rain_wild from "./magic-blood/blood-rain-wild.js";
+import * as magic_blood_blood_shield from "./magic-blood/blood-shield.js";
+import * as magic_blood_blood_shield_ancient from "./magic-blood/blood-shield-ancient.js";
+import * as magic_blood_blood_shield_greater from "./magic-blood/blood-shield-greater.js";
+import * as magic_blood_blood_shield_lesser from "./magic-blood/blood-shield-lesser.js";
+import * as magic_blood_blood_shield_wild from "./magic-blood/blood-shield-wild.js";
+import * as magic_blood_blood_sigil from "./magic-blood/blood-sigil.js";
+import * as magic_blood_blood_sigil_ancient from "./magic-blood/blood-sigil-ancient.js";
+import * as magic_blood_blood_sigil_greater from "./magic-blood/blood-sigil-greater.js";
+import * as magic_blood_blood_sigil_lesser from "./magic-blood/blood-sigil-lesser.js";
+import * as magic_blood_blood_sigil_wild from "./magic-blood/blood-sigil-wild.js";
+import * as magic_blood_blood_spikes from "./magic-blood/blood-spikes.js";
+import * as magic_blood_blood_spikes_ancient from "./magic-blood/blood-spikes-ancient.js";
+import * as magic_blood_blood_spikes_greater from "./magic-blood/blood-spikes-greater.js";
+import * as magic_blood_blood_spikes_lesser from "./magic-blood/blood-spikes-lesser.js";
+import * as magic_blood_blood_spikes_wild from "./magic-blood/blood-spikes-wild.js";
+import * as magic_blood_blood_summon from "./magic-blood/blood-summon.js";
+import * as magic_blood_blood_summon_ancient from "./magic-blood/blood-summon-ancient.js";
+import * as magic_blood_blood_summon_greater from "./magic-blood/blood-summon-greater.js";
+import * as magic_blood_blood_summon_lesser from "./magic-blood/blood-summon-lesser.js";
+import * as magic_blood_blood_summon_wild from "./magic-blood/blood-summon-wild.js";
+import * as magic_blood_blood_vortex from "./magic-blood/blood-vortex.js";
+import * as magic_blood_blood_vortex_ancient from "./magic-blood/blood-vortex-ancient.js";
+import * as magic_blood_blood_vortex_greater from "./magic-blood/blood-vortex-greater.js";
+import * as magic_blood_blood_vortex_lesser from "./magic-blood/blood-vortex-lesser.js";
+import * as magic_blood_blood_vortex_wild from "./magic-blood/blood-vortex-wild.js";
+import * as magic_blood_blood_wave from "./magic-blood/blood-wave.js";
+import * as magic_blood_blood_wave_ancient from "./magic-blood/blood-wave-ancient.js";
+import * as magic_blood_blood_wave_greater from "./magic-blood/blood-wave-greater.js";
+import * as magic_blood_blood_wave_lesser from "./magic-blood/blood-wave-lesser.js";
+import * as magic_blood_blood_wave_wild from "./magic-blood/blood-wave-wild.js";
+import * as magic_wind_wind_aura from "./magic-wind/wind-aura.js";
+import * as magic_wind_wind_aura_ancient from "./magic-wind/wind-aura-ancient.js";
+import * as magic_wind_wind_aura_greater from "./magic-wind/wind-aura-greater.js";
+import * as magic_wind_wind_aura_lesser from "./magic-wind/wind-aura-lesser.js";
+import * as magic_wind_wind_aura_wild from "./magic-wind/wind-aura-wild.js";
+import * as magic_wind_wind_beam from "./magic-wind/wind-beam.js";
+import * as magic_wind_wind_beam_ancient from "./magic-wind/wind-beam-ancient.js";
+import * as magic_wind_wind_beam_greater from "./magic-wind/wind-beam-greater.js";
+import * as magic_wind_wind_beam_lesser from "./magic-wind/wind-beam-lesser.js";
+import * as magic_wind_wind_beam_wild from "./magic-wind/wind-beam-wild.js";
+import * as magic_wind_wind_bolt from "./magic-wind/wind-bolt.js";
+import * as magic_wind_wind_bolt_ancient from "./magic-wind/wind-bolt-ancient.js";
+import * as magic_wind_wind_bolt_greater from "./magic-wind/wind-bolt-greater.js";
+import * as magic_wind_wind_bolt_lesser from "./magic-wind/wind-bolt-lesser.js";
+import * as magic_wind_wind_bolt_wild from "./magic-wind/wind-bolt-wild.js";
+import * as magic_wind_wind_burst from "./magic-wind/wind-burst.js";
+import * as magic_wind_wind_burst_ancient from "./magic-wind/wind-burst-ancient.js";
+import * as magic_wind_wind_burst_greater from "./magic-wind/wind-burst-greater.js";
+import * as magic_wind_wind_burst_lesser from "./magic-wind/wind-burst-lesser.js";
+import * as magic_wind_wind_burst_wild from "./magic-wind/wind-burst-wild.js";
+import * as magic_wind_wind_charge from "./magic-wind/wind-charge.js";
+import * as magic_wind_wind_charge_ancient from "./magic-wind/wind-charge-ancient.js";
+import * as magic_wind_wind_charge_greater from "./magic-wind/wind-charge-greater.js";
+import * as magic_wind_wind_charge_lesser from "./magic-wind/wind-charge-lesser.js";
+import * as magic_wind_wind_charge_wild from "./magic-wind/wind-charge-wild.js";
+import * as magic_wind_wind_circle from "./magic-wind/wind-circle.js";
+import * as magic_wind_wind_circle_ancient from "./magic-wind/wind-circle-ancient.js";
+import * as magic_wind_wind_circle_greater from "./magic-wind/wind-circle-greater.js";
+import * as magic_wind_wind_circle_lesser from "./magic-wind/wind-circle-lesser.js";
+import * as magic_wind_wind_circle_wild from "./magic-wind/wind-circle-wild.js";
+import * as magic_wind_wind_cloud from "./magic-wind/wind-cloud.js";
+import * as magic_wind_wind_cloud_ancient from "./magic-wind/wind-cloud-ancient.js";
+import * as magic_wind_wind_cloud_greater from "./magic-wind/wind-cloud-greater.js";
+import * as magic_wind_wind_cloud_lesser from "./magic-wind/wind-cloud-lesser.js";
+import * as magic_wind_wind_cloud_wild from "./magic-wind/wind-cloud-wild.js";
+import * as magic_wind_wind_crescent from "./magic-wind/wind-crescent.js";
+import * as magic_wind_wind_crescent_ancient from "./magic-wind/wind-crescent-ancient.js";
+import * as magic_wind_wind_crescent_greater from "./magic-wind/wind-crescent-greater.js";
+import * as magic_wind_wind_crescent_lesser from "./magic-wind/wind-crescent-lesser.js";
+import * as magic_wind_wind_crescent_wild from "./magic-wind/wind-crescent-wild.js";
+import * as magic_wind_wind_dash from "./magic-wind/wind-dash.js";
+import * as magic_wind_wind_dash_ancient from "./magic-wind/wind-dash-ancient.js";
+import * as magic_wind_wind_dash_greater from "./magic-wind/wind-dash-greater.js";
+import * as magic_wind_wind_dash_lesser from "./magic-wind/wind-dash-lesser.js";
+import * as magic_wind_wind_dash_wild from "./magic-wind/wind-dash-wild.js";
+import * as magic_wind_wind_flare from "./magic-wind/wind-flare.js";
+import * as magic_wind_wind_flare_ancient from "./magic-wind/wind-flare-ancient.js";
+import * as magic_wind_wind_flare_greater from "./magic-wind/wind-flare-greater.js";
+import * as magic_wind_wind_flare_lesser from "./magic-wind/wind-flare-lesser.js";
+import * as magic_wind_wind_flare_wild from "./magic-wind/wind-flare-wild.js";
+import * as magic_wind_wind_impact from "./magic-wind/wind-impact.js";
+import * as magic_wind_wind_impact_ancient from "./magic-wind/wind-impact-ancient.js";
+import * as magic_wind_wind_impact_greater from "./magic-wind/wind-impact-greater.js";
+import * as magic_wind_wind_impact_lesser from "./magic-wind/wind-impact-lesser.js";
+import * as magic_wind_wind_impact_wild from "./magic-wind/wind-impact-wild.js";
+import * as magic_wind_wind_meteor from "./magic-wind/wind-meteor.js";
+import * as magic_wind_wind_meteor_ancient from "./magic-wind/wind-meteor-ancient.js";
+import * as magic_wind_wind_meteor_greater from "./magic-wind/wind-meteor-greater.js";
+import * as magic_wind_wind_meteor_lesser from "./magic-wind/wind-meteor-lesser.js";
+import * as magic_wind_wind_meteor_wild from "./magic-wind/wind-meteor-wild.js";
+import * as magic_wind_wind_nova from "./magic-wind/wind-nova.js";
+import * as magic_wind_wind_nova_ancient from "./magic-wind/wind-nova-ancient.js";
+import * as magic_wind_wind_nova_greater from "./magic-wind/wind-nova-greater.js";
+import * as magic_wind_wind_nova_lesser from "./magic-wind/wind-nova-lesser.js";
+import * as magic_wind_wind_nova_wild from "./magic-wind/wind-nova-wild.js";
+import * as magic_wind_wind_orb from "./magic-wind/wind-orb.js";
+import * as magic_wind_wind_orb_ancient from "./magic-wind/wind-orb-ancient.js";
+import * as magic_wind_wind_orb_greater from "./magic-wind/wind-orb-greater.js";
+import * as magic_wind_wind_orb_lesser from "./magic-wind/wind-orb-lesser.js";
+import * as magic_wind_wind_orb_wild from "./magic-wind/wind-orb-wild.js";
+import * as magic_wind_wind_orbit from "./magic-wind/wind-orbit.js";
+import * as magic_wind_wind_orbit_ancient from "./magic-wind/wind-orbit-ancient.js";
+import * as magic_wind_wind_orbit_greater from "./magic-wind/wind-orbit-greater.js";
+import * as magic_wind_wind_orbit_lesser from "./magic-wind/wind-orbit-lesser.js";
+import * as magic_wind_wind_orbit_wild from "./magic-wind/wind-orbit-wild.js";
+import * as magic_wind_wind_pillar from "./magic-wind/wind-pillar.js";
+import * as magic_wind_wind_pillar_ancient from "./magic-wind/wind-pillar-ancient.js";
+import * as magic_wind_wind_pillar_greater from "./magic-wind/wind-pillar-greater.js";
+import * as magic_wind_wind_pillar_lesser from "./magic-wind/wind-pillar-lesser.js";
+import * as magic_wind_wind_pillar_wild from "./magic-wind/wind-pillar-wild.js";
+import * as magic_wind_wind_portal from "./magic-wind/wind-portal.js";
+import * as magic_wind_wind_portal_ancient from "./magic-wind/wind-portal-ancient.js";
+import * as magic_wind_wind_portal_greater from "./magic-wind/wind-portal-greater.js";
+import * as magic_wind_wind_portal_lesser from "./magic-wind/wind-portal-lesser.js";
+import * as magic_wind_wind_portal_wild from "./magic-wind/wind-portal-wild.js";
+import * as magic_wind_wind_rain from "./magic-wind/wind-rain.js";
+import * as magic_wind_wind_rain_ancient from "./magic-wind/wind-rain-ancient.js";
+import * as magic_wind_wind_rain_greater from "./magic-wind/wind-rain-greater.js";
+import * as magic_wind_wind_rain_lesser from "./magic-wind/wind-rain-lesser.js";
+import * as magic_wind_wind_rain_wild from "./magic-wind/wind-rain-wild.js";
+import * as magic_wind_wind_shield from "./magic-wind/wind-shield.js";
+import * as magic_wind_wind_shield_ancient from "./magic-wind/wind-shield-ancient.js";
+import * as magic_wind_wind_shield_greater from "./magic-wind/wind-shield-greater.js";
+import * as magic_wind_wind_shield_lesser from "./magic-wind/wind-shield-lesser.js";
+import * as magic_wind_wind_shield_wild from "./magic-wind/wind-shield-wild.js";
+import * as magic_wind_wind_sigil from "./magic-wind/wind-sigil.js";
+import * as magic_wind_wind_sigil_ancient from "./magic-wind/wind-sigil-ancient.js";
+import * as magic_wind_wind_sigil_greater from "./magic-wind/wind-sigil-greater.js";
+import * as magic_wind_wind_sigil_lesser from "./magic-wind/wind-sigil-lesser.js";
+import * as magic_wind_wind_sigil_wild from "./magic-wind/wind-sigil-wild.js";
+import * as magic_wind_wind_spikes from "./magic-wind/wind-spikes.js";
+import * as magic_wind_wind_spikes_ancient from "./magic-wind/wind-spikes-ancient.js";
+import * as magic_wind_wind_spikes_greater from "./magic-wind/wind-spikes-greater.js";
+import * as magic_wind_wind_spikes_lesser from "./magic-wind/wind-spikes-lesser.js";
+import * as magic_wind_wind_spikes_wild from "./magic-wind/wind-spikes-wild.js";
+import * as magic_wind_wind_summon from "./magic-wind/wind-summon.js";
+import * as magic_wind_wind_summon_ancient from "./magic-wind/wind-summon-ancient.js";
+import * as magic_wind_wind_summon_greater from "./magic-wind/wind-summon-greater.js";
+import * as magic_wind_wind_summon_lesser from "./magic-wind/wind-summon-lesser.js";
+import * as magic_wind_wind_summon_wild from "./magic-wind/wind-summon-wild.js";
+import * as magic_wind_wind_vortex from "./magic-wind/wind-vortex.js";
+import * as magic_wind_wind_vortex_ancient from "./magic-wind/wind-vortex-ancient.js";
+import * as magic_wind_wind_vortex_greater from "./magic-wind/wind-vortex-greater.js";
+import * as magic_wind_wind_vortex_lesser from "./magic-wind/wind-vortex-lesser.js";
+import * as magic_wind_wind_vortex_wild from "./magic-wind/wind-vortex-wild.js";
+import * as magic_wind_wind_wave from "./magic-wind/wind-wave.js";
+import * as magic_wind_wind_wave_ancient from "./magic-wind/wind-wave-ancient.js";
+import * as magic_wind_wind_wave_greater from "./magic-wind/wind-wave-greater.js";
+import * as magic_wind_wind_wave_lesser from "./magic-wind/wind-wave-lesser.js";
+import * as magic_wind_wind_wave_wild from "./magic-wind/wind-wave-wild.js";
+import * as magic_flame_flame_aura from "./magic-flame/flame-aura.js";
+import * as magic_flame_flame_aura_ancient from "./magic-flame/flame-aura-ancient.js";
+import * as magic_flame_flame_aura_greater from "./magic-flame/flame-aura-greater.js";
+import * as magic_flame_flame_aura_lesser from "./magic-flame/flame-aura-lesser.js";
+import * as magic_flame_flame_aura_wild from "./magic-flame/flame-aura-wild.js";
+import * as magic_flame_flame_beam from "./magic-flame/flame-beam.js";
+import * as magic_flame_flame_beam_ancient from "./magic-flame/flame-beam-ancient.js";
+import * as magic_flame_flame_beam_greater from "./magic-flame/flame-beam-greater.js";
+import * as magic_flame_flame_beam_lesser from "./magic-flame/flame-beam-lesser.js";
+import * as magic_flame_flame_beam_wild from "./magic-flame/flame-beam-wild.js";
+import * as magic_flame_flame_bolt from "./magic-flame/flame-bolt.js";
+import * as magic_flame_flame_bolt_ancient from "./magic-flame/flame-bolt-ancient.js";
+import * as magic_flame_flame_bolt_greater from "./magic-flame/flame-bolt-greater.js";
+import * as magic_flame_flame_bolt_lesser from "./magic-flame/flame-bolt-lesser.js";
+import * as magic_flame_flame_bolt_wild from "./magic-flame/flame-bolt-wild.js";
+import * as magic_flame_flame_burst from "./magic-flame/flame-burst.js";
+import * as magic_flame_flame_burst_ancient from "./magic-flame/flame-burst-ancient.js";
+import * as magic_flame_flame_burst_greater from "./magic-flame/flame-burst-greater.js";
+import * as magic_flame_flame_burst_lesser from "./magic-flame/flame-burst-lesser.js";
+import * as magic_flame_flame_burst_wild from "./magic-flame/flame-burst-wild.js";
+import * as magic_flame_flame_charge from "./magic-flame/flame-charge.js";
+import * as magic_flame_flame_charge_ancient from "./magic-flame/flame-charge-ancient.js";
+import * as magic_flame_flame_charge_greater from "./magic-flame/flame-charge-greater.js";
+import * as magic_flame_flame_charge_lesser from "./magic-flame/flame-charge-lesser.js";
+import * as magic_flame_flame_charge_wild from "./magic-flame/flame-charge-wild.js";
+import * as magic_flame_flame_circle from "./magic-flame/flame-circle.js";
+import * as magic_flame_flame_circle_ancient from "./magic-flame/flame-circle-ancient.js";
+import * as magic_flame_flame_circle_greater from "./magic-flame/flame-circle-greater.js";
+import * as magic_flame_flame_circle_lesser from "./magic-flame/flame-circle-lesser.js";
+import * as magic_flame_flame_circle_wild from "./magic-flame/flame-circle-wild.js";
+import * as magic_flame_flame_cloud from "./magic-flame/flame-cloud.js";
+import * as magic_flame_flame_cloud_ancient from "./magic-flame/flame-cloud-ancient.js";
+import * as magic_flame_flame_cloud_greater from "./magic-flame/flame-cloud-greater.js";
+import * as magic_flame_flame_cloud_lesser from "./magic-flame/flame-cloud-lesser.js";
+import * as magic_flame_flame_cloud_wild from "./magic-flame/flame-cloud-wild.js";
+import * as magic_flame_flame_crescent from "./magic-flame/flame-crescent.js";
+import * as magic_flame_flame_crescent_ancient from "./magic-flame/flame-crescent-ancient.js";
+import * as magic_flame_flame_crescent_greater from "./magic-flame/flame-crescent-greater.js";
+import * as magic_flame_flame_crescent_lesser from "./magic-flame/flame-crescent-lesser.js";
+import * as magic_flame_flame_crescent_wild from "./magic-flame/flame-crescent-wild.js";
+import * as magic_flame_flame_dash from "./magic-flame/flame-dash.js";
+import * as magic_flame_flame_dash_ancient from "./magic-flame/flame-dash-ancient.js";
+import * as magic_flame_flame_dash_greater from "./magic-flame/flame-dash-greater.js";
+import * as magic_flame_flame_dash_lesser from "./magic-flame/flame-dash-lesser.js";
+import * as magic_flame_flame_dash_wild from "./magic-flame/flame-dash-wild.js";
+import * as magic_flame_flame_flare from "./magic-flame/flame-flare.js";
+import * as magic_flame_flame_flare_ancient from "./magic-flame/flame-flare-ancient.js";
+import * as magic_flame_flame_flare_greater from "./magic-flame/flame-flare-greater.js";
+import * as magic_flame_flame_flare_lesser from "./magic-flame/flame-flare-lesser.js";
+import * as magic_flame_flame_flare_wild from "./magic-flame/flame-flare-wild.js";
+import * as magic_flame_flame_impact from "./magic-flame/flame-impact.js";
+import * as magic_flame_flame_impact_ancient from "./magic-flame/flame-impact-ancient.js";
+import * as magic_flame_flame_impact_greater from "./magic-flame/flame-impact-greater.js";
+import * as magic_flame_flame_impact_lesser from "./magic-flame/flame-impact-lesser.js";
+import * as magic_flame_flame_impact_wild from "./magic-flame/flame-impact-wild.js";
+import * as magic_flame_flame_meteor from "./magic-flame/flame-meteor.js";
+import * as magic_flame_flame_meteor_ancient from "./magic-flame/flame-meteor-ancient.js";
+import * as magic_flame_flame_meteor_greater from "./magic-flame/flame-meteor-greater.js";
+import * as magic_flame_flame_meteor_lesser from "./magic-flame/flame-meteor-lesser.js";
+import * as magic_flame_flame_meteor_wild from "./magic-flame/flame-meteor-wild.js";
+import * as magic_flame_flame_nova from "./magic-flame/flame-nova.js";
+import * as magic_flame_flame_nova_ancient from "./magic-flame/flame-nova-ancient.js";
+import * as magic_flame_flame_nova_greater from "./magic-flame/flame-nova-greater.js";
+import * as magic_flame_flame_nova_lesser from "./magic-flame/flame-nova-lesser.js";
+import * as magic_flame_flame_nova_wild from "./magic-flame/flame-nova-wild.js";
+import * as magic_flame_flame_orb from "./magic-flame/flame-orb.js";
+import * as magic_flame_flame_orb_ancient from "./magic-flame/flame-orb-ancient.js";
+import * as magic_flame_flame_orb_greater from "./magic-flame/flame-orb-greater.js";
+import * as magic_flame_flame_orb_lesser from "./magic-flame/flame-orb-lesser.js";
+import * as magic_flame_flame_orb_wild from "./magic-flame/flame-orb-wild.js";
+import * as magic_flame_flame_orbit from "./magic-flame/flame-orbit.js";
+import * as magic_flame_flame_orbit_ancient from "./magic-flame/flame-orbit-ancient.js";
+import * as magic_flame_flame_orbit_greater from "./magic-flame/flame-orbit-greater.js";
+import * as magic_flame_flame_orbit_lesser from "./magic-flame/flame-orbit-lesser.js";
+import * as magic_flame_flame_orbit_wild from "./magic-flame/flame-orbit-wild.js";
+import * as magic_flame_flame_pillar from "./magic-flame/flame-pillar.js";
+import * as magic_flame_flame_pillar_ancient from "./magic-flame/flame-pillar-ancient.js";
+import * as magic_flame_flame_pillar_greater from "./magic-flame/flame-pillar-greater.js";
+import * as magic_flame_flame_pillar_lesser from "./magic-flame/flame-pillar-lesser.js";
+import * as magic_flame_flame_pillar_wild from "./magic-flame/flame-pillar-wild.js";
+import * as magic_flame_flame_portal from "./magic-flame/flame-portal.js";
+import * as magic_flame_flame_portal_ancient from "./magic-flame/flame-portal-ancient.js";
+import * as magic_flame_flame_portal_greater from "./magic-flame/flame-portal-greater.js";
+import * as magic_flame_flame_portal_lesser from "./magic-flame/flame-portal-lesser.js";
+import * as magic_flame_flame_portal_wild from "./magic-flame/flame-portal-wild.js";
+import * as magic_flame_flame_rain from "./magic-flame/flame-rain.js";
+import * as magic_flame_flame_rain_ancient from "./magic-flame/flame-rain-ancient.js";
+import * as magic_flame_flame_rain_greater from "./magic-flame/flame-rain-greater.js";
+import * as magic_flame_flame_rain_lesser from "./magic-flame/flame-rain-lesser.js";
+import * as magic_flame_flame_rain_wild from "./magic-flame/flame-rain-wild.js";
+import * as magic_flame_flame_shield from "./magic-flame/flame-shield.js";
+import * as magic_flame_flame_shield_ancient from "./magic-flame/flame-shield-ancient.js";
+import * as magic_flame_flame_shield_greater from "./magic-flame/flame-shield-greater.js";
+import * as magic_flame_flame_shield_lesser from "./magic-flame/flame-shield-lesser.js";
+import * as magic_flame_flame_shield_wild from "./magic-flame/flame-shield-wild.js";
+import * as magic_flame_flame_sigil from "./magic-flame/flame-sigil.js";
+import * as magic_flame_flame_sigil_ancient from "./magic-flame/flame-sigil-ancient.js";
+import * as magic_flame_flame_sigil_greater from "./magic-flame/flame-sigil-greater.js";
+import * as magic_flame_flame_sigil_lesser from "./magic-flame/flame-sigil-lesser.js";
+import * as magic_flame_flame_sigil_wild from "./magic-flame/flame-sigil-wild.js";
+import * as magic_flame_flame_spikes from "./magic-flame/flame-spikes.js";
+import * as magic_flame_flame_spikes_ancient from "./magic-flame/flame-spikes-ancient.js";
+import * as magic_flame_flame_spikes_greater from "./magic-flame/flame-spikes-greater.js";
+import * as magic_flame_flame_spikes_lesser from "./magic-flame/flame-spikes-lesser.js";
+import * as magic_flame_flame_spikes_wild from "./magic-flame/flame-spikes-wild.js";
+import * as magic_flame_flame_summon from "./magic-flame/flame-summon.js";
+import * as magic_flame_flame_summon_ancient from "./magic-flame/flame-summon-ancient.js";
+import * as magic_flame_flame_summon_greater from "./magic-flame/flame-summon-greater.js";
+import * as magic_flame_flame_summon_lesser from "./magic-flame/flame-summon-lesser.js";
+import * as magic_flame_flame_summon_wild from "./magic-flame/flame-summon-wild.js";
+import * as magic_flame_flame_vortex from "./magic-flame/flame-vortex.js";
+import * as magic_flame_flame_vortex_ancient from "./magic-flame/flame-vortex-ancient.js";
+import * as magic_flame_flame_vortex_greater from "./magic-flame/flame-vortex-greater.js";
+import * as magic_flame_flame_vortex_lesser from "./magic-flame/flame-vortex-lesser.js";
+import * as magic_flame_flame_vortex_wild from "./magic-flame/flame-vortex-wild.js";
+import * as magic_flame_flame_wave from "./magic-flame/flame-wave.js";
+import * as magic_flame_flame_wave_ancient from "./magic-flame/flame-wave-ancient.js";
+import * as magic_flame_flame_wave_greater from "./magic-flame/flame-wave-greater.js";
+import * as magic_flame_flame_wave_lesser from "./magic-flame/flame-wave-lesser.js";
+import * as magic_flame_flame_wave_wild from "./magic-flame/flame-wave-wild.js";
+import * as magic_frost_frost_aura from "./magic-frost/frost-aura.js";
+import * as magic_frost_frost_aura_ancient from "./magic-frost/frost-aura-ancient.js";
+import * as magic_frost_frost_aura_greater from "./magic-frost/frost-aura-greater.js";
+import * as magic_frost_frost_aura_lesser from "./magic-frost/frost-aura-lesser.js";
+import * as magic_frost_frost_aura_wild from "./magic-frost/frost-aura-wild.js";
+import * as magic_frost_frost_beam from "./magic-frost/frost-beam.js";
+import * as magic_frost_frost_beam_ancient from "./magic-frost/frost-beam-ancient.js";
+import * as magic_frost_frost_beam_greater from "./magic-frost/frost-beam-greater.js";
+import * as magic_frost_frost_beam_lesser from "./magic-frost/frost-beam-lesser.js";
+import * as magic_frost_frost_beam_wild from "./magic-frost/frost-beam-wild.js";
+import * as magic_frost_frost_bolt from "./magic-frost/frost-bolt.js";
+import * as magic_frost_frost_bolt_ancient from "./magic-frost/frost-bolt-ancient.js";
+import * as magic_frost_frost_bolt_greater from "./magic-frost/frost-bolt-greater.js";
+import * as magic_frost_frost_bolt_lesser from "./magic-frost/frost-bolt-lesser.js";
+import * as magic_frost_frost_bolt_wild from "./magic-frost/frost-bolt-wild.js";
+import * as magic_frost_frost_burst from "./magic-frost/frost-burst.js";
+import * as magic_frost_frost_burst_ancient from "./magic-frost/frost-burst-ancient.js";
+import * as magic_frost_frost_burst_greater from "./magic-frost/frost-burst-greater.js";
+import * as magic_frost_frost_burst_lesser from "./magic-frost/frost-burst-lesser.js";
+import * as magic_frost_frost_burst_wild from "./magic-frost/frost-burst-wild.js";
+import * as magic_frost_frost_charge from "./magic-frost/frost-charge.js";
+import * as magic_frost_frost_charge_ancient from "./magic-frost/frost-charge-ancient.js";
+import * as magic_frost_frost_charge_greater from "./magic-frost/frost-charge-greater.js";
+import * as magic_frost_frost_charge_lesser from "./magic-frost/frost-charge-lesser.js";
+import * as magic_frost_frost_charge_wild from "./magic-frost/frost-charge-wild.js";
+import * as magic_frost_frost_circle from "./magic-frost/frost-circle.js";
+import * as magic_frost_frost_circle_ancient from "./magic-frost/frost-circle-ancient.js";
+import * as magic_frost_frost_circle_greater from "./magic-frost/frost-circle-greater.js";
+import * as magic_frost_frost_circle_lesser from "./magic-frost/frost-circle-lesser.js";
+import * as magic_frost_frost_circle_wild from "./magic-frost/frost-circle-wild.js";
+import * as magic_frost_frost_cloud from "./magic-frost/frost-cloud.js";
+import * as magic_frost_frost_cloud_ancient from "./magic-frost/frost-cloud-ancient.js";
+import * as magic_frost_frost_cloud_greater from "./magic-frost/frost-cloud-greater.js";
+import * as magic_frost_frost_cloud_lesser from "./magic-frost/frost-cloud-lesser.js";
+import * as magic_frost_frost_cloud_wild from "./magic-frost/frost-cloud-wild.js";
+import * as magic_frost_frost_crescent from "./magic-frost/frost-crescent.js";
+import * as magic_frost_frost_crescent_ancient from "./magic-frost/frost-crescent-ancient.js";
+import * as magic_frost_frost_crescent_greater from "./magic-frost/frost-crescent-greater.js";
+import * as magic_frost_frost_crescent_lesser from "./magic-frost/frost-crescent-lesser.js";
+import * as magic_frost_frost_crescent_wild from "./magic-frost/frost-crescent-wild.js";
+import * as magic_frost_frost_dash from "./magic-frost/frost-dash.js";
+import * as magic_frost_frost_dash_ancient from "./magic-frost/frost-dash-ancient.js";
+import * as magic_frost_frost_dash_greater from "./magic-frost/frost-dash-greater.js";
+import * as magic_frost_frost_dash_lesser from "./magic-frost/frost-dash-lesser.js";
+import * as magic_frost_frost_dash_wild from "./magic-frost/frost-dash-wild.js";
+import * as magic_frost_frost_flare from "./magic-frost/frost-flare.js";
+import * as magic_frost_frost_flare_ancient from "./magic-frost/frost-flare-ancient.js";
+import * as magic_frost_frost_flare_greater from "./magic-frost/frost-flare-greater.js";
+import * as magic_frost_frost_flare_lesser from "./magic-frost/frost-flare-lesser.js";
+import * as magic_frost_frost_flare_wild from "./magic-frost/frost-flare-wild.js";
+import * as magic_frost_frost_impact from "./magic-frost/frost-impact.js";
+import * as magic_frost_frost_impact_ancient from "./magic-frost/frost-impact-ancient.js";
+import * as magic_frost_frost_impact_greater from "./magic-frost/frost-impact-greater.js";
+import * as magic_frost_frost_impact_lesser from "./magic-frost/frost-impact-lesser.js";
+import * as magic_frost_frost_impact_wild from "./magic-frost/frost-impact-wild.js";
+import * as magic_frost_frost_meteor from "./magic-frost/frost-meteor.js";
+import * as magic_frost_frost_meteor_ancient from "./magic-frost/frost-meteor-ancient.js";
+import * as magic_frost_frost_meteor_greater from "./magic-frost/frost-meteor-greater.js";
+import * as magic_frost_frost_meteor_lesser from "./magic-frost/frost-meteor-lesser.js";
+import * as magic_frost_frost_meteor_wild from "./magic-frost/frost-meteor-wild.js";
+import * as magic_frost_frost_nova from "./magic-frost/frost-nova.js";
+import * as magic_frost_frost_nova_ancient from "./magic-frost/frost-nova-ancient.js";
+import * as magic_frost_frost_nova_greater from "./magic-frost/frost-nova-greater.js";
+import * as magic_frost_frost_nova_lesser from "./magic-frost/frost-nova-lesser.js";
+import * as magic_frost_frost_nova_wild from "./magic-frost/frost-nova-wild.js";
+import * as magic_frost_frost_orb from "./magic-frost/frost-orb.js";
+import * as magic_frost_frost_orb_ancient from "./magic-frost/frost-orb-ancient.js";
+import * as magic_frost_frost_orb_greater from "./magic-frost/frost-orb-greater.js";
+import * as magic_frost_frost_orb_lesser from "./magic-frost/frost-orb-lesser.js";
+import * as magic_frost_frost_orb_wild from "./magic-frost/frost-orb-wild.js";
+import * as magic_frost_frost_orbit from "./magic-frost/frost-orbit.js";
+import * as magic_frost_frost_orbit_ancient from "./magic-frost/frost-orbit-ancient.js";
+import * as magic_frost_frost_orbit_greater from "./magic-frost/frost-orbit-greater.js";
+import * as magic_frost_frost_orbit_lesser from "./magic-frost/frost-orbit-lesser.js";
+import * as magic_frost_frost_orbit_wild from "./magic-frost/frost-orbit-wild.js";
+import * as magic_frost_frost_pillar from "./magic-frost/frost-pillar.js";
+import * as magic_frost_frost_pillar_ancient from "./magic-frost/frost-pillar-ancient.js";
+import * as magic_frost_frost_pillar_greater from "./magic-frost/frost-pillar-greater.js";
+import * as magic_frost_frost_pillar_lesser from "./magic-frost/frost-pillar-lesser.js";
+import * as magic_frost_frost_pillar_wild from "./magic-frost/frost-pillar-wild.js";
+import * as magic_frost_frost_portal from "./magic-frost/frost-portal.js";
+import * as magic_frost_frost_portal_ancient from "./magic-frost/frost-portal-ancient.js";
+import * as magic_frost_frost_portal_greater from "./magic-frost/frost-portal-greater.js";
+import * as magic_frost_frost_portal_lesser from "./magic-frost/frost-portal-lesser.js";
+import * as magic_frost_frost_portal_wild from "./magic-frost/frost-portal-wild.js";
+import * as magic_frost_frost_rain from "./magic-frost/frost-rain.js";
+import * as magic_frost_frost_rain_ancient from "./magic-frost/frost-rain-ancient.js";
+import * as magic_frost_frost_rain_greater from "./magic-frost/frost-rain-greater.js";
+import * as magic_frost_frost_rain_lesser from "./magic-frost/frost-rain-lesser.js";
+import * as magic_frost_frost_rain_wild from "./magic-frost/frost-rain-wild.js";
+import * as magic_frost_frost_shield from "./magic-frost/frost-shield.js";
+import * as magic_frost_frost_shield_ancient from "./magic-frost/frost-shield-ancient.js";
+import * as magic_frost_frost_shield_greater from "./magic-frost/frost-shield-greater.js";
+import * as magic_frost_frost_shield_lesser from "./magic-frost/frost-shield-lesser.js";
+import * as magic_frost_frost_shield_wild from "./magic-frost/frost-shield-wild.js";
+import * as magic_frost_frost_sigil from "./magic-frost/frost-sigil.js";
+import * as magic_frost_frost_sigil_ancient from "./magic-frost/frost-sigil-ancient.js";
+import * as magic_frost_frost_sigil_greater from "./magic-frost/frost-sigil-greater.js";
+import * as magic_frost_frost_sigil_lesser from "./magic-frost/frost-sigil-lesser.js";
+import * as magic_frost_frost_sigil_wild from "./magic-frost/frost-sigil-wild.js";
+import * as magic_frost_frost_spikes from "./magic-frost/frost-spikes.js";
+import * as magic_frost_frost_spikes_ancient from "./magic-frost/frost-spikes-ancient.js";
+import * as magic_frost_frost_spikes_greater from "./magic-frost/frost-spikes-greater.js";
+import * as magic_frost_frost_spikes_lesser from "./magic-frost/frost-spikes-lesser.js";
+import * as magic_frost_frost_spikes_wild from "./magic-frost/frost-spikes-wild.js";
+import * as magic_frost_frost_summon from "./magic-frost/frost-summon.js";
+import * as magic_frost_frost_summon_ancient from "./magic-frost/frost-summon-ancient.js";
+import * as magic_frost_frost_summon_greater from "./magic-frost/frost-summon-greater.js";
+import * as magic_frost_frost_summon_lesser from "./magic-frost/frost-summon-lesser.js";
+import * as magic_frost_frost_summon_wild from "./magic-frost/frost-summon-wild.js";
+import * as magic_frost_frost_vortex from "./magic-frost/frost-vortex.js";
+import * as magic_frost_frost_vortex_ancient from "./magic-frost/frost-vortex-ancient.js";
+import * as magic_frost_frost_vortex_greater from "./magic-frost/frost-vortex-greater.js";
+import * as magic_frost_frost_vortex_lesser from "./magic-frost/frost-vortex-lesser.js";
+import * as magic_frost_frost_vortex_wild from "./magic-frost/frost-vortex-wild.js";
+import * as magic_frost_frost_wave from "./magic-frost/frost-wave.js";
+import * as magic_frost_frost_wave_ancient from "./magic-frost/frost-wave-ancient.js";
+import * as magic_frost_frost_wave_greater from "./magic-frost/frost-wave-greater.js";
+import * as magic_frost_frost_wave_lesser from "./magic-frost/frost-wave-lesser.js";
+import * as magic_frost_frost_wave_wild from "./magic-frost/frost-wave-wild.js";
+import * as magic_storm_storm_aura from "./magic-storm/storm-aura.js";
+import * as magic_storm_storm_aura_ancient from "./magic-storm/storm-aura-ancient.js";
+import * as magic_storm_storm_aura_greater from "./magic-storm/storm-aura-greater.js";
+import * as magic_storm_storm_aura_lesser from "./magic-storm/storm-aura-lesser.js";
+import * as magic_storm_storm_aura_wild from "./magic-storm/storm-aura-wild.js";
+import * as magic_storm_storm_beam from "./magic-storm/storm-beam.js";
+import * as magic_storm_storm_beam_ancient from "./magic-storm/storm-beam-ancient.js";
+import * as magic_storm_storm_beam_greater from "./magic-storm/storm-beam-greater.js";
+import * as magic_storm_storm_beam_lesser from "./magic-storm/storm-beam-lesser.js";
+import * as magic_storm_storm_beam_wild from "./magic-storm/storm-beam-wild.js";
+import * as magic_storm_storm_bolt from "./magic-storm/storm-bolt.js";
+import * as magic_storm_storm_bolt_ancient from "./magic-storm/storm-bolt-ancient.js";
+import * as magic_storm_storm_bolt_greater from "./magic-storm/storm-bolt-greater.js";
+import * as magic_storm_storm_bolt_lesser from "./magic-storm/storm-bolt-lesser.js";
+import * as magic_storm_storm_bolt_wild from "./magic-storm/storm-bolt-wild.js";
+import * as magic_storm_storm_burst from "./magic-storm/storm-burst.js";
+import * as magic_storm_storm_burst_ancient from "./magic-storm/storm-burst-ancient.js";
+import * as magic_storm_storm_burst_greater from "./magic-storm/storm-burst-greater.js";
+import * as magic_storm_storm_burst_lesser from "./magic-storm/storm-burst-lesser.js";
+import * as magic_storm_storm_burst_wild from "./magic-storm/storm-burst-wild.js";
+import * as magic_storm_storm_charge from "./magic-storm/storm-charge.js";
+import * as magic_storm_storm_charge_ancient from "./magic-storm/storm-charge-ancient.js";
+import * as magic_storm_storm_charge_greater from "./magic-storm/storm-charge-greater.js";
+import * as magic_storm_storm_charge_lesser from "./magic-storm/storm-charge-lesser.js";
+import * as magic_storm_storm_charge_wild from "./magic-storm/storm-charge-wild.js";
+import * as magic_storm_storm_circle from "./magic-storm/storm-circle.js";
+import * as magic_storm_storm_circle_ancient from "./magic-storm/storm-circle-ancient.js";
+import * as magic_storm_storm_circle_greater from "./magic-storm/storm-circle-greater.js";
+import * as magic_storm_storm_circle_lesser from "./magic-storm/storm-circle-lesser.js";
+import * as magic_storm_storm_circle_wild from "./magic-storm/storm-circle-wild.js";
+import * as magic_storm_storm_cloud from "./magic-storm/storm-cloud.js";
+import * as magic_storm_storm_cloud_ancient from "./magic-storm/storm-cloud-ancient.js";
+import * as magic_storm_storm_cloud_greater from "./magic-storm/storm-cloud-greater.js";
+import * as magic_storm_storm_cloud_lesser from "./magic-storm/storm-cloud-lesser.js";
+import * as magic_storm_storm_cloud_wild from "./magic-storm/storm-cloud-wild.js";
+import * as magic_storm_storm_crescent from "./magic-storm/storm-crescent.js";
+import * as magic_storm_storm_crescent_ancient from "./magic-storm/storm-crescent-ancient.js";
+import * as magic_storm_storm_crescent_greater from "./magic-storm/storm-crescent-greater.js";
+import * as magic_storm_storm_crescent_lesser from "./magic-storm/storm-crescent-lesser.js";
+import * as magic_storm_storm_crescent_wild from "./magic-storm/storm-crescent-wild.js";
+import * as magic_storm_storm_dash from "./magic-storm/storm-dash.js";
+import * as magic_storm_storm_dash_ancient from "./magic-storm/storm-dash-ancient.js";
+import * as magic_storm_storm_dash_greater from "./magic-storm/storm-dash-greater.js";
+import * as magic_storm_storm_dash_lesser from "./magic-storm/storm-dash-lesser.js";
+import * as magic_storm_storm_dash_wild from "./magic-storm/storm-dash-wild.js";
+import * as magic_storm_storm_flare from "./magic-storm/storm-flare.js";
+import * as magic_storm_storm_flare_ancient from "./magic-storm/storm-flare-ancient.js";
+import * as magic_storm_storm_flare_greater from "./magic-storm/storm-flare-greater.js";
+import * as magic_storm_storm_flare_lesser from "./magic-storm/storm-flare-lesser.js";
+import * as magic_storm_storm_flare_wild from "./magic-storm/storm-flare-wild.js";
+import * as magic_storm_storm_impact from "./magic-storm/storm-impact.js";
+import * as magic_storm_storm_impact_ancient from "./magic-storm/storm-impact-ancient.js";
+import * as magic_storm_storm_impact_greater from "./magic-storm/storm-impact-greater.js";
+import * as magic_storm_storm_impact_lesser from "./magic-storm/storm-impact-lesser.js";
+import * as magic_storm_storm_impact_wild from "./magic-storm/storm-impact-wild.js";
+import * as magic_storm_storm_meteor from "./magic-storm/storm-meteor.js";
+import * as magic_storm_storm_meteor_ancient from "./magic-storm/storm-meteor-ancient.js";
+import * as magic_storm_storm_meteor_greater from "./magic-storm/storm-meteor-greater.js";
+import * as magic_storm_storm_meteor_lesser from "./magic-storm/storm-meteor-lesser.js";
+import * as magic_storm_storm_meteor_wild from "./magic-storm/storm-meteor-wild.js";
+import * as magic_storm_storm_nova from "./magic-storm/storm-nova.js";
+import * as magic_storm_storm_nova_ancient from "./magic-storm/storm-nova-ancient.js";
+import * as magic_storm_storm_nova_greater from "./magic-storm/storm-nova-greater.js";
+import * as magic_storm_storm_nova_lesser from "./magic-storm/storm-nova-lesser.js";
+import * as magic_storm_storm_nova_wild from "./magic-storm/storm-nova-wild.js";
+import * as magic_storm_storm_orb from "./magic-storm/storm-orb.js";
+import * as magic_storm_storm_orb_ancient from "./magic-storm/storm-orb-ancient.js";
+import * as magic_storm_storm_orb_greater from "./magic-storm/storm-orb-greater.js";
+import * as magic_storm_storm_orb_lesser from "./magic-storm/storm-orb-lesser.js";
+import * as magic_storm_storm_orb_wild from "./magic-storm/storm-orb-wild.js";
+import * as magic_storm_storm_orbit from "./magic-storm/storm-orbit.js";
+import * as magic_storm_storm_orbit_ancient from "./magic-storm/storm-orbit-ancient.js";
+import * as magic_storm_storm_orbit_greater from "./magic-storm/storm-orbit-greater.js";
+import * as magic_storm_storm_orbit_lesser from "./magic-storm/storm-orbit-lesser.js";
+import * as magic_storm_storm_orbit_wild from "./magic-storm/storm-orbit-wild.js";
+import * as magic_storm_storm_pillar from "./magic-storm/storm-pillar.js";
+import * as magic_storm_storm_pillar_ancient from "./magic-storm/storm-pillar-ancient.js";
+import * as magic_storm_storm_pillar_greater from "./magic-storm/storm-pillar-greater.js";
+import * as magic_storm_storm_pillar_lesser from "./magic-storm/storm-pillar-lesser.js";
+import * as magic_storm_storm_pillar_wild from "./magic-storm/storm-pillar-wild.js";
+import * as magic_storm_storm_portal from "./magic-storm/storm-portal.js";
+import * as magic_storm_storm_portal_ancient from "./magic-storm/storm-portal-ancient.js";
+import * as magic_storm_storm_portal_greater from "./magic-storm/storm-portal-greater.js";
+import * as magic_storm_storm_portal_lesser from "./magic-storm/storm-portal-lesser.js";
+import * as magic_storm_storm_portal_wild from "./magic-storm/storm-portal-wild.js";
+import * as magic_storm_storm_rain from "./magic-storm/storm-rain.js";
+import * as magic_storm_storm_rain_ancient from "./magic-storm/storm-rain-ancient.js";
+import * as magic_storm_storm_rain_greater from "./magic-storm/storm-rain-greater.js";
+import * as magic_storm_storm_rain_lesser from "./magic-storm/storm-rain-lesser.js";
+import * as magic_storm_storm_rain_wild from "./magic-storm/storm-rain-wild.js";
+import * as magic_storm_storm_shield from "./magic-storm/storm-shield.js";
+import * as magic_storm_storm_shield_ancient from "./magic-storm/storm-shield-ancient.js";
+import * as magic_storm_storm_shield_greater from "./magic-storm/storm-shield-greater.js";
+import * as magic_storm_storm_shield_lesser from "./magic-storm/storm-shield-lesser.js";
+import * as magic_storm_storm_shield_wild from "./magic-storm/storm-shield-wild.js";
+import * as magic_storm_storm_sigil from "./magic-storm/storm-sigil.js";
+import * as magic_storm_storm_sigil_ancient from "./magic-storm/storm-sigil-ancient.js";
+import * as magic_storm_storm_sigil_greater from "./magic-storm/storm-sigil-greater.js";
+import * as magic_storm_storm_sigil_lesser from "./magic-storm/storm-sigil-lesser.js";
+import * as magic_storm_storm_sigil_wild from "./magic-storm/storm-sigil-wild.js";
+import * as magic_storm_storm_spikes from "./magic-storm/storm-spikes.js";
+import * as magic_storm_storm_spikes_ancient from "./magic-storm/storm-spikes-ancient.js";
+import * as magic_storm_storm_spikes_greater from "./magic-storm/storm-spikes-greater.js";
+import * as magic_storm_storm_spikes_lesser from "./magic-storm/storm-spikes-lesser.js";
+import * as magic_storm_storm_spikes_wild from "./magic-storm/storm-spikes-wild.js";
+import * as magic_storm_storm_summon from "./magic-storm/storm-summon.js";
+import * as magic_storm_storm_summon_ancient from "./magic-storm/storm-summon-ancient.js";
+import * as magic_storm_storm_summon_greater from "./magic-storm/storm-summon-greater.js";
+import * as magic_storm_storm_summon_lesser from "./magic-storm/storm-summon-lesser.js";
+import * as magic_storm_storm_summon_wild from "./magic-storm/storm-summon-wild.js";
+import * as magic_storm_storm_vortex from "./magic-storm/storm-vortex.js";
+import * as magic_storm_storm_vortex_ancient from "./magic-storm/storm-vortex-ancient.js";
+import * as magic_storm_storm_vortex_greater from "./magic-storm/storm-vortex-greater.js";
+import * as magic_storm_storm_vortex_lesser from "./magic-storm/storm-vortex-lesser.js";
+import * as magic_storm_storm_vortex_wild from "./magic-storm/storm-vortex-wild.js";
+import * as magic_storm_storm_wave from "./magic-storm/storm-wave.js";
+import * as magic_storm_storm_wave_ancient from "./magic-storm/storm-wave-ancient.js";
+import * as magic_storm_storm_wave_greater from "./magic-storm/storm-wave-greater.js";
+import * as magic_storm_storm_wave_lesser from "./magic-storm/storm-wave-lesser.js";
+import * as magic_storm_storm_wave_wild from "./magic-storm/storm-wave-wild.js";
+import * as magic_earth_earth_aura from "./magic-earth/earth-aura.js";
+import * as magic_earth_earth_aura_ancient from "./magic-earth/earth-aura-ancient.js";
+import * as magic_earth_earth_aura_greater from "./magic-earth/earth-aura-greater.js";
+import * as magic_earth_earth_aura_lesser from "./magic-earth/earth-aura-lesser.js";
+import * as magic_earth_earth_aura_wild from "./magic-earth/earth-aura-wild.js";
+import * as magic_earth_earth_beam from "./magic-earth/earth-beam.js";
+import * as magic_earth_earth_beam_ancient from "./magic-earth/earth-beam-ancient.js";
+import * as magic_earth_earth_beam_greater from "./magic-earth/earth-beam-greater.js";
+import * as magic_earth_earth_beam_lesser from "./magic-earth/earth-beam-lesser.js";
+import * as magic_earth_earth_beam_wild from "./magic-earth/earth-beam-wild.js";
+import * as magic_earth_earth_bolt from "./magic-earth/earth-bolt.js";
+import * as magic_earth_earth_bolt_ancient from "./magic-earth/earth-bolt-ancient.js";
+import * as magic_earth_earth_bolt_greater from "./magic-earth/earth-bolt-greater.js";
+import * as magic_earth_earth_bolt_lesser from "./magic-earth/earth-bolt-lesser.js";
+import * as magic_earth_earth_bolt_wild from "./magic-earth/earth-bolt-wild.js";
+import * as magic_earth_earth_burst from "./magic-earth/earth-burst.js";
+import * as magic_earth_earth_burst_ancient from "./magic-earth/earth-burst-ancient.js";
+import * as magic_earth_earth_burst_greater from "./magic-earth/earth-burst-greater.js";
+import * as magic_earth_earth_burst_lesser from "./magic-earth/earth-burst-lesser.js";
+import * as magic_earth_earth_burst_wild from "./magic-earth/earth-burst-wild.js";
+import * as magic_earth_earth_charge from "./magic-earth/earth-charge.js";
+import * as magic_earth_earth_charge_ancient from "./magic-earth/earth-charge-ancient.js";
+import * as magic_earth_earth_charge_greater from "./magic-earth/earth-charge-greater.js";
+import * as magic_earth_earth_charge_lesser from "./magic-earth/earth-charge-lesser.js";
+import * as magic_earth_earth_charge_wild from "./magic-earth/earth-charge-wild.js";
+import * as magic_earth_earth_circle from "./magic-earth/earth-circle.js";
+import * as magic_earth_earth_circle_ancient from "./magic-earth/earth-circle-ancient.js";
+import * as magic_earth_earth_circle_greater from "./magic-earth/earth-circle-greater.js";
+import * as magic_earth_earth_circle_lesser from "./magic-earth/earth-circle-lesser.js";
+import * as magic_earth_earth_circle_wild from "./magic-earth/earth-circle-wild.js";
+import * as magic_earth_earth_cloud from "./magic-earth/earth-cloud.js";
+import * as magic_earth_earth_cloud_ancient from "./magic-earth/earth-cloud-ancient.js";
+import * as magic_earth_earth_cloud_greater from "./magic-earth/earth-cloud-greater.js";
+import * as magic_earth_earth_cloud_lesser from "./magic-earth/earth-cloud-lesser.js";
+import * as magic_earth_earth_cloud_wild from "./magic-earth/earth-cloud-wild.js";
+import * as magic_earth_earth_crescent from "./magic-earth/earth-crescent.js";
+import * as magic_earth_earth_crescent_ancient from "./magic-earth/earth-crescent-ancient.js";
+import * as magic_earth_earth_crescent_greater from "./magic-earth/earth-crescent-greater.js";
+import * as magic_earth_earth_crescent_lesser from "./magic-earth/earth-crescent-lesser.js";
+import * as magic_earth_earth_crescent_wild from "./magic-earth/earth-crescent-wild.js";
+import * as magic_earth_earth_dash from "./magic-earth/earth-dash.js";
+import * as magic_earth_earth_dash_ancient from "./magic-earth/earth-dash-ancient.js";
+import * as magic_earth_earth_dash_greater from "./magic-earth/earth-dash-greater.js";
+import * as magic_earth_earth_dash_lesser from "./magic-earth/earth-dash-lesser.js";
+import * as magic_earth_earth_dash_wild from "./magic-earth/earth-dash-wild.js";
+import * as magic_earth_earth_flare from "./magic-earth/earth-flare.js";
+import * as magic_earth_earth_flare_ancient from "./magic-earth/earth-flare-ancient.js";
+import * as magic_earth_earth_flare_greater from "./magic-earth/earth-flare-greater.js";
+import * as magic_earth_earth_flare_lesser from "./magic-earth/earth-flare-lesser.js";
+import * as magic_earth_earth_flare_wild from "./magic-earth/earth-flare-wild.js";
+import * as magic_earth_earth_impact from "./magic-earth/earth-impact.js";
+import * as magic_earth_earth_impact_ancient from "./magic-earth/earth-impact-ancient.js";
+import * as magic_earth_earth_impact_greater from "./magic-earth/earth-impact-greater.js";
+import * as magic_earth_earth_impact_lesser from "./magic-earth/earth-impact-lesser.js";
+import * as magic_earth_earth_impact_wild from "./magic-earth/earth-impact-wild.js";
+import * as magic_earth_earth_meteor from "./magic-earth/earth-meteor.js";
+import * as magic_earth_earth_meteor_ancient from "./magic-earth/earth-meteor-ancient.js";
+import * as magic_earth_earth_meteor_greater from "./magic-earth/earth-meteor-greater.js";
+import * as magic_earth_earth_meteor_lesser from "./magic-earth/earth-meteor-lesser.js";
+import * as magic_earth_earth_meteor_wild from "./magic-earth/earth-meteor-wild.js";
+import * as magic_earth_earth_nova from "./magic-earth/earth-nova.js";
+import * as magic_earth_earth_nova_ancient from "./magic-earth/earth-nova-ancient.js";
+import * as magic_earth_earth_nova_greater from "./magic-earth/earth-nova-greater.js";
+import * as magic_earth_earth_nova_lesser from "./magic-earth/earth-nova-lesser.js";
+import * as magic_earth_earth_nova_wild from "./magic-earth/earth-nova-wild.js";
+import * as magic_earth_earth_orb from "./magic-earth/earth-orb.js";
+import * as magic_earth_earth_orb_ancient from "./magic-earth/earth-orb-ancient.js";
+import * as magic_earth_earth_orb_greater from "./magic-earth/earth-orb-greater.js";
+import * as magic_earth_earth_orb_lesser from "./magic-earth/earth-orb-lesser.js";
+import * as magic_earth_earth_orb_wild from "./magic-earth/earth-orb-wild.js";
+import * as magic_earth_earth_orbit from "./magic-earth/earth-orbit.js";
+import * as magic_earth_earth_orbit_ancient from "./magic-earth/earth-orbit-ancient.js";
+import * as magic_earth_earth_orbit_greater from "./magic-earth/earth-orbit-greater.js";
+import * as magic_earth_earth_orbit_lesser from "./magic-earth/earth-orbit-lesser.js";
+import * as magic_earth_earth_orbit_wild from "./magic-earth/earth-orbit-wild.js";
+import * as magic_earth_earth_pillar from "./magic-earth/earth-pillar.js";
+import * as magic_earth_earth_pillar_ancient from "./magic-earth/earth-pillar-ancient.js";
+import * as magic_earth_earth_pillar_greater from "./magic-earth/earth-pillar-greater.js";
+import * as magic_earth_earth_pillar_lesser from "./magic-earth/earth-pillar-lesser.js";
+import * as magic_earth_earth_pillar_wild from "./magic-earth/earth-pillar-wild.js";
+import * as magic_earth_earth_portal from "./magic-earth/earth-portal.js";
+import * as magic_earth_earth_portal_ancient from "./magic-earth/earth-portal-ancient.js";
+import * as magic_earth_earth_portal_greater from "./magic-earth/earth-portal-greater.js";
+import * as magic_earth_earth_portal_lesser from "./magic-earth/earth-portal-lesser.js";
+import * as magic_earth_earth_portal_wild from "./magic-earth/earth-portal-wild.js";
+import * as magic_earth_earth_rain from "./magic-earth/earth-rain.js";
+import * as magic_earth_earth_rain_ancient from "./magic-earth/earth-rain-ancient.js";
+import * as magic_earth_earth_rain_greater from "./magic-earth/earth-rain-greater.js";
+import * as magic_earth_earth_rain_lesser from "./magic-earth/earth-rain-lesser.js";
+import * as magic_earth_earth_rain_wild from "./magic-earth/earth-rain-wild.js";
+import * as magic_earth_earth_shield from "./magic-earth/earth-shield.js";
+import * as magic_earth_earth_shield_ancient from "./magic-earth/earth-shield-ancient.js";
+import * as magic_earth_earth_shield_greater from "./magic-earth/earth-shield-greater.js";
+import * as magic_earth_earth_shield_lesser from "./magic-earth/earth-shield-lesser.js";
+import * as magic_earth_earth_shield_wild from "./magic-earth/earth-shield-wild.js";
+import * as magic_earth_earth_sigil from "./magic-earth/earth-sigil.js";
+import * as magic_earth_earth_sigil_ancient from "./magic-earth/earth-sigil-ancient.js";
+import * as magic_earth_earth_sigil_greater from "./magic-earth/earth-sigil-greater.js";
+import * as magic_earth_earth_sigil_lesser from "./magic-earth/earth-sigil-lesser.js";
+import * as magic_earth_earth_sigil_wild from "./magic-earth/earth-sigil-wild.js";
+import * as magic_earth_earth_spikes from "./magic-earth/earth-spikes.js";
+import * as magic_earth_earth_spikes_ancient from "./magic-earth/earth-spikes-ancient.js";
+import * as magic_earth_earth_spikes_greater from "./magic-earth/earth-spikes-greater.js";
+import * as magic_earth_earth_spikes_lesser from "./magic-earth/earth-spikes-lesser.js";
+import * as magic_earth_earth_spikes_wild from "./magic-earth/earth-spikes-wild.js";
+import * as magic_earth_earth_summon from "./magic-earth/earth-summon.js";
+import * as magic_earth_earth_summon_ancient from "./magic-earth/earth-summon-ancient.js";
+import * as magic_earth_earth_summon_greater from "./magic-earth/earth-summon-greater.js";
+import * as magic_earth_earth_summon_lesser from "./magic-earth/earth-summon-lesser.js";
+import * as magic_earth_earth_summon_wild from "./magic-earth/earth-summon-wild.js";
+import * as magic_earth_earth_vortex from "./magic-earth/earth-vortex.js";
+import * as magic_earth_earth_vortex_ancient from "./magic-earth/earth-vortex-ancient.js";
+import * as magic_earth_earth_vortex_greater from "./magic-earth/earth-vortex-greater.js";
+import * as magic_earth_earth_vortex_lesser from "./magic-earth/earth-vortex-lesser.js";
+import * as magic_earth_earth_vortex_wild from "./magic-earth/earth-vortex-wild.js";
+import * as magic_earth_earth_wave from "./magic-earth/earth-wave.js";
+import * as magic_earth_earth_wave_ancient from "./magic-earth/earth-wave-ancient.js";
+import * as magic_earth_earth_wave_greater from "./magic-earth/earth-wave-greater.js";
+import * as magic_earth_earth_wave_lesser from "./magic-earth/earth-wave-lesser.js";
+import * as magic_earth_earth_wave_wild from "./magic-earth/earth-wave-wild.js";
+import * as magic_verdant_verdant_aura from "./magic-verdant/verdant-aura.js";
+import * as magic_verdant_verdant_aura_ancient from "./magic-verdant/verdant-aura-ancient.js";
+import * as magic_verdant_verdant_aura_greater from "./magic-verdant/verdant-aura-greater.js";
+import * as magic_verdant_verdant_aura_lesser from "./magic-verdant/verdant-aura-lesser.js";
+import * as magic_verdant_verdant_aura_wild from "./magic-verdant/verdant-aura-wild.js";
+import * as magic_verdant_verdant_beam from "./magic-verdant/verdant-beam.js";
+import * as magic_verdant_verdant_beam_ancient from "./magic-verdant/verdant-beam-ancient.js";
+import * as magic_verdant_verdant_beam_greater from "./magic-verdant/verdant-beam-greater.js";
+import * as magic_verdant_verdant_beam_lesser from "./magic-verdant/verdant-beam-lesser.js";
+import * as magic_verdant_verdant_beam_wild from "./magic-verdant/verdant-beam-wild.js";
+import * as magic_verdant_verdant_bolt from "./magic-verdant/verdant-bolt.js";
+import * as magic_verdant_verdant_bolt_ancient from "./magic-verdant/verdant-bolt-ancient.js";
+import * as magic_verdant_verdant_bolt_greater from "./magic-verdant/verdant-bolt-greater.js";
+import * as magic_verdant_verdant_bolt_lesser from "./magic-verdant/verdant-bolt-lesser.js";
+import * as magic_verdant_verdant_bolt_wild from "./magic-verdant/verdant-bolt-wild.js";
+import * as magic_verdant_verdant_burst from "./magic-verdant/verdant-burst.js";
+import * as magic_verdant_verdant_burst_ancient from "./magic-verdant/verdant-burst-ancient.js";
+import * as magic_verdant_verdant_burst_greater from "./magic-verdant/verdant-burst-greater.js";
+import * as magic_verdant_verdant_burst_lesser from "./magic-verdant/verdant-burst-lesser.js";
+import * as magic_verdant_verdant_burst_wild from "./magic-verdant/verdant-burst-wild.js";
+import * as magic_verdant_verdant_charge from "./magic-verdant/verdant-charge.js";
+import * as magic_verdant_verdant_charge_ancient from "./magic-verdant/verdant-charge-ancient.js";
+import * as magic_verdant_verdant_charge_greater from "./magic-verdant/verdant-charge-greater.js";
+import * as magic_verdant_verdant_charge_lesser from "./magic-verdant/verdant-charge-lesser.js";
+import * as magic_verdant_verdant_charge_wild from "./magic-verdant/verdant-charge-wild.js";
+import * as magic_verdant_verdant_circle from "./magic-verdant/verdant-circle.js";
+import * as magic_verdant_verdant_circle_ancient from "./magic-verdant/verdant-circle-ancient.js";
+import * as magic_verdant_verdant_circle_greater from "./magic-verdant/verdant-circle-greater.js";
+import * as magic_verdant_verdant_circle_lesser from "./magic-verdant/verdant-circle-lesser.js";
+import * as magic_verdant_verdant_circle_wild from "./magic-verdant/verdant-circle-wild.js";
+import * as magic_verdant_verdant_cloud from "./magic-verdant/verdant-cloud.js";
+import * as magic_verdant_verdant_cloud_ancient from "./magic-verdant/verdant-cloud-ancient.js";
+import * as magic_verdant_verdant_cloud_greater from "./magic-verdant/verdant-cloud-greater.js";
+import * as magic_verdant_verdant_cloud_lesser from "./magic-verdant/verdant-cloud-lesser.js";
+import * as magic_verdant_verdant_cloud_wild from "./magic-verdant/verdant-cloud-wild.js";
+import * as magic_verdant_verdant_crescent from "./magic-verdant/verdant-crescent.js";
+import * as magic_verdant_verdant_crescent_ancient from "./magic-verdant/verdant-crescent-ancient.js";
+import * as magic_verdant_verdant_crescent_greater from "./magic-verdant/verdant-crescent-greater.js";
+import * as magic_verdant_verdant_crescent_lesser from "./magic-verdant/verdant-crescent-lesser.js";
+import * as magic_verdant_verdant_crescent_wild from "./magic-verdant/verdant-crescent-wild.js";
+import * as magic_verdant_verdant_dash from "./magic-verdant/verdant-dash.js";
+import * as magic_verdant_verdant_dash_ancient from "./magic-verdant/verdant-dash-ancient.js";
+import * as magic_verdant_verdant_dash_greater from "./magic-verdant/verdant-dash-greater.js";
+import * as magic_verdant_verdant_dash_lesser from "./magic-verdant/verdant-dash-lesser.js";
+import * as magic_verdant_verdant_dash_wild from "./magic-verdant/verdant-dash-wild.js";
+import * as magic_verdant_verdant_flare from "./magic-verdant/verdant-flare.js";
+import * as magic_verdant_verdant_flare_ancient from "./magic-verdant/verdant-flare-ancient.js";
+import * as magic_verdant_verdant_flare_greater from "./magic-verdant/verdant-flare-greater.js";
+import * as magic_verdant_verdant_flare_lesser from "./magic-verdant/verdant-flare-lesser.js";
+import * as magic_verdant_verdant_flare_wild from "./magic-verdant/verdant-flare-wild.js";
+import * as magic_verdant_verdant_impact from "./magic-verdant/verdant-impact.js";
+import * as magic_verdant_verdant_impact_ancient from "./magic-verdant/verdant-impact-ancient.js";
+import * as magic_verdant_verdant_impact_greater from "./magic-verdant/verdant-impact-greater.js";
+import * as magic_verdant_verdant_impact_lesser from "./magic-verdant/verdant-impact-lesser.js";
+import * as magic_verdant_verdant_impact_wild from "./magic-verdant/verdant-impact-wild.js";
+import * as magic_verdant_verdant_meteor from "./magic-verdant/verdant-meteor.js";
+import * as magic_verdant_verdant_meteor_ancient from "./magic-verdant/verdant-meteor-ancient.js";
+import * as magic_verdant_verdant_meteor_greater from "./magic-verdant/verdant-meteor-greater.js";
+import * as magic_verdant_verdant_meteor_lesser from "./magic-verdant/verdant-meteor-lesser.js";
+import * as magic_verdant_verdant_meteor_wild from "./magic-verdant/verdant-meteor-wild.js";
+import * as magic_verdant_verdant_nova from "./magic-verdant/verdant-nova.js";
+import * as magic_verdant_verdant_nova_ancient from "./magic-verdant/verdant-nova-ancient.js";
+import * as magic_verdant_verdant_nova_greater from "./magic-verdant/verdant-nova-greater.js";
+import * as magic_verdant_verdant_nova_lesser from "./magic-verdant/verdant-nova-lesser.js";
+import * as magic_verdant_verdant_nova_wild from "./magic-verdant/verdant-nova-wild.js";
+import * as magic_verdant_verdant_orb from "./magic-verdant/verdant-orb.js";
+import * as magic_verdant_verdant_orb_ancient from "./magic-verdant/verdant-orb-ancient.js";
+import * as magic_verdant_verdant_orb_greater from "./magic-verdant/verdant-orb-greater.js";
+import * as magic_verdant_verdant_orb_lesser from "./magic-verdant/verdant-orb-lesser.js";
+import * as magic_verdant_verdant_orb_wild from "./magic-verdant/verdant-orb-wild.js";
+import * as magic_verdant_verdant_orbit from "./magic-verdant/verdant-orbit.js";
+import * as magic_verdant_verdant_orbit_ancient from "./magic-verdant/verdant-orbit-ancient.js";
+import * as magic_verdant_verdant_orbit_greater from "./magic-verdant/verdant-orbit-greater.js";
+import * as magic_verdant_verdant_orbit_lesser from "./magic-verdant/verdant-orbit-lesser.js";
+import * as magic_verdant_verdant_orbit_wild from "./magic-verdant/verdant-orbit-wild.js";
+import * as magic_verdant_verdant_pillar from "./magic-verdant/verdant-pillar.js";
+import * as magic_verdant_verdant_pillar_ancient from "./magic-verdant/verdant-pillar-ancient.js";
+import * as magic_verdant_verdant_pillar_greater from "./magic-verdant/verdant-pillar-greater.js";
+import * as magic_verdant_verdant_pillar_lesser from "./magic-verdant/verdant-pillar-lesser.js";
+import * as magic_verdant_verdant_pillar_wild from "./magic-verdant/verdant-pillar-wild.js";
+import * as magic_verdant_verdant_portal from "./magic-verdant/verdant-portal.js";
+import * as magic_verdant_verdant_portal_ancient from "./magic-verdant/verdant-portal-ancient.js";
+import * as magic_verdant_verdant_portal_greater from "./magic-verdant/verdant-portal-greater.js";
+import * as magic_verdant_verdant_portal_lesser from "./magic-verdant/verdant-portal-lesser.js";
+import * as magic_verdant_verdant_portal_wild from "./magic-verdant/verdant-portal-wild.js";
+import * as magic_verdant_verdant_rain from "./magic-verdant/verdant-rain.js";
+import * as magic_verdant_verdant_rain_ancient from "./magic-verdant/verdant-rain-ancient.js";
+import * as magic_verdant_verdant_rain_greater from "./magic-verdant/verdant-rain-greater.js";
+import * as magic_verdant_verdant_rain_lesser from "./magic-verdant/verdant-rain-lesser.js";
+import * as magic_verdant_verdant_rain_wild from "./magic-verdant/verdant-rain-wild.js";
+import * as magic_verdant_verdant_shield from "./magic-verdant/verdant-shield.js";
+import * as magic_verdant_verdant_shield_ancient from "./magic-verdant/verdant-shield-ancient.js";
+import * as magic_verdant_verdant_shield_greater from "./magic-verdant/verdant-shield-greater.js";
+import * as magic_verdant_verdant_shield_lesser from "./magic-verdant/verdant-shield-lesser.js";
+import * as magic_verdant_verdant_shield_wild from "./magic-verdant/verdant-shield-wild.js";
+import * as magic_verdant_verdant_sigil from "./magic-verdant/verdant-sigil.js";
+import * as magic_verdant_verdant_sigil_ancient from "./magic-verdant/verdant-sigil-ancient.js";
+import * as magic_verdant_verdant_sigil_greater from "./magic-verdant/verdant-sigil-greater.js";
+import * as magic_verdant_verdant_sigil_lesser from "./magic-verdant/verdant-sigil-lesser.js";
+import * as magic_verdant_verdant_sigil_wild from "./magic-verdant/verdant-sigil-wild.js";
+import * as magic_verdant_verdant_spikes from "./magic-verdant/verdant-spikes.js";
+import * as magic_verdant_verdant_spikes_ancient from "./magic-verdant/verdant-spikes-ancient.js";
+import * as magic_verdant_verdant_spikes_greater from "./magic-verdant/verdant-spikes-greater.js";
+import * as magic_verdant_verdant_spikes_lesser from "./magic-verdant/verdant-spikes-lesser.js";
+import * as magic_verdant_verdant_spikes_wild from "./magic-verdant/verdant-spikes-wild.js";
+import * as magic_verdant_verdant_summon from "./magic-verdant/verdant-summon.js";
+import * as magic_verdant_verdant_summon_ancient from "./magic-verdant/verdant-summon-ancient.js";
+import * as magic_verdant_verdant_summon_greater from "./magic-verdant/verdant-summon-greater.js";
+import * as magic_verdant_verdant_summon_lesser from "./magic-verdant/verdant-summon-lesser.js";
+import * as magic_verdant_verdant_summon_wild from "./magic-verdant/verdant-summon-wild.js";
+import * as magic_verdant_verdant_vortex from "./magic-verdant/verdant-vortex.js";
+import * as magic_verdant_verdant_vortex_ancient from "./magic-verdant/verdant-vortex-ancient.js";
+import * as magic_verdant_verdant_vortex_greater from "./magic-verdant/verdant-vortex-greater.js";
+import * as magic_verdant_verdant_vortex_lesser from "./magic-verdant/verdant-vortex-lesser.js";
+import * as magic_verdant_verdant_vortex_wild from "./magic-verdant/verdant-vortex-wild.js";
+import * as magic_verdant_verdant_wave from "./magic-verdant/verdant-wave.js";
+import * as magic_verdant_verdant_wave_ancient from "./magic-verdant/verdant-wave-ancient.js";
+import * as magic_verdant_verdant_wave_greater from "./magic-verdant/verdant-wave-greater.js";
+import * as magic_verdant_verdant_wave_lesser from "./magic-verdant/verdant-wave-lesser.js";
+import * as magic_verdant_verdant_wave_wild from "./magic-verdant/verdant-wave-wild.js";
+import * as magic_tide_tide_aura from "./magic-tide/tide-aura.js";
+import * as magic_tide_tide_aura_ancient from "./magic-tide/tide-aura-ancient.js";
+import * as magic_tide_tide_aura_greater from "./magic-tide/tide-aura-greater.js";
+import * as magic_tide_tide_aura_lesser from "./magic-tide/tide-aura-lesser.js";
+import * as magic_tide_tide_aura_wild from "./magic-tide/tide-aura-wild.js";
+import * as magic_tide_tide_beam from "./magic-tide/tide-beam.js";
+import * as magic_tide_tide_beam_ancient from "./magic-tide/tide-beam-ancient.js";
+import * as magic_tide_tide_beam_greater from "./magic-tide/tide-beam-greater.js";
+import * as magic_tide_tide_beam_lesser from "./magic-tide/tide-beam-lesser.js";
+import * as magic_tide_tide_beam_wild from "./magic-tide/tide-beam-wild.js";
+import * as magic_tide_tide_bolt from "./magic-tide/tide-bolt.js";
+import * as magic_tide_tide_bolt_ancient from "./magic-tide/tide-bolt-ancient.js";
+import * as magic_tide_tide_bolt_greater from "./magic-tide/tide-bolt-greater.js";
+import * as magic_tide_tide_bolt_lesser from "./magic-tide/tide-bolt-lesser.js";
+import * as magic_tide_tide_bolt_wild from "./magic-tide/tide-bolt-wild.js";
+import * as magic_tide_tide_burst from "./magic-tide/tide-burst.js";
+import * as magic_tide_tide_burst_ancient from "./magic-tide/tide-burst-ancient.js";
+import * as magic_tide_tide_burst_greater from "./magic-tide/tide-burst-greater.js";
+import * as magic_tide_tide_burst_lesser from "./magic-tide/tide-burst-lesser.js";
+import * as magic_tide_tide_burst_wild from "./magic-tide/tide-burst-wild.js";
+import * as magic_tide_tide_charge from "./magic-tide/tide-charge.js";
+import * as magic_tide_tide_charge_ancient from "./magic-tide/tide-charge-ancient.js";
+import * as magic_tide_tide_charge_greater from "./magic-tide/tide-charge-greater.js";
+import * as magic_tide_tide_charge_lesser from "./magic-tide/tide-charge-lesser.js";
+import * as magic_tide_tide_charge_wild from "./magic-tide/tide-charge-wild.js";
+import * as magic_tide_tide_circle from "./magic-tide/tide-circle.js";
+import * as magic_tide_tide_circle_ancient from "./magic-tide/tide-circle-ancient.js";
+import * as magic_tide_tide_circle_greater from "./magic-tide/tide-circle-greater.js";
+import * as magic_tide_tide_circle_lesser from "./magic-tide/tide-circle-lesser.js";
+import * as magic_tide_tide_circle_wild from "./magic-tide/tide-circle-wild.js";
+import * as magic_tide_tide_cloud from "./magic-tide/tide-cloud.js";
+import * as magic_tide_tide_cloud_ancient from "./magic-tide/tide-cloud-ancient.js";
+import * as magic_tide_tide_cloud_greater from "./magic-tide/tide-cloud-greater.js";
+import * as magic_tide_tide_cloud_lesser from "./magic-tide/tide-cloud-lesser.js";
+import * as magic_tide_tide_cloud_wild from "./magic-tide/tide-cloud-wild.js";
+import * as magic_tide_tide_crescent from "./magic-tide/tide-crescent.js";
+import * as magic_tide_tide_crescent_ancient from "./magic-tide/tide-crescent-ancient.js";
+import * as magic_tide_tide_crescent_greater from "./magic-tide/tide-crescent-greater.js";
+import * as magic_tide_tide_crescent_lesser from "./magic-tide/tide-crescent-lesser.js";
+import * as magic_tide_tide_crescent_wild from "./magic-tide/tide-crescent-wild.js";
+import * as magic_tide_tide_dash from "./magic-tide/tide-dash.js";
+import * as magic_tide_tide_dash_ancient from "./magic-tide/tide-dash-ancient.js";
+import * as magic_tide_tide_dash_greater from "./magic-tide/tide-dash-greater.js";
+import * as magic_tide_tide_dash_lesser from "./magic-tide/tide-dash-lesser.js";
+import * as magic_tide_tide_dash_wild from "./magic-tide/tide-dash-wild.js";
+import * as magic_tide_tide_flare from "./magic-tide/tide-flare.js";
+import * as magic_tide_tide_flare_ancient from "./magic-tide/tide-flare-ancient.js";
+import * as magic_tide_tide_flare_greater from "./magic-tide/tide-flare-greater.js";
+import * as magic_tide_tide_flare_lesser from "./magic-tide/tide-flare-lesser.js";
+import * as magic_tide_tide_flare_wild from "./magic-tide/tide-flare-wild.js";
+import * as magic_tide_tide_impact from "./magic-tide/tide-impact.js";
+import * as magic_tide_tide_impact_ancient from "./magic-tide/tide-impact-ancient.js";
+import * as magic_tide_tide_impact_greater from "./magic-tide/tide-impact-greater.js";
+import * as magic_tide_tide_impact_lesser from "./magic-tide/tide-impact-lesser.js";
+import * as magic_tide_tide_impact_wild from "./magic-tide/tide-impact-wild.js";
+import * as magic_tide_tide_meteor from "./magic-tide/tide-meteor.js";
+import * as magic_tide_tide_meteor_ancient from "./magic-tide/tide-meteor-ancient.js";
+import * as magic_tide_tide_meteor_greater from "./magic-tide/tide-meteor-greater.js";
+import * as magic_tide_tide_meteor_lesser from "./magic-tide/tide-meteor-lesser.js";
+import * as magic_tide_tide_meteor_wild from "./magic-tide/tide-meteor-wild.js";
+import * as magic_tide_tide_nova from "./magic-tide/tide-nova.js";
+import * as magic_tide_tide_nova_ancient from "./magic-tide/tide-nova-ancient.js";
+import * as magic_tide_tide_nova_greater from "./magic-tide/tide-nova-greater.js";
+import * as magic_tide_tide_nova_lesser from "./magic-tide/tide-nova-lesser.js";
+import * as magic_tide_tide_nova_wild from "./magic-tide/tide-nova-wild.js";
+import * as magic_tide_tide_orb from "./magic-tide/tide-orb.js";
+import * as magic_tide_tide_orb_ancient from "./magic-tide/tide-orb-ancient.js";
+import * as magic_tide_tide_orb_greater from "./magic-tide/tide-orb-greater.js";
+import * as magic_tide_tide_orb_lesser from "./magic-tide/tide-orb-lesser.js";
+import * as magic_tide_tide_orb_wild from "./magic-tide/tide-orb-wild.js";
+import * as magic_tide_tide_orbit from "./magic-tide/tide-orbit.js";
+import * as magic_tide_tide_orbit_ancient from "./magic-tide/tide-orbit-ancient.js";
+import * as magic_tide_tide_orbit_greater from "./magic-tide/tide-orbit-greater.js";
+import * as magic_tide_tide_orbit_lesser from "./magic-tide/tide-orbit-lesser.js";
+import * as magic_tide_tide_orbit_wild from "./magic-tide/tide-orbit-wild.js";
+import * as magic_tide_tide_pillar from "./magic-tide/tide-pillar.js";
+import * as magic_tide_tide_pillar_ancient from "./magic-tide/tide-pillar-ancient.js";
+import * as magic_tide_tide_pillar_greater from "./magic-tide/tide-pillar-greater.js";
+import * as magic_tide_tide_pillar_lesser from "./magic-tide/tide-pillar-lesser.js";
+import * as magic_tide_tide_pillar_wild from "./magic-tide/tide-pillar-wild.js";
+import * as magic_tide_tide_portal from "./magic-tide/tide-portal.js";
+import * as magic_tide_tide_portal_ancient from "./magic-tide/tide-portal-ancient.js";
+import * as magic_tide_tide_portal_greater from "./magic-tide/tide-portal-greater.js";
+import * as magic_tide_tide_portal_lesser from "./magic-tide/tide-portal-lesser.js";
+import * as magic_tide_tide_portal_wild from "./magic-tide/tide-portal-wild.js";
+import * as magic_tide_tide_rain from "./magic-tide/tide-rain.js";
+import * as magic_tide_tide_rain_ancient from "./magic-tide/tide-rain-ancient.js";
+import * as magic_tide_tide_rain_greater from "./magic-tide/tide-rain-greater.js";
+import * as magic_tide_tide_rain_lesser from "./magic-tide/tide-rain-lesser.js";
+import * as magic_tide_tide_rain_wild from "./magic-tide/tide-rain-wild.js";
+import * as magic_tide_tide_shield from "./magic-tide/tide-shield.js";
+import * as magic_tide_tide_shield_ancient from "./magic-tide/tide-shield-ancient.js";
+import * as magic_tide_tide_shield_greater from "./magic-tide/tide-shield-greater.js";
+import * as magic_tide_tide_shield_lesser from "./magic-tide/tide-shield-lesser.js";
+import * as magic_tide_tide_shield_wild from "./magic-tide/tide-shield-wild.js";
+import * as magic_tide_tide_sigil from "./magic-tide/tide-sigil.js";
+import * as magic_tide_tide_sigil_ancient from "./magic-tide/tide-sigil-ancient.js";
+import * as magic_tide_tide_sigil_greater from "./magic-tide/tide-sigil-greater.js";
+import * as magic_tide_tide_sigil_lesser from "./magic-tide/tide-sigil-lesser.js";
+import * as magic_tide_tide_sigil_wild from "./magic-tide/tide-sigil-wild.js";
+import * as magic_tide_tide_spikes from "./magic-tide/tide-spikes.js";
+import * as magic_tide_tide_spikes_ancient from "./magic-tide/tide-spikes-ancient.js";
+import * as magic_tide_tide_spikes_greater from "./magic-tide/tide-spikes-greater.js";
+import * as magic_tide_tide_spikes_lesser from "./magic-tide/tide-spikes-lesser.js";
+import * as magic_tide_tide_spikes_wild from "./magic-tide/tide-spikes-wild.js";
+import * as magic_tide_tide_summon from "./magic-tide/tide-summon.js";
+import * as magic_tide_tide_summon_ancient from "./magic-tide/tide-summon-ancient.js";
+import * as magic_tide_tide_summon_greater from "./magic-tide/tide-summon-greater.js";
+import * as magic_tide_tide_summon_lesser from "./magic-tide/tide-summon-lesser.js";
+import * as magic_tide_tide_summon_wild from "./magic-tide/tide-summon-wild.js";
+import * as magic_tide_tide_vortex from "./magic-tide/tide-vortex.js";
+import * as magic_tide_tide_vortex_ancient from "./magic-tide/tide-vortex-ancient.js";
+import * as magic_tide_tide_vortex_greater from "./magic-tide/tide-vortex-greater.js";
+import * as magic_tide_tide_vortex_lesser from "./magic-tide/tide-vortex-lesser.js";
+import * as magic_tide_tide_vortex_wild from "./magic-tide/tide-vortex-wild.js";
+import * as magic_tide_tide_wave from "./magic-tide/tide-wave.js";
+import * as magic_tide_tide_wave_ancient from "./magic-tide/tide-wave-ancient.js";
+import * as magic_tide_tide_wave_greater from "./magic-tide/tide-wave-greater.js";
+import * as magic_tide_tide_wave_lesser from "./magic-tide/tide-wave-lesser.js";
+import * as magic_tide_tide_wave_wild from "./magic-tide/tide-wave-wild.js";
+import * as magic_void_void_aura from "./magic-void/void-aura.js";
+import * as magic_void_void_aura_ancient from "./magic-void/void-aura-ancient.js";
+import * as magic_void_void_aura_greater from "./magic-void/void-aura-greater.js";
+import * as magic_void_void_aura_lesser from "./magic-void/void-aura-lesser.js";
+import * as magic_void_void_aura_wild from "./magic-void/void-aura-wild.js";
+import * as magic_void_void_beam from "./magic-void/void-beam.js";
+import * as magic_void_void_beam_ancient from "./magic-void/void-beam-ancient.js";
+import * as magic_void_void_beam_greater from "./magic-void/void-beam-greater.js";
+import * as magic_void_void_beam_lesser from "./magic-void/void-beam-lesser.js";
+import * as magic_void_void_beam_wild from "./magic-void/void-beam-wild.js";
+import * as magic_void_void_bolt from "./magic-void/void-bolt.js";
+import * as magic_void_void_bolt_ancient from "./magic-void/void-bolt-ancient.js";
+import * as magic_void_void_bolt_greater from "./magic-void/void-bolt-greater.js";
+import * as magic_void_void_bolt_lesser from "./magic-void/void-bolt-lesser.js";
+import * as magic_void_void_bolt_wild from "./magic-void/void-bolt-wild.js";
+import * as magic_void_void_burst from "./magic-void/void-burst.js";
+import * as magic_void_void_burst_ancient from "./magic-void/void-burst-ancient.js";
+import * as magic_void_void_burst_greater from "./magic-void/void-burst-greater.js";
+import * as magic_void_void_burst_lesser from "./magic-void/void-burst-lesser.js";
+import * as magic_void_void_burst_wild from "./magic-void/void-burst-wild.js";
+import * as magic_void_void_charge from "./magic-void/void-charge.js";
+import * as magic_void_void_charge_ancient from "./magic-void/void-charge-ancient.js";
+import * as magic_void_void_charge_greater from "./magic-void/void-charge-greater.js";
+import * as magic_void_void_charge_lesser from "./magic-void/void-charge-lesser.js";
+import * as magic_void_void_charge_wild from "./magic-void/void-charge-wild.js";
+import * as magic_void_void_circle from "./magic-void/void-circle.js";
+import * as magic_void_void_circle_ancient from "./magic-void/void-circle-ancient.js";
+import * as magic_void_void_circle_greater from "./magic-void/void-circle-greater.js";
+import * as magic_void_void_circle_lesser from "./magic-void/void-circle-lesser.js";
+import * as magic_void_void_circle_wild from "./magic-void/void-circle-wild.js";
+import * as magic_void_void_cloud from "./magic-void/void-cloud.js";
+import * as magic_void_void_cloud_ancient from "./magic-void/void-cloud-ancient.js";
+import * as magic_void_void_cloud_greater from "./magic-void/void-cloud-greater.js";
+import * as magic_void_void_cloud_lesser from "./magic-void/void-cloud-lesser.js";
+import * as magic_void_void_cloud_wild from "./magic-void/void-cloud-wild.js";
+import * as magic_void_void_crescent from "./magic-void/void-crescent.js";
+import * as magic_void_void_crescent_ancient from "./magic-void/void-crescent-ancient.js";
+import * as magic_void_void_crescent_greater from "./magic-void/void-crescent-greater.js";
+import * as magic_void_void_crescent_lesser from "./magic-void/void-crescent-lesser.js";
+import * as magic_void_void_crescent_wild from "./magic-void/void-crescent-wild.js";
+import * as magic_void_void_dash from "./magic-void/void-dash.js";
+import * as magic_void_void_dash_ancient from "./magic-void/void-dash-ancient.js";
+import * as magic_void_void_dash_greater from "./magic-void/void-dash-greater.js";
+import * as magic_void_void_dash_lesser from "./magic-void/void-dash-lesser.js";
+import * as magic_void_void_dash_wild from "./magic-void/void-dash-wild.js";
+import * as magic_void_void_flare from "./magic-void/void-flare.js";
+import * as magic_void_void_flare_ancient from "./magic-void/void-flare-ancient.js";
+import * as magic_void_void_flare_greater from "./magic-void/void-flare-greater.js";
+import * as magic_void_void_flare_lesser from "./magic-void/void-flare-lesser.js";
+import * as magic_void_void_flare_wild from "./magic-void/void-flare-wild.js";
+import * as magic_void_void_impact from "./magic-void/void-impact.js";
+import * as magic_void_void_impact_ancient from "./magic-void/void-impact-ancient.js";
+import * as magic_void_void_impact_greater from "./magic-void/void-impact-greater.js";
+import * as magic_void_void_impact_lesser from "./magic-void/void-impact-lesser.js";
+import * as magic_void_void_impact_wild from "./magic-void/void-impact-wild.js";
+import * as magic_void_void_meteor from "./magic-void/void-meteor.js";
+import * as magic_void_void_meteor_ancient from "./magic-void/void-meteor-ancient.js";
+import * as magic_void_void_meteor_greater from "./magic-void/void-meteor-greater.js";
+import * as magic_void_void_meteor_lesser from "./magic-void/void-meteor-lesser.js";
+import * as magic_void_void_meteor_wild from "./magic-void/void-meteor-wild.js";
+import * as magic_void_void_nova from "./magic-void/void-nova.js";
+import * as magic_void_void_nova_ancient from "./magic-void/void-nova-ancient.js";
+import * as magic_void_void_nova_greater from "./magic-void/void-nova-greater.js";
+import * as magic_void_void_nova_lesser from "./magic-void/void-nova-lesser.js";
+import * as magic_void_void_nova_wild from "./magic-void/void-nova-wild.js";
+import * as magic_void_void_orb from "./magic-void/void-orb.js";
+import * as magic_void_void_orb_ancient from "./magic-void/void-orb-ancient.js";
+import * as magic_void_void_orb_greater from "./magic-void/void-orb-greater.js";
+import * as magic_void_void_orb_lesser from "./magic-void/void-orb-lesser.js";
+import * as magic_void_void_orb_wild from "./magic-void/void-orb-wild.js";
+import * as magic_void_void_orbit from "./magic-void/void-orbit.js";
+import * as magic_void_void_orbit_ancient from "./magic-void/void-orbit-ancient.js";
+import * as magic_void_void_orbit_greater from "./magic-void/void-orbit-greater.js";
+import * as magic_void_void_orbit_lesser from "./magic-void/void-orbit-lesser.js";
+import * as magic_void_void_orbit_wild from "./magic-void/void-orbit-wild.js";
+import * as magic_void_void_pillar from "./magic-void/void-pillar.js";
+import * as magic_void_void_pillar_ancient from "./magic-void/void-pillar-ancient.js";
+import * as magic_void_void_pillar_greater from "./magic-void/void-pillar-greater.js";
+import * as magic_void_void_pillar_lesser from "./magic-void/void-pillar-lesser.js";
+import * as magic_void_void_pillar_wild from "./magic-void/void-pillar-wild.js";
+import * as magic_void_void_portal from "./magic-void/void-portal.js";
+import * as magic_void_void_portal_ancient from "./magic-void/void-portal-ancient.js";
+import * as magic_void_void_portal_greater from "./magic-void/void-portal-greater.js";
+import * as magic_void_void_portal_lesser from "./magic-void/void-portal-lesser.js";
+import * as magic_void_void_portal_wild from "./magic-void/void-portal-wild.js";
+import * as magic_void_void_rain from "./magic-void/void-rain.js";
+import * as magic_void_void_rain_ancient from "./magic-void/void-rain-ancient.js";
+import * as magic_void_void_rain_greater from "./magic-void/void-rain-greater.js";
+import * as magic_void_void_rain_lesser from "./magic-void/void-rain-lesser.js";
+import * as magic_void_void_rain_wild from "./magic-void/void-rain-wild.js";
+import * as magic_void_void_shield from "./magic-void/void-shield.js";
+import * as magic_void_void_shield_ancient from "./magic-void/void-shield-ancient.js";
+import * as magic_void_void_shield_greater from "./magic-void/void-shield-greater.js";
+import * as magic_void_void_shield_lesser from "./magic-void/void-shield-lesser.js";
+import * as magic_void_void_shield_wild from "./magic-void/void-shield-wild.js";
+import * as magic_void_void_sigil from "./magic-void/void-sigil.js";
+import * as magic_void_void_sigil_ancient from "./magic-void/void-sigil-ancient.js";
+import * as magic_void_void_sigil_greater from "./magic-void/void-sigil-greater.js";
+import * as magic_void_void_sigil_lesser from "./magic-void/void-sigil-lesser.js";
+import * as magic_void_void_sigil_wild from "./magic-void/void-sigil-wild.js";
+import * as magic_void_void_spikes from "./magic-void/void-spikes.js";
+import * as magic_void_void_spikes_ancient from "./magic-void/void-spikes-ancient.js";
+import * as magic_void_void_spikes_greater from "./magic-void/void-spikes-greater.js";
+import * as magic_void_void_spikes_lesser from "./magic-void/void-spikes-lesser.js";
+import * as magic_void_void_spikes_wild from "./magic-void/void-spikes-wild.js";
+import * as magic_void_void_summon from "./magic-void/void-summon.js";
+import * as magic_void_void_summon_ancient from "./magic-void/void-summon-ancient.js";
+import * as magic_void_void_summon_greater from "./magic-void/void-summon-greater.js";
+import * as magic_void_void_summon_lesser from "./magic-void/void-summon-lesser.js";
+import * as magic_void_void_summon_wild from "./magic-void/void-summon-wild.js";
+import * as magic_void_void_vortex from "./magic-void/void-vortex.js";
+import * as magic_void_void_vortex_ancient from "./magic-void/void-vortex-ancient.js";
+import * as magic_void_void_vortex_greater from "./magic-void/void-vortex-greater.js";
+import * as magic_void_void_vortex_lesser from "./magic-void/void-vortex-lesser.js";
+import * as magic_void_void_vortex_wild from "./magic-void/void-vortex-wild.js";
+import * as magic_void_void_wave from "./magic-void/void-wave.js";
+import * as magic_void_void_wave_ancient from "./magic-void/void-wave-ancient.js";
+import * as magic_void_void_wave_greater from "./magic-void/void-wave-greater.js";
+import * as magic_void_void_wave_lesser from "./magic-void/void-wave-lesser.js";
+import * as magic_void_void_wave_wild from "./magic-void/void-wave-wild.js";
+import * as magic_holy_holy_aura from "./magic-holy/holy-aura.js";
+import * as magic_holy_holy_aura_ancient from "./magic-holy/holy-aura-ancient.js";
+import * as magic_holy_holy_aura_greater from "./magic-holy/holy-aura-greater.js";
+import * as magic_holy_holy_aura_lesser from "./magic-holy/holy-aura-lesser.js";
+import * as magic_holy_holy_aura_wild from "./magic-holy/holy-aura-wild.js";
+import * as magic_holy_holy_beam from "./magic-holy/holy-beam.js";
+import * as magic_holy_holy_beam_ancient from "./magic-holy/holy-beam-ancient.js";
+import * as magic_holy_holy_beam_greater from "./magic-holy/holy-beam-greater.js";
+import * as magic_holy_holy_beam_lesser from "./magic-holy/holy-beam-lesser.js";
+import * as magic_holy_holy_beam_wild from "./magic-holy/holy-beam-wild.js";
+import * as magic_holy_holy_bolt from "./magic-holy/holy-bolt.js";
+import * as magic_holy_holy_bolt_ancient from "./magic-holy/holy-bolt-ancient.js";
+import * as magic_holy_holy_bolt_greater from "./magic-holy/holy-bolt-greater.js";
+import * as magic_holy_holy_bolt_lesser from "./magic-holy/holy-bolt-lesser.js";
+import * as magic_holy_holy_bolt_wild from "./magic-holy/holy-bolt-wild.js";
+import * as magic_holy_holy_burst from "./magic-holy/holy-burst.js";
+import * as magic_holy_holy_burst_ancient from "./magic-holy/holy-burst-ancient.js";
+import * as magic_holy_holy_burst_greater from "./magic-holy/holy-burst-greater.js";
+import * as magic_holy_holy_burst_lesser from "./magic-holy/holy-burst-lesser.js";
+import * as magic_holy_holy_burst_wild from "./magic-holy/holy-burst-wild.js";
+import * as magic_holy_holy_charge from "./magic-holy/holy-charge.js";
+import * as magic_holy_holy_charge_ancient from "./magic-holy/holy-charge-ancient.js";
+import * as magic_holy_holy_charge_greater from "./magic-holy/holy-charge-greater.js";
+import * as magic_holy_holy_charge_lesser from "./magic-holy/holy-charge-lesser.js";
+import * as magic_holy_holy_charge_wild from "./magic-holy/holy-charge-wild.js";
+import * as magic_holy_holy_circle from "./magic-holy/holy-circle.js";
+import * as magic_holy_holy_circle_ancient from "./magic-holy/holy-circle-ancient.js";
+import * as magic_holy_holy_circle_greater from "./magic-holy/holy-circle-greater.js";
+import * as magic_holy_holy_circle_lesser from "./magic-holy/holy-circle-lesser.js";
+import * as magic_holy_holy_circle_wild from "./magic-holy/holy-circle-wild.js";
+import * as magic_holy_holy_cloud from "./magic-holy/holy-cloud.js";
+import * as magic_holy_holy_cloud_ancient from "./magic-holy/holy-cloud-ancient.js";
+import * as magic_holy_holy_cloud_greater from "./magic-holy/holy-cloud-greater.js";
+import * as magic_holy_holy_cloud_lesser from "./magic-holy/holy-cloud-lesser.js";
+import * as magic_holy_holy_cloud_wild from "./magic-holy/holy-cloud-wild.js";
+import * as magic_holy_holy_crescent from "./magic-holy/holy-crescent.js";
+import * as magic_holy_holy_crescent_ancient from "./magic-holy/holy-crescent-ancient.js";
+import * as magic_holy_holy_crescent_greater from "./magic-holy/holy-crescent-greater.js";
+import * as magic_holy_holy_crescent_lesser from "./magic-holy/holy-crescent-lesser.js";
+import * as magic_holy_holy_crescent_wild from "./magic-holy/holy-crescent-wild.js";
+import * as magic_holy_holy_dash from "./magic-holy/holy-dash.js";
+import * as magic_holy_holy_dash_ancient from "./magic-holy/holy-dash-ancient.js";
+import * as magic_holy_holy_dash_greater from "./magic-holy/holy-dash-greater.js";
+import * as magic_holy_holy_dash_lesser from "./magic-holy/holy-dash-lesser.js";
+import * as magic_holy_holy_dash_wild from "./magic-holy/holy-dash-wild.js";
+import * as magic_holy_holy_flare from "./magic-holy/holy-flare.js";
+import * as magic_holy_holy_flare_ancient from "./magic-holy/holy-flare-ancient.js";
+import * as magic_holy_holy_flare_greater from "./magic-holy/holy-flare-greater.js";
+import * as magic_holy_holy_flare_lesser from "./magic-holy/holy-flare-lesser.js";
+import * as magic_holy_holy_flare_wild from "./magic-holy/holy-flare-wild.js";
+import * as magic_holy_holy_impact from "./magic-holy/holy-impact.js";
+import * as magic_holy_holy_impact_ancient from "./magic-holy/holy-impact-ancient.js";
+import * as magic_holy_holy_impact_greater from "./magic-holy/holy-impact-greater.js";
+import * as magic_holy_holy_impact_lesser from "./magic-holy/holy-impact-lesser.js";
+import * as magic_holy_holy_impact_wild from "./magic-holy/holy-impact-wild.js";
+import * as magic_holy_holy_meteor from "./magic-holy/holy-meteor.js";
+import * as magic_holy_holy_meteor_ancient from "./magic-holy/holy-meteor-ancient.js";
+import * as magic_holy_holy_meteor_greater from "./magic-holy/holy-meteor-greater.js";
+import * as magic_holy_holy_meteor_lesser from "./magic-holy/holy-meteor-lesser.js";
+import * as magic_holy_holy_meteor_wild from "./magic-holy/holy-meteor-wild.js";
+import * as magic_holy_holy_nova from "./magic-holy/holy-nova.js";
+import * as magic_holy_holy_nova_ancient from "./magic-holy/holy-nova-ancient.js";
+import * as magic_holy_holy_nova_greater from "./magic-holy/holy-nova-greater.js";
+import * as magic_holy_holy_nova_lesser from "./magic-holy/holy-nova-lesser.js";
+import * as magic_holy_holy_nova_wild from "./magic-holy/holy-nova-wild.js";
+import * as magic_holy_holy_orb from "./magic-holy/holy-orb.js";
+import * as magic_holy_holy_orb_ancient from "./magic-holy/holy-orb-ancient.js";
+import * as magic_holy_holy_orb_greater from "./magic-holy/holy-orb-greater.js";
+import * as magic_holy_holy_orb_lesser from "./magic-holy/holy-orb-lesser.js";
+import * as magic_holy_holy_orb_wild from "./magic-holy/holy-orb-wild.js";
+import * as magic_holy_holy_orbit from "./magic-holy/holy-orbit.js";
+import * as magic_holy_holy_orbit_ancient from "./magic-holy/holy-orbit-ancient.js";
+import * as magic_holy_holy_orbit_greater from "./magic-holy/holy-orbit-greater.js";
+import * as magic_holy_holy_orbit_lesser from "./magic-holy/holy-orbit-lesser.js";
+import * as magic_holy_holy_orbit_wild from "./magic-holy/holy-orbit-wild.js";
+import * as magic_holy_holy_pillar from "./magic-holy/holy-pillar.js";
+import * as magic_holy_holy_pillar_ancient from "./magic-holy/holy-pillar-ancient.js";
+import * as magic_holy_holy_pillar_greater from "./magic-holy/holy-pillar-greater.js";
+import * as magic_holy_holy_pillar_lesser from "./magic-holy/holy-pillar-lesser.js";
+import * as magic_holy_holy_pillar_wild from "./magic-holy/holy-pillar-wild.js";
+import * as magic_holy_holy_portal from "./magic-holy/holy-portal.js";
+import * as magic_holy_holy_portal_ancient from "./magic-holy/holy-portal-ancient.js";
+import * as magic_holy_holy_portal_greater from "./magic-holy/holy-portal-greater.js";
+import * as magic_holy_holy_portal_lesser from "./magic-holy/holy-portal-lesser.js";
+import * as magic_holy_holy_portal_wild from "./magic-holy/holy-portal-wild.js";
+import * as magic_holy_holy_rain from "./magic-holy/holy-rain.js";
+import * as magic_holy_holy_rain_ancient from "./magic-holy/holy-rain-ancient.js";
+import * as magic_holy_holy_rain_greater from "./magic-holy/holy-rain-greater.js";
+import * as magic_holy_holy_rain_lesser from "./magic-holy/holy-rain-lesser.js";
+import * as magic_holy_holy_rain_wild from "./magic-holy/holy-rain-wild.js";
+import * as magic_holy_holy_shield from "./magic-holy/holy-shield.js";
+import * as magic_holy_holy_shield_ancient from "./magic-holy/holy-shield-ancient.js";
+import * as magic_holy_holy_shield_greater from "./magic-holy/holy-shield-greater.js";
+import * as magic_holy_holy_shield_lesser from "./magic-holy/holy-shield-lesser.js";
+import * as magic_holy_holy_shield_wild from "./magic-holy/holy-shield-wild.js";
+import * as magic_holy_holy_sigil from "./magic-holy/holy-sigil.js";
+import * as magic_holy_holy_sigil_ancient from "./magic-holy/holy-sigil-ancient.js";
+import * as magic_holy_holy_sigil_greater from "./magic-holy/holy-sigil-greater.js";
+import * as magic_holy_holy_sigil_lesser from "./magic-holy/holy-sigil-lesser.js";
+import * as magic_holy_holy_sigil_wild from "./magic-holy/holy-sigil-wild.js";
+import * as magic_holy_holy_spikes from "./magic-holy/holy-spikes.js";
+import * as magic_holy_holy_spikes_ancient from "./magic-holy/holy-spikes-ancient.js";
+import * as magic_holy_holy_spikes_greater from "./magic-holy/holy-spikes-greater.js";
+import * as magic_holy_holy_spikes_lesser from "./magic-holy/holy-spikes-lesser.js";
+import * as magic_holy_holy_spikes_wild from "./magic-holy/holy-spikes-wild.js";
+import * as magic_holy_holy_summon from "./magic-holy/holy-summon.js";
+import * as magic_holy_holy_summon_ancient from "./magic-holy/holy-summon-ancient.js";
+import * as magic_holy_holy_summon_greater from "./magic-holy/holy-summon-greater.js";
+import * as magic_holy_holy_summon_lesser from "./magic-holy/holy-summon-lesser.js";
+import * as magic_holy_holy_summon_wild from "./magic-holy/holy-summon-wild.js";
+import * as magic_holy_holy_vortex from "./magic-holy/holy-vortex.js";
+import * as magic_holy_holy_vortex_ancient from "./magic-holy/holy-vortex-ancient.js";
+import * as magic_holy_holy_vortex_greater from "./magic-holy/holy-vortex-greater.js";
+import * as magic_holy_holy_vortex_lesser from "./magic-holy/holy-vortex-lesser.js";
+import * as magic_holy_holy_vortex_wild from "./magic-holy/holy-vortex-wild.js";
+import * as magic_holy_holy_wave from "./magic-holy/holy-wave.js";
+import * as magic_holy_holy_wave_ancient from "./magic-holy/holy-wave-ancient.js";
+import * as magic_holy_holy_wave_greater from "./magic-holy/holy-wave-greater.js";
+import * as magic_holy_holy_wave_lesser from "./magic-holy/holy-wave-lesser.js";
+import * as magic_holy_holy_wave_wild from "./magic-holy/holy-wave-wild.js";
+import * as magic_arcane_arcane_aura from "./magic-arcane/arcane-aura.js";
+import * as magic_arcane_arcane_aura_ancient from "./magic-arcane/arcane-aura-ancient.js";
+import * as magic_arcane_arcane_aura_greater from "./magic-arcane/arcane-aura-greater.js";
+import * as magic_arcane_arcane_aura_lesser from "./magic-arcane/arcane-aura-lesser.js";
+import * as magic_arcane_arcane_aura_wild from "./magic-arcane/arcane-aura-wild.js";
+import * as magic_arcane_arcane_beam from "./magic-arcane/arcane-beam.js";
+import * as magic_arcane_arcane_beam_ancient from "./magic-arcane/arcane-beam-ancient.js";
+import * as magic_arcane_arcane_beam_greater from "./magic-arcane/arcane-beam-greater.js";
+import * as magic_arcane_arcane_beam_lesser from "./magic-arcane/arcane-beam-lesser.js";
+import * as magic_arcane_arcane_beam_wild from "./magic-arcane/arcane-beam-wild.js";
+import * as magic_arcane_arcane_bolt from "./magic-arcane/arcane-bolt.js";
+import * as magic_arcane_arcane_bolt_ancient from "./magic-arcane/arcane-bolt-ancient.js";
+import * as magic_arcane_arcane_bolt_greater from "./magic-arcane/arcane-bolt-greater.js";
+import * as magic_arcane_arcane_bolt_lesser from "./magic-arcane/arcane-bolt-lesser.js";
+import * as magic_arcane_arcane_bolt_wild from "./magic-arcane/arcane-bolt-wild.js";
+import * as magic_arcane_arcane_burst from "./magic-arcane/arcane-burst.js";
+import * as magic_arcane_arcane_burst_ancient from "./magic-arcane/arcane-burst-ancient.js";
+import * as magic_arcane_arcane_burst_greater from "./magic-arcane/arcane-burst-greater.js";
+import * as magic_arcane_arcane_burst_lesser from "./magic-arcane/arcane-burst-lesser.js";
+import * as magic_arcane_arcane_burst_wild from "./magic-arcane/arcane-burst-wild.js";
+import * as magic_arcane_arcane_charge from "./magic-arcane/arcane-charge.js";
+import * as magic_arcane_arcane_charge_ancient from "./magic-arcane/arcane-charge-ancient.js";
+import * as magic_arcane_arcane_charge_greater from "./magic-arcane/arcane-charge-greater.js";
+import * as magic_arcane_arcane_charge_lesser from "./magic-arcane/arcane-charge-lesser.js";
+import * as magic_arcane_arcane_charge_wild from "./magic-arcane/arcane-charge-wild.js";
+import * as magic_arcane_arcane_circle from "./magic-arcane/arcane-circle.js";
+import * as magic_arcane_arcane_circle_ancient from "./magic-arcane/arcane-circle-ancient.js";
+import * as magic_arcane_arcane_circle_greater from "./magic-arcane/arcane-circle-greater.js";
+import * as magic_arcane_arcane_circle_lesser from "./magic-arcane/arcane-circle-lesser.js";
+import * as magic_arcane_arcane_circle_wild from "./magic-arcane/arcane-circle-wild.js";
+import * as magic_arcane_arcane_cloud from "./magic-arcane/arcane-cloud.js";
+import * as magic_arcane_arcane_cloud_ancient from "./magic-arcane/arcane-cloud-ancient.js";
+import * as magic_arcane_arcane_cloud_greater from "./magic-arcane/arcane-cloud-greater.js";
+import * as magic_arcane_arcane_cloud_lesser from "./magic-arcane/arcane-cloud-lesser.js";
+import * as magic_arcane_arcane_cloud_wild from "./magic-arcane/arcane-cloud-wild.js";
+import * as magic_arcane_arcane_crescent from "./magic-arcane/arcane-crescent.js";
+import * as magic_arcane_arcane_crescent_ancient from "./magic-arcane/arcane-crescent-ancient.js";
+import * as magic_arcane_arcane_crescent_greater from "./magic-arcane/arcane-crescent-greater.js";
+import * as magic_arcane_arcane_crescent_lesser from "./magic-arcane/arcane-crescent-lesser.js";
+import * as magic_arcane_arcane_crescent_wild from "./magic-arcane/arcane-crescent-wild.js";
+import * as magic_arcane_arcane_dash from "./magic-arcane/arcane-dash.js";
+import * as magic_arcane_arcane_dash_ancient from "./magic-arcane/arcane-dash-ancient.js";
+import * as magic_arcane_arcane_dash_greater from "./magic-arcane/arcane-dash-greater.js";
+import * as magic_arcane_arcane_dash_lesser from "./magic-arcane/arcane-dash-lesser.js";
+import * as magic_arcane_arcane_dash_wild from "./magic-arcane/arcane-dash-wild.js";
+import * as magic_arcane_arcane_flare from "./magic-arcane/arcane-flare.js";
+import * as magic_arcane_arcane_flare_ancient from "./magic-arcane/arcane-flare-ancient.js";
+import * as magic_arcane_arcane_flare_greater from "./magic-arcane/arcane-flare-greater.js";
+import * as magic_arcane_arcane_flare_lesser from "./magic-arcane/arcane-flare-lesser.js";
+import * as magic_arcane_arcane_flare_wild from "./magic-arcane/arcane-flare-wild.js";
+import * as magic_arcane_arcane_impact from "./magic-arcane/arcane-impact.js";
+import * as magic_arcane_arcane_impact_ancient from "./magic-arcane/arcane-impact-ancient.js";
+import * as magic_arcane_arcane_impact_greater from "./magic-arcane/arcane-impact-greater.js";
+import * as magic_arcane_arcane_impact_lesser from "./magic-arcane/arcane-impact-lesser.js";
+import * as magic_arcane_arcane_impact_wild from "./magic-arcane/arcane-impact-wild.js";
+import * as magic_arcane_arcane_meteor from "./magic-arcane/arcane-meteor.js";
+import * as magic_arcane_arcane_meteor_ancient from "./magic-arcane/arcane-meteor-ancient.js";
+import * as magic_arcane_arcane_meteor_greater from "./magic-arcane/arcane-meteor-greater.js";
+import * as magic_arcane_arcane_meteor_lesser from "./magic-arcane/arcane-meteor-lesser.js";
+import * as magic_arcane_arcane_meteor_wild from "./magic-arcane/arcane-meteor-wild.js";
+import * as magic_arcane_arcane_nova from "./magic-arcane/arcane-nova.js";
+import * as magic_arcane_arcane_nova_ancient from "./magic-arcane/arcane-nova-ancient.js";
+import * as magic_arcane_arcane_nova_greater from "./magic-arcane/arcane-nova-greater.js";
+import * as magic_arcane_arcane_nova_lesser from "./magic-arcane/arcane-nova-lesser.js";
+import * as magic_arcane_arcane_nova_wild from "./magic-arcane/arcane-nova-wild.js";
+import * as magic_arcane_arcane_orb from "./magic-arcane/arcane-orb.js";
+import * as magic_arcane_arcane_orb_ancient from "./magic-arcane/arcane-orb-ancient.js";
+import * as magic_arcane_arcane_orb_greater from "./magic-arcane/arcane-orb-greater.js";
+import * as magic_arcane_arcane_orb_lesser from "./magic-arcane/arcane-orb-lesser.js";
+import * as magic_arcane_arcane_orb_wild from "./magic-arcane/arcane-orb-wild.js";
+import * as magic_arcane_arcane_orbit from "./magic-arcane/arcane-orbit.js";
+import * as magic_arcane_arcane_orbit_ancient from "./magic-arcane/arcane-orbit-ancient.js";
+import * as magic_arcane_arcane_orbit_greater from "./magic-arcane/arcane-orbit-greater.js";
+import * as magic_arcane_arcane_orbit_lesser from "./magic-arcane/arcane-orbit-lesser.js";
+import * as magic_arcane_arcane_orbit_wild from "./magic-arcane/arcane-orbit-wild.js";
+import * as magic_arcane_arcane_pillar from "./magic-arcane/arcane-pillar.js";
+import * as magic_arcane_arcane_pillar_ancient from "./magic-arcane/arcane-pillar-ancient.js";
+import * as magic_arcane_arcane_pillar_greater from "./magic-arcane/arcane-pillar-greater.js";
+import * as magic_arcane_arcane_pillar_lesser from "./magic-arcane/arcane-pillar-lesser.js";
+import * as magic_arcane_arcane_pillar_wild from "./magic-arcane/arcane-pillar-wild.js";
+import * as magic_arcane_arcane_portal from "./magic-arcane/arcane-portal.js";
+import * as magic_arcane_arcane_portal_ancient from "./magic-arcane/arcane-portal-ancient.js";
+import * as magic_arcane_arcane_portal_greater from "./magic-arcane/arcane-portal-greater.js";
+import * as magic_arcane_arcane_portal_lesser from "./magic-arcane/arcane-portal-lesser.js";
+import * as magic_arcane_arcane_portal_wild from "./magic-arcane/arcane-portal-wild.js";
+import * as magic_arcane_arcane_rain from "./magic-arcane/arcane-rain.js";
+import * as magic_arcane_arcane_rain_ancient from "./magic-arcane/arcane-rain-ancient.js";
+import * as magic_arcane_arcane_rain_greater from "./magic-arcane/arcane-rain-greater.js";
+import * as magic_arcane_arcane_rain_lesser from "./magic-arcane/arcane-rain-lesser.js";
+import * as magic_arcane_arcane_rain_wild from "./magic-arcane/arcane-rain-wild.js";
+import * as magic_arcane_arcane_shield from "./magic-arcane/arcane-shield.js";
+import * as magic_arcane_arcane_shield_ancient from "./magic-arcane/arcane-shield-ancient.js";
+import * as magic_arcane_arcane_shield_greater from "./magic-arcane/arcane-shield-greater.js";
+import * as magic_arcane_arcane_shield_lesser from "./magic-arcane/arcane-shield-lesser.js";
+import * as magic_arcane_arcane_shield_wild from "./magic-arcane/arcane-shield-wild.js";
+import * as magic_arcane_arcane_sigil from "./magic-arcane/arcane-sigil.js";
+import * as magic_arcane_arcane_sigil_ancient from "./magic-arcane/arcane-sigil-ancient.js";
+import * as magic_arcane_arcane_sigil_greater from "./magic-arcane/arcane-sigil-greater.js";
+import * as magic_arcane_arcane_sigil_lesser from "./magic-arcane/arcane-sigil-lesser.js";
+import * as magic_arcane_arcane_sigil_wild from "./magic-arcane/arcane-sigil-wild.js";
+import * as magic_arcane_arcane_spikes from "./magic-arcane/arcane-spikes.js";
+import * as magic_arcane_arcane_spikes_ancient from "./magic-arcane/arcane-spikes-ancient.js";
+import * as magic_arcane_arcane_spikes_greater from "./magic-arcane/arcane-spikes-greater.js";
+import * as magic_arcane_arcane_spikes_lesser from "./magic-arcane/arcane-spikes-lesser.js";
+import * as magic_arcane_arcane_spikes_wild from "./magic-arcane/arcane-spikes-wild.js";
+import * as magic_arcane_arcane_summon from "./magic-arcane/arcane-summon.js";
+import * as magic_arcane_arcane_summon_ancient from "./magic-arcane/arcane-summon-ancient.js";
+import * as magic_arcane_arcane_summon_greater from "./magic-arcane/arcane-summon-greater.js";
+import * as magic_arcane_arcane_summon_lesser from "./magic-arcane/arcane-summon-lesser.js";
+import * as magic_arcane_arcane_summon_wild from "./magic-arcane/arcane-summon-wild.js";
+import * as magic_arcane_arcane_vortex from "./magic-arcane/arcane-vortex.js";
+import * as magic_arcane_arcane_vortex_ancient from "./magic-arcane/arcane-vortex-ancient.js";
+import * as magic_arcane_arcane_vortex_greater from "./magic-arcane/arcane-vortex-greater.js";
+import * as magic_arcane_arcane_vortex_lesser from "./magic-arcane/arcane-vortex-lesser.js";
+import * as magic_arcane_arcane_vortex_wild from "./magic-arcane/arcane-vortex-wild.js";
+import * as magic_arcane_arcane_wave from "./magic-arcane/arcane-wave.js";
+import * as magic_arcane_arcane_wave_ancient from "./magic-arcane/arcane-wave-ancient.js";
+import * as magic_arcane_arcane_wave_greater from "./magic-arcane/arcane-wave-greater.js";
+import * as magic_arcane_arcane_wave_lesser from "./magic-arcane/arcane-wave-lesser.js";
+import * as magic_arcane_arcane_wave_wild from "./magic-arcane/arcane-wave-wild.js";
+import * as magic_necrotic_necrotic_aura from "./magic-necrotic/necrotic-aura.js";
+import * as magic_necrotic_necrotic_aura_ancient from "./magic-necrotic/necrotic-aura-ancient.js";
+import * as magic_necrotic_necrotic_aura_greater from "./magic-necrotic/necrotic-aura-greater.js";
+import * as magic_necrotic_necrotic_aura_lesser from "./magic-necrotic/necrotic-aura-lesser.js";
+import * as magic_necrotic_necrotic_aura_wild from "./magic-necrotic/necrotic-aura-wild.js";
+import * as magic_necrotic_necrotic_beam from "./magic-necrotic/necrotic-beam.js";
+import * as magic_necrotic_necrotic_beam_ancient from "./magic-necrotic/necrotic-beam-ancient.js";
+import * as magic_necrotic_necrotic_beam_greater from "./magic-necrotic/necrotic-beam-greater.js";
+import * as magic_necrotic_necrotic_beam_lesser from "./magic-necrotic/necrotic-beam-lesser.js";
+import * as magic_necrotic_necrotic_beam_wild from "./magic-necrotic/necrotic-beam-wild.js";
+import * as magic_necrotic_necrotic_bolt from "./magic-necrotic/necrotic-bolt.js";
+import * as magic_necrotic_necrotic_bolt_ancient from "./magic-necrotic/necrotic-bolt-ancient.js";
+import * as magic_necrotic_necrotic_bolt_greater from "./magic-necrotic/necrotic-bolt-greater.js";
+import * as magic_necrotic_necrotic_bolt_lesser from "./magic-necrotic/necrotic-bolt-lesser.js";
+import * as magic_necrotic_necrotic_bolt_wild from "./magic-necrotic/necrotic-bolt-wild.js";
+import * as magic_necrotic_necrotic_burst from "./magic-necrotic/necrotic-burst.js";
+import * as magic_necrotic_necrotic_burst_ancient from "./magic-necrotic/necrotic-burst-ancient.js";
+import * as magic_necrotic_necrotic_burst_greater from "./magic-necrotic/necrotic-burst-greater.js";
+import * as magic_necrotic_necrotic_burst_lesser from "./magic-necrotic/necrotic-burst-lesser.js";
+import * as magic_necrotic_necrotic_burst_wild from "./magic-necrotic/necrotic-burst-wild.js";
+import * as magic_necrotic_necrotic_charge from "./magic-necrotic/necrotic-charge.js";
+import * as magic_necrotic_necrotic_charge_ancient from "./magic-necrotic/necrotic-charge-ancient.js";
+import * as magic_necrotic_necrotic_charge_greater from "./magic-necrotic/necrotic-charge-greater.js";
+import * as magic_necrotic_necrotic_charge_lesser from "./magic-necrotic/necrotic-charge-lesser.js";
+import * as magic_necrotic_necrotic_charge_wild from "./magic-necrotic/necrotic-charge-wild.js";
+import * as magic_necrotic_necrotic_circle from "./magic-necrotic/necrotic-circle.js";
+import * as magic_necrotic_necrotic_circle_ancient from "./magic-necrotic/necrotic-circle-ancient.js";
+import * as magic_necrotic_necrotic_circle_greater from "./magic-necrotic/necrotic-circle-greater.js";
+import * as magic_necrotic_necrotic_circle_lesser from "./magic-necrotic/necrotic-circle-lesser.js";
+import * as magic_necrotic_necrotic_circle_wild from "./magic-necrotic/necrotic-circle-wild.js";
+import * as magic_necrotic_necrotic_cloud from "./magic-necrotic/necrotic-cloud.js";
+import * as magic_necrotic_necrotic_cloud_ancient from "./magic-necrotic/necrotic-cloud-ancient.js";
+import * as magic_necrotic_necrotic_cloud_greater from "./magic-necrotic/necrotic-cloud-greater.js";
+import * as magic_necrotic_necrotic_cloud_lesser from "./magic-necrotic/necrotic-cloud-lesser.js";
+import * as magic_necrotic_necrotic_cloud_wild from "./magic-necrotic/necrotic-cloud-wild.js";
+import * as magic_necrotic_necrotic_crescent from "./magic-necrotic/necrotic-crescent.js";
+import * as magic_necrotic_necrotic_crescent_ancient from "./magic-necrotic/necrotic-crescent-ancient.js";
+import * as magic_necrotic_necrotic_crescent_greater from "./magic-necrotic/necrotic-crescent-greater.js";
+import * as magic_necrotic_necrotic_crescent_lesser from "./magic-necrotic/necrotic-crescent-lesser.js";
+import * as magic_necrotic_necrotic_crescent_wild from "./magic-necrotic/necrotic-crescent-wild.js";
+import * as magic_necrotic_necrotic_dash from "./magic-necrotic/necrotic-dash.js";
+import * as magic_necrotic_necrotic_dash_ancient from "./magic-necrotic/necrotic-dash-ancient.js";
+import * as magic_necrotic_necrotic_dash_greater from "./magic-necrotic/necrotic-dash-greater.js";
+import * as magic_necrotic_necrotic_dash_lesser from "./magic-necrotic/necrotic-dash-lesser.js";
+import * as magic_necrotic_necrotic_dash_wild from "./magic-necrotic/necrotic-dash-wild.js";
+import * as magic_necrotic_necrotic_flare from "./magic-necrotic/necrotic-flare.js";
+import * as magic_necrotic_necrotic_flare_ancient from "./magic-necrotic/necrotic-flare-ancient.js";
+import * as magic_necrotic_necrotic_flare_greater from "./magic-necrotic/necrotic-flare-greater.js";
+import * as magic_necrotic_necrotic_flare_lesser from "./magic-necrotic/necrotic-flare-lesser.js";
+import * as magic_necrotic_necrotic_flare_wild from "./magic-necrotic/necrotic-flare-wild.js";
+import * as magic_necrotic_necrotic_impact from "./magic-necrotic/necrotic-impact.js";
+import * as magic_necrotic_necrotic_impact_ancient from "./magic-necrotic/necrotic-impact-ancient.js";
+import * as magic_necrotic_necrotic_impact_greater from "./magic-necrotic/necrotic-impact-greater.js";
+import * as magic_necrotic_necrotic_impact_lesser from "./magic-necrotic/necrotic-impact-lesser.js";
+import * as magic_necrotic_necrotic_impact_wild from "./magic-necrotic/necrotic-impact-wild.js";
+import * as magic_necrotic_necrotic_meteor from "./magic-necrotic/necrotic-meteor.js";
+import * as magic_necrotic_necrotic_meteor_ancient from "./magic-necrotic/necrotic-meteor-ancient.js";
+import * as magic_necrotic_necrotic_meteor_greater from "./magic-necrotic/necrotic-meteor-greater.js";
+import * as magic_necrotic_necrotic_meteor_lesser from "./magic-necrotic/necrotic-meteor-lesser.js";
+import * as magic_necrotic_necrotic_meteor_wild from "./magic-necrotic/necrotic-meteor-wild.js";
+import * as magic_necrotic_necrotic_nova from "./magic-necrotic/necrotic-nova.js";
+import * as magic_necrotic_necrotic_nova_ancient from "./magic-necrotic/necrotic-nova-ancient.js";
+import * as magic_necrotic_necrotic_nova_greater from "./magic-necrotic/necrotic-nova-greater.js";
+import * as magic_necrotic_necrotic_nova_lesser from "./magic-necrotic/necrotic-nova-lesser.js";
+import * as magic_necrotic_necrotic_nova_wild from "./magic-necrotic/necrotic-nova-wild.js";
+import * as magic_necrotic_necrotic_orb from "./magic-necrotic/necrotic-orb.js";
+import * as magic_necrotic_necrotic_orb_ancient from "./magic-necrotic/necrotic-orb-ancient.js";
+import * as magic_necrotic_necrotic_orb_greater from "./magic-necrotic/necrotic-orb-greater.js";
+import * as magic_necrotic_necrotic_orb_lesser from "./magic-necrotic/necrotic-orb-lesser.js";
+import * as magic_necrotic_necrotic_orb_wild from "./magic-necrotic/necrotic-orb-wild.js";
+import * as magic_necrotic_necrotic_orbit from "./magic-necrotic/necrotic-orbit.js";
+import * as magic_necrotic_necrotic_orbit_ancient from "./magic-necrotic/necrotic-orbit-ancient.js";
+import * as magic_necrotic_necrotic_orbit_greater from "./magic-necrotic/necrotic-orbit-greater.js";
+import * as magic_necrotic_necrotic_orbit_lesser from "./magic-necrotic/necrotic-orbit-lesser.js";
+import * as magic_necrotic_necrotic_orbit_wild from "./magic-necrotic/necrotic-orbit-wild.js";
+import * as magic_necrotic_necrotic_pillar from "./magic-necrotic/necrotic-pillar.js";
+import * as magic_necrotic_necrotic_pillar_ancient from "./magic-necrotic/necrotic-pillar-ancient.js";
+import * as magic_necrotic_necrotic_pillar_greater from "./magic-necrotic/necrotic-pillar-greater.js";
+import * as magic_necrotic_necrotic_pillar_lesser from "./magic-necrotic/necrotic-pillar-lesser.js";
+import * as magic_necrotic_necrotic_pillar_wild from "./magic-necrotic/necrotic-pillar-wild.js";
+import * as magic_necrotic_necrotic_portal from "./magic-necrotic/necrotic-portal.js";
+import * as magic_necrotic_necrotic_portal_ancient from "./magic-necrotic/necrotic-portal-ancient.js";
+import * as magic_necrotic_necrotic_portal_greater from "./magic-necrotic/necrotic-portal-greater.js";
+import * as magic_necrotic_necrotic_portal_lesser from "./magic-necrotic/necrotic-portal-lesser.js";
+import * as magic_necrotic_necrotic_portal_wild from "./magic-necrotic/necrotic-portal-wild.js";
+import * as magic_necrotic_necrotic_rain from "./magic-necrotic/necrotic-rain.js";
+import * as magic_necrotic_necrotic_rain_ancient from "./magic-necrotic/necrotic-rain-ancient.js";
+import * as magic_necrotic_necrotic_rain_greater from "./magic-necrotic/necrotic-rain-greater.js";
+import * as magic_necrotic_necrotic_rain_lesser from "./magic-necrotic/necrotic-rain-lesser.js";
+import * as magic_necrotic_necrotic_rain_wild from "./magic-necrotic/necrotic-rain-wild.js";
+import * as magic_necrotic_necrotic_shield from "./magic-necrotic/necrotic-shield.js";
+import * as magic_necrotic_necrotic_shield_ancient from "./magic-necrotic/necrotic-shield-ancient.js";
+import * as magic_necrotic_necrotic_shield_greater from "./magic-necrotic/necrotic-shield-greater.js";
+import * as magic_necrotic_necrotic_shield_lesser from "./magic-necrotic/necrotic-shield-lesser.js";
+import * as magic_necrotic_necrotic_shield_wild from "./magic-necrotic/necrotic-shield-wild.js";
+import * as magic_necrotic_necrotic_sigil from "./magic-necrotic/necrotic-sigil.js";
+import * as magic_necrotic_necrotic_sigil_ancient from "./magic-necrotic/necrotic-sigil-ancient.js";
+import * as magic_necrotic_necrotic_sigil_greater from "./magic-necrotic/necrotic-sigil-greater.js";
+import * as magic_necrotic_necrotic_sigil_lesser from "./magic-necrotic/necrotic-sigil-lesser.js";
+import * as magic_necrotic_necrotic_sigil_wild from "./magic-necrotic/necrotic-sigil-wild.js";
+import * as magic_necrotic_necrotic_spikes from "./magic-necrotic/necrotic-spikes.js";
+import * as magic_necrotic_necrotic_spikes_ancient from "./magic-necrotic/necrotic-spikes-ancient.js";
+import * as magic_necrotic_necrotic_spikes_greater from "./magic-necrotic/necrotic-spikes-greater.js";
+import * as magic_necrotic_necrotic_spikes_lesser from "./magic-necrotic/necrotic-spikes-lesser.js";
+import * as magic_necrotic_necrotic_spikes_wild from "./magic-necrotic/necrotic-spikes-wild.js";
+import * as magic_necrotic_necrotic_summon from "./magic-necrotic/necrotic-summon.js";
+import * as magic_necrotic_necrotic_summon_ancient from "./magic-necrotic/necrotic-summon-ancient.js";
+import * as magic_necrotic_necrotic_summon_greater from "./magic-necrotic/necrotic-summon-greater.js";
+import * as magic_necrotic_necrotic_summon_lesser from "./magic-necrotic/necrotic-summon-lesser.js";
+import * as magic_necrotic_necrotic_summon_wild from "./magic-necrotic/necrotic-summon-wild.js";
+import * as magic_necrotic_necrotic_vortex from "./magic-necrotic/necrotic-vortex.js";
+import * as magic_necrotic_necrotic_vortex_ancient from "./magic-necrotic/necrotic-vortex-ancient.js";
+import * as magic_necrotic_necrotic_vortex_greater from "./magic-necrotic/necrotic-vortex-greater.js";
+import * as magic_necrotic_necrotic_vortex_lesser from "./magic-necrotic/necrotic-vortex-lesser.js";
+import * as magic_necrotic_necrotic_vortex_wild from "./magic-necrotic/necrotic-vortex-wild.js";
+import * as magic_necrotic_necrotic_wave from "./magic-necrotic/necrotic-wave.js";
+import * as magic_necrotic_necrotic_wave_ancient from "./magic-necrotic/necrotic-wave-ancient.js";
+import * as magic_necrotic_necrotic_wave_greater from "./magic-necrotic/necrotic-wave-greater.js";
+import * as magic_necrotic_necrotic_wave_lesser from "./magic-necrotic/necrotic-wave-lesser.js";
+import * as magic_necrotic_necrotic_wave_wild from "./magic-necrotic/necrotic-wave-wild.js";
+import * as magic_plague_plague_aura from "./magic-plague/plague-aura.js";
+import * as magic_plague_plague_aura_ancient from "./magic-plague/plague-aura-ancient.js";
+import * as magic_plague_plague_aura_greater from "./magic-plague/plague-aura-greater.js";
+import * as magic_plague_plague_aura_lesser from "./magic-plague/plague-aura-lesser.js";
+import * as magic_plague_plague_aura_wild from "./magic-plague/plague-aura-wild.js";
+import * as magic_plague_plague_beam from "./magic-plague/plague-beam.js";
+import * as magic_plague_plague_beam_ancient from "./magic-plague/plague-beam-ancient.js";
+import * as magic_plague_plague_beam_greater from "./magic-plague/plague-beam-greater.js";
+import * as magic_plague_plague_beam_lesser from "./magic-plague/plague-beam-lesser.js";
+import * as magic_plague_plague_beam_wild from "./magic-plague/plague-beam-wild.js";
+import * as magic_plague_plague_bolt from "./magic-plague/plague-bolt.js";
+import * as magic_plague_plague_bolt_ancient from "./magic-plague/plague-bolt-ancient.js";
+import * as magic_plague_plague_bolt_greater from "./magic-plague/plague-bolt-greater.js";
+import * as magic_plague_plague_bolt_lesser from "./magic-plague/plague-bolt-lesser.js";
+import * as magic_plague_plague_bolt_wild from "./magic-plague/plague-bolt-wild.js";
+import * as magic_plague_plague_burst from "./magic-plague/plague-burst.js";
+import * as magic_plague_plague_burst_ancient from "./magic-plague/plague-burst-ancient.js";
+import * as magic_plague_plague_burst_greater from "./magic-plague/plague-burst-greater.js";
+import * as magic_plague_plague_burst_lesser from "./magic-plague/plague-burst-lesser.js";
+import * as magic_plague_plague_burst_wild from "./magic-plague/plague-burst-wild.js";
+import * as magic_plague_plague_charge from "./magic-plague/plague-charge.js";
+import * as magic_plague_plague_charge_ancient from "./magic-plague/plague-charge-ancient.js";
+import * as magic_plague_plague_charge_greater from "./magic-plague/plague-charge-greater.js";
+import * as magic_plague_plague_charge_lesser from "./magic-plague/plague-charge-lesser.js";
+import * as magic_plague_plague_charge_wild from "./magic-plague/plague-charge-wild.js";
+import * as magic_plague_plague_circle from "./magic-plague/plague-circle.js";
+import * as magic_plague_plague_circle_ancient from "./magic-plague/plague-circle-ancient.js";
+import * as magic_plague_plague_circle_greater from "./magic-plague/plague-circle-greater.js";
+import * as magic_plague_plague_circle_lesser from "./magic-plague/plague-circle-lesser.js";
+import * as magic_plague_plague_circle_wild from "./magic-plague/plague-circle-wild.js";
+import * as magic_plague_plague_cloud from "./magic-plague/plague-cloud.js";
+import * as magic_plague_plague_cloud_ancient from "./magic-plague/plague-cloud-ancient.js";
+import * as magic_plague_plague_cloud_greater from "./magic-plague/plague-cloud-greater.js";
+import * as magic_plague_plague_cloud_lesser from "./magic-plague/plague-cloud-lesser.js";
+import * as magic_plague_plague_cloud_wild from "./magic-plague/plague-cloud-wild.js";
+import * as magic_plague_plague_crescent from "./magic-plague/plague-crescent.js";
+import * as magic_plague_plague_crescent_ancient from "./magic-plague/plague-crescent-ancient.js";
+import * as magic_plague_plague_crescent_greater from "./magic-plague/plague-crescent-greater.js";
+import * as magic_plague_plague_crescent_lesser from "./magic-plague/plague-crescent-lesser.js";
+import * as magic_plague_plague_crescent_wild from "./magic-plague/plague-crescent-wild.js";
+import * as magic_plague_plague_dash from "./magic-plague/plague-dash.js";
+import * as magic_plague_plague_dash_ancient from "./magic-plague/plague-dash-ancient.js";
+import * as magic_plague_plague_dash_greater from "./magic-plague/plague-dash-greater.js";
+import * as magic_plague_plague_dash_lesser from "./magic-plague/plague-dash-lesser.js";
+import * as magic_plague_plague_dash_wild from "./magic-plague/plague-dash-wild.js";
+import * as magic_plague_plague_flare from "./magic-plague/plague-flare.js";
+import * as magic_plague_plague_flare_ancient from "./magic-plague/plague-flare-ancient.js";
+import * as magic_plague_plague_flare_greater from "./magic-plague/plague-flare-greater.js";
+import * as magic_plague_plague_flare_lesser from "./magic-plague/plague-flare-lesser.js";
+import * as magic_plague_plague_flare_wild from "./magic-plague/plague-flare-wild.js";
+import * as magic_plague_plague_impact from "./magic-plague/plague-impact.js";
+import * as magic_plague_plague_impact_ancient from "./magic-plague/plague-impact-ancient.js";
+import * as magic_plague_plague_impact_greater from "./magic-plague/plague-impact-greater.js";
+import * as magic_plague_plague_impact_lesser from "./magic-plague/plague-impact-lesser.js";
+import * as magic_plague_plague_impact_wild from "./magic-plague/plague-impact-wild.js";
+import * as magic_plague_plague_meteor from "./magic-plague/plague-meteor.js";
+import * as magic_plague_plague_meteor_ancient from "./magic-plague/plague-meteor-ancient.js";
+import * as magic_plague_plague_meteor_greater from "./magic-plague/plague-meteor-greater.js";
+import * as magic_plague_plague_meteor_lesser from "./magic-plague/plague-meteor-lesser.js";
+import * as magic_plague_plague_meteor_wild from "./magic-plague/plague-meteor-wild.js";
+import * as magic_plague_plague_nova from "./magic-plague/plague-nova.js";
+import * as magic_plague_plague_nova_ancient from "./magic-plague/plague-nova-ancient.js";
+import * as magic_plague_plague_nova_greater from "./magic-plague/plague-nova-greater.js";
+import * as magic_plague_plague_nova_lesser from "./magic-plague/plague-nova-lesser.js";
+import * as magic_plague_plague_nova_wild from "./magic-plague/plague-nova-wild.js";
+import * as magic_plague_plague_orb from "./magic-plague/plague-orb.js";
+import * as magic_plague_plague_orb_ancient from "./magic-plague/plague-orb-ancient.js";
+import * as magic_plague_plague_orb_greater from "./magic-plague/plague-orb-greater.js";
+import * as magic_plague_plague_orb_lesser from "./magic-plague/plague-orb-lesser.js";
+import * as magic_plague_plague_orb_wild from "./magic-plague/plague-orb-wild.js";
+import * as magic_plague_plague_orbit from "./magic-plague/plague-orbit.js";
+import * as magic_plague_plague_orbit_ancient from "./magic-plague/plague-orbit-ancient.js";
+import * as magic_plague_plague_orbit_greater from "./magic-plague/plague-orbit-greater.js";
+import * as magic_plague_plague_orbit_lesser from "./magic-plague/plague-orbit-lesser.js";
+import * as magic_plague_plague_orbit_wild from "./magic-plague/plague-orbit-wild.js";
+import * as magic_plague_plague_pillar from "./magic-plague/plague-pillar.js";
+import * as magic_plague_plague_pillar_ancient from "./magic-plague/plague-pillar-ancient.js";
+import * as magic_plague_plague_pillar_greater from "./magic-plague/plague-pillar-greater.js";
+import * as magic_plague_plague_pillar_lesser from "./magic-plague/plague-pillar-lesser.js";
+import * as magic_plague_plague_pillar_wild from "./magic-plague/plague-pillar-wild.js";
+import * as magic_plague_plague_portal from "./magic-plague/plague-portal.js";
+import * as magic_plague_plague_portal_ancient from "./magic-plague/plague-portal-ancient.js";
+import * as magic_plague_plague_portal_greater from "./magic-plague/plague-portal-greater.js";
+import * as magic_plague_plague_portal_lesser from "./magic-plague/plague-portal-lesser.js";
+import * as magic_plague_plague_portal_wild from "./magic-plague/plague-portal-wild.js";
+import * as magic_plague_plague_rain from "./magic-plague/plague-rain.js";
+import * as magic_plague_plague_rain_ancient from "./magic-plague/plague-rain-ancient.js";
+import * as magic_plague_plague_rain_greater from "./magic-plague/plague-rain-greater.js";
+import * as magic_plague_plague_rain_lesser from "./magic-plague/plague-rain-lesser.js";
+import * as magic_plague_plague_rain_wild from "./magic-plague/plague-rain-wild.js";
+import * as magic_plague_plague_shield from "./magic-plague/plague-shield.js";
+import * as magic_plague_plague_shield_ancient from "./magic-plague/plague-shield-ancient.js";
+import * as magic_plague_plague_shield_greater from "./magic-plague/plague-shield-greater.js";
+import * as magic_plague_plague_shield_lesser from "./magic-plague/plague-shield-lesser.js";
+import * as magic_plague_plague_shield_wild from "./magic-plague/plague-shield-wild.js";
+import * as magic_plague_plague_sigil from "./magic-plague/plague-sigil.js";
+import * as magic_plague_plague_sigil_ancient from "./magic-plague/plague-sigil-ancient.js";
+import * as magic_plague_plague_sigil_greater from "./magic-plague/plague-sigil-greater.js";
+import * as magic_plague_plague_sigil_lesser from "./magic-plague/plague-sigil-lesser.js";
+import * as magic_plague_plague_sigil_wild from "./magic-plague/plague-sigil-wild.js";
+import * as magic_plague_plague_spikes from "./magic-plague/plague-spikes.js";
+import * as magic_plague_plague_spikes_ancient from "./magic-plague/plague-spikes-ancient.js";
+import * as magic_plague_plague_spikes_greater from "./magic-plague/plague-spikes-greater.js";
+import * as magic_plague_plague_spikes_lesser from "./magic-plague/plague-spikes-lesser.js";
+import * as magic_plague_plague_spikes_wild from "./magic-plague/plague-spikes-wild.js";
+import * as magic_plague_plague_summon from "./magic-plague/plague-summon.js";
+import * as magic_plague_plague_summon_ancient from "./magic-plague/plague-summon-ancient.js";
+import * as magic_plague_plague_summon_greater from "./magic-plague/plague-summon-greater.js";
+import * as magic_plague_plague_summon_lesser from "./magic-plague/plague-summon-lesser.js";
+import * as magic_plague_plague_summon_wild from "./magic-plague/plague-summon-wild.js";
+import * as magic_plague_plague_vortex from "./magic-plague/plague-vortex.js";
+import * as magic_plague_plague_vortex_ancient from "./magic-plague/plague-vortex-ancient.js";
+import * as magic_plague_plague_vortex_greater from "./magic-plague/plague-vortex-greater.js";
+import * as magic_plague_plague_vortex_lesser from "./magic-plague/plague-vortex-lesser.js";
+import * as magic_plague_plague_vortex_wild from "./magic-plague/plague-vortex-wild.js";
+import * as magic_plague_plague_wave from "./magic-plague/plague-wave.js";
+import * as magic_plague_plague_wave_ancient from "./magic-plague/plague-wave-ancient.js";
+import * as magic_plague_plague_wave_greater from "./magic-plague/plague-wave-greater.js";
+import * as magic_plague_plague_wave_lesser from "./magic-plague/plague-wave-lesser.js";
+import * as magic_plague_plague_wave_wild from "./magic-plague/plague-wave-wild.js";
+import * as magic_chrono_chrono_aura from "./magic-chrono/chrono-aura.js";
+import * as magic_chrono_chrono_aura_ancient from "./magic-chrono/chrono-aura-ancient.js";
+import * as magic_chrono_chrono_aura_greater from "./magic-chrono/chrono-aura-greater.js";
+import * as magic_chrono_chrono_aura_lesser from "./magic-chrono/chrono-aura-lesser.js";
+import * as magic_chrono_chrono_aura_wild from "./magic-chrono/chrono-aura-wild.js";
+import * as magic_chrono_chrono_beam from "./magic-chrono/chrono-beam.js";
+import * as magic_chrono_chrono_beam_ancient from "./magic-chrono/chrono-beam-ancient.js";
+import * as magic_chrono_chrono_beam_greater from "./magic-chrono/chrono-beam-greater.js";
+import * as magic_chrono_chrono_beam_lesser from "./magic-chrono/chrono-beam-lesser.js";
+import * as magic_chrono_chrono_beam_wild from "./magic-chrono/chrono-beam-wild.js";
+import * as magic_chrono_chrono_bolt from "./magic-chrono/chrono-bolt.js";
+import * as magic_chrono_chrono_bolt_ancient from "./magic-chrono/chrono-bolt-ancient.js";
+import * as magic_chrono_chrono_bolt_greater from "./magic-chrono/chrono-bolt-greater.js";
+import * as magic_chrono_chrono_bolt_lesser from "./magic-chrono/chrono-bolt-lesser.js";
+import * as magic_chrono_chrono_bolt_wild from "./magic-chrono/chrono-bolt-wild.js";
+import * as magic_chrono_chrono_burst from "./magic-chrono/chrono-burst.js";
+import * as magic_chrono_chrono_burst_ancient from "./magic-chrono/chrono-burst-ancient.js";
+import * as magic_chrono_chrono_burst_greater from "./magic-chrono/chrono-burst-greater.js";
+import * as magic_chrono_chrono_burst_lesser from "./magic-chrono/chrono-burst-lesser.js";
+import * as magic_chrono_chrono_burst_wild from "./magic-chrono/chrono-burst-wild.js";
+import * as magic_chrono_chrono_charge from "./magic-chrono/chrono-charge.js";
+import * as magic_chrono_chrono_charge_ancient from "./magic-chrono/chrono-charge-ancient.js";
+import * as magic_chrono_chrono_charge_greater from "./magic-chrono/chrono-charge-greater.js";
+import * as magic_chrono_chrono_charge_lesser from "./magic-chrono/chrono-charge-lesser.js";
+import * as magic_chrono_chrono_charge_wild from "./magic-chrono/chrono-charge-wild.js";
+import * as magic_chrono_chrono_circle from "./magic-chrono/chrono-circle.js";
+import * as magic_chrono_chrono_circle_ancient from "./magic-chrono/chrono-circle-ancient.js";
+import * as magic_chrono_chrono_circle_greater from "./magic-chrono/chrono-circle-greater.js";
+import * as magic_chrono_chrono_circle_lesser from "./magic-chrono/chrono-circle-lesser.js";
+import * as magic_chrono_chrono_circle_wild from "./magic-chrono/chrono-circle-wild.js";
+import * as magic_chrono_chrono_cloud from "./magic-chrono/chrono-cloud.js";
+import * as magic_chrono_chrono_cloud_ancient from "./magic-chrono/chrono-cloud-ancient.js";
+import * as magic_chrono_chrono_cloud_greater from "./magic-chrono/chrono-cloud-greater.js";
+import * as magic_chrono_chrono_cloud_lesser from "./magic-chrono/chrono-cloud-lesser.js";
+import * as magic_chrono_chrono_cloud_wild from "./magic-chrono/chrono-cloud-wild.js";
+import * as magic_chrono_chrono_crescent from "./magic-chrono/chrono-crescent.js";
+import * as magic_chrono_chrono_crescent_ancient from "./magic-chrono/chrono-crescent-ancient.js";
+import * as magic_chrono_chrono_crescent_greater from "./magic-chrono/chrono-crescent-greater.js";
+import * as magic_chrono_chrono_crescent_lesser from "./magic-chrono/chrono-crescent-lesser.js";
+import * as magic_chrono_chrono_crescent_wild from "./magic-chrono/chrono-crescent-wild.js";
+import * as magic_chrono_chrono_dash from "./magic-chrono/chrono-dash.js";
+import * as magic_chrono_chrono_dash_ancient from "./magic-chrono/chrono-dash-ancient.js";
+import * as magic_chrono_chrono_dash_greater from "./magic-chrono/chrono-dash-greater.js";
+import * as magic_chrono_chrono_dash_lesser from "./magic-chrono/chrono-dash-lesser.js";
+import * as magic_chrono_chrono_dash_wild from "./magic-chrono/chrono-dash-wild.js";
+import * as magic_chrono_chrono_flare from "./magic-chrono/chrono-flare.js";
+import * as magic_chrono_chrono_flare_ancient from "./magic-chrono/chrono-flare-ancient.js";
+import * as magic_chrono_chrono_flare_greater from "./magic-chrono/chrono-flare-greater.js";
+import * as magic_chrono_chrono_flare_lesser from "./magic-chrono/chrono-flare-lesser.js";
+import * as magic_chrono_chrono_flare_wild from "./magic-chrono/chrono-flare-wild.js";
+import * as magic_chrono_chrono_impact from "./magic-chrono/chrono-impact.js";
+import * as magic_chrono_chrono_impact_ancient from "./magic-chrono/chrono-impact-ancient.js";
+import * as magic_chrono_chrono_impact_greater from "./magic-chrono/chrono-impact-greater.js";
+import * as magic_chrono_chrono_impact_lesser from "./magic-chrono/chrono-impact-lesser.js";
+import * as magic_chrono_chrono_impact_wild from "./magic-chrono/chrono-impact-wild.js";
+import * as magic_chrono_chrono_meteor from "./magic-chrono/chrono-meteor.js";
+import * as magic_chrono_chrono_meteor_ancient from "./magic-chrono/chrono-meteor-ancient.js";
+import * as magic_chrono_chrono_meteor_greater from "./magic-chrono/chrono-meteor-greater.js";
+import * as magic_chrono_chrono_meteor_lesser from "./magic-chrono/chrono-meteor-lesser.js";
+import * as magic_chrono_chrono_meteor_wild from "./magic-chrono/chrono-meteor-wild.js";
+import * as magic_chrono_chrono_nova from "./magic-chrono/chrono-nova.js";
+import * as magic_chrono_chrono_nova_ancient from "./magic-chrono/chrono-nova-ancient.js";
+import * as magic_chrono_chrono_nova_greater from "./magic-chrono/chrono-nova-greater.js";
+import * as magic_chrono_chrono_nova_lesser from "./magic-chrono/chrono-nova-lesser.js";
+import * as magic_chrono_chrono_nova_wild from "./magic-chrono/chrono-nova-wild.js";
+import * as magic_chrono_chrono_orb from "./magic-chrono/chrono-orb.js";
+import * as magic_chrono_chrono_orb_ancient from "./magic-chrono/chrono-orb-ancient.js";
+import * as magic_chrono_chrono_orb_greater from "./magic-chrono/chrono-orb-greater.js";
+import * as magic_chrono_chrono_orb_lesser from "./magic-chrono/chrono-orb-lesser.js";
+import * as magic_chrono_chrono_orb_wild from "./magic-chrono/chrono-orb-wild.js";
+import * as magic_chrono_chrono_orbit from "./magic-chrono/chrono-orbit.js";
+import * as magic_chrono_chrono_orbit_ancient from "./magic-chrono/chrono-orbit-ancient.js";
+import * as magic_chrono_chrono_orbit_greater from "./magic-chrono/chrono-orbit-greater.js";
+import * as magic_chrono_chrono_orbit_lesser from "./magic-chrono/chrono-orbit-lesser.js";
+import * as magic_chrono_chrono_orbit_wild from "./magic-chrono/chrono-orbit-wild.js";
+import * as magic_chrono_chrono_pillar from "./magic-chrono/chrono-pillar.js";
+import * as magic_chrono_chrono_pillar_ancient from "./magic-chrono/chrono-pillar-ancient.js";
+import * as magic_chrono_chrono_pillar_greater from "./magic-chrono/chrono-pillar-greater.js";
+import * as magic_chrono_chrono_pillar_lesser from "./magic-chrono/chrono-pillar-lesser.js";
+import * as magic_chrono_chrono_pillar_wild from "./magic-chrono/chrono-pillar-wild.js";
+import * as magic_chrono_chrono_portal from "./magic-chrono/chrono-portal.js";
+import * as magic_chrono_chrono_portal_ancient from "./magic-chrono/chrono-portal-ancient.js";
+import * as magic_chrono_chrono_portal_greater from "./magic-chrono/chrono-portal-greater.js";
+import * as magic_chrono_chrono_portal_lesser from "./magic-chrono/chrono-portal-lesser.js";
+import * as magic_chrono_chrono_portal_wild from "./magic-chrono/chrono-portal-wild.js";
+import * as magic_chrono_chrono_rain from "./magic-chrono/chrono-rain.js";
+import * as magic_chrono_chrono_rain_ancient from "./magic-chrono/chrono-rain-ancient.js";
+import * as magic_chrono_chrono_rain_greater from "./magic-chrono/chrono-rain-greater.js";
+import * as magic_chrono_chrono_rain_lesser from "./magic-chrono/chrono-rain-lesser.js";
+import * as magic_chrono_chrono_rain_wild from "./magic-chrono/chrono-rain-wild.js";
+import * as magic_chrono_chrono_shield from "./magic-chrono/chrono-shield.js";
+import * as magic_chrono_chrono_shield_ancient from "./magic-chrono/chrono-shield-ancient.js";
+import * as magic_chrono_chrono_shield_greater from "./magic-chrono/chrono-shield-greater.js";
+import * as magic_chrono_chrono_shield_lesser from "./magic-chrono/chrono-shield-lesser.js";
+import * as magic_chrono_chrono_shield_wild from "./magic-chrono/chrono-shield-wild.js";
+import * as magic_chrono_chrono_sigil from "./magic-chrono/chrono-sigil.js";
+import * as magic_chrono_chrono_sigil_ancient from "./magic-chrono/chrono-sigil-ancient.js";
+import * as magic_chrono_chrono_sigil_greater from "./magic-chrono/chrono-sigil-greater.js";
+import * as magic_chrono_chrono_sigil_lesser from "./magic-chrono/chrono-sigil-lesser.js";
+import * as magic_chrono_chrono_sigil_wild from "./magic-chrono/chrono-sigil-wild.js";
+import * as magic_chrono_chrono_spikes from "./magic-chrono/chrono-spikes.js";
+import * as magic_chrono_chrono_spikes_ancient from "./magic-chrono/chrono-spikes-ancient.js";
+import * as magic_chrono_chrono_spikes_greater from "./magic-chrono/chrono-spikes-greater.js";
+import * as magic_chrono_chrono_spikes_lesser from "./magic-chrono/chrono-spikes-lesser.js";
+import * as magic_chrono_chrono_spikes_wild from "./magic-chrono/chrono-spikes-wild.js";
+import * as magic_chrono_chrono_summon from "./magic-chrono/chrono-summon.js";
+import * as magic_chrono_chrono_summon_ancient from "./magic-chrono/chrono-summon-ancient.js";
+import * as magic_chrono_chrono_summon_greater from "./magic-chrono/chrono-summon-greater.js";
+import * as magic_chrono_chrono_summon_lesser from "./magic-chrono/chrono-summon-lesser.js";
+import * as magic_chrono_chrono_summon_wild from "./magic-chrono/chrono-summon-wild.js";
+import * as magic_chrono_chrono_vortex from "./magic-chrono/chrono-vortex.js";
+import * as magic_chrono_chrono_vortex_ancient from "./magic-chrono/chrono-vortex-ancient.js";
+import * as magic_chrono_chrono_vortex_greater from "./magic-chrono/chrono-vortex-greater.js";
+import * as magic_chrono_chrono_vortex_lesser from "./magic-chrono/chrono-vortex-lesser.js";
+import * as magic_chrono_chrono_vortex_wild from "./magic-chrono/chrono-vortex-wild.js";
+import * as magic_chrono_chrono_wave from "./magic-chrono/chrono-wave.js";
+import * as magic_chrono_chrono_wave_ancient from "./magic-chrono/chrono-wave-ancient.js";
+import * as magic_chrono_chrono_wave_greater from "./magic-chrono/chrono-wave-greater.js";
+import * as magic_chrono_chrono_wave_lesser from "./magic-chrono/chrono-wave-lesser.js";
+import * as magic_chrono_chrono_wave_wild from "./magic-chrono/chrono-wave-wild.js";
+import * as magic_gravity_gravity_aura from "./magic-gravity/gravity-aura.js";
+import * as magic_gravity_gravity_aura_ancient from "./magic-gravity/gravity-aura-ancient.js";
+import * as magic_gravity_gravity_aura_greater from "./magic-gravity/gravity-aura-greater.js";
+import * as magic_gravity_gravity_aura_lesser from "./magic-gravity/gravity-aura-lesser.js";
+import * as magic_gravity_gravity_aura_wild from "./magic-gravity/gravity-aura-wild.js";
+import * as magic_gravity_gravity_beam from "./magic-gravity/gravity-beam.js";
+import * as magic_gravity_gravity_beam_ancient from "./magic-gravity/gravity-beam-ancient.js";
+import * as magic_gravity_gravity_beam_greater from "./magic-gravity/gravity-beam-greater.js";
+import * as magic_gravity_gravity_beam_lesser from "./magic-gravity/gravity-beam-lesser.js";
+import * as magic_gravity_gravity_beam_wild from "./magic-gravity/gravity-beam-wild.js";
+import * as magic_gravity_gravity_bolt from "./magic-gravity/gravity-bolt.js";
+import * as magic_gravity_gravity_bolt_ancient from "./magic-gravity/gravity-bolt-ancient.js";
+import * as magic_gravity_gravity_bolt_greater from "./magic-gravity/gravity-bolt-greater.js";
+import * as magic_gravity_gravity_bolt_lesser from "./magic-gravity/gravity-bolt-lesser.js";
+import * as magic_gravity_gravity_bolt_wild from "./magic-gravity/gravity-bolt-wild.js";
+import * as magic_gravity_gravity_burst from "./magic-gravity/gravity-burst.js";
+import * as magic_gravity_gravity_burst_ancient from "./magic-gravity/gravity-burst-ancient.js";
+import * as magic_gravity_gravity_burst_greater from "./magic-gravity/gravity-burst-greater.js";
+import * as magic_gravity_gravity_burst_lesser from "./magic-gravity/gravity-burst-lesser.js";
+import * as magic_gravity_gravity_burst_wild from "./magic-gravity/gravity-burst-wild.js";
+import * as magic_gravity_gravity_charge from "./magic-gravity/gravity-charge.js";
+import * as magic_gravity_gravity_charge_ancient from "./magic-gravity/gravity-charge-ancient.js";
+import * as magic_gravity_gravity_charge_greater from "./magic-gravity/gravity-charge-greater.js";
+import * as magic_gravity_gravity_charge_lesser from "./magic-gravity/gravity-charge-lesser.js";
+import * as magic_gravity_gravity_charge_wild from "./magic-gravity/gravity-charge-wild.js";
+import * as magic_gravity_gravity_circle from "./magic-gravity/gravity-circle.js";
+import * as magic_gravity_gravity_circle_ancient from "./magic-gravity/gravity-circle-ancient.js";
+import * as magic_gravity_gravity_circle_greater from "./magic-gravity/gravity-circle-greater.js";
+import * as magic_gravity_gravity_circle_lesser from "./magic-gravity/gravity-circle-lesser.js";
+import * as magic_gravity_gravity_circle_wild from "./magic-gravity/gravity-circle-wild.js";
+import * as magic_gravity_gravity_cloud from "./magic-gravity/gravity-cloud.js";
+import * as magic_gravity_gravity_cloud_ancient from "./magic-gravity/gravity-cloud-ancient.js";
+import * as magic_gravity_gravity_cloud_greater from "./magic-gravity/gravity-cloud-greater.js";
+import * as magic_gravity_gravity_cloud_lesser from "./magic-gravity/gravity-cloud-lesser.js";
+import * as magic_gravity_gravity_cloud_wild from "./magic-gravity/gravity-cloud-wild.js";
+import * as magic_gravity_gravity_crescent from "./magic-gravity/gravity-crescent.js";
+import * as magic_gravity_gravity_crescent_ancient from "./magic-gravity/gravity-crescent-ancient.js";
+import * as magic_gravity_gravity_crescent_greater from "./magic-gravity/gravity-crescent-greater.js";
+import * as magic_gravity_gravity_crescent_lesser from "./magic-gravity/gravity-crescent-lesser.js";
+import * as magic_gravity_gravity_crescent_wild from "./magic-gravity/gravity-crescent-wild.js";
+import * as magic_gravity_gravity_dash from "./magic-gravity/gravity-dash.js";
+import * as magic_gravity_gravity_dash_ancient from "./magic-gravity/gravity-dash-ancient.js";
+import * as magic_gravity_gravity_dash_greater from "./magic-gravity/gravity-dash-greater.js";
+import * as magic_gravity_gravity_dash_lesser from "./magic-gravity/gravity-dash-lesser.js";
+import * as magic_gravity_gravity_dash_wild from "./magic-gravity/gravity-dash-wild.js";
+import * as magic_gravity_gravity_flare from "./magic-gravity/gravity-flare.js";
+import * as magic_gravity_gravity_flare_ancient from "./magic-gravity/gravity-flare-ancient.js";
+import * as magic_gravity_gravity_flare_greater from "./magic-gravity/gravity-flare-greater.js";
+import * as magic_gravity_gravity_flare_lesser from "./magic-gravity/gravity-flare-lesser.js";
+import * as magic_gravity_gravity_flare_wild from "./magic-gravity/gravity-flare-wild.js";
+import * as magic_gravity_gravity_impact from "./magic-gravity/gravity-impact.js";
+import * as magic_gravity_gravity_impact_ancient from "./magic-gravity/gravity-impact-ancient.js";
+import * as magic_gravity_gravity_impact_greater from "./magic-gravity/gravity-impact-greater.js";
+import * as magic_gravity_gravity_impact_lesser from "./magic-gravity/gravity-impact-lesser.js";
+import * as magic_gravity_gravity_impact_wild from "./magic-gravity/gravity-impact-wild.js";
+import * as magic_gravity_gravity_meteor from "./magic-gravity/gravity-meteor.js";
+import * as magic_gravity_gravity_meteor_ancient from "./magic-gravity/gravity-meteor-ancient.js";
+import * as magic_gravity_gravity_meteor_greater from "./magic-gravity/gravity-meteor-greater.js";
+import * as magic_gravity_gravity_meteor_lesser from "./magic-gravity/gravity-meteor-lesser.js";
+import * as magic_gravity_gravity_meteor_wild from "./magic-gravity/gravity-meteor-wild.js";
+import * as magic_gravity_gravity_nova from "./magic-gravity/gravity-nova.js";
+import * as magic_gravity_gravity_nova_ancient from "./magic-gravity/gravity-nova-ancient.js";
+import * as magic_gravity_gravity_nova_greater from "./magic-gravity/gravity-nova-greater.js";
+import * as magic_gravity_gravity_nova_lesser from "./magic-gravity/gravity-nova-lesser.js";
+import * as magic_gravity_gravity_nova_wild from "./magic-gravity/gravity-nova-wild.js";
+import * as magic_gravity_gravity_orb from "./magic-gravity/gravity-orb.js";
+import * as magic_gravity_gravity_orb_ancient from "./magic-gravity/gravity-orb-ancient.js";
+import * as magic_gravity_gravity_orb_greater from "./magic-gravity/gravity-orb-greater.js";
+import * as magic_gravity_gravity_orb_lesser from "./magic-gravity/gravity-orb-lesser.js";
+import * as magic_gravity_gravity_orb_wild from "./magic-gravity/gravity-orb-wild.js";
+import * as magic_gravity_gravity_orbit from "./magic-gravity/gravity-orbit.js";
+import * as magic_gravity_gravity_orbit_ancient from "./magic-gravity/gravity-orbit-ancient.js";
+import * as magic_gravity_gravity_orbit_greater from "./magic-gravity/gravity-orbit-greater.js";
+import * as magic_gravity_gravity_orbit_lesser from "./magic-gravity/gravity-orbit-lesser.js";
+import * as magic_gravity_gravity_orbit_wild from "./magic-gravity/gravity-orbit-wild.js";
+import * as magic_gravity_gravity_pillar from "./magic-gravity/gravity-pillar.js";
+import * as magic_gravity_gravity_pillar_ancient from "./magic-gravity/gravity-pillar-ancient.js";
+import * as magic_gravity_gravity_pillar_greater from "./magic-gravity/gravity-pillar-greater.js";
+import * as magic_gravity_gravity_pillar_lesser from "./magic-gravity/gravity-pillar-lesser.js";
+import * as magic_gravity_gravity_pillar_wild from "./magic-gravity/gravity-pillar-wild.js";
+import * as magic_gravity_gravity_portal from "./magic-gravity/gravity-portal.js";
+import * as magic_gravity_gravity_portal_ancient from "./magic-gravity/gravity-portal-ancient.js";
+import * as magic_gravity_gravity_portal_greater from "./magic-gravity/gravity-portal-greater.js";
+import * as magic_gravity_gravity_portal_lesser from "./magic-gravity/gravity-portal-lesser.js";
+import * as magic_gravity_gravity_portal_wild from "./magic-gravity/gravity-portal-wild.js";
+import * as magic_gravity_gravity_rain from "./magic-gravity/gravity-rain.js";
+import * as magic_gravity_gravity_rain_ancient from "./magic-gravity/gravity-rain-ancient.js";
+import * as magic_gravity_gravity_rain_greater from "./magic-gravity/gravity-rain-greater.js";
+import * as magic_gravity_gravity_rain_lesser from "./magic-gravity/gravity-rain-lesser.js";
+import * as magic_gravity_gravity_rain_wild from "./magic-gravity/gravity-rain-wild.js";
+import * as magic_gravity_gravity_shield from "./magic-gravity/gravity-shield.js";
+import * as magic_gravity_gravity_shield_ancient from "./magic-gravity/gravity-shield-ancient.js";
+import * as magic_gravity_gravity_shield_greater from "./magic-gravity/gravity-shield-greater.js";
+import * as magic_gravity_gravity_shield_lesser from "./magic-gravity/gravity-shield-lesser.js";
+import * as magic_gravity_gravity_shield_wild from "./magic-gravity/gravity-shield-wild.js";
+import * as magic_gravity_gravity_sigil from "./magic-gravity/gravity-sigil.js";
+import * as magic_gravity_gravity_sigil_ancient from "./magic-gravity/gravity-sigil-ancient.js";
+import * as magic_gravity_gravity_sigil_greater from "./magic-gravity/gravity-sigil-greater.js";
+import * as magic_gravity_gravity_sigil_lesser from "./magic-gravity/gravity-sigil-lesser.js";
+import * as magic_gravity_gravity_sigil_wild from "./magic-gravity/gravity-sigil-wild.js";
+import * as magic_gravity_gravity_spikes from "./magic-gravity/gravity-spikes.js";
+import * as magic_gravity_gravity_spikes_ancient from "./magic-gravity/gravity-spikes-ancient.js";
+import * as magic_gravity_gravity_spikes_greater from "./magic-gravity/gravity-spikes-greater.js";
+import * as magic_gravity_gravity_spikes_lesser from "./magic-gravity/gravity-spikes-lesser.js";
+import * as magic_gravity_gravity_spikes_wild from "./magic-gravity/gravity-spikes-wild.js";
+import * as magic_gravity_gravity_summon from "./magic-gravity/gravity-summon.js";
+import * as magic_gravity_gravity_summon_ancient from "./magic-gravity/gravity-summon-ancient.js";
+import * as magic_gravity_gravity_summon_greater from "./magic-gravity/gravity-summon-greater.js";
+import * as magic_gravity_gravity_summon_lesser from "./magic-gravity/gravity-summon-lesser.js";
+import * as magic_gravity_gravity_summon_wild from "./magic-gravity/gravity-summon-wild.js";
+import * as magic_gravity_gravity_vortex from "./magic-gravity/gravity-vortex.js";
+import * as magic_gravity_gravity_vortex_ancient from "./magic-gravity/gravity-vortex-ancient.js";
+import * as magic_gravity_gravity_vortex_greater from "./magic-gravity/gravity-vortex-greater.js";
+import * as magic_gravity_gravity_vortex_lesser from "./magic-gravity/gravity-vortex-lesser.js";
+import * as magic_gravity_gravity_vortex_wild from "./magic-gravity/gravity-vortex-wild.js";
+import * as magic_gravity_gravity_wave from "./magic-gravity/gravity-wave.js";
+import * as magic_gravity_gravity_wave_ancient from "./magic-gravity/gravity-wave-ancient.js";
+import * as magic_gravity_gravity_wave_greater from "./magic-gravity/gravity-wave-greater.js";
+import * as magic_gravity_gravity_wave_lesser from "./magic-gravity/gravity-wave-lesser.js";
+import * as magic_gravity_gravity_wave_wild from "./magic-gravity/gravity-wave-wild.js";
+import * as magic_crystal_crystal_aura from "./magic-crystal/crystal-aura.js";
+import * as magic_crystal_crystal_aura_ancient from "./magic-crystal/crystal-aura-ancient.js";
+import * as magic_crystal_crystal_aura_greater from "./magic-crystal/crystal-aura-greater.js";
+import * as magic_crystal_crystal_aura_lesser from "./magic-crystal/crystal-aura-lesser.js";
+import * as magic_crystal_crystal_aura_wild from "./magic-crystal/crystal-aura-wild.js";
+import * as magic_crystal_crystal_beam from "./magic-crystal/crystal-beam.js";
+import * as magic_crystal_crystal_beam_ancient from "./magic-crystal/crystal-beam-ancient.js";
+import * as magic_crystal_crystal_beam_greater from "./magic-crystal/crystal-beam-greater.js";
+import * as magic_crystal_crystal_beam_lesser from "./magic-crystal/crystal-beam-lesser.js";
+import * as magic_crystal_crystal_beam_wild from "./magic-crystal/crystal-beam-wild.js";
+import * as magic_crystal_crystal_bolt from "./magic-crystal/crystal-bolt.js";
+import * as magic_crystal_crystal_bolt_ancient from "./magic-crystal/crystal-bolt-ancient.js";
+import * as magic_crystal_crystal_bolt_greater from "./magic-crystal/crystal-bolt-greater.js";
+import * as magic_crystal_crystal_bolt_lesser from "./magic-crystal/crystal-bolt-lesser.js";
+import * as magic_crystal_crystal_bolt_wild from "./magic-crystal/crystal-bolt-wild.js";
+import * as magic_crystal_crystal_burst from "./magic-crystal/crystal-burst.js";
+import * as magic_crystal_crystal_burst_ancient from "./magic-crystal/crystal-burst-ancient.js";
+import * as magic_crystal_crystal_burst_greater from "./magic-crystal/crystal-burst-greater.js";
+import * as magic_crystal_crystal_burst_lesser from "./magic-crystal/crystal-burst-lesser.js";
+import * as magic_crystal_crystal_burst_wild from "./magic-crystal/crystal-burst-wild.js";
+import * as magic_crystal_crystal_charge from "./magic-crystal/crystal-charge.js";
+import * as magic_crystal_crystal_charge_ancient from "./magic-crystal/crystal-charge-ancient.js";
+import * as magic_crystal_crystal_charge_greater from "./magic-crystal/crystal-charge-greater.js";
+import * as magic_crystal_crystal_charge_lesser from "./magic-crystal/crystal-charge-lesser.js";
+import * as magic_crystal_crystal_charge_wild from "./magic-crystal/crystal-charge-wild.js";
+import * as magic_crystal_crystal_circle from "./magic-crystal/crystal-circle.js";
+import * as magic_crystal_crystal_circle_ancient from "./magic-crystal/crystal-circle-ancient.js";
+import * as magic_crystal_crystal_circle_greater from "./magic-crystal/crystal-circle-greater.js";
+import * as magic_crystal_crystal_circle_lesser from "./magic-crystal/crystal-circle-lesser.js";
+import * as magic_crystal_crystal_circle_wild from "./magic-crystal/crystal-circle-wild.js";
+import * as magic_crystal_crystal_cloud from "./magic-crystal/crystal-cloud.js";
+import * as magic_crystal_crystal_cloud_ancient from "./magic-crystal/crystal-cloud-ancient.js";
+import * as magic_crystal_crystal_cloud_greater from "./magic-crystal/crystal-cloud-greater.js";
+import * as magic_crystal_crystal_cloud_lesser from "./magic-crystal/crystal-cloud-lesser.js";
+import * as magic_crystal_crystal_cloud_wild from "./magic-crystal/crystal-cloud-wild.js";
+import * as magic_crystal_crystal_crescent from "./magic-crystal/crystal-crescent.js";
+import * as magic_crystal_crystal_crescent_ancient from "./magic-crystal/crystal-crescent-ancient.js";
+import * as magic_crystal_crystal_crescent_greater from "./magic-crystal/crystal-crescent-greater.js";
+import * as magic_crystal_crystal_crescent_lesser from "./magic-crystal/crystal-crescent-lesser.js";
+import * as magic_crystal_crystal_crescent_wild from "./magic-crystal/crystal-crescent-wild.js";
+import * as magic_crystal_crystal_dash from "./magic-crystal/crystal-dash.js";
+import * as magic_crystal_crystal_dash_ancient from "./magic-crystal/crystal-dash-ancient.js";
+import * as magic_crystal_crystal_dash_greater from "./magic-crystal/crystal-dash-greater.js";
+import * as magic_crystal_crystal_dash_lesser from "./magic-crystal/crystal-dash-lesser.js";
+import * as magic_crystal_crystal_dash_wild from "./magic-crystal/crystal-dash-wild.js";
+import * as magic_crystal_crystal_flare from "./magic-crystal/crystal-flare.js";
+import * as magic_crystal_crystal_flare_ancient from "./magic-crystal/crystal-flare-ancient.js";
+import * as magic_crystal_crystal_flare_greater from "./magic-crystal/crystal-flare-greater.js";
+import * as magic_crystal_crystal_flare_lesser from "./magic-crystal/crystal-flare-lesser.js";
+import * as magic_crystal_crystal_flare_wild from "./magic-crystal/crystal-flare-wild.js";
+import * as magic_crystal_crystal_impact from "./magic-crystal/crystal-impact.js";
+import * as magic_crystal_crystal_impact_ancient from "./magic-crystal/crystal-impact-ancient.js";
+import * as magic_crystal_crystal_impact_greater from "./magic-crystal/crystal-impact-greater.js";
+import * as magic_crystal_crystal_impact_lesser from "./magic-crystal/crystal-impact-lesser.js";
+import * as magic_crystal_crystal_impact_wild from "./magic-crystal/crystal-impact-wild.js";
+import * as magic_crystal_crystal_meteor from "./magic-crystal/crystal-meteor.js";
+import * as magic_crystal_crystal_meteor_ancient from "./magic-crystal/crystal-meteor-ancient.js";
+import * as magic_crystal_crystal_meteor_greater from "./magic-crystal/crystal-meteor-greater.js";
+import * as magic_crystal_crystal_meteor_lesser from "./magic-crystal/crystal-meteor-lesser.js";
+import * as magic_crystal_crystal_meteor_wild from "./magic-crystal/crystal-meteor-wild.js";
+import * as magic_crystal_crystal_nova from "./magic-crystal/crystal-nova.js";
+import * as magic_crystal_crystal_nova_ancient from "./magic-crystal/crystal-nova-ancient.js";
+import * as magic_crystal_crystal_nova_greater from "./magic-crystal/crystal-nova-greater.js";
+import * as magic_crystal_crystal_nova_lesser from "./magic-crystal/crystal-nova-lesser.js";
+import * as magic_crystal_crystal_nova_wild from "./magic-crystal/crystal-nova-wild.js";
+import * as magic_crystal_crystal_orb from "./magic-crystal/crystal-orb.js";
+import * as magic_crystal_crystal_orb_ancient from "./magic-crystal/crystal-orb-ancient.js";
+import * as magic_crystal_crystal_orb_greater from "./magic-crystal/crystal-orb-greater.js";
+import * as magic_crystal_crystal_orb_lesser from "./magic-crystal/crystal-orb-lesser.js";
+import * as magic_crystal_crystal_orb_wild from "./magic-crystal/crystal-orb-wild.js";
+import * as magic_crystal_crystal_orbit from "./magic-crystal/crystal-orbit.js";
+import * as magic_crystal_crystal_orbit_ancient from "./magic-crystal/crystal-orbit-ancient.js";
+import * as magic_crystal_crystal_orbit_greater from "./magic-crystal/crystal-orbit-greater.js";
+import * as magic_crystal_crystal_orbit_lesser from "./magic-crystal/crystal-orbit-lesser.js";
+import * as magic_crystal_crystal_orbit_wild from "./magic-crystal/crystal-orbit-wild.js";
+import * as magic_crystal_crystal_pillar from "./magic-crystal/crystal-pillar.js";
+import * as magic_crystal_crystal_pillar_ancient from "./magic-crystal/crystal-pillar-ancient.js";
+import * as magic_crystal_crystal_pillar_greater from "./magic-crystal/crystal-pillar-greater.js";
+import * as magic_crystal_crystal_pillar_lesser from "./magic-crystal/crystal-pillar-lesser.js";
+import * as magic_crystal_crystal_pillar_wild from "./magic-crystal/crystal-pillar-wild.js";
+import * as magic_crystal_crystal_portal from "./magic-crystal/crystal-portal.js";
+import * as magic_crystal_crystal_portal_ancient from "./magic-crystal/crystal-portal-ancient.js";
+import * as magic_crystal_crystal_portal_greater from "./magic-crystal/crystal-portal-greater.js";
+import * as magic_crystal_crystal_portal_lesser from "./magic-crystal/crystal-portal-lesser.js";
+import * as magic_crystal_crystal_portal_wild from "./magic-crystal/crystal-portal-wild.js";
+import * as magic_crystal_crystal_rain from "./magic-crystal/crystal-rain.js";
+import * as magic_crystal_crystal_rain_ancient from "./magic-crystal/crystal-rain-ancient.js";
+import * as magic_crystal_crystal_rain_greater from "./magic-crystal/crystal-rain-greater.js";
+import * as magic_crystal_crystal_rain_lesser from "./magic-crystal/crystal-rain-lesser.js";
+import * as magic_crystal_crystal_rain_wild from "./magic-crystal/crystal-rain-wild.js";
+import * as magic_crystal_crystal_shield from "./magic-crystal/crystal-shield.js";
+import * as magic_crystal_crystal_shield_ancient from "./magic-crystal/crystal-shield-ancient.js";
+import * as magic_crystal_crystal_shield_greater from "./magic-crystal/crystal-shield-greater.js";
+import * as magic_crystal_crystal_shield_lesser from "./magic-crystal/crystal-shield-lesser.js";
+import * as magic_crystal_crystal_shield_wild from "./magic-crystal/crystal-shield-wild.js";
+import * as magic_crystal_crystal_sigil from "./magic-crystal/crystal-sigil.js";
+import * as magic_crystal_crystal_sigil_ancient from "./magic-crystal/crystal-sigil-ancient.js";
+import * as magic_crystal_crystal_sigil_greater from "./magic-crystal/crystal-sigil-greater.js";
+import * as magic_crystal_crystal_sigil_lesser from "./magic-crystal/crystal-sigil-lesser.js";
+import * as magic_crystal_crystal_sigil_wild from "./magic-crystal/crystal-sigil-wild.js";
+import * as magic_crystal_crystal_spikes from "./magic-crystal/crystal-spikes.js";
+import * as magic_crystal_crystal_spikes_ancient from "./magic-crystal/crystal-spikes-ancient.js";
+import * as magic_crystal_crystal_spikes_greater from "./magic-crystal/crystal-spikes-greater.js";
+import * as magic_crystal_crystal_spikes_lesser from "./magic-crystal/crystal-spikes-lesser.js";
+import * as magic_crystal_crystal_spikes_wild from "./magic-crystal/crystal-spikes-wild.js";
+import * as magic_crystal_crystal_summon from "./magic-crystal/crystal-summon.js";
+import * as magic_crystal_crystal_summon_ancient from "./magic-crystal/crystal-summon-ancient.js";
+import * as magic_crystal_crystal_summon_greater from "./magic-crystal/crystal-summon-greater.js";
+import * as magic_crystal_crystal_summon_lesser from "./magic-crystal/crystal-summon-lesser.js";
+import * as magic_crystal_crystal_summon_wild from "./magic-crystal/crystal-summon-wild.js";
+import * as magic_crystal_crystal_vortex from "./magic-crystal/crystal-vortex.js";
+import * as magic_crystal_crystal_vortex_ancient from "./magic-crystal/crystal-vortex-ancient.js";
+import * as magic_crystal_crystal_vortex_greater from "./magic-crystal/crystal-vortex-greater.js";
+import * as magic_crystal_crystal_vortex_lesser from "./magic-crystal/crystal-vortex-lesser.js";
+import * as magic_crystal_crystal_vortex_wild from "./magic-crystal/crystal-vortex-wild.js";
+import * as magic_crystal_crystal_wave from "./magic-crystal/crystal-wave.js";
+import * as magic_crystal_crystal_wave_ancient from "./magic-crystal/crystal-wave-ancient.js";
+import * as magic_crystal_crystal_wave_greater from "./magic-crystal/crystal-wave-greater.js";
+import * as magic_crystal_crystal_wave_lesser from "./magic-crystal/crystal-wave-lesser.js";
+import * as magic_crystal_crystal_wave_wild from "./magic-crystal/crystal-wave-wild.js";
+import * as magic_sonic_sonic_aura from "./magic-sonic/sonic-aura.js";
+import * as magic_sonic_sonic_aura_ancient from "./magic-sonic/sonic-aura-ancient.js";
+import * as magic_sonic_sonic_aura_greater from "./magic-sonic/sonic-aura-greater.js";
+import * as magic_sonic_sonic_aura_lesser from "./magic-sonic/sonic-aura-lesser.js";
+import * as magic_sonic_sonic_aura_wild from "./magic-sonic/sonic-aura-wild.js";
+import * as magic_sonic_sonic_beam from "./magic-sonic/sonic-beam.js";
+import * as magic_sonic_sonic_beam_ancient from "./magic-sonic/sonic-beam-ancient.js";
+import * as magic_sonic_sonic_beam_greater from "./magic-sonic/sonic-beam-greater.js";
+import * as magic_sonic_sonic_beam_lesser from "./magic-sonic/sonic-beam-lesser.js";
+import * as magic_sonic_sonic_beam_wild from "./magic-sonic/sonic-beam-wild.js";
+import * as magic_sonic_sonic_bolt from "./magic-sonic/sonic-bolt.js";
+import * as magic_sonic_sonic_bolt_ancient from "./magic-sonic/sonic-bolt-ancient.js";
+import * as magic_sonic_sonic_bolt_greater from "./magic-sonic/sonic-bolt-greater.js";
+import * as magic_sonic_sonic_bolt_lesser from "./magic-sonic/sonic-bolt-lesser.js";
+import * as magic_sonic_sonic_bolt_wild from "./magic-sonic/sonic-bolt-wild.js";
+import * as magic_sonic_sonic_burst from "./magic-sonic/sonic-burst.js";
+import * as magic_sonic_sonic_burst_ancient from "./magic-sonic/sonic-burst-ancient.js";
+import * as magic_sonic_sonic_burst_greater from "./magic-sonic/sonic-burst-greater.js";
+import * as magic_sonic_sonic_burst_lesser from "./magic-sonic/sonic-burst-lesser.js";
+import * as magic_sonic_sonic_burst_wild from "./magic-sonic/sonic-burst-wild.js";
+import * as magic_sonic_sonic_charge from "./magic-sonic/sonic-charge.js";
+import * as magic_sonic_sonic_charge_ancient from "./magic-sonic/sonic-charge-ancient.js";
+import * as magic_sonic_sonic_charge_greater from "./magic-sonic/sonic-charge-greater.js";
+import * as magic_sonic_sonic_charge_lesser from "./magic-sonic/sonic-charge-lesser.js";
+import * as magic_sonic_sonic_charge_wild from "./magic-sonic/sonic-charge-wild.js";
+import * as magic_sonic_sonic_circle from "./magic-sonic/sonic-circle.js";
+import * as magic_sonic_sonic_circle_ancient from "./magic-sonic/sonic-circle-ancient.js";
+import * as magic_sonic_sonic_circle_greater from "./magic-sonic/sonic-circle-greater.js";
+import * as magic_sonic_sonic_circle_lesser from "./magic-sonic/sonic-circle-lesser.js";
+import * as magic_sonic_sonic_circle_wild from "./magic-sonic/sonic-circle-wild.js";
+import * as magic_sonic_sonic_cloud from "./magic-sonic/sonic-cloud.js";
+import * as magic_sonic_sonic_cloud_ancient from "./magic-sonic/sonic-cloud-ancient.js";
+import * as magic_sonic_sonic_cloud_greater from "./magic-sonic/sonic-cloud-greater.js";
+import * as magic_sonic_sonic_cloud_lesser from "./magic-sonic/sonic-cloud-lesser.js";
+import * as magic_sonic_sonic_cloud_wild from "./magic-sonic/sonic-cloud-wild.js";
+import * as magic_sonic_sonic_crescent from "./magic-sonic/sonic-crescent.js";
+import * as magic_sonic_sonic_crescent_ancient from "./magic-sonic/sonic-crescent-ancient.js";
+import * as magic_sonic_sonic_crescent_greater from "./magic-sonic/sonic-crescent-greater.js";
+import * as magic_sonic_sonic_crescent_lesser from "./magic-sonic/sonic-crescent-lesser.js";
+import * as magic_sonic_sonic_crescent_wild from "./magic-sonic/sonic-crescent-wild.js";
+import * as magic_sonic_sonic_dash from "./magic-sonic/sonic-dash.js";
+import * as magic_sonic_sonic_dash_ancient from "./magic-sonic/sonic-dash-ancient.js";
+import * as magic_sonic_sonic_dash_greater from "./magic-sonic/sonic-dash-greater.js";
+import * as magic_sonic_sonic_dash_lesser from "./magic-sonic/sonic-dash-lesser.js";
+import * as magic_sonic_sonic_dash_wild from "./magic-sonic/sonic-dash-wild.js";
+import * as magic_sonic_sonic_flare from "./magic-sonic/sonic-flare.js";
+import * as magic_sonic_sonic_flare_ancient from "./magic-sonic/sonic-flare-ancient.js";
+import * as magic_sonic_sonic_flare_greater from "./magic-sonic/sonic-flare-greater.js";
+import * as magic_sonic_sonic_flare_lesser from "./magic-sonic/sonic-flare-lesser.js";
+import * as magic_sonic_sonic_flare_wild from "./magic-sonic/sonic-flare-wild.js";
+import * as magic_sonic_sonic_impact from "./magic-sonic/sonic-impact.js";
+import * as magic_sonic_sonic_impact_ancient from "./magic-sonic/sonic-impact-ancient.js";
+import * as magic_sonic_sonic_impact_greater from "./magic-sonic/sonic-impact-greater.js";
+import * as magic_sonic_sonic_impact_lesser from "./magic-sonic/sonic-impact-lesser.js";
+import * as magic_sonic_sonic_impact_wild from "./magic-sonic/sonic-impact-wild.js";
+import * as magic_sonic_sonic_meteor from "./magic-sonic/sonic-meteor.js";
+import * as magic_sonic_sonic_meteor_ancient from "./magic-sonic/sonic-meteor-ancient.js";
+import * as magic_sonic_sonic_meteor_greater from "./magic-sonic/sonic-meteor-greater.js";
+import * as magic_sonic_sonic_meteor_lesser from "./magic-sonic/sonic-meteor-lesser.js";
+import * as magic_sonic_sonic_meteor_wild from "./magic-sonic/sonic-meteor-wild.js";
+import * as magic_sonic_sonic_nova from "./magic-sonic/sonic-nova.js";
+import * as magic_sonic_sonic_nova_ancient from "./magic-sonic/sonic-nova-ancient.js";
+import * as magic_sonic_sonic_nova_greater from "./magic-sonic/sonic-nova-greater.js";
+import * as magic_sonic_sonic_nova_lesser from "./magic-sonic/sonic-nova-lesser.js";
+import * as magic_sonic_sonic_nova_wild from "./magic-sonic/sonic-nova-wild.js";
+import * as magic_sonic_sonic_orb from "./magic-sonic/sonic-orb.js";
+import * as magic_sonic_sonic_orb_ancient from "./magic-sonic/sonic-orb-ancient.js";
+import * as magic_sonic_sonic_orb_greater from "./magic-sonic/sonic-orb-greater.js";
+import * as magic_sonic_sonic_orb_lesser from "./magic-sonic/sonic-orb-lesser.js";
+import * as magic_sonic_sonic_orb_wild from "./magic-sonic/sonic-orb-wild.js";
+import * as magic_sonic_sonic_orbit from "./magic-sonic/sonic-orbit.js";
+import * as magic_sonic_sonic_orbit_ancient from "./magic-sonic/sonic-orbit-ancient.js";
+import * as magic_sonic_sonic_orbit_greater from "./magic-sonic/sonic-orbit-greater.js";
+import * as magic_sonic_sonic_orbit_lesser from "./magic-sonic/sonic-orbit-lesser.js";
+import * as magic_sonic_sonic_orbit_wild from "./magic-sonic/sonic-orbit-wild.js";
+import * as magic_sonic_sonic_pillar from "./magic-sonic/sonic-pillar.js";
+import * as magic_sonic_sonic_pillar_ancient from "./magic-sonic/sonic-pillar-ancient.js";
+import * as magic_sonic_sonic_pillar_greater from "./magic-sonic/sonic-pillar-greater.js";
+import * as magic_sonic_sonic_pillar_lesser from "./magic-sonic/sonic-pillar-lesser.js";
+import * as magic_sonic_sonic_pillar_wild from "./magic-sonic/sonic-pillar-wild.js";
+import * as magic_sonic_sonic_portal from "./magic-sonic/sonic-portal.js";
+import * as magic_sonic_sonic_portal_ancient from "./magic-sonic/sonic-portal-ancient.js";
+import * as magic_sonic_sonic_portal_greater from "./magic-sonic/sonic-portal-greater.js";
+import * as magic_sonic_sonic_portal_lesser from "./magic-sonic/sonic-portal-lesser.js";
+import * as magic_sonic_sonic_portal_wild from "./magic-sonic/sonic-portal-wild.js";
+import * as magic_sonic_sonic_rain from "./magic-sonic/sonic-rain.js";
+import * as magic_sonic_sonic_rain_ancient from "./magic-sonic/sonic-rain-ancient.js";
+import * as magic_sonic_sonic_rain_greater from "./magic-sonic/sonic-rain-greater.js";
+import * as magic_sonic_sonic_rain_lesser from "./magic-sonic/sonic-rain-lesser.js";
+import * as magic_sonic_sonic_rain_wild from "./magic-sonic/sonic-rain-wild.js";
+import * as magic_sonic_sonic_shield from "./magic-sonic/sonic-shield.js";
+import * as magic_sonic_sonic_shield_ancient from "./magic-sonic/sonic-shield-ancient.js";
+import * as magic_sonic_sonic_shield_greater from "./magic-sonic/sonic-shield-greater.js";
+import * as magic_sonic_sonic_shield_lesser from "./magic-sonic/sonic-shield-lesser.js";
+import * as magic_sonic_sonic_shield_wild from "./magic-sonic/sonic-shield-wild.js";
+import * as magic_sonic_sonic_sigil from "./magic-sonic/sonic-sigil.js";
+import * as magic_sonic_sonic_sigil_ancient from "./magic-sonic/sonic-sigil-ancient.js";
+import * as magic_sonic_sonic_sigil_greater from "./magic-sonic/sonic-sigil-greater.js";
+import * as magic_sonic_sonic_sigil_lesser from "./magic-sonic/sonic-sigil-lesser.js";
+import * as magic_sonic_sonic_sigil_wild from "./magic-sonic/sonic-sigil-wild.js";
+import * as magic_sonic_sonic_spikes from "./magic-sonic/sonic-spikes.js";
+import * as magic_sonic_sonic_spikes_ancient from "./magic-sonic/sonic-spikes-ancient.js";
+import * as magic_sonic_sonic_spikes_greater from "./magic-sonic/sonic-spikes-greater.js";
+import * as magic_sonic_sonic_spikes_lesser from "./magic-sonic/sonic-spikes-lesser.js";
+import * as magic_sonic_sonic_spikes_wild from "./magic-sonic/sonic-spikes-wild.js";
+import * as magic_sonic_sonic_summon from "./magic-sonic/sonic-summon.js";
+import * as magic_sonic_sonic_summon_ancient from "./magic-sonic/sonic-summon-ancient.js";
+import * as magic_sonic_sonic_summon_greater from "./magic-sonic/sonic-summon-greater.js";
+import * as magic_sonic_sonic_summon_lesser from "./magic-sonic/sonic-summon-lesser.js";
+import * as magic_sonic_sonic_summon_wild from "./magic-sonic/sonic-summon-wild.js";
+import * as magic_sonic_sonic_vortex from "./magic-sonic/sonic-vortex.js";
+import * as magic_sonic_sonic_vortex_ancient from "./magic-sonic/sonic-vortex-ancient.js";
+import * as magic_sonic_sonic_vortex_greater from "./magic-sonic/sonic-vortex-greater.js";
+import * as magic_sonic_sonic_vortex_lesser from "./magic-sonic/sonic-vortex-lesser.js";
+import * as magic_sonic_sonic_vortex_wild from "./magic-sonic/sonic-vortex-wild.js";
+import * as magic_sonic_sonic_wave from "./magic-sonic/sonic-wave.js";
+import * as magic_sonic_sonic_wave_ancient from "./magic-sonic/sonic-wave-ancient.js";
+import * as magic_sonic_sonic_wave_greater from "./magic-sonic/sonic-wave-greater.js";
+import * as magic_sonic_sonic_wave_lesser from "./magic-sonic/sonic-wave-lesser.js";
+import * as magic_sonic_sonic_wave_wild from "./magic-sonic/sonic-wave-wild.js";
+import * as magic_astral_astral_aura from "./magic-astral/astral-aura.js";
+import * as magic_astral_astral_aura_ancient from "./magic-astral/astral-aura-ancient.js";
+import * as magic_astral_astral_aura_greater from "./magic-astral/astral-aura-greater.js";
+import * as magic_astral_astral_aura_lesser from "./magic-astral/astral-aura-lesser.js";
+import * as magic_astral_astral_aura_wild from "./magic-astral/astral-aura-wild.js";
+import * as magic_astral_astral_beam from "./magic-astral/astral-beam.js";
+import * as magic_astral_astral_beam_ancient from "./magic-astral/astral-beam-ancient.js";
+import * as magic_astral_astral_beam_greater from "./magic-astral/astral-beam-greater.js";
+import * as magic_astral_astral_beam_lesser from "./magic-astral/astral-beam-lesser.js";
+import * as magic_astral_astral_beam_wild from "./magic-astral/astral-beam-wild.js";
+import * as magic_astral_astral_bolt from "./magic-astral/astral-bolt.js";
+import * as magic_astral_astral_bolt_ancient from "./magic-astral/astral-bolt-ancient.js";
+import * as magic_astral_astral_bolt_greater from "./magic-astral/astral-bolt-greater.js";
+import * as magic_astral_astral_bolt_lesser from "./magic-astral/astral-bolt-lesser.js";
+import * as magic_astral_astral_bolt_wild from "./magic-astral/astral-bolt-wild.js";
+import * as magic_astral_astral_burst from "./magic-astral/astral-burst.js";
+import * as magic_astral_astral_burst_ancient from "./magic-astral/astral-burst-ancient.js";
+import * as magic_astral_astral_burst_greater from "./magic-astral/astral-burst-greater.js";
+import * as magic_astral_astral_burst_lesser from "./magic-astral/astral-burst-lesser.js";
+import * as magic_astral_astral_burst_wild from "./magic-astral/astral-burst-wild.js";
+import * as magic_astral_astral_charge from "./magic-astral/astral-charge.js";
+import * as magic_astral_astral_charge_ancient from "./magic-astral/astral-charge-ancient.js";
+import * as magic_astral_astral_charge_greater from "./magic-astral/astral-charge-greater.js";
+import * as magic_astral_astral_charge_lesser from "./magic-astral/astral-charge-lesser.js";
+import * as magic_astral_astral_charge_wild from "./magic-astral/astral-charge-wild.js";
+import * as magic_astral_astral_circle from "./magic-astral/astral-circle.js";
+import * as magic_astral_astral_circle_ancient from "./magic-astral/astral-circle-ancient.js";
+import * as magic_astral_astral_circle_greater from "./magic-astral/astral-circle-greater.js";
+import * as magic_astral_astral_circle_lesser from "./magic-astral/astral-circle-lesser.js";
+import * as magic_astral_astral_circle_wild from "./magic-astral/astral-circle-wild.js";
+import * as magic_astral_astral_cloud from "./magic-astral/astral-cloud.js";
+import * as magic_astral_astral_cloud_ancient from "./magic-astral/astral-cloud-ancient.js";
+import * as magic_astral_astral_cloud_greater from "./magic-astral/astral-cloud-greater.js";
+import * as magic_astral_astral_cloud_lesser from "./magic-astral/astral-cloud-lesser.js";
+import * as magic_astral_astral_cloud_wild from "./magic-astral/astral-cloud-wild.js";
+import * as magic_astral_astral_crescent from "./magic-astral/astral-crescent.js";
+import * as magic_astral_astral_crescent_ancient from "./magic-astral/astral-crescent-ancient.js";
+import * as magic_astral_astral_crescent_greater from "./magic-astral/astral-crescent-greater.js";
+import * as magic_astral_astral_crescent_lesser from "./magic-astral/astral-crescent-lesser.js";
+import * as magic_astral_astral_crescent_wild from "./magic-astral/astral-crescent-wild.js";
+import * as magic_astral_astral_dash from "./magic-astral/astral-dash.js";
+import * as magic_astral_astral_dash_ancient from "./magic-astral/astral-dash-ancient.js";
+import * as magic_astral_astral_dash_greater from "./magic-astral/astral-dash-greater.js";
+import * as magic_astral_astral_dash_lesser from "./magic-astral/astral-dash-lesser.js";
+import * as magic_astral_astral_dash_wild from "./magic-astral/astral-dash-wild.js";
+import * as magic_astral_astral_flare from "./magic-astral/astral-flare.js";
+import * as magic_astral_astral_flare_ancient from "./magic-astral/astral-flare-ancient.js";
+import * as magic_astral_astral_flare_greater from "./magic-astral/astral-flare-greater.js";
+import * as magic_astral_astral_flare_lesser from "./magic-astral/astral-flare-lesser.js";
+import * as magic_astral_astral_flare_wild from "./magic-astral/astral-flare-wild.js";
+import * as magic_astral_astral_impact from "./magic-astral/astral-impact.js";
+import * as magic_astral_astral_impact_ancient from "./magic-astral/astral-impact-ancient.js";
+import * as magic_astral_astral_impact_greater from "./magic-astral/astral-impact-greater.js";
+import * as magic_astral_astral_impact_lesser from "./magic-astral/astral-impact-lesser.js";
+import * as magic_astral_astral_impact_wild from "./magic-astral/astral-impact-wild.js";
+import * as magic_astral_astral_meteor from "./magic-astral/astral-meteor.js";
+import * as magic_astral_astral_meteor_ancient from "./magic-astral/astral-meteor-ancient.js";
+import * as magic_astral_astral_meteor_greater from "./magic-astral/astral-meteor-greater.js";
+import * as magic_astral_astral_meteor_lesser from "./magic-astral/astral-meteor-lesser.js";
+import * as magic_astral_astral_meteor_wild from "./magic-astral/astral-meteor-wild.js";
+import * as magic_astral_astral_nova from "./magic-astral/astral-nova.js";
+import * as magic_astral_astral_nova_ancient from "./magic-astral/astral-nova-ancient.js";
+import * as magic_astral_astral_nova_greater from "./magic-astral/astral-nova-greater.js";
+import * as magic_astral_astral_nova_lesser from "./magic-astral/astral-nova-lesser.js";
+import * as magic_astral_astral_nova_wild from "./magic-astral/astral-nova-wild.js";
+import * as magic_astral_astral_orb from "./magic-astral/astral-orb.js";
+import * as magic_astral_astral_orb_ancient from "./magic-astral/astral-orb-ancient.js";
+import * as magic_astral_astral_orb_greater from "./magic-astral/astral-orb-greater.js";
+import * as magic_astral_astral_orb_lesser from "./magic-astral/astral-orb-lesser.js";
+import * as magic_astral_astral_orb_wild from "./magic-astral/astral-orb-wild.js";
+import * as magic_astral_astral_orbit from "./magic-astral/astral-orbit.js";
+import * as magic_astral_astral_orbit_ancient from "./magic-astral/astral-orbit-ancient.js";
+import * as magic_astral_astral_orbit_greater from "./magic-astral/astral-orbit-greater.js";
+import * as magic_astral_astral_orbit_lesser from "./magic-astral/astral-orbit-lesser.js";
+import * as magic_astral_astral_orbit_wild from "./magic-astral/astral-orbit-wild.js";
+import * as magic_astral_astral_pillar from "./magic-astral/astral-pillar.js";
+import * as magic_astral_astral_pillar_ancient from "./magic-astral/astral-pillar-ancient.js";
+import * as magic_astral_astral_pillar_greater from "./magic-astral/astral-pillar-greater.js";
+import * as magic_astral_astral_pillar_lesser from "./magic-astral/astral-pillar-lesser.js";
+import * as magic_astral_astral_pillar_wild from "./magic-astral/astral-pillar-wild.js";
+import * as magic_astral_astral_portal from "./magic-astral/astral-portal.js";
+import * as magic_astral_astral_portal_ancient from "./magic-astral/astral-portal-ancient.js";
+import * as magic_astral_astral_portal_greater from "./magic-astral/astral-portal-greater.js";
+import * as magic_astral_astral_portal_lesser from "./magic-astral/astral-portal-lesser.js";
+import * as magic_astral_astral_portal_wild from "./magic-astral/astral-portal-wild.js";
+import * as magic_astral_astral_rain from "./magic-astral/astral-rain.js";
+import * as magic_astral_astral_rain_ancient from "./magic-astral/astral-rain-ancient.js";
+import * as magic_astral_astral_rain_greater from "./magic-astral/astral-rain-greater.js";
+import * as magic_astral_astral_rain_lesser from "./magic-astral/astral-rain-lesser.js";
+import * as magic_astral_astral_rain_wild from "./magic-astral/astral-rain-wild.js";
+import * as magic_astral_astral_shield from "./magic-astral/astral-shield.js";
+import * as magic_astral_astral_shield_ancient from "./magic-astral/astral-shield-ancient.js";
+import * as magic_astral_astral_shield_greater from "./magic-astral/astral-shield-greater.js";
+import * as magic_astral_astral_shield_lesser from "./magic-astral/astral-shield-lesser.js";
+import * as magic_astral_astral_shield_wild from "./magic-astral/astral-shield-wild.js";
+import * as magic_astral_astral_sigil from "./magic-astral/astral-sigil.js";
+import * as magic_astral_astral_sigil_ancient from "./magic-astral/astral-sigil-ancient.js";
+import * as magic_astral_astral_sigil_greater from "./magic-astral/astral-sigil-greater.js";
+import * as magic_astral_astral_sigil_lesser from "./magic-astral/astral-sigil-lesser.js";
+import * as magic_astral_astral_sigil_wild from "./magic-astral/astral-sigil-wild.js";
+import * as magic_astral_astral_spikes from "./magic-astral/astral-spikes.js";
+import * as magic_astral_astral_spikes_ancient from "./magic-astral/astral-spikes-ancient.js";
+import * as magic_astral_astral_spikes_greater from "./magic-astral/astral-spikes-greater.js";
+import * as magic_astral_astral_spikes_lesser from "./magic-astral/astral-spikes-lesser.js";
+import * as magic_astral_astral_spikes_wild from "./magic-astral/astral-spikes-wild.js";
+import * as magic_astral_astral_summon from "./magic-astral/astral-summon.js";
+import * as magic_astral_astral_summon_ancient from "./magic-astral/astral-summon-ancient.js";
+import * as magic_astral_astral_summon_greater from "./magic-astral/astral-summon-greater.js";
+import * as magic_astral_astral_summon_lesser from "./magic-astral/astral-summon-lesser.js";
+import * as magic_astral_astral_summon_wild from "./magic-astral/astral-summon-wild.js";
+import * as magic_astral_astral_vortex from "./magic-astral/astral-vortex.js";
+import * as magic_astral_astral_vortex_ancient from "./magic-astral/astral-vortex-ancient.js";
+import * as magic_astral_astral_vortex_greater from "./magic-astral/astral-vortex-greater.js";
+import * as magic_astral_astral_vortex_lesser from "./magic-astral/astral-vortex-lesser.js";
+import * as magic_astral_astral_vortex_wild from "./magic-astral/astral-vortex-wild.js";
+import * as magic_astral_astral_wave from "./magic-astral/astral-wave.js";
+import * as magic_astral_astral_wave_ancient from "./magic-astral/astral-wave-ancient.js";
+import * as magic_astral_astral_wave_greater from "./magic-astral/astral-wave-greater.js";
+import * as magic_astral_astral_wave_lesser from "./magic-astral/astral-wave-lesser.js";
+import * as magic_astral_astral_wave_wild from "./magic-astral/astral-wave-wild.js";
+import * as magic_sand_sand_aura from "./magic-sand/sand-aura.js";
+import * as magic_sand_sand_aura_ancient from "./magic-sand/sand-aura-ancient.js";
+import * as magic_sand_sand_aura_greater from "./magic-sand/sand-aura-greater.js";
+import * as magic_sand_sand_aura_lesser from "./magic-sand/sand-aura-lesser.js";
+import * as magic_sand_sand_aura_wild from "./magic-sand/sand-aura-wild.js";
+import * as magic_sand_sand_beam from "./magic-sand/sand-beam.js";
+import * as magic_sand_sand_beam_ancient from "./magic-sand/sand-beam-ancient.js";
+import * as magic_sand_sand_beam_greater from "./magic-sand/sand-beam-greater.js";
+import * as magic_sand_sand_beam_lesser from "./magic-sand/sand-beam-lesser.js";
+import * as magic_sand_sand_beam_wild from "./magic-sand/sand-beam-wild.js";
+import * as magic_sand_sand_bolt from "./magic-sand/sand-bolt.js";
+import * as magic_sand_sand_bolt_ancient from "./magic-sand/sand-bolt-ancient.js";
+import * as magic_sand_sand_bolt_greater from "./magic-sand/sand-bolt-greater.js";
+import * as magic_sand_sand_bolt_lesser from "./magic-sand/sand-bolt-lesser.js";
+import * as magic_sand_sand_bolt_wild from "./magic-sand/sand-bolt-wild.js";
+import * as magic_sand_sand_burst from "./magic-sand/sand-burst.js";
+import * as magic_sand_sand_burst_ancient from "./magic-sand/sand-burst-ancient.js";
+import * as magic_sand_sand_burst_greater from "./magic-sand/sand-burst-greater.js";
+import * as magic_sand_sand_burst_lesser from "./magic-sand/sand-burst-lesser.js";
+import * as magic_sand_sand_burst_wild from "./magic-sand/sand-burst-wild.js";
+import * as magic_sand_sand_charge from "./magic-sand/sand-charge.js";
+import * as magic_sand_sand_charge_ancient from "./magic-sand/sand-charge-ancient.js";
+import * as magic_sand_sand_charge_greater from "./magic-sand/sand-charge-greater.js";
+import * as magic_sand_sand_charge_lesser from "./magic-sand/sand-charge-lesser.js";
+import * as magic_sand_sand_charge_wild from "./magic-sand/sand-charge-wild.js";
+import * as magic_sand_sand_circle from "./magic-sand/sand-circle.js";
+import * as magic_sand_sand_circle_ancient from "./magic-sand/sand-circle-ancient.js";
+import * as magic_sand_sand_circle_greater from "./magic-sand/sand-circle-greater.js";
+import * as magic_sand_sand_circle_lesser from "./magic-sand/sand-circle-lesser.js";
+import * as magic_sand_sand_circle_wild from "./magic-sand/sand-circle-wild.js";
+import * as magic_sand_sand_cloud from "./magic-sand/sand-cloud.js";
+import * as magic_sand_sand_cloud_ancient from "./magic-sand/sand-cloud-ancient.js";
+import * as magic_sand_sand_cloud_greater from "./magic-sand/sand-cloud-greater.js";
+import * as magic_sand_sand_cloud_lesser from "./magic-sand/sand-cloud-lesser.js";
+import * as magic_sand_sand_cloud_wild from "./magic-sand/sand-cloud-wild.js";
+import * as magic_sand_sand_crescent from "./magic-sand/sand-crescent.js";
+import * as magic_sand_sand_crescent_ancient from "./magic-sand/sand-crescent-ancient.js";
+import * as magic_sand_sand_crescent_greater from "./magic-sand/sand-crescent-greater.js";
+import * as magic_sand_sand_crescent_lesser from "./magic-sand/sand-crescent-lesser.js";
+import * as magic_sand_sand_crescent_wild from "./magic-sand/sand-crescent-wild.js";
+import * as magic_sand_sand_dash from "./magic-sand/sand-dash.js";
+import * as magic_sand_sand_dash_ancient from "./magic-sand/sand-dash-ancient.js";
+import * as magic_sand_sand_dash_greater from "./magic-sand/sand-dash-greater.js";
+import * as magic_sand_sand_dash_lesser from "./magic-sand/sand-dash-lesser.js";
+import * as magic_sand_sand_dash_wild from "./magic-sand/sand-dash-wild.js";
+import * as magic_sand_sand_flare from "./magic-sand/sand-flare.js";
+import * as magic_sand_sand_flare_ancient from "./magic-sand/sand-flare-ancient.js";
+import * as magic_sand_sand_flare_greater from "./magic-sand/sand-flare-greater.js";
+import * as magic_sand_sand_flare_lesser from "./magic-sand/sand-flare-lesser.js";
+import * as magic_sand_sand_flare_wild from "./magic-sand/sand-flare-wild.js";
+import * as magic_sand_sand_impact from "./magic-sand/sand-impact.js";
+import * as magic_sand_sand_impact_ancient from "./magic-sand/sand-impact-ancient.js";
+import * as magic_sand_sand_impact_greater from "./magic-sand/sand-impact-greater.js";
+import * as magic_sand_sand_impact_lesser from "./magic-sand/sand-impact-lesser.js";
+import * as magic_sand_sand_impact_wild from "./magic-sand/sand-impact-wild.js";
+import * as magic_sand_sand_meteor from "./magic-sand/sand-meteor.js";
+import * as magic_sand_sand_meteor_ancient from "./magic-sand/sand-meteor-ancient.js";
+import * as magic_sand_sand_meteor_greater from "./magic-sand/sand-meteor-greater.js";
+import * as magic_sand_sand_meteor_lesser from "./magic-sand/sand-meteor-lesser.js";
+import * as magic_sand_sand_meteor_wild from "./magic-sand/sand-meteor-wild.js";
+import * as magic_sand_sand_nova from "./magic-sand/sand-nova.js";
+import * as magic_sand_sand_nova_ancient from "./magic-sand/sand-nova-ancient.js";
+import * as magic_sand_sand_nova_greater from "./magic-sand/sand-nova-greater.js";
+import * as magic_sand_sand_nova_lesser from "./magic-sand/sand-nova-lesser.js";
+import * as magic_sand_sand_nova_wild from "./magic-sand/sand-nova-wild.js";
+import * as magic_sand_sand_orb from "./magic-sand/sand-orb.js";
+import * as magic_sand_sand_orb_ancient from "./magic-sand/sand-orb-ancient.js";
+import * as magic_sand_sand_orb_greater from "./magic-sand/sand-orb-greater.js";
+import * as magic_sand_sand_orb_lesser from "./magic-sand/sand-orb-lesser.js";
+import * as magic_sand_sand_orb_wild from "./magic-sand/sand-orb-wild.js";
+import * as magic_sand_sand_orbit from "./magic-sand/sand-orbit.js";
+import * as magic_sand_sand_orbit_ancient from "./magic-sand/sand-orbit-ancient.js";
+import * as magic_sand_sand_orbit_greater from "./magic-sand/sand-orbit-greater.js";
+import * as magic_sand_sand_orbit_lesser from "./magic-sand/sand-orbit-lesser.js";
+import * as magic_sand_sand_orbit_wild from "./magic-sand/sand-orbit-wild.js";
+import * as magic_sand_sand_pillar from "./magic-sand/sand-pillar.js";
+import * as magic_sand_sand_pillar_ancient from "./magic-sand/sand-pillar-ancient.js";
+import * as magic_sand_sand_pillar_greater from "./magic-sand/sand-pillar-greater.js";
+import * as magic_sand_sand_pillar_lesser from "./magic-sand/sand-pillar-lesser.js";
+import * as magic_sand_sand_pillar_wild from "./magic-sand/sand-pillar-wild.js";
+import * as magic_sand_sand_portal from "./magic-sand/sand-portal.js";
+import * as magic_sand_sand_portal_ancient from "./magic-sand/sand-portal-ancient.js";
+import * as magic_sand_sand_portal_greater from "./magic-sand/sand-portal-greater.js";
+import * as magic_sand_sand_portal_lesser from "./magic-sand/sand-portal-lesser.js";
+import * as magic_sand_sand_portal_wild from "./magic-sand/sand-portal-wild.js";
+import * as magic_sand_sand_rain from "./magic-sand/sand-rain.js";
+import * as magic_sand_sand_rain_ancient from "./magic-sand/sand-rain-ancient.js";
+import * as magic_sand_sand_rain_greater from "./magic-sand/sand-rain-greater.js";
+import * as magic_sand_sand_rain_lesser from "./magic-sand/sand-rain-lesser.js";
+import * as magic_sand_sand_rain_wild from "./magic-sand/sand-rain-wild.js";
+import * as magic_sand_sand_shield from "./magic-sand/sand-shield.js";
+import * as magic_sand_sand_shield_ancient from "./magic-sand/sand-shield-ancient.js";
+import * as magic_sand_sand_shield_greater from "./magic-sand/sand-shield-greater.js";
+import * as magic_sand_sand_shield_lesser from "./magic-sand/sand-shield-lesser.js";
+import * as magic_sand_sand_shield_wild from "./magic-sand/sand-shield-wild.js";
+import * as magic_sand_sand_sigil from "./magic-sand/sand-sigil.js";
+import * as magic_sand_sand_sigil_ancient from "./magic-sand/sand-sigil-ancient.js";
+import * as magic_sand_sand_sigil_greater from "./magic-sand/sand-sigil-greater.js";
+import * as magic_sand_sand_sigil_lesser from "./magic-sand/sand-sigil-lesser.js";
+import * as magic_sand_sand_sigil_wild from "./magic-sand/sand-sigil-wild.js";
+import * as magic_sand_sand_spikes from "./magic-sand/sand-spikes.js";
+import * as magic_sand_sand_spikes_ancient from "./magic-sand/sand-spikes-ancient.js";
+import * as magic_sand_sand_spikes_greater from "./magic-sand/sand-spikes-greater.js";
+import * as magic_sand_sand_spikes_lesser from "./magic-sand/sand-spikes-lesser.js";
+import * as magic_sand_sand_spikes_wild from "./magic-sand/sand-spikes-wild.js";
+import * as magic_sand_sand_summon from "./magic-sand/sand-summon.js";
+import * as magic_sand_sand_summon_ancient from "./magic-sand/sand-summon-ancient.js";
+import * as magic_sand_sand_summon_greater from "./magic-sand/sand-summon-greater.js";
+import * as magic_sand_sand_summon_lesser from "./magic-sand/sand-summon-lesser.js";
+import * as magic_sand_sand_summon_wild from "./magic-sand/sand-summon-wild.js";
+import * as magic_sand_sand_vortex from "./magic-sand/sand-vortex.js";
+import * as magic_sand_sand_vortex_ancient from "./magic-sand/sand-vortex-ancient.js";
+import * as magic_sand_sand_vortex_greater from "./magic-sand/sand-vortex-greater.js";
+import * as magic_sand_sand_vortex_lesser from "./magic-sand/sand-vortex-lesser.js";
+import * as magic_sand_sand_vortex_wild from "./magic-sand/sand-vortex-wild.js";
+import * as magic_sand_sand_wave from "./magic-sand/sand-wave.js";
+import * as magic_sand_sand_wave_ancient from "./magic-sand/sand-wave-ancient.js";
+import * as magic_sand_sand_wave_greater from "./magic-sand/sand-wave-greater.js";
+import * as magic_sand_sand_wave_lesser from "./magic-sand/sand-wave-lesser.js";
+import * as magic_sand_sand_wave_wild from "./magic-sand/sand-wave-wild.js";
+import * as magic_magma_magma_aura from "./magic-magma/magma-aura.js";
+import * as magic_magma_magma_aura_ancient from "./magic-magma/magma-aura-ancient.js";
+import * as magic_magma_magma_aura_greater from "./magic-magma/magma-aura-greater.js";
+import * as magic_magma_magma_aura_lesser from "./magic-magma/magma-aura-lesser.js";
+import * as magic_magma_magma_aura_wild from "./magic-magma/magma-aura-wild.js";
+import * as magic_magma_magma_beam from "./magic-magma/magma-beam.js";
+import * as magic_magma_magma_beam_ancient from "./magic-magma/magma-beam-ancient.js";
+import * as magic_magma_magma_beam_greater from "./magic-magma/magma-beam-greater.js";
+import * as magic_magma_magma_beam_lesser from "./magic-magma/magma-beam-lesser.js";
+import * as magic_magma_magma_beam_wild from "./magic-magma/magma-beam-wild.js";
+import * as magic_magma_magma_bolt from "./magic-magma/magma-bolt.js";
+import * as magic_magma_magma_bolt_ancient from "./magic-magma/magma-bolt-ancient.js";
+import * as magic_magma_magma_bolt_greater from "./magic-magma/magma-bolt-greater.js";
+import * as magic_magma_magma_bolt_lesser from "./magic-magma/magma-bolt-lesser.js";
+import * as magic_magma_magma_bolt_wild from "./magic-magma/magma-bolt-wild.js";
+import * as magic_magma_magma_burst from "./magic-magma/magma-burst.js";
+import * as magic_magma_magma_burst_ancient from "./magic-magma/magma-burst-ancient.js";
+import * as magic_magma_magma_burst_greater from "./magic-magma/magma-burst-greater.js";
+import * as magic_magma_magma_burst_lesser from "./magic-magma/magma-burst-lesser.js";
+import * as magic_magma_magma_burst_wild from "./magic-magma/magma-burst-wild.js";
+import * as magic_magma_magma_charge from "./magic-magma/magma-charge.js";
+import * as magic_magma_magma_charge_ancient from "./magic-magma/magma-charge-ancient.js";
+import * as magic_magma_magma_charge_greater from "./magic-magma/magma-charge-greater.js";
+import * as magic_magma_magma_charge_lesser from "./magic-magma/magma-charge-lesser.js";
+import * as magic_magma_magma_charge_wild from "./magic-magma/magma-charge-wild.js";
+import * as magic_magma_magma_circle from "./magic-magma/magma-circle.js";
+import * as magic_magma_magma_circle_ancient from "./magic-magma/magma-circle-ancient.js";
+import * as magic_magma_magma_circle_greater from "./magic-magma/magma-circle-greater.js";
+import * as magic_magma_magma_circle_lesser from "./magic-magma/magma-circle-lesser.js";
+import * as magic_magma_magma_circle_wild from "./magic-magma/magma-circle-wild.js";
+import * as magic_magma_magma_cloud from "./magic-magma/magma-cloud.js";
+import * as magic_magma_magma_cloud_ancient from "./magic-magma/magma-cloud-ancient.js";
+import * as magic_magma_magma_cloud_greater from "./magic-magma/magma-cloud-greater.js";
+import * as magic_magma_magma_cloud_lesser from "./magic-magma/magma-cloud-lesser.js";
+import * as magic_magma_magma_cloud_wild from "./magic-magma/magma-cloud-wild.js";
+import * as magic_magma_magma_crescent from "./magic-magma/magma-crescent.js";
+import * as magic_magma_magma_crescent_ancient from "./magic-magma/magma-crescent-ancient.js";
+import * as magic_magma_magma_crescent_greater from "./magic-magma/magma-crescent-greater.js";
+import * as magic_magma_magma_crescent_lesser from "./magic-magma/magma-crescent-lesser.js";
+import * as magic_magma_magma_crescent_wild from "./magic-magma/magma-crescent-wild.js";
+import * as magic_magma_magma_dash from "./magic-magma/magma-dash.js";
+import * as magic_magma_magma_dash_ancient from "./magic-magma/magma-dash-ancient.js";
+import * as magic_magma_magma_dash_greater from "./magic-magma/magma-dash-greater.js";
+import * as magic_magma_magma_dash_lesser from "./magic-magma/magma-dash-lesser.js";
+import * as magic_magma_magma_dash_wild from "./magic-magma/magma-dash-wild.js";
+import * as magic_magma_magma_flare from "./magic-magma/magma-flare.js";
+import * as magic_magma_magma_flare_ancient from "./magic-magma/magma-flare-ancient.js";
+import * as magic_magma_magma_flare_greater from "./magic-magma/magma-flare-greater.js";
+import * as magic_magma_magma_flare_lesser from "./magic-magma/magma-flare-lesser.js";
+import * as magic_magma_magma_flare_wild from "./magic-magma/magma-flare-wild.js";
+import * as magic_magma_magma_impact from "./magic-magma/magma-impact.js";
+import * as magic_magma_magma_impact_ancient from "./magic-magma/magma-impact-ancient.js";
+import * as magic_magma_magma_impact_greater from "./magic-magma/magma-impact-greater.js";
+import * as magic_magma_magma_impact_lesser from "./magic-magma/magma-impact-lesser.js";
+import * as magic_magma_magma_impact_wild from "./magic-magma/magma-impact-wild.js";
+import * as magic_magma_magma_meteor from "./magic-magma/magma-meteor.js";
+import * as magic_magma_magma_meteor_ancient from "./magic-magma/magma-meteor-ancient.js";
+import * as magic_magma_magma_meteor_greater from "./magic-magma/magma-meteor-greater.js";
+import * as magic_magma_magma_meteor_lesser from "./magic-magma/magma-meteor-lesser.js";
+import * as magic_magma_magma_meteor_wild from "./magic-magma/magma-meteor-wild.js";
+import * as magic_magma_magma_nova from "./magic-magma/magma-nova.js";
+import * as magic_magma_magma_nova_ancient from "./magic-magma/magma-nova-ancient.js";
+import * as magic_magma_magma_nova_greater from "./magic-magma/magma-nova-greater.js";
+import * as magic_magma_magma_nova_lesser from "./magic-magma/magma-nova-lesser.js";
+import * as magic_magma_magma_nova_wild from "./magic-magma/magma-nova-wild.js";
+import * as magic_magma_magma_orb from "./magic-magma/magma-orb.js";
+import * as magic_magma_magma_orb_ancient from "./magic-magma/magma-orb-ancient.js";
+import * as magic_magma_magma_orb_greater from "./magic-magma/magma-orb-greater.js";
+import * as magic_magma_magma_orb_lesser from "./magic-magma/magma-orb-lesser.js";
+import * as magic_magma_magma_orb_wild from "./magic-magma/magma-orb-wild.js";
+import * as magic_magma_magma_orbit from "./magic-magma/magma-orbit.js";
+import * as magic_magma_magma_orbit_ancient from "./magic-magma/magma-orbit-ancient.js";
+import * as magic_magma_magma_orbit_greater from "./magic-magma/magma-orbit-greater.js";
+import * as magic_magma_magma_orbit_lesser from "./magic-magma/magma-orbit-lesser.js";
+import * as magic_magma_magma_orbit_wild from "./magic-magma/magma-orbit-wild.js";
+import * as magic_magma_magma_pillar from "./magic-magma/magma-pillar.js";
+import * as magic_magma_magma_pillar_ancient from "./magic-magma/magma-pillar-ancient.js";
+import * as magic_magma_magma_pillar_greater from "./magic-magma/magma-pillar-greater.js";
+import * as magic_magma_magma_pillar_lesser from "./magic-magma/magma-pillar-lesser.js";
+import * as magic_magma_magma_pillar_wild from "./magic-magma/magma-pillar-wild.js";
+import * as magic_magma_magma_portal from "./magic-magma/magma-portal.js";
+import * as magic_magma_magma_portal_ancient from "./magic-magma/magma-portal-ancient.js";
+import * as magic_magma_magma_portal_greater from "./magic-magma/magma-portal-greater.js";
+import * as magic_magma_magma_portal_lesser from "./magic-magma/magma-portal-lesser.js";
+import * as magic_magma_magma_portal_wild from "./magic-magma/magma-portal-wild.js";
+import * as magic_magma_magma_rain from "./magic-magma/magma-rain.js";
+import * as magic_magma_magma_rain_ancient from "./magic-magma/magma-rain-ancient.js";
+import * as magic_magma_magma_rain_greater from "./magic-magma/magma-rain-greater.js";
+import * as magic_magma_magma_rain_lesser from "./magic-magma/magma-rain-lesser.js";
+import * as magic_magma_magma_rain_wild from "./magic-magma/magma-rain-wild.js";
+import * as magic_magma_magma_shield from "./magic-magma/magma-shield.js";
+import * as magic_magma_magma_shield_ancient from "./magic-magma/magma-shield-ancient.js";
+import * as magic_magma_magma_shield_greater from "./magic-magma/magma-shield-greater.js";
+import * as magic_magma_magma_shield_lesser from "./magic-magma/magma-shield-lesser.js";
+import * as magic_magma_magma_shield_wild from "./magic-magma/magma-shield-wild.js";
+import * as magic_magma_magma_sigil from "./magic-magma/magma-sigil.js";
+import * as magic_magma_magma_sigil_ancient from "./magic-magma/magma-sigil-ancient.js";
+import * as magic_magma_magma_sigil_greater from "./magic-magma/magma-sigil-greater.js";
+import * as magic_magma_magma_sigil_lesser from "./magic-magma/magma-sigil-lesser.js";
+import * as magic_magma_magma_sigil_wild from "./magic-magma/magma-sigil-wild.js";
+import * as magic_magma_magma_spikes from "./magic-magma/magma-spikes.js";
+import * as magic_magma_magma_spikes_ancient from "./magic-magma/magma-spikes-ancient.js";
+import * as magic_magma_magma_spikes_greater from "./magic-magma/magma-spikes-greater.js";
+import * as magic_magma_magma_spikes_lesser from "./magic-magma/magma-spikes-lesser.js";
+import * as magic_magma_magma_spikes_wild from "./magic-magma/magma-spikes-wild.js";
+import * as magic_magma_magma_summon from "./magic-magma/magma-summon.js";
+import * as magic_magma_magma_summon_ancient from "./magic-magma/magma-summon-ancient.js";
+import * as magic_magma_magma_summon_greater from "./magic-magma/magma-summon-greater.js";
+import * as magic_magma_magma_summon_lesser from "./magic-magma/magma-summon-lesser.js";
+import * as magic_magma_magma_summon_wild from "./magic-magma/magma-summon-wild.js";
+import * as magic_magma_magma_vortex from "./magic-magma/magma-vortex.js";
+import * as magic_magma_magma_vortex_ancient from "./magic-magma/magma-vortex-ancient.js";
+import * as magic_magma_magma_vortex_greater from "./magic-magma/magma-vortex-greater.js";
+import * as magic_magma_magma_vortex_lesser from "./magic-magma/magma-vortex-lesser.js";
+import * as magic_magma_magma_vortex_wild from "./magic-magma/magma-vortex-wild.js";
+import * as magic_magma_magma_wave from "./magic-magma/magma-wave.js";
+import * as magic_magma_magma_wave_ancient from "./magic-magma/magma-wave-ancient.js";
+import * as magic_magma_magma_wave_greater from "./magic-magma/magma-wave-greater.js";
+import * as magic_magma_magma_wave_lesser from "./magic-magma/magma-wave-lesser.js";
+import * as magic_magma_magma_wave_wild from "./magic-magma/magma-wave-wild.js";
+import * as magic_spirit_spirit_aura from "./magic-spirit/spirit-aura.js";
+import * as magic_spirit_spirit_aura_ancient from "./magic-spirit/spirit-aura-ancient.js";
+import * as magic_spirit_spirit_aura_greater from "./magic-spirit/spirit-aura-greater.js";
+import * as magic_spirit_spirit_aura_lesser from "./magic-spirit/spirit-aura-lesser.js";
+import * as magic_spirit_spirit_aura_wild from "./magic-spirit/spirit-aura-wild.js";
+import * as magic_spirit_spirit_beam from "./magic-spirit/spirit-beam.js";
+import * as magic_spirit_spirit_beam_ancient from "./magic-spirit/spirit-beam-ancient.js";
+import * as magic_spirit_spirit_beam_greater from "./magic-spirit/spirit-beam-greater.js";
+import * as magic_spirit_spirit_beam_lesser from "./magic-spirit/spirit-beam-lesser.js";
+import * as magic_spirit_spirit_beam_wild from "./magic-spirit/spirit-beam-wild.js";
+import * as magic_spirit_spirit_bolt from "./magic-spirit/spirit-bolt.js";
+import * as magic_spirit_spirit_bolt_ancient from "./magic-spirit/spirit-bolt-ancient.js";
+import * as magic_spirit_spirit_bolt_greater from "./magic-spirit/spirit-bolt-greater.js";
+import * as magic_spirit_spirit_bolt_lesser from "./magic-spirit/spirit-bolt-lesser.js";
+import * as magic_spirit_spirit_bolt_wild from "./magic-spirit/spirit-bolt-wild.js";
+import * as magic_spirit_spirit_burst from "./magic-spirit/spirit-burst.js";
+import * as magic_spirit_spirit_burst_ancient from "./magic-spirit/spirit-burst-ancient.js";
+import * as magic_spirit_spirit_burst_greater from "./magic-spirit/spirit-burst-greater.js";
+import * as magic_spirit_spirit_burst_lesser from "./magic-spirit/spirit-burst-lesser.js";
+import * as magic_spirit_spirit_burst_wild from "./magic-spirit/spirit-burst-wild.js";
+import * as magic_spirit_spirit_charge from "./magic-spirit/spirit-charge.js";
+import * as magic_spirit_spirit_charge_ancient from "./magic-spirit/spirit-charge-ancient.js";
+import * as magic_spirit_spirit_charge_greater from "./magic-spirit/spirit-charge-greater.js";
+import * as magic_spirit_spirit_charge_lesser from "./magic-spirit/spirit-charge-lesser.js";
+import * as magic_spirit_spirit_charge_wild from "./magic-spirit/spirit-charge-wild.js";
+import * as magic_spirit_spirit_circle from "./magic-spirit/spirit-circle.js";
+import * as magic_spirit_spirit_circle_ancient from "./magic-spirit/spirit-circle-ancient.js";
+import * as magic_spirit_spirit_circle_greater from "./magic-spirit/spirit-circle-greater.js";
+import * as magic_spirit_spirit_circle_lesser from "./magic-spirit/spirit-circle-lesser.js";
+import * as magic_spirit_spirit_circle_wild from "./magic-spirit/spirit-circle-wild.js";
+import * as magic_spirit_spirit_cloud from "./magic-spirit/spirit-cloud.js";
+import * as magic_spirit_spirit_cloud_ancient from "./magic-spirit/spirit-cloud-ancient.js";
+import * as magic_spirit_spirit_cloud_greater from "./magic-spirit/spirit-cloud-greater.js";
+import * as magic_spirit_spirit_cloud_lesser from "./magic-spirit/spirit-cloud-lesser.js";
+import * as magic_spirit_spirit_cloud_wild from "./magic-spirit/spirit-cloud-wild.js";
+import * as magic_spirit_spirit_crescent from "./magic-spirit/spirit-crescent.js";
+import * as magic_spirit_spirit_crescent_ancient from "./magic-spirit/spirit-crescent-ancient.js";
+import * as magic_spirit_spirit_crescent_greater from "./magic-spirit/spirit-crescent-greater.js";
+import * as magic_spirit_spirit_crescent_lesser from "./magic-spirit/spirit-crescent-lesser.js";
+import * as magic_spirit_spirit_crescent_wild from "./magic-spirit/spirit-crescent-wild.js";
+import * as magic_spirit_spirit_dash from "./magic-spirit/spirit-dash.js";
+import * as magic_spirit_spirit_dash_ancient from "./magic-spirit/spirit-dash-ancient.js";
+import * as magic_spirit_spirit_dash_greater from "./magic-spirit/spirit-dash-greater.js";
+import * as magic_spirit_spirit_dash_lesser from "./magic-spirit/spirit-dash-lesser.js";
+import * as magic_spirit_spirit_dash_wild from "./magic-spirit/spirit-dash-wild.js";
+import * as magic_spirit_spirit_flare from "./magic-spirit/spirit-flare.js";
+import * as magic_spirit_spirit_flare_ancient from "./magic-spirit/spirit-flare-ancient.js";
+import * as magic_spirit_spirit_flare_greater from "./magic-spirit/spirit-flare-greater.js";
+import * as magic_spirit_spirit_flare_lesser from "./magic-spirit/spirit-flare-lesser.js";
+import * as magic_spirit_spirit_flare_wild from "./magic-spirit/spirit-flare-wild.js";
+import * as magic_spirit_spirit_impact from "./magic-spirit/spirit-impact.js";
+import * as magic_spirit_spirit_impact_ancient from "./magic-spirit/spirit-impact-ancient.js";
+import * as magic_spirit_spirit_impact_greater from "./magic-spirit/spirit-impact-greater.js";
+import * as magic_spirit_spirit_impact_lesser from "./magic-spirit/spirit-impact-lesser.js";
+import * as magic_spirit_spirit_impact_wild from "./magic-spirit/spirit-impact-wild.js";
+import * as magic_spirit_spirit_meteor from "./magic-spirit/spirit-meteor.js";
+import * as magic_spirit_spirit_meteor_ancient from "./magic-spirit/spirit-meteor-ancient.js";
+import * as magic_spirit_spirit_meteor_greater from "./magic-spirit/spirit-meteor-greater.js";
+import * as magic_spirit_spirit_meteor_lesser from "./magic-spirit/spirit-meteor-lesser.js";
+import * as magic_spirit_spirit_meteor_wild from "./magic-spirit/spirit-meteor-wild.js";
+import * as magic_spirit_spirit_nova from "./magic-spirit/spirit-nova.js";
+import * as magic_spirit_spirit_nova_ancient from "./magic-spirit/spirit-nova-ancient.js";
+import * as magic_spirit_spirit_nova_greater from "./magic-spirit/spirit-nova-greater.js";
+import * as magic_spirit_spirit_nova_lesser from "./magic-spirit/spirit-nova-lesser.js";
+import * as magic_spirit_spirit_nova_wild from "./magic-spirit/spirit-nova-wild.js";
+import * as magic_spirit_spirit_orb from "./magic-spirit/spirit-orb.js";
+import * as magic_spirit_spirit_orb_ancient from "./magic-spirit/spirit-orb-ancient.js";
+import * as magic_spirit_spirit_orb_greater from "./magic-spirit/spirit-orb-greater.js";
+import * as magic_spirit_spirit_orb_lesser from "./magic-spirit/spirit-orb-lesser.js";
+import * as magic_spirit_spirit_orb_wild from "./magic-spirit/spirit-orb-wild.js";
+import * as magic_spirit_spirit_orbit from "./magic-spirit/spirit-orbit.js";
+import * as magic_spirit_spirit_orbit_ancient from "./magic-spirit/spirit-orbit-ancient.js";
+import * as magic_spirit_spirit_orbit_greater from "./magic-spirit/spirit-orbit-greater.js";
+import * as magic_spirit_spirit_orbit_lesser from "./magic-spirit/spirit-orbit-lesser.js";
+import * as magic_spirit_spirit_orbit_wild from "./magic-spirit/spirit-orbit-wild.js";
+import * as magic_spirit_spirit_pillar from "./magic-spirit/spirit-pillar.js";
+import * as magic_spirit_spirit_pillar_ancient from "./magic-spirit/spirit-pillar-ancient.js";
+import * as magic_spirit_spirit_pillar_greater from "./magic-spirit/spirit-pillar-greater.js";
+import * as magic_spirit_spirit_pillar_lesser from "./magic-spirit/spirit-pillar-lesser.js";
+import * as magic_spirit_spirit_pillar_wild from "./magic-spirit/spirit-pillar-wild.js";
+import * as magic_spirit_spirit_portal from "./magic-spirit/spirit-portal.js";
+import * as magic_spirit_spirit_portal_ancient from "./magic-spirit/spirit-portal-ancient.js";
+import * as magic_spirit_spirit_portal_greater from "./magic-spirit/spirit-portal-greater.js";
+import * as magic_spirit_spirit_portal_lesser from "./magic-spirit/spirit-portal-lesser.js";
+import * as magic_spirit_spirit_portal_wild from "./magic-spirit/spirit-portal-wild.js";
+import * as magic_spirit_spirit_rain from "./magic-spirit/spirit-rain.js";
+import * as magic_spirit_spirit_rain_ancient from "./magic-spirit/spirit-rain-ancient.js";
+import * as magic_spirit_spirit_rain_greater from "./magic-spirit/spirit-rain-greater.js";
+import * as magic_spirit_spirit_rain_lesser from "./magic-spirit/spirit-rain-lesser.js";
+import * as magic_spirit_spirit_rain_wild from "./magic-spirit/spirit-rain-wild.js";
+import * as magic_spirit_spirit_shield from "./magic-spirit/spirit-shield.js";
+import * as magic_spirit_spirit_shield_ancient from "./magic-spirit/spirit-shield-ancient.js";
+import * as magic_spirit_spirit_shield_greater from "./magic-spirit/spirit-shield-greater.js";
+import * as magic_spirit_spirit_shield_lesser from "./magic-spirit/spirit-shield-lesser.js";
+import * as magic_spirit_spirit_shield_wild from "./magic-spirit/spirit-shield-wild.js";
+import * as magic_spirit_spirit_sigil from "./magic-spirit/spirit-sigil.js";
+import * as magic_spirit_spirit_sigil_ancient from "./magic-spirit/spirit-sigil-ancient.js";
+import * as magic_spirit_spirit_sigil_greater from "./magic-spirit/spirit-sigil-greater.js";
+import * as magic_spirit_spirit_sigil_lesser from "./magic-spirit/spirit-sigil-lesser.js";
+import * as magic_spirit_spirit_sigil_wild from "./magic-spirit/spirit-sigil-wild.js";
+import * as magic_spirit_spirit_spikes from "./magic-spirit/spirit-spikes.js";
+import * as magic_spirit_spirit_spikes_ancient from "./magic-spirit/spirit-spikes-ancient.js";
+import * as magic_spirit_spirit_spikes_greater from "./magic-spirit/spirit-spikes-greater.js";
+import * as magic_spirit_spirit_spikes_lesser from "./magic-spirit/spirit-spikes-lesser.js";
+import * as magic_spirit_spirit_spikes_wild from "./magic-spirit/spirit-spikes-wild.js";
+import * as magic_spirit_spirit_summon from "./magic-spirit/spirit-summon.js";
+import * as magic_spirit_spirit_summon_ancient from "./magic-spirit/spirit-summon-ancient.js";
+import * as magic_spirit_spirit_summon_greater from "./magic-spirit/spirit-summon-greater.js";
+import * as magic_spirit_spirit_summon_lesser from "./magic-spirit/spirit-summon-lesser.js";
+import * as magic_spirit_spirit_summon_wild from "./magic-spirit/spirit-summon-wild.js";
+import * as magic_spirit_spirit_vortex from "./magic-spirit/spirit-vortex.js";
+import * as magic_spirit_spirit_vortex_ancient from "./magic-spirit/spirit-vortex-ancient.js";
+import * as magic_spirit_spirit_vortex_greater from "./magic-spirit/spirit-vortex-greater.js";
+import * as magic_spirit_spirit_vortex_lesser from "./magic-spirit/spirit-vortex-lesser.js";
+import * as magic_spirit_spirit_vortex_wild from "./magic-spirit/spirit-vortex-wild.js";
+import * as magic_spirit_spirit_wave from "./magic-spirit/spirit-wave.js";
+import * as magic_spirit_spirit_wave_ancient from "./magic-spirit/spirit-wave-ancient.js";
+import * as magic_spirit_spirit_wave_greater from "./magic-spirit/spirit-wave-greater.js";
+import * as magic_spirit_spirit_wave_lesser from "./magic-spirit/spirit-wave-lesser.js";
+import * as magic_spirit_spirit_wave_wild from "./magic-spirit/spirit-wave-wild.js";
+import * as magic_iron_iron_aura from "./magic-iron/iron-aura.js";
+import * as magic_iron_iron_aura_ancient from "./magic-iron/iron-aura-ancient.js";
+import * as magic_iron_iron_aura_greater from "./magic-iron/iron-aura-greater.js";
+import * as magic_iron_iron_aura_lesser from "./magic-iron/iron-aura-lesser.js";
+import * as magic_iron_iron_aura_wild from "./magic-iron/iron-aura-wild.js";
+import * as magic_iron_iron_beam from "./magic-iron/iron-beam.js";
+import * as magic_iron_iron_beam_ancient from "./magic-iron/iron-beam-ancient.js";
+import * as magic_iron_iron_beam_greater from "./magic-iron/iron-beam-greater.js";
+import * as magic_iron_iron_beam_lesser from "./magic-iron/iron-beam-lesser.js";
+import * as magic_iron_iron_beam_wild from "./magic-iron/iron-beam-wild.js";
+import * as magic_iron_iron_bolt from "./magic-iron/iron-bolt.js";
+import * as magic_iron_iron_bolt_ancient from "./magic-iron/iron-bolt-ancient.js";
+import * as magic_iron_iron_bolt_greater from "./magic-iron/iron-bolt-greater.js";
+import * as magic_iron_iron_bolt_lesser from "./magic-iron/iron-bolt-lesser.js";
+import * as magic_iron_iron_bolt_wild from "./magic-iron/iron-bolt-wild.js";
+import * as magic_iron_iron_burst from "./magic-iron/iron-burst.js";
+import * as magic_iron_iron_burst_ancient from "./magic-iron/iron-burst-ancient.js";
+import * as magic_iron_iron_burst_greater from "./magic-iron/iron-burst-greater.js";
+import * as magic_iron_iron_burst_lesser from "./magic-iron/iron-burst-lesser.js";
+import * as magic_iron_iron_burst_wild from "./magic-iron/iron-burst-wild.js";
+import * as magic_iron_iron_charge from "./magic-iron/iron-charge.js";
+import * as magic_iron_iron_charge_ancient from "./magic-iron/iron-charge-ancient.js";
+import * as magic_iron_iron_charge_greater from "./magic-iron/iron-charge-greater.js";
+import * as magic_iron_iron_charge_lesser from "./magic-iron/iron-charge-lesser.js";
+import * as magic_iron_iron_charge_wild from "./magic-iron/iron-charge-wild.js";
+import * as magic_iron_iron_circle from "./magic-iron/iron-circle.js";
+import * as magic_iron_iron_circle_ancient from "./magic-iron/iron-circle-ancient.js";
+import * as magic_iron_iron_circle_greater from "./magic-iron/iron-circle-greater.js";
+import * as magic_iron_iron_circle_lesser from "./magic-iron/iron-circle-lesser.js";
+import * as magic_iron_iron_circle_wild from "./magic-iron/iron-circle-wild.js";
+import * as magic_iron_iron_cloud from "./magic-iron/iron-cloud.js";
+import * as magic_iron_iron_cloud_ancient from "./magic-iron/iron-cloud-ancient.js";
+import * as magic_iron_iron_cloud_greater from "./magic-iron/iron-cloud-greater.js";
+import * as magic_iron_iron_cloud_lesser from "./magic-iron/iron-cloud-lesser.js";
+import * as magic_iron_iron_cloud_wild from "./magic-iron/iron-cloud-wild.js";
+import * as magic_iron_iron_crescent from "./magic-iron/iron-crescent.js";
+import * as magic_iron_iron_crescent_ancient from "./magic-iron/iron-crescent-ancient.js";
+import * as magic_iron_iron_crescent_greater from "./magic-iron/iron-crescent-greater.js";
+import * as magic_iron_iron_crescent_lesser from "./magic-iron/iron-crescent-lesser.js";
+import * as magic_iron_iron_crescent_wild from "./magic-iron/iron-crescent-wild.js";
+import * as magic_iron_iron_dash from "./magic-iron/iron-dash.js";
+import * as magic_iron_iron_dash_ancient from "./magic-iron/iron-dash-ancient.js";
+import * as magic_iron_iron_dash_greater from "./magic-iron/iron-dash-greater.js";
+import * as magic_iron_iron_dash_lesser from "./magic-iron/iron-dash-lesser.js";
+import * as magic_iron_iron_dash_wild from "./magic-iron/iron-dash-wild.js";
+import * as magic_iron_iron_flare from "./magic-iron/iron-flare.js";
+import * as magic_iron_iron_flare_ancient from "./magic-iron/iron-flare-ancient.js";
+import * as magic_iron_iron_flare_greater from "./magic-iron/iron-flare-greater.js";
+import * as magic_iron_iron_flare_lesser from "./magic-iron/iron-flare-lesser.js";
+import * as magic_iron_iron_flare_wild from "./magic-iron/iron-flare-wild.js";
+import * as magic_iron_iron_impact from "./magic-iron/iron-impact.js";
+import * as magic_iron_iron_impact_ancient from "./magic-iron/iron-impact-ancient.js";
+import * as magic_iron_iron_impact_greater from "./magic-iron/iron-impact-greater.js";
+import * as magic_iron_iron_impact_lesser from "./magic-iron/iron-impact-lesser.js";
+import * as magic_iron_iron_impact_wild from "./magic-iron/iron-impact-wild.js";
+import * as magic_iron_iron_meteor from "./magic-iron/iron-meteor.js";
+import * as magic_iron_iron_meteor_ancient from "./magic-iron/iron-meteor-ancient.js";
+import * as magic_iron_iron_meteor_greater from "./magic-iron/iron-meteor-greater.js";
+import * as magic_iron_iron_meteor_lesser from "./magic-iron/iron-meteor-lesser.js";
+import * as magic_iron_iron_meteor_wild from "./magic-iron/iron-meteor-wild.js";
+import * as magic_iron_iron_nova from "./magic-iron/iron-nova.js";
+import * as magic_iron_iron_nova_ancient from "./magic-iron/iron-nova-ancient.js";
+import * as magic_iron_iron_nova_greater from "./magic-iron/iron-nova-greater.js";
+import * as magic_iron_iron_nova_lesser from "./magic-iron/iron-nova-lesser.js";
+import * as magic_iron_iron_nova_wild from "./magic-iron/iron-nova-wild.js";
+import * as magic_iron_iron_orb from "./magic-iron/iron-orb.js";
+import * as magic_iron_iron_orb_ancient from "./magic-iron/iron-orb-ancient.js";
+import * as magic_iron_iron_orb_greater from "./magic-iron/iron-orb-greater.js";
+import * as magic_iron_iron_orb_lesser from "./magic-iron/iron-orb-lesser.js";
+import * as magic_iron_iron_orb_wild from "./magic-iron/iron-orb-wild.js";
+import * as magic_iron_iron_orbit from "./magic-iron/iron-orbit.js";
+import * as magic_iron_iron_orbit_ancient from "./magic-iron/iron-orbit-ancient.js";
+import * as magic_iron_iron_orbit_greater from "./magic-iron/iron-orbit-greater.js";
+import * as magic_iron_iron_orbit_lesser from "./magic-iron/iron-orbit-lesser.js";
+import * as magic_iron_iron_orbit_wild from "./magic-iron/iron-orbit-wild.js";
+import * as magic_iron_iron_pillar from "./magic-iron/iron-pillar.js";
+import * as magic_iron_iron_pillar_ancient from "./magic-iron/iron-pillar-ancient.js";
+import * as magic_iron_iron_pillar_greater from "./magic-iron/iron-pillar-greater.js";
+import * as magic_iron_iron_pillar_lesser from "./magic-iron/iron-pillar-lesser.js";
+import * as magic_iron_iron_pillar_wild from "./magic-iron/iron-pillar-wild.js";
+import * as magic_iron_iron_portal from "./magic-iron/iron-portal.js";
+import * as magic_iron_iron_portal_ancient from "./magic-iron/iron-portal-ancient.js";
+import * as magic_iron_iron_portal_greater from "./magic-iron/iron-portal-greater.js";
+import * as magic_iron_iron_portal_lesser from "./magic-iron/iron-portal-lesser.js";
+import * as magic_iron_iron_portal_wild from "./magic-iron/iron-portal-wild.js";
+import * as magic_iron_iron_rain from "./magic-iron/iron-rain.js";
+import * as magic_iron_iron_rain_ancient from "./magic-iron/iron-rain-ancient.js";
+import * as magic_iron_iron_rain_greater from "./magic-iron/iron-rain-greater.js";
+import * as magic_iron_iron_rain_lesser from "./magic-iron/iron-rain-lesser.js";
+import * as magic_iron_iron_rain_wild from "./magic-iron/iron-rain-wild.js";
+import * as magic_iron_iron_shield from "./magic-iron/iron-shield.js";
+import * as magic_iron_iron_shield_ancient from "./magic-iron/iron-shield-ancient.js";
+import * as magic_iron_iron_shield_greater from "./magic-iron/iron-shield-greater.js";
+import * as magic_iron_iron_shield_lesser from "./magic-iron/iron-shield-lesser.js";
+import * as magic_iron_iron_shield_wild from "./magic-iron/iron-shield-wild.js";
+import * as magic_iron_iron_sigil from "./magic-iron/iron-sigil.js";
+import * as magic_iron_iron_sigil_ancient from "./magic-iron/iron-sigil-ancient.js";
+import * as magic_iron_iron_sigil_greater from "./magic-iron/iron-sigil-greater.js";
+import * as magic_iron_iron_sigil_lesser from "./magic-iron/iron-sigil-lesser.js";
+import * as magic_iron_iron_sigil_wild from "./magic-iron/iron-sigil-wild.js";
+import * as magic_iron_iron_spikes from "./magic-iron/iron-spikes.js";
+import * as magic_iron_iron_spikes_ancient from "./magic-iron/iron-spikes-ancient.js";
+import * as magic_iron_iron_spikes_greater from "./magic-iron/iron-spikes-greater.js";
+import * as magic_iron_iron_spikes_lesser from "./magic-iron/iron-spikes-lesser.js";
+import * as magic_iron_iron_spikes_wild from "./magic-iron/iron-spikes-wild.js";
+import * as magic_iron_iron_summon from "./magic-iron/iron-summon.js";
+import * as magic_iron_iron_summon_ancient from "./magic-iron/iron-summon-ancient.js";
+import * as magic_iron_iron_summon_greater from "./magic-iron/iron-summon-greater.js";
+import * as magic_iron_iron_summon_lesser from "./magic-iron/iron-summon-lesser.js";
+import * as magic_iron_iron_summon_wild from "./magic-iron/iron-summon-wild.js";
+import * as magic_iron_iron_vortex from "./magic-iron/iron-vortex.js";
+import * as magic_iron_iron_vortex_ancient from "./magic-iron/iron-vortex-ancient.js";
+import * as magic_iron_iron_vortex_greater from "./magic-iron/iron-vortex-greater.js";
+import * as magic_iron_iron_vortex_lesser from "./magic-iron/iron-vortex-lesser.js";
+import * as magic_iron_iron_vortex_wild from "./magic-iron/iron-vortex-wild.js";
+import * as magic_iron_iron_wave from "./magic-iron/iron-wave.js";
+import * as magic_iron_iron_wave_ancient from "./magic-iron/iron-wave-ancient.js";
+import * as magic_iron_iron_wave_greater from "./magic-iron/iron-wave-greater.js";
+import * as magic_iron_iron_wave_lesser from "./magic-iron/iron-wave-lesser.js";
+import * as magic_iron_iron_wave_wild from "./magic-iron/iron-wave-wild.js";
+import * as magic_prism_prism_aura from "./magic-prism/prism-aura.js";
+import * as magic_prism_prism_aura_ancient from "./magic-prism/prism-aura-ancient.js";
+import * as magic_prism_prism_aura_greater from "./magic-prism/prism-aura-greater.js";
+import * as magic_prism_prism_aura_lesser from "./magic-prism/prism-aura-lesser.js";
+import * as magic_prism_prism_aura_wild from "./magic-prism/prism-aura-wild.js";
+import * as magic_prism_prism_beam from "./magic-prism/prism-beam.js";
+import * as magic_prism_prism_beam_ancient from "./magic-prism/prism-beam-ancient.js";
+import * as magic_prism_prism_beam_greater from "./magic-prism/prism-beam-greater.js";
+import * as magic_prism_prism_beam_lesser from "./magic-prism/prism-beam-lesser.js";
+import * as magic_prism_prism_beam_wild from "./magic-prism/prism-beam-wild.js";
+import * as magic_prism_prism_bolt from "./magic-prism/prism-bolt.js";
+import * as magic_prism_prism_bolt_ancient from "./magic-prism/prism-bolt-ancient.js";
+import * as magic_prism_prism_bolt_greater from "./magic-prism/prism-bolt-greater.js";
+import * as magic_prism_prism_bolt_lesser from "./magic-prism/prism-bolt-lesser.js";
+import * as magic_prism_prism_bolt_wild from "./magic-prism/prism-bolt-wild.js";
+import * as magic_prism_prism_burst from "./magic-prism/prism-burst.js";
+import * as magic_prism_prism_burst_ancient from "./magic-prism/prism-burst-ancient.js";
+import * as magic_prism_prism_burst_greater from "./magic-prism/prism-burst-greater.js";
+import * as magic_prism_prism_burst_lesser from "./magic-prism/prism-burst-lesser.js";
+import * as magic_prism_prism_burst_wild from "./magic-prism/prism-burst-wild.js";
+import * as magic_prism_prism_charge from "./magic-prism/prism-charge.js";
+import * as magic_prism_prism_charge_ancient from "./magic-prism/prism-charge-ancient.js";
+import * as magic_prism_prism_charge_greater from "./magic-prism/prism-charge-greater.js";
+import * as magic_prism_prism_charge_lesser from "./magic-prism/prism-charge-lesser.js";
+import * as magic_prism_prism_charge_wild from "./magic-prism/prism-charge-wild.js";
+import * as magic_prism_prism_circle from "./magic-prism/prism-circle.js";
+import * as magic_prism_prism_circle_ancient from "./magic-prism/prism-circle-ancient.js";
+import * as magic_prism_prism_circle_greater from "./magic-prism/prism-circle-greater.js";
+import * as magic_prism_prism_circle_lesser from "./magic-prism/prism-circle-lesser.js";
+import * as magic_prism_prism_circle_wild from "./magic-prism/prism-circle-wild.js";
+import * as magic_prism_prism_cloud from "./magic-prism/prism-cloud.js";
+import * as magic_prism_prism_cloud_ancient from "./magic-prism/prism-cloud-ancient.js";
+import * as magic_prism_prism_cloud_greater from "./magic-prism/prism-cloud-greater.js";
+import * as magic_prism_prism_cloud_lesser from "./magic-prism/prism-cloud-lesser.js";
+import * as magic_prism_prism_cloud_wild from "./magic-prism/prism-cloud-wild.js";
+import * as magic_prism_prism_crescent from "./magic-prism/prism-crescent.js";
+import * as magic_prism_prism_crescent_ancient from "./magic-prism/prism-crescent-ancient.js";
+import * as magic_prism_prism_crescent_greater from "./magic-prism/prism-crescent-greater.js";
+import * as magic_prism_prism_crescent_lesser from "./magic-prism/prism-crescent-lesser.js";
+import * as magic_prism_prism_crescent_wild from "./magic-prism/prism-crescent-wild.js";
+import * as magic_prism_prism_dash from "./magic-prism/prism-dash.js";
+import * as magic_prism_prism_dash_ancient from "./magic-prism/prism-dash-ancient.js";
+import * as magic_prism_prism_dash_greater from "./magic-prism/prism-dash-greater.js";
+import * as magic_prism_prism_dash_lesser from "./magic-prism/prism-dash-lesser.js";
+import * as magic_prism_prism_dash_wild from "./magic-prism/prism-dash-wild.js";
+import * as magic_prism_prism_flare from "./magic-prism/prism-flare.js";
+import * as magic_prism_prism_flare_ancient from "./magic-prism/prism-flare-ancient.js";
+import * as magic_prism_prism_flare_greater from "./magic-prism/prism-flare-greater.js";
+import * as magic_prism_prism_flare_lesser from "./magic-prism/prism-flare-lesser.js";
+import * as magic_prism_prism_flare_wild from "./magic-prism/prism-flare-wild.js";
+import * as magic_prism_prism_impact from "./magic-prism/prism-impact.js";
+import * as magic_prism_prism_impact_ancient from "./magic-prism/prism-impact-ancient.js";
+import * as magic_prism_prism_impact_greater from "./magic-prism/prism-impact-greater.js";
+import * as magic_prism_prism_impact_lesser from "./magic-prism/prism-impact-lesser.js";
+import * as magic_prism_prism_impact_wild from "./magic-prism/prism-impact-wild.js";
+import * as magic_prism_prism_meteor from "./magic-prism/prism-meteor.js";
+import * as magic_prism_prism_meteor_ancient from "./magic-prism/prism-meteor-ancient.js";
+import * as magic_prism_prism_meteor_greater from "./magic-prism/prism-meteor-greater.js";
+import * as magic_prism_prism_meteor_lesser from "./magic-prism/prism-meteor-lesser.js";
+import * as magic_prism_prism_meteor_wild from "./magic-prism/prism-meteor-wild.js";
+import * as magic_prism_prism_nova from "./magic-prism/prism-nova.js";
+import * as magic_prism_prism_nova_ancient from "./magic-prism/prism-nova-ancient.js";
+import * as magic_prism_prism_nova_greater from "./magic-prism/prism-nova-greater.js";
+import * as magic_prism_prism_nova_lesser from "./magic-prism/prism-nova-lesser.js";
+import * as magic_prism_prism_nova_wild from "./magic-prism/prism-nova-wild.js";
+import * as magic_prism_prism_orb from "./magic-prism/prism-orb.js";
+import * as magic_prism_prism_orb_ancient from "./magic-prism/prism-orb-ancient.js";
+import * as magic_prism_prism_orb_greater from "./magic-prism/prism-orb-greater.js";
+import * as magic_prism_prism_orb_lesser from "./magic-prism/prism-orb-lesser.js";
+import * as magic_prism_prism_orb_wild from "./magic-prism/prism-orb-wild.js";
+import * as magic_prism_prism_orbit from "./magic-prism/prism-orbit.js";
+import * as magic_prism_prism_orbit_ancient from "./magic-prism/prism-orbit-ancient.js";
+import * as magic_prism_prism_orbit_greater from "./magic-prism/prism-orbit-greater.js";
+import * as magic_prism_prism_orbit_lesser from "./magic-prism/prism-orbit-lesser.js";
+import * as magic_prism_prism_orbit_wild from "./magic-prism/prism-orbit-wild.js";
+import * as magic_prism_prism_pillar from "./magic-prism/prism-pillar.js";
+import * as magic_prism_prism_pillar_ancient from "./magic-prism/prism-pillar-ancient.js";
+import * as magic_prism_prism_pillar_greater from "./magic-prism/prism-pillar-greater.js";
+import * as magic_prism_prism_pillar_lesser from "./magic-prism/prism-pillar-lesser.js";
+import * as magic_prism_prism_pillar_wild from "./magic-prism/prism-pillar-wild.js";
+import * as magic_prism_prism_portal from "./magic-prism/prism-portal.js";
+import * as magic_prism_prism_portal_ancient from "./magic-prism/prism-portal-ancient.js";
+import * as magic_prism_prism_portal_greater from "./magic-prism/prism-portal-greater.js";
+import * as magic_prism_prism_portal_lesser from "./magic-prism/prism-portal-lesser.js";
+import * as magic_prism_prism_portal_wild from "./magic-prism/prism-portal-wild.js";
+import * as magic_prism_prism_rain from "./magic-prism/prism-rain.js";
+import * as magic_prism_prism_rain_ancient from "./magic-prism/prism-rain-ancient.js";
+import * as magic_prism_prism_rain_greater from "./magic-prism/prism-rain-greater.js";
+import * as magic_prism_prism_rain_lesser from "./magic-prism/prism-rain-lesser.js";
+import * as magic_prism_prism_rain_wild from "./magic-prism/prism-rain-wild.js";
+import * as magic_prism_prism_shield from "./magic-prism/prism-shield.js";
+import * as magic_prism_prism_shield_ancient from "./magic-prism/prism-shield-ancient.js";
+import * as magic_prism_prism_shield_greater from "./magic-prism/prism-shield-greater.js";
+import * as magic_prism_prism_shield_lesser from "./magic-prism/prism-shield-lesser.js";
+import * as magic_prism_prism_shield_wild from "./magic-prism/prism-shield-wild.js";
+import * as magic_prism_prism_sigil from "./magic-prism/prism-sigil.js";
+import * as magic_prism_prism_sigil_ancient from "./magic-prism/prism-sigil-ancient.js";
+import * as magic_prism_prism_sigil_greater from "./magic-prism/prism-sigil-greater.js";
+import * as magic_prism_prism_sigil_lesser from "./magic-prism/prism-sigil-lesser.js";
+import * as magic_prism_prism_sigil_wild from "./magic-prism/prism-sigil-wild.js";
+import * as magic_prism_prism_spikes from "./magic-prism/prism-spikes.js";
+import * as magic_prism_prism_spikes_ancient from "./magic-prism/prism-spikes-ancient.js";
+import * as magic_prism_prism_spikes_greater from "./magic-prism/prism-spikes-greater.js";
+import * as magic_prism_prism_spikes_lesser from "./magic-prism/prism-spikes-lesser.js";
+import * as magic_prism_prism_spikes_wild from "./magic-prism/prism-spikes-wild.js";
+import * as magic_prism_prism_summon from "./magic-prism/prism-summon.js";
+import * as magic_prism_prism_summon_ancient from "./magic-prism/prism-summon-ancient.js";
+import * as magic_prism_prism_summon_greater from "./magic-prism/prism-summon-greater.js";
+import * as magic_prism_prism_summon_lesser from "./magic-prism/prism-summon-lesser.js";
+import * as magic_prism_prism_summon_wild from "./magic-prism/prism-summon-wild.js";
+import * as magic_prism_prism_vortex from "./magic-prism/prism-vortex.js";
+import * as magic_prism_prism_vortex_ancient from "./magic-prism/prism-vortex-ancient.js";
+import * as magic_prism_prism_vortex_greater from "./magic-prism/prism-vortex-greater.js";
+import * as magic_prism_prism_vortex_lesser from "./magic-prism/prism-vortex-lesser.js";
+import * as magic_prism_prism_vortex_wild from "./magic-prism/prism-vortex-wild.js";
+import * as magic_prism_prism_wave from "./magic-prism/prism-wave.js";
+import * as magic_prism_prism_wave_ancient from "./magic-prism/prism-wave-ancient.js";
+import * as magic_prism_prism_wave_greater from "./magic-prism/prism-wave-greater.js";
+import * as magic_prism_prism_wave_lesser from "./magic-prism/prism-wave-lesser.js";
+import * as magic_prism_prism_wave_wild from "./magic-prism/prism-wave-wild.js";
+import * as magic_rot_rot_aura from "./magic-rot/rot-aura.js";
+import * as magic_rot_rot_aura_ancient from "./magic-rot/rot-aura-ancient.js";
+import * as magic_rot_rot_aura_greater from "./magic-rot/rot-aura-greater.js";
+import * as magic_rot_rot_aura_lesser from "./magic-rot/rot-aura-lesser.js";
+import * as magic_rot_rot_aura_wild from "./magic-rot/rot-aura-wild.js";
+import * as magic_rot_rot_beam from "./magic-rot/rot-beam.js";
+import * as magic_rot_rot_beam_ancient from "./magic-rot/rot-beam-ancient.js";
+import * as magic_rot_rot_beam_greater from "./magic-rot/rot-beam-greater.js";
+import * as magic_rot_rot_beam_lesser from "./magic-rot/rot-beam-lesser.js";
+import * as magic_rot_rot_beam_wild from "./magic-rot/rot-beam-wild.js";
+import * as magic_rot_rot_bolt from "./magic-rot/rot-bolt.js";
+import * as magic_rot_rot_bolt_ancient from "./magic-rot/rot-bolt-ancient.js";
+import * as magic_rot_rot_bolt_greater from "./magic-rot/rot-bolt-greater.js";
+import * as magic_rot_rot_bolt_lesser from "./magic-rot/rot-bolt-lesser.js";
+import * as magic_rot_rot_bolt_wild from "./magic-rot/rot-bolt-wild.js";
+import * as magic_rot_rot_burst from "./magic-rot/rot-burst.js";
+import * as magic_rot_rot_burst_ancient from "./magic-rot/rot-burst-ancient.js";
+import * as magic_rot_rot_burst_greater from "./magic-rot/rot-burst-greater.js";
+import * as magic_rot_rot_burst_lesser from "./magic-rot/rot-burst-lesser.js";
+import * as magic_rot_rot_burst_wild from "./magic-rot/rot-burst-wild.js";
+import * as magic_rot_rot_charge from "./magic-rot/rot-charge.js";
+import * as magic_rot_rot_charge_ancient from "./magic-rot/rot-charge-ancient.js";
+import * as magic_rot_rot_charge_greater from "./magic-rot/rot-charge-greater.js";
+import * as magic_rot_rot_charge_lesser from "./magic-rot/rot-charge-lesser.js";
+import * as magic_rot_rot_charge_wild from "./magic-rot/rot-charge-wild.js";
+import * as magic_rot_rot_circle from "./magic-rot/rot-circle.js";
+import * as magic_rot_rot_circle_ancient from "./magic-rot/rot-circle-ancient.js";
+import * as magic_rot_rot_circle_greater from "./magic-rot/rot-circle-greater.js";
+import * as magic_rot_rot_circle_lesser from "./magic-rot/rot-circle-lesser.js";
+import * as magic_rot_rot_circle_wild from "./magic-rot/rot-circle-wild.js";
+import * as magic_rot_rot_cloud from "./magic-rot/rot-cloud.js";
+import * as magic_rot_rot_cloud_ancient from "./magic-rot/rot-cloud-ancient.js";
+import * as magic_rot_rot_cloud_greater from "./magic-rot/rot-cloud-greater.js";
+import * as magic_rot_rot_cloud_lesser from "./magic-rot/rot-cloud-lesser.js";
+import * as magic_rot_rot_cloud_wild from "./magic-rot/rot-cloud-wild.js";
+import * as magic_rot_rot_crescent from "./magic-rot/rot-crescent.js";
+import * as magic_rot_rot_crescent_ancient from "./magic-rot/rot-crescent-ancient.js";
+import * as magic_rot_rot_crescent_greater from "./magic-rot/rot-crescent-greater.js";
+import * as magic_rot_rot_crescent_lesser from "./magic-rot/rot-crescent-lesser.js";
+import * as magic_rot_rot_crescent_wild from "./magic-rot/rot-crescent-wild.js";
+import * as magic_rot_rot_dash from "./magic-rot/rot-dash.js";
+import * as magic_rot_rot_dash_ancient from "./magic-rot/rot-dash-ancient.js";
+import * as magic_rot_rot_dash_greater from "./magic-rot/rot-dash-greater.js";
+import * as magic_rot_rot_dash_lesser from "./magic-rot/rot-dash-lesser.js";
+import * as magic_rot_rot_dash_wild from "./magic-rot/rot-dash-wild.js";
+import * as magic_rot_rot_flare from "./magic-rot/rot-flare.js";
+import * as magic_rot_rot_flare_ancient from "./magic-rot/rot-flare-ancient.js";
+import * as magic_rot_rot_flare_greater from "./magic-rot/rot-flare-greater.js";
+import * as magic_rot_rot_flare_lesser from "./magic-rot/rot-flare-lesser.js";
+import * as magic_rot_rot_flare_wild from "./magic-rot/rot-flare-wild.js";
+import * as magic_rot_rot_impact from "./magic-rot/rot-impact.js";
+import * as magic_rot_rot_impact_ancient from "./magic-rot/rot-impact-ancient.js";
+import * as magic_rot_rot_impact_greater from "./magic-rot/rot-impact-greater.js";
+import * as magic_rot_rot_impact_lesser from "./magic-rot/rot-impact-lesser.js";
+import * as magic_rot_rot_impact_wild from "./magic-rot/rot-impact-wild.js";
+import * as magic_rot_rot_meteor from "./magic-rot/rot-meteor.js";
+import * as magic_rot_rot_meteor_ancient from "./magic-rot/rot-meteor-ancient.js";
+import * as magic_rot_rot_meteor_greater from "./magic-rot/rot-meteor-greater.js";
+import * as magic_rot_rot_meteor_lesser from "./magic-rot/rot-meteor-lesser.js";
+import * as magic_rot_rot_meteor_wild from "./magic-rot/rot-meteor-wild.js";
+import * as magic_rot_rot_nova from "./magic-rot/rot-nova.js";
+import * as magic_rot_rot_nova_ancient from "./magic-rot/rot-nova-ancient.js";
+import * as magic_rot_rot_nova_greater from "./magic-rot/rot-nova-greater.js";
+import * as magic_rot_rot_nova_lesser from "./magic-rot/rot-nova-lesser.js";
+import * as magic_rot_rot_nova_wild from "./magic-rot/rot-nova-wild.js";
+import * as magic_rot_rot_orb from "./magic-rot/rot-orb.js";
+import * as magic_rot_rot_orb_ancient from "./magic-rot/rot-orb-ancient.js";
+import * as magic_rot_rot_orb_greater from "./magic-rot/rot-orb-greater.js";
+import * as magic_rot_rot_orb_lesser from "./magic-rot/rot-orb-lesser.js";
+import * as magic_rot_rot_orb_wild from "./magic-rot/rot-orb-wild.js";
+import * as magic_rot_rot_orbit from "./magic-rot/rot-orbit.js";
+import * as magic_rot_rot_orbit_ancient from "./magic-rot/rot-orbit-ancient.js";
+import * as magic_rot_rot_orbit_greater from "./magic-rot/rot-orbit-greater.js";
+import * as magic_rot_rot_orbit_lesser from "./magic-rot/rot-orbit-lesser.js";
+import * as magic_rot_rot_orbit_wild from "./magic-rot/rot-orbit-wild.js";
+import * as magic_rot_rot_pillar from "./magic-rot/rot-pillar.js";
+import * as magic_rot_rot_pillar_ancient from "./magic-rot/rot-pillar-ancient.js";
+import * as magic_rot_rot_pillar_greater from "./magic-rot/rot-pillar-greater.js";
+import * as magic_rot_rot_pillar_lesser from "./magic-rot/rot-pillar-lesser.js";
+import * as magic_rot_rot_pillar_wild from "./magic-rot/rot-pillar-wild.js";
+import * as magic_rot_rot_portal from "./magic-rot/rot-portal.js";
+import * as magic_rot_rot_portal_ancient from "./magic-rot/rot-portal-ancient.js";
+import * as magic_rot_rot_portal_greater from "./magic-rot/rot-portal-greater.js";
+import * as magic_rot_rot_portal_lesser from "./magic-rot/rot-portal-lesser.js";
+import * as magic_rot_rot_portal_wild from "./magic-rot/rot-portal-wild.js";
+import * as magic_rot_rot_rain from "./magic-rot/rot-rain.js";
+import * as magic_rot_rot_rain_ancient from "./magic-rot/rot-rain-ancient.js";
+import * as magic_rot_rot_rain_greater from "./magic-rot/rot-rain-greater.js";
+import * as magic_rot_rot_rain_lesser from "./magic-rot/rot-rain-lesser.js";
+import * as magic_rot_rot_rain_wild from "./magic-rot/rot-rain-wild.js";
+import * as magic_rot_rot_shield from "./magic-rot/rot-shield.js";
+import * as magic_rot_rot_shield_ancient from "./magic-rot/rot-shield-ancient.js";
+import * as magic_rot_rot_shield_greater from "./magic-rot/rot-shield-greater.js";
+import * as magic_rot_rot_shield_lesser from "./magic-rot/rot-shield-lesser.js";
+import * as magic_rot_rot_shield_wild from "./magic-rot/rot-shield-wild.js";
+import * as magic_rot_rot_sigil from "./magic-rot/rot-sigil.js";
+import * as magic_rot_rot_sigil_ancient from "./magic-rot/rot-sigil-ancient.js";
+import * as magic_rot_rot_sigil_greater from "./magic-rot/rot-sigil-greater.js";
+import * as magic_rot_rot_sigil_lesser from "./magic-rot/rot-sigil-lesser.js";
+import * as magic_rot_rot_sigil_wild from "./magic-rot/rot-sigil-wild.js";
+import * as magic_rot_rot_spikes from "./magic-rot/rot-spikes.js";
+import * as magic_rot_rot_spikes_ancient from "./magic-rot/rot-spikes-ancient.js";
+import * as magic_rot_rot_spikes_greater from "./magic-rot/rot-spikes-greater.js";
+import * as magic_rot_rot_spikes_lesser from "./magic-rot/rot-spikes-lesser.js";
+import * as magic_rot_rot_spikes_wild from "./magic-rot/rot-spikes-wild.js";
+import * as magic_rot_rot_summon from "./magic-rot/rot-summon.js";
+import * as magic_rot_rot_summon_ancient from "./magic-rot/rot-summon-ancient.js";
+import * as magic_rot_rot_summon_greater from "./magic-rot/rot-summon-greater.js";
+import * as magic_rot_rot_summon_lesser from "./magic-rot/rot-summon-lesser.js";
+import * as magic_rot_rot_summon_wild from "./magic-rot/rot-summon-wild.js";
+import * as magic_rot_rot_vortex from "./magic-rot/rot-vortex.js";
+import * as magic_rot_rot_vortex_ancient from "./magic-rot/rot-vortex-ancient.js";
+import * as magic_rot_rot_vortex_greater from "./magic-rot/rot-vortex-greater.js";
+import * as magic_rot_rot_vortex_lesser from "./magic-rot/rot-vortex-lesser.js";
+import * as magic_rot_rot_vortex_wild from "./magic-rot/rot-vortex-wild.js";
+import * as magic_rot_rot_wave from "./magic-rot/rot-wave.js";
+import * as magic_rot_rot_wave_ancient from "./magic-rot/rot-wave-ancient.js";
+import * as magic_rot_rot_wave_greater from "./magic-rot/rot-wave-greater.js";
+import * as magic_rot_rot_wave_lesser from "./magic-rot/rot-wave-lesser.js";
+import * as magic_rot_rot_wave_wild from "./magic-rot/rot-wave-wild.js";
+import * as magic_lunar_lunar_aura from "./magic-lunar/lunar-aura.js";
+import * as magic_lunar_lunar_aura_ancient from "./magic-lunar/lunar-aura-ancient.js";
+import * as magic_lunar_lunar_aura_greater from "./magic-lunar/lunar-aura-greater.js";
+import * as magic_lunar_lunar_aura_lesser from "./magic-lunar/lunar-aura-lesser.js";
+import * as magic_lunar_lunar_aura_wild from "./magic-lunar/lunar-aura-wild.js";
+import * as magic_lunar_lunar_beam from "./magic-lunar/lunar-beam.js";
+import * as magic_lunar_lunar_beam_ancient from "./magic-lunar/lunar-beam-ancient.js";
+import * as magic_lunar_lunar_beam_greater from "./magic-lunar/lunar-beam-greater.js";
+import * as magic_lunar_lunar_beam_lesser from "./magic-lunar/lunar-beam-lesser.js";
+import * as magic_lunar_lunar_beam_wild from "./magic-lunar/lunar-beam-wild.js";
+import * as magic_lunar_lunar_bolt from "./magic-lunar/lunar-bolt.js";
+import * as magic_lunar_lunar_bolt_ancient from "./magic-lunar/lunar-bolt-ancient.js";
+import * as magic_lunar_lunar_bolt_greater from "./magic-lunar/lunar-bolt-greater.js";
+import * as magic_lunar_lunar_bolt_lesser from "./magic-lunar/lunar-bolt-lesser.js";
+import * as magic_lunar_lunar_bolt_wild from "./magic-lunar/lunar-bolt-wild.js";
+import * as magic_lunar_lunar_burst from "./magic-lunar/lunar-burst.js";
+import * as magic_lunar_lunar_burst_ancient from "./magic-lunar/lunar-burst-ancient.js";
+import * as magic_lunar_lunar_burst_greater from "./magic-lunar/lunar-burst-greater.js";
+import * as magic_lunar_lunar_burst_lesser from "./magic-lunar/lunar-burst-lesser.js";
+import * as magic_lunar_lunar_burst_wild from "./magic-lunar/lunar-burst-wild.js";
+import * as magic_lunar_lunar_charge from "./magic-lunar/lunar-charge.js";
+import * as magic_lunar_lunar_charge_ancient from "./magic-lunar/lunar-charge-ancient.js";
+import * as magic_lunar_lunar_charge_greater from "./magic-lunar/lunar-charge-greater.js";
+import * as magic_lunar_lunar_charge_lesser from "./magic-lunar/lunar-charge-lesser.js";
+import * as magic_lunar_lunar_charge_wild from "./magic-lunar/lunar-charge-wild.js";
+import * as magic_lunar_lunar_circle from "./magic-lunar/lunar-circle.js";
+import * as magic_lunar_lunar_circle_ancient from "./magic-lunar/lunar-circle-ancient.js";
+import * as magic_lunar_lunar_circle_greater from "./magic-lunar/lunar-circle-greater.js";
+import * as magic_lunar_lunar_circle_lesser from "./magic-lunar/lunar-circle-lesser.js";
+import * as magic_lunar_lunar_circle_wild from "./magic-lunar/lunar-circle-wild.js";
+import * as magic_lunar_lunar_cloud from "./magic-lunar/lunar-cloud.js";
+import * as magic_lunar_lunar_cloud_ancient from "./magic-lunar/lunar-cloud-ancient.js";
+import * as magic_lunar_lunar_cloud_greater from "./magic-lunar/lunar-cloud-greater.js";
+import * as magic_lunar_lunar_cloud_lesser from "./magic-lunar/lunar-cloud-lesser.js";
+import * as magic_lunar_lunar_cloud_wild from "./magic-lunar/lunar-cloud-wild.js";
+import * as magic_lunar_lunar_crescent from "./magic-lunar/lunar-crescent.js";
+import * as magic_lunar_lunar_crescent_ancient from "./magic-lunar/lunar-crescent-ancient.js";
+import * as magic_lunar_lunar_crescent_greater from "./magic-lunar/lunar-crescent-greater.js";
+import * as magic_lunar_lunar_crescent_lesser from "./magic-lunar/lunar-crescent-lesser.js";
+import * as magic_lunar_lunar_crescent_wild from "./magic-lunar/lunar-crescent-wild.js";
+import * as magic_lunar_lunar_dash from "./magic-lunar/lunar-dash.js";
+import * as magic_lunar_lunar_dash_ancient from "./magic-lunar/lunar-dash-ancient.js";
+import * as magic_lunar_lunar_dash_greater from "./magic-lunar/lunar-dash-greater.js";
+import * as magic_lunar_lunar_dash_lesser from "./magic-lunar/lunar-dash-lesser.js";
+import * as magic_lunar_lunar_dash_wild from "./magic-lunar/lunar-dash-wild.js";
+import * as magic_lunar_lunar_flare from "./magic-lunar/lunar-flare.js";
+import * as magic_lunar_lunar_flare_ancient from "./magic-lunar/lunar-flare-ancient.js";
+import * as magic_lunar_lunar_flare_greater from "./magic-lunar/lunar-flare-greater.js";
+import * as magic_lunar_lunar_flare_lesser from "./magic-lunar/lunar-flare-lesser.js";
+import * as magic_lunar_lunar_flare_wild from "./magic-lunar/lunar-flare-wild.js";
+import * as magic_lunar_lunar_impact from "./magic-lunar/lunar-impact.js";
+import * as magic_lunar_lunar_impact_ancient from "./magic-lunar/lunar-impact-ancient.js";
+import * as magic_lunar_lunar_impact_greater from "./magic-lunar/lunar-impact-greater.js";
+import * as magic_lunar_lunar_impact_lesser from "./magic-lunar/lunar-impact-lesser.js";
+import * as magic_lunar_lunar_impact_wild from "./magic-lunar/lunar-impact-wild.js";
+import * as magic_lunar_lunar_meteor from "./magic-lunar/lunar-meteor.js";
+import * as magic_lunar_lunar_meteor_ancient from "./magic-lunar/lunar-meteor-ancient.js";
+import * as magic_lunar_lunar_meteor_greater from "./magic-lunar/lunar-meteor-greater.js";
+import * as magic_lunar_lunar_meteor_lesser from "./magic-lunar/lunar-meteor-lesser.js";
+import * as magic_lunar_lunar_meteor_wild from "./magic-lunar/lunar-meteor-wild.js";
+import * as magic_lunar_lunar_nova from "./magic-lunar/lunar-nova.js";
+import * as magic_lunar_lunar_nova_ancient from "./magic-lunar/lunar-nova-ancient.js";
+import * as magic_lunar_lunar_nova_greater from "./magic-lunar/lunar-nova-greater.js";
+import * as magic_lunar_lunar_nova_lesser from "./magic-lunar/lunar-nova-lesser.js";
+import * as magic_lunar_lunar_nova_wild from "./magic-lunar/lunar-nova-wild.js";
+import * as magic_lunar_lunar_orb from "./magic-lunar/lunar-orb.js";
+import * as magic_lunar_lunar_orb_ancient from "./magic-lunar/lunar-orb-ancient.js";
+import * as magic_lunar_lunar_orb_greater from "./magic-lunar/lunar-orb-greater.js";
+import * as magic_lunar_lunar_orb_lesser from "./magic-lunar/lunar-orb-lesser.js";
+import * as magic_lunar_lunar_orb_wild from "./magic-lunar/lunar-orb-wild.js";
+import * as magic_lunar_lunar_orbit from "./magic-lunar/lunar-orbit.js";
+import * as magic_lunar_lunar_orbit_ancient from "./magic-lunar/lunar-orbit-ancient.js";
+import * as magic_lunar_lunar_orbit_greater from "./magic-lunar/lunar-orbit-greater.js";
+import * as magic_lunar_lunar_orbit_lesser from "./magic-lunar/lunar-orbit-lesser.js";
+import * as magic_lunar_lunar_orbit_wild from "./magic-lunar/lunar-orbit-wild.js";
+import * as magic_lunar_lunar_pillar from "./magic-lunar/lunar-pillar.js";
+import * as magic_lunar_lunar_pillar_ancient from "./magic-lunar/lunar-pillar-ancient.js";
+import * as magic_lunar_lunar_pillar_greater from "./magic-lunar/lunar-pillar-greater.js";
+import * as magic_lunar_lunar_pillar_lesser from "./magic-lunar/lunar-pillar-lesser.js";
+import * as magic_lunar_lunar_pillar_wild from "./magic-lunar/lunar-pillar-wild.js";
+import * as magic_lunar_lunar_portal from "./magic-lunar/lunar-portal.js";
+import * as magic_lunar_lunar_portal_ancient from "./magic-lunar/lunar-portal-ancient.js";
+import * as magic_lunar_lunar_portal_greater from "./magic-lunar/lunar-portal-greater.js";
+import * as magic_lunar_lunar_portal_lesser from "./magic-lunar/lunar-portal-lesser.js";
+import * as magic_lunar_lunar_portal_wild from "./magic-lunar/lunar-portal-wild.js";
+import * as magic_lunar_lunar_rain from "./magic-lunar/lunar-rain.js";
+import * as magic_lunar_lunar_rain_ancient from "./magic-lunar/lunar-rain-ancient.js";
+import * as magic_lunar_lunar_rain_greater from "./magic-lunar/lunar-rain-greater.js";
+import * as magic_lunar_lunar_rain_lesser from "./magic-lunar/lunar-rain-lesser.js";
+import * as magic_lunar_lunar_rain_wild from "./magic-lunar/lunar-rain-wild.js";
+import * as magic_lunar_lunar_shield from "./magic-lunar/lunar-shield.js";
+import * as magic_lunar_lunar_shield_ancient from "./magic-lunar/lunar-shield-ancient.js";
+import * as magic_lunar_lunar_shield_greater from "./magic-lunar/lunar-shield-greater.js";
+import * as magic_lunar_lunar_shield_lesser from "./magic-lunar/lunar-shield-lesser.js";
+import * as magic_lunar_lunar_shield_wild from "./magic-lunar/lunar-shield-wild.js";
+import * as magic_lunar_lunar_sigil from "./magic-lunar/lunar-sigil.js";
+import * as magic_lunar_lunar_sigil_ancient from "./magic-lunar/lunar-sigil-ancient.js";
+import * as magic_lunar_lunar_sigil_greater from "./magic-lunar/lunar-sigil-greater.js";
+import * as magic_lunar_lunar_sigil_lesser from "./magic-lunar/lunar-sigil-lesser.js";
+import * as magic_lunar_lunar_sigil_wild from "./magic-lunar/lunar-sigil-wild.js";
+import * as magic_lunar_lunar_spikes from "./magic-lunar/lunar-spikes.js";
+import * as magic_lunar_lunar_spikes_ancient from "./magic-lunar/lunar-spikes-ancient.js";
+import * as magic_lunar_lunar_spikes_greater from "./magic-lunar/lunar-spikes-greater.js";
+import * as magic_lunar_lunar_spikes_lesser from "./magic-lunar/lunar-spikes-lesser.js";
+import * as magic_lunar_lunar_spikes_wild from "./magic-lunar/lunar-spikes-wild.js";
+import * as magic_lunar_lunar_summon from "./magic-lunar/lunar-summon.js";
+import * as magic_lunar_lunar_summon_ancient from "./magic-lunar/lunar-summon-ancient.js";
+import * as magic_lunar_lunar_summon_greater from "./magic-lunar/lunar-summon-greater.js";
+import * as magic_lunar_lunar_summon_lesser from "./magic-lunar/lunar-summon-lesser.js";
+import * as magic_lunar_lunar_summon_wild from "./magic-lunar/lunar-summon-wild.js";
+import * as magic_lunar_lunar_vortex from "./magic-lunar/lunar-vortex.js";
+import * as magic_lunar_lunar_vortex_ancient from "./magic-lunar/lunar-vortex-ancient.js";
+import * as magic_lunar_lunar_vortex_greater from "./magic-lunar/lunar-vortex-greater.js";
+import * as magic_lunar_lunar_vortex_lesser from "./magic-lunar/lunar-vortex-lesser.js";
+import * as magic_lunar_lunar_vortex_wild from "./magic-lunar/lunar-vortex-wild.js";
+import * as magic_lunar_lunar_wave from "./magic-lunar/lunar-wave.js";
+import * as magic_lunar_lunar_wave_ancient from "./magic-lunar/lunar-wave-ancient.js";
+import * as magic_lunar_lunar_wave_greater from "./magic-lunar/lunar-wave-greater.js";
+import * as magic_lunar_lunar_wave_lesser from "./magic-lunar/lunar-wave-lesser.js";
+import * as magic_lunar_lunar_wave_wild from "./magic-lunar/lunar-wave-wild.js";
 
 export { categories } from "./categories.js";
 
@@ -492,4 +3492,3004 @@ export const effects = {
   "critters/slime": critters_slime,
   "critters/snake": critters_snake,
   "critters/wisp": critters_wisp,
+  "magic-blood/blood-aura": magic_blood_blood_aura,
+  "magic-blood/blood-aura-ancient": magic_blood_blood_aura_ancient,
+  "magic-blood/blood-aura-greater": magic_blood_blood_aura_greater,
+  "magic-blood/blood-aura-lesser": magic_blood_blood_aura_lesser,
+  "magic-blood/blood-aura-wild": magic_blood_blood_aura_wild,
+  "magic-blood/blood-beam": magic_blood_blood_beam,
+  "magic-blood/blood-beam-ancient": magic_blood_blood_beam_ancient,
+  "magic-blood/blood-beam-greater": magic_blood_blood_beam_greater,
+  "magic-blood/blood-beam-lesser": magic_blood_blood_beam_lesser,
+  "magic-blood/blood-beam-wild": magic_blood_blood_beam_wild,
+  "magic-blood/blood-bolt": magic_blood_blood_bolt,
+  "magic-blood/blood-bolt-ancient": magic_blood_blood_bolt_ancient,
+  "magic-blood/blood-bolt-greater": magic_blood_blood_bolt_greater,
+  "magic-blood/blood-bolt-lesser": magic_blood_blood_bolt_lesser,
+  "magic-blood/blood-bolt-wild": magic_blood_blood_bolt_wild,
+  "magic-blood/blood-burst": magic_blood_blood_burst,
+  "magic-blood/blood-burst-ancient": magic_blood_blood_burst_ancient,
+  "magic-blood/blood-burst-greater": magic_blood_blood_burst_greater,
+  "magic-blood/blood-burst-lesser": magic_blood_blood_burst_lesser,
+  "magic-blood/blood-burst-wild": magic_blood_blood_burst_wild,
+  "magic-blood/blood-charge": magic_blood_blood_charge,
+  "magic-blood/blood-charge-ancient": magic_blood_blood_charge_ancient,
+  "magic-blood/blood-charge-greater": magic_blood_blood_charge_greater,
+  "magic-blood/blood-charge-lesser": magic_blood_blood_charge_lesser,
+  "magic-blood/blood-charge-wild": magic_blood_blood_charge_wild,
+  "magic-blood/blood-circle": magic_blood_blood_circle,
+  "magic-blood/blood-circle-ancient": magic_blood_blood_circle_ancient,
+  "magic-blood/blood-circle-greater": magic_blood_blood_circle_greater,
+  "magic-blood/blood-circle-lesser": magic_blood_blood_circle_lesser,
+  "magic-blood/blood-circle-wild": magic_blood_blood_circle_wild,
+  "magic-blood/blood-cloud": magic_blood_blood_cloud,
+  "magic-blood/blood-cloud-ancient": magic_blood_blood_cloud_ancient,
+  "magic-blood/blood-cloud-greater": magic_blood_blood_cloud_greater,
+  "magic-blood/blood-cloud-lesser": magic_blood_blood_cloud_lesser,
+  "magic-blood/blood-cloud-wild": magic_blood_blood_cloud_wild,
+  "magic-blood/blood-crescent": magic_blood_blood_crescent,
+  "magic-blood/blood-crescent-ancient": magic_blood_blood_crescent_ancient,
+  "magic-blood/blood-crescent-greater": magic_blood_blood_crescent_greater,
+  "magic-blood/blood-crescent-lesser": magic_blood_blood_crescent_lesser,
+  "magic-blood/blood-crescent-wild": magic_blood_blood_crescent_wild,
+  "magic-blood/blood-dash": magic_blood_blood_dash,
+  "magic-blood/blood-dash-ancient": magic_blood_blood_dash_ancient,
+  "magic-blood/blood-dash-greater": magic_blood_blood_dash_greater,
+  "magic-blood/blood-dash-lesser": magic_blood_blood_dash_lesser,
+  "magic-blood/blood-dash-wild": magic_blood_blood_dash_wild,
+  "magic-blood/blood-flare": magic_blood_blood_flare,
+  "magic-blood/blood-flare-ancient": magic_blood_blood_flare_ancient,
+  "magic-blood/blood-flare-greater": magic_blood_blood_flare_greater,
+  "magic-blood/blood-flare-lesser": magic_blood_blood_flare_lesser,
+  "magic-blood/blood-flare-wild": magic_blood_blood_flare_wild,
+  "magic-blood/blood-impact": magic_blood_blood_impact,
+  "magic-blood/blood-impact-ancient": magic_blood_blood_impact_ancient,
+  "magic-blood/blood-impact-greater": magic_blood_blood_impact_greater,
+  "magic-blood/blood-impact-lesser": magic_blood_blood_impact_lesser,
+  "magic-blood/blood-impact-wild": magic_blood_blood_impact_wild,
+  "magic-blood/blood-meteor": magic_blood_blood_meteor,
+  "magic-blood/blood-meteor-ancient": magic_blood_blood_meteor_ancient,
+  "magic-blood/blood-meteor-greater": magic_blood_blood_meteor_greater,
+  "magic-blood/blood-meteor-lesser": magic_blood_blood_meteor_lesser,
+  "magic-blood/blood-meteor-wild": magic_blood_blood_meteor_wild,
+  "magic-blood/blood-nova": magic_blood_blood_nova,
+  "magic-blood/blood-nova-ancient": magic_blood_blood_nova_ancient,
+  "magic-blood/blood-nova-greater": magic_blood_blood_nova_greater,
+  "magic-blood/blood-nova-lesser": magic_blood_blood_nova_lesser,
+  "magic-blood/blood-nova-wild": magic_blood_blood_nova_wild,
+  "magic-blood/blood-orb": magic_blood_blood_orb,
+  "magic-blood/blood-orb-ancient": magic_blood_blood_orb_ancient,
+  "magic-blood/blood-orb-greater": magic_blood_blood_orb_greater,
+  "magic-blood/blood-orb-lesser": magic_blood_blood_orb_lesser,
+  "magic-blood/blood-orb-wild": magic_blood_blood_orb_wild,
+  "magic-blood/blood-orbit": magic_blood_blood_orbit,
+  "magic-blood/blood-orbit-ancient": magic_blood_blood_orbit_ancient,
+  "magic-blood/blood-orbit-greater": magic_blood_blood_orbit_greater,
+  "magic-blood/blood-orbit-lesser": magic_blood_blood_orbit_lesser,
+  "magic-blood/blood-orbit-wild": magic_blood_blood_orbit_wild,
+  "magic-blood/blood-pillar": magic_blood_blood_pillar,
+  "magic-blood/blood-pillar-ancient": magic_blood_blood_pillar_ancient,
+  "magic-blood/blood-pillar-greater": magic_blood_blood_pillar_greater,
+  "magic-blood/blood-pillar-lesser": magic_blood_blood_pillar_lesser,
+  "magic-blood/blood-pillar-wild": magic_blood_blood_pillar_wild,
+  "magic-blood/blood-portal": magic_blood_blood_portal,
+  "magic-blood/blood-portal-ancient": magic_blood_blood_portal_ancient,
+  "magic-blood/blood-portal-greater": magic_blood_blood_portal_greater,
+  "magic-blood/blood-portal-lesser": magic_blood_blood_portal_lesser,
+  "magic-blood/blood-portal-wild": magic_blood_blood_portal_wild,
+  "magic-blood/blood-rain": magic_blood_blood_rain,
+  "magic-blood/blood-rain-ancient": magic_blood_blood_rain_ancient,
+  "magic-blood/blood-rain-greater": magic_blood_blood_rain_greater,
+  "magic-blood/blood-rain-lesser": magic_blood_blood_rain_lesser,
+  "magic-blood/blood-rain-wild": magic_blood_blood_rain_wild,
+  "magic-blood/blood-shield": magic_blood_blood_shield,
+  "magic-blood/blood-shield-ancient": magic_blood_blood_shield_ancient,
+  "magic-blood/blood-shield-greater": magic_blood_blood_shield_greater,
+  "magic-blood/blood-shield-lesser": magic_blood_blood_shield_lesser,
+  "magic-blood/blood-shield-wild": magic_blood_blood_shield_wild,
+  "magic-blood/blood-sigil": magic_blood_blood_sigil,
+  "magic-blood/blood-sigil-ancient": magic_blood_blood_sigil_ancient,
+  "magic-blood/blood-sigil-greater": magic_blood_blood_sigil_greater,
+  "magic-blood/blood-sigil-lesser": magic_blood_blood_sigil_lesser,
+  "magic-blood/blood-sigil-wild": magic_blood_blood_sigil_wild,
+  "magic-blood/blood-spikes": magic_blood_blood_spikes,
+  "magic-blood/blood-spikes-ancient": magic_blood_blood_spikes_ancient,
+  "magic-blood/blood-spikes-greater": magic_blood_blood_spikes_greater,
+  "magic-blood/blood-spikes-lesser": magic_blood_blood_spikes_lesser,
+  "magic-blood/blood-spikes-wild": magic_blood_blood_spikes_wild,
+  "magic-blood/blood-summon": magic_blood_blood_summon,
+  "magic-blood/blood-summon-ancient": magic_blood_blood_summon_ancient,
+  "magic-blood/blood-summon-greater": magic_blood_blood_summon_greater,
+  "magic-blood/blood-summon-lesser": magic_blood_blood_summon_lesser,
+  "magic-blood/blood-summon-wild": magic_blood_blood_summon_wild,
+  "magic-blood/blood-vortex": magic_blood_blood_vortex,
+  "magic-blood/blood-vortex-ancient": magic_blood_blood_vortex_ancient,
+  "magic-blood/blood-vortex-greater": magic_blood_blood_vortex_greater,
+  "magic-blood/blood-vortex-lesser": magic_blood_blood_vortex_lesser,
+  "magic-blood/blood-vortex-wild": magic_blood_blood_vortex_wild,
+  "magic-blood/blood-wave": magic_blood_blood_wave,
+  "magic-blood/blood-wave-ancient": magic_blood_blood_wave_ancient,
+  "magic-blood/blood-wave-greater": magic_blood_blood_wave_greater,
+  "magic-blood/blood-wave-lesser": magic_blood_blood_wave_lesser,
+  "magic-blood/blood-wave-wild": magic_blood_blood_wave_wild,
+  "magic-wind/wind-aura": magic_wind_wind_aura,
+  "magic-wind/wind-aura-ancient": magic_wind_wind_aura_ancient,
+  "magic-wind/wind-aura-greater": magic_wind_wind_aura_greater,
+  "magic-wind/wind-aura-lesser": magic_wind_wind_aura_lesser,
+  "magic-wind/wind-aura-wild": magic_wind_wind_aura_wild,
+  "magic-wind/wind-beam": magic_wind_wind_beam,
+  "magic-wind/wind-beam-ancient": magic_wind_wind_beam_ancient,
+  "magic-wind/wind-beam-greater": magic_wind_wind_beam_greater,
+  "magic-wind/wind-beam-lesser": magic_wind_wind_beam_lesser,
+  "magic-wind/wind-beam-wild": magic_wind_wind_beam_wild,
+  "magic-wind/wind-bolt": magic_wind_wind_bolt,
+  "magic-wind/wind-bolt-ancient": magic_wind_wind_bolt_ancient,
+  "magic-wind/wind-bolt-greater": magic_wind_wind_bolt_greater,
+  "magic-wind/wind-bolt-lesser": magic_wind_wind_bolt_lesser,
+  "magic-wind/wind-bolt-wild": magic_wind_wind_bolt_wild,
+  "magic-wind/wind-burst": magic_wind_wind_burst,
+  "magic-wind/wind-burst-ancient": magic_wind_wind_burst_ancient,
+  "magic-wind/wind-burst-greater": magic_wind_wind_burst_greater,
+  "magic-wind/wind-burst-lesser": magic_wind_wind_burst_lesser,
+  "magic-wind/wind-burst-wild": magic_wind_wind_burst_wild,
+  "magic-wind/wind-charge": magic_wind_wind_charge,
+  "magic-wind/wind-charge-ancient": magic_wind_wind_charge_ancient,
+  "magic-wind/wind-charge-greater": magic_wind_wind_charge_greater,
+  "magic-wind/wind-charge-lesser": magic_wind_wind_charge_lesser,
+  "magic-wind/wind-charge-wild": magic_wind_wind_charge_wild,
+  "magic-wind/wind-circle": magic_wind_wind_circle,
+  "magic-wind/wind-circle-ancient": magic_wind_wind_circle_ancient,
+  "magic-wind/wind-circle-greater": magic_wind_wind_circle_greater,
+  "magic-wind/wind-circle-lesser": magic_wind_wind_circle_lesser,
+  "magic-wind/wind-circle-wild": magic_wind_wind_circle_wild,
+  "magic-wind/wind-cloud": magic_wind_wind_cloud,
+  "magic-wind/wind-cloud-ancient": magic_wind_wind_cloud_ancient,
+  "magic-wind/wind-cloud-greater": magic_wind_wind_cloud_greater,
+  "magic-wind/wind-cloud-lesser": magic_wind_wind_cloud_lesser,
+  "magic-wind/wind-cloud-wild": magic_wind_wind_cloud_wild,
+  "magic-wind/wind-crescent": magic_wind_wind_crescent,
+  "magic-wind/wind-crescent-ancient": magic_wind_wind_crescent_ancient,
+  "magic-wind/wind-crescent-greater": magic_wind_wind_crescent_greater,
+  "magic-wind/wind-crescent-lesser": magic_wind_wind_crescent_lesser,
+  "magic-wind/wind-crescent-wild": magic_wind_wind_crescent_wild,
+  "magic-wind/wind-dash": magic_wind_wind_dash,
+  "magic-wind/wind-dash-ancient": magic_wind_wind_dash_ancient,
+  "magic-wind/wind-dash-greater": magic_wind_wind_dash_greater,
+  "magic-wind/wind-dash-lesser": magic_wind_wind_dash_lesser,
+  "magic-wind/wind-dash-wild": magic_wind_wind_dash_wild,
+  "magic-wind/wind-flare": magic_wind_wind_flare,
+  "magic-wind/wind-flare-ancient": magic_wind_wind_flare_ancient,
+  "magic-wind/wind-flare-greater": magic_wind_wind_flare_greater,
+  "magic-wind/wind-flare-lesser": magic_wind_wind_flare_lesser,
+  "magic-wind/wind-flare-wild": magic_wind_wind_flare_wild,
+  "magic-wind/wind-impact": magic_wind_wind_impact,
+  "magic-wind/wind-impact-ancient": magic_wind_wind_impact_ancient,
+  "magic-wind/wind-impact-greater": magic_wind_wind_impact_greater,
+  "magic-wind/wind-impact-lesser": magic_wind_wind_impact_lesser,
+  "magic-wind/wind-impact-wild": magic_wind_wind_impact_wild,
+  "magic-wind/wind-meteor": magic_wind_wind_meteor,
+  "magic-wind/wind-meteor-ancient": magic_wind_wind_meteor_ancient,
+  "magic-wind/wind-meteor-greater": magic_wind_wind_meteor_greater,
+  "magic-wind/wind-meteor-lesser": magic_wind_wind_meteor_lesser,
+  "magic-wind/wind-meteor-wild": magic_wind_wind_meteor_wild,
+  "magic-wind/wind-nova": magic_wind_wind_nova,
+  "magic-wind/wind-nova-ancient": magic_wind_wind_nova_ancient,
+  "magic-wind/wind-nova-greater": magic_wind_wind_nova_greater,
+  "magic-wind/wind-nova-lesser": magic_wind_wind_nova_lesser,
+  "magic-wind/wind-nova-wild": magic_wind_wind_nova_wild,
+  "magic-wind/wind-orb": magic_wind_wind_orb,
+  "magic-wind/wind-orb-ancient": magic_wind_wind_orb_ancient,
+  "magic-wind/wind-orb-greater": magic_wind_wind_orb_greater,
+  "magic-wind/wind-orb-lesser": magic_wind_wind_orb_lesser,
+  "magic-wind/wind-orb-wild": magic_wind_wind_orb_wild,
+  "magic-wind/wind-orbit": magic_wind_wind_orbit,
+  "magic-wind/wind-orbit-ancient": magic_wind_wind_orbit_ancient,
+  "magic-wind/wind-orbit-greater": magic_wind_wind_orbit_greater,
+  "magic-wind/wind-orbit-lesser": magic_wind_wind_orbit_lesser,
+  "magic-wind/wind-orbit-wild": magic_wind_wind_orbit_wild,
+  "magic-wind/wind-pillar": magic_wind_wind_pillar,
+  "magic-wind/wind-pillar-ancient": magic_wind_wind_pillar_ancient,
+  "magic-wind/wind-pillar-greater": magic_wind_wind_pillar_greater,
+  "magic-wind/wind-pillar-lesser": magic_wind_wind_pillar_lesser,
+  "magic-wind/wind-pillar-wild": magic_wind_wind_pillar_wild,
+  "magic-wind/wind-portal": magic_wind_wind_portal,
+  "magic-wind/wind-portal-ancient": magic_wind_wind_portal_ancient,
+  "magic-wind/wind-portal-greater": magic_wind_wind_portal_greater,
+  "magic-wind/wind-portal-lesser": magic_wind_wind_portal_lesser,
+  "magic-wind/wind-portal-wild": magic_wind_wind_portal_wild,
+  "magic-wind/wind-rain": magic_wind_wind_rain,
+  "magic-wind/wind-rain-ancient": magic_wind_wind_rain_ancient,
+  "magic-wind/wind-rain-greater": magic_wind_wind_rain_greater,
+  "magic-wind/wind-rain-lesser": magic_wind_wind_rain_lesser,
+  "magic-wind/wind-rain-wild": magic_wind_wind_rain_wild,
+  "magic-wind/wind-shield": magic_wind_wind_shield,
+  "magic-wind/wind-shield-ancient": magic_wind_wind_shield_ancient,
+  "magic-wind/wind-shield-greater": magic_wind_wind_shield_greater,
+  "magic-wind/wind-shield-lesser": magic_wind_wind_shield_lesser,
+  "magic-wind/wind-shield-wild": magic_wind_wind_shield_wild,
+  "magic-wind/wind-sigil": magic_wind_wind_sigil,
+  "magic-wind/wind-sigil-ancient": magic_wind_wind_sigil_ancient,
+  "magic-wind/wind-sigil-greater": magic_wind_wind_sigil_greater,
+  "magic-wind/wind-sigil-lesser": magic_wind_wind_sigil_lesser,
+  "magic-wind/wind-sigil-wild": magic_wind_wind_sigil_wild,
+  "magic-wind/wind-spikes": magic_wind_wind_spikes,
+  "magic-wind/wind-spikes-ancient": magic_wind_wind_spikes_ancient,
+  "magic-wind/wind-spikes-greater": magic_wind_wind_spikes_greater,
+  "magic-wind/wind-spikes-lesser": magic_wind_wind_spikes_lesser,
+  "magic-wind/wind-spikes-wild": magic_wind_wind_spikes_wild,
+  "magic-wind/wind-summon": magic_wind_wind_summon,
+  "magic-wind/wind-summon-ancient": magic_wind_wind_summon_ancient,
+  "magic-wind/wind-summon-greater": magic_wind_wind_summon_greater,
+  "magic-wind/wind-summon-lesser": magic_wind_wind_summon_lesser,
+  "magic-wind/wind-summon-wild": magic_wind_wind_summon_wild,
+  "magic-wind/wind-vortex": magic_wind_wind_vortex,
+  "magic-wind/wind-vortex-ancient": magic_wind_wind_vortex_ancient,
+  "magic-wind/wind-vortex-greater": magic_wind_wind_vortex_greater,
+  "magic-wind/wind-vortex-lesser": magic_wind_wind_vortex_lesser,
+  "magic-wind/wind-vortex-wild": magic_wind_wind_vortex_wild,
+  "magic-wind/wind-wave": magic_wind_wind_wave,
+  "magic-wind/wind-wave-ancient": magic_wind_wind_wave_ancient,
+  "magic-wind/wind-wave-greater": magic_wind_wind_wave_greater,
+  "magic-wind/wind-wave-lesser": magic_wind_wind_wave_lesser,
+  "magic-wind/wind-wave-wild": magic_wind_wind_wave_wild,
+  "magic-flame/flame-aura": magic_flame_flame_aura,
+  "magic-flame/flame-aura-ancient": magic_flame_flame_aura_ancient,
+  "magic-flame/flame-aura-greater": magic_flame_flame_aura_greater,
+  "magic-flame/flame-aura-lesser": magic_flame_flame_aura_lesser,
+  "magic-flame/flame-aura-wild": magic_flame_flame_aura_wild,
+  "magic-flame/flame-beam": magic_flame_flame_beam,
+  "magic-flame/flame-beam-ancient": magic_flame_flame_beam_ancient,
+  "magic-flame/flame-beam-greater": magic_flame_flame_beam_greater,
+  "magic-flame/flame-beam-lesser": magic_flame_flame_beam_lesser,
+  "magic-flame/flame-beam-wild": magic_flame_flame_beam_wild,
+  "magic-flame/flame-bolt": magic_flame_flame_bolt,
+  "magic-flame/flame-bolt-ancient": magic_flame_flame_bolt_ancient,
+  "magic-flame/flame-bolt-greater": magic_flame_flame_bolt_greater,
+  "magic-flame/flame-bolt-lesser": magic_flame_flame_bolt_lesser,
+  "magic-flame/flame-bolt-wild": magic_flame_flame_bolt_wild,
+  "magic-flame/flame-burst": magic_flame_flame_burst,
+  "magic-flame/flame-burst-ancient": magic_flame_flame_burst_ancient,
+  "magic-flame/flame-burst-greater": magic_flame_flame_burst_greater,
+  "magic-flame/flame-burst-lesser": magic_flame_flame_burst_lesser,
+  "magic-flame/flame-burst-wild": magic_flame_flame_burst_wild,
+  "magic-flame/flame-charge": magic_flame_flame_charge,
+  "magic-flame/flame-charge-ancient": magic_flame_flame_charge_ancient,
+  "magic-flame/flame-charge-greater": magic_flame_flame_charge_greater,
+  "magic-flame/flame-charge-lesser": magic_flame_flame_charge_lesser,
+  "magic-flame/flame-charge-wild": magic_flame_flame_charge_wild,
+  "magic-flame/flame-circle": magic_flame_flame_circle,
+  "magic-flame/flame-circle-ancient": magic_flame_flame_circle_ancient,
+  "magic-flame/flame-circle-greater": magic_flame_flame_circle_greater,
+  "magic-flame/flame-circle-lesser": magic_flame_flame_circle_lesser,
+  "magic-flame/flame-circle-wild": magic_flame_flame_circle_wild,
+  "magic-flame/flame-cloud": magic_flame_flame_cloud,
+  "magic-flame/flame-cloud-ancient": magic_flame_flame_cloud_ancient,
+  "magic-flame/flame-cloud-greater": magic_flame_flame_cloud_greater,
+  "magic-flame/flame-cloud-lesser": magic_flame_flame_cloud_lesser,
+  "magic-flame/flame-cloud-wild": magic_flame_flame_cloud_wild,
+  "magic-flame/flame-crescent": magic_flame_flame_crescent,
+  "magic-flame/flame-crescent-ancient": magic_flame_flame_crescent_ancient,
+  "magic-flame/flame-crescent-greater": magic_flame_flame_crescent_greater,
+  "magic-flame/flame-crescent-lesser": magic_flame_flame_crescent_lesser,
+  "magic-flame/flame-crescent-wild": magic_flame_flame_crescent_wild,
+  "magic-flame/flame-dash": magic_flame_flame_dash,
+  "magic-flame/flame-dash-ancient": magic_flame_flame_dash_ancient,
+  "magic-flame/flame-dash-greater": magic_flame_flame_dash_greater,
+  "magic-flame/flame-dash-lesser": magic_flame_flame_dash_lesser,
+  "magic-flame/flame-dash-wild": magic_flame_flame_dash_wild,
+  "magic-flame/flame-flare": magic_flame_flame_flare,
+  "magic-flame/flame-flare-ancient": magic_flame_flame_flare_ancient,
+  "magic-flame/flame-flare-greater": magic_flame_flame_flare_greater,
+  "magic-flame/flame-flare-lesser": magic_flame_flame_flare_lesser,
+  "magic-flame/flame-flare-wild": magic_flame_flame_flare_wild,
+  "magic-flame/flame-impact": magic_flame_flame_impact,
+  "magic-flame/flame-impact-ancient": magic_flame_flame_impact_ancient,
+  "magic-flame/flame-impact-greater": magic_flame_flame_impact_greater,
+  "magic-flame/flame-impact-lesser": magic_flame_flame_impact_lesser,
+  "magic-flame/flame-impact-wild": magic_flame_flame_impact_wild,
+  "magic-flame/flame-meteor": magic_flame_flame_meteor,
+  "magic-flame/flame-meteor-ancient": magic_flame_flame_meteor_ancient,
+  "magic-flame/flame-meteor-greater": magic_flame_flame_meteor_greater,
+  "magic-flame/flame-meteor-lesser": magic_flame_flame_meteor_lesser,
+  "magic-flame/flame-meteor-wild": magic_flame_flame_meteor_wild,
+  "magic-flame/flame-nova": magic_flame_flame_nova,
+  "magic-flame/flame-nova-ancient": magic_flame_flame_nova_ancient,
+  "magic-flame/flame-nova-greater": magic_flame_flame_nova_greater,
+  "magic-flame/flame-nova-lesser": magic_flame_flame_nova_lesser,
+  "magic-flame/flame-nova-wild": magic_flame_flame_nova_wild,
+  "magic-flame/flame-orb": magic_flame_flame_orb,
+  "magic-flame/flame-orb-ancient": magic_flame_flame_orb_ancient,
+  "magic-flame/flame-orb-greater": magic_flame_flame_orb_greater,
+  "magic-flame/flame-orb-lesser": magic_flame_flame_orb_lesser,
+  "magic-flame/flame-orb-wild": magic_flame_flame_orb_wild,
+  "magic-flame/flame-orbit": magic_flame_flame_orbit,
+  "magic-flame/flame-orbit-ancient": magic_flame_flame_orbit_ancient,
+  "magic-flame/flame-orbit-greater": magic_flame_flame_orbit_greater,
+  "magic-flame/flame-orbit-lesser": magic_flame_flame_orbit_lesser,
+  "magic-flame/flame-orbit-wild": magic_flame_flame_orbit_wild,
+  "magic-flame/flame-pillar": magic_flame_flame_pillar,
+  "magic-flame/flame-pillar-ancient": magic_flame_flame_pillar_ancient,
+  "magic-flame/flame-pillar-greater": magic_flame_flame_pillar_greater,
+  "magic-flame/flame-pillar-lesser": magic_flame_flame_pillar_lesser,
+  "magic-flame/flame-pillar-wild": magic_flame_flame_pillar_wild,
+  "magic-flame/flame-portal": magic_flame_flame_portal,
+  "magic-flame/flame-portal-ancient": magic_flame_flame_portal_ancient,
+  "magic-flame/flame-portal-greater": magic_flame_flame_portal_greater,
+  "magic-flame/flame-portal-lesser": magic_flame_flame_portal_lesser,
+  "magic-flame/flame-portal-wild": magic_flame_flame_portal_wild,
+  "magic-flame/flame-rain": magic_flame_flame_rain,
+  "magic-flame/flame-rain-ancient": magic_flame_flame_rain_ancient,
+  "magic-flame/flame-rain-greater": magic_flame_flame_rain_greater,
+  "magic-flame/flame-rain-lesser": magic_flame_flame_rain_lesser,
+  "magic-flame/flame-rain-wild": magic_flame_flame_rain_wild,
+  "magic-flame/flame-shield": magic_flame_flame_shield,
+  "magic-flame/flame-shield-ancient": magic_flame_flame_shield_ancient,
+  "magic-flame/flame-shield-greater": magic_flame_flame_shield_greater,
+  "magic-flame/flame-shield-lesser": magic_flame_flame_shield_lesser,
+  "magic-flame/flame-shield-wild": magic_flame_flame_shield_wild,
+  "magic-flame/flame-sigil": magic_flame_flame_sigil,
+  "magic-flame/flame-sigil-ancient": magic_flame_flame_sigil_ancient,
+  "magic-flame/flame-sigil-greater": magic_flame_flame_sigil_greater,
+  "magic-flame/flame-sigil-lesser": magic_flame_flame_sigil_lesser,
+  "magic-flame/flame-sigil-wild": magic_flame_flame_sigil_wild,
+  "magic-flame/flame-spikes": magic_flame_flame_spikes,
+  "magic-flame/flame-spikes-ancient": magic_flame_flame_spikes_ancient,
+  "magic-flame/flame-spikes-greater": magic_flame_flame_spikes_greater,
+  "magic-flame/flame-spikes-lesser": magic_flame_flame_spikes_lesser,
+  "magic-flame/flame-spikes-wild": magic_flame_flame_spikes_wild,
+  "magic-flame/flame-summon": magic_flame_flame_summon,
+  "magic-flame/flame-summon-ancient": magic_flame_flame_summon_ancient,
+  "magic-flame/flame-summon-greater": magic_flame_flame_summon_greater,
+  "magic-flame/flame-summon-lesser": magic_flame_flame_summon_lesser,
+  "magic-flame/flame-summon-wild": magic_flame_flame_summon_wild,
+  "magic-flame/flame-vortex": magic_flame_flame_vortex,
+  "magic-flame/flame-vortex-ancient": magic_flame_flame_vortex_ancient,
+  "magic-flame/flame-vortex-greater": magic_flame_flame_vortex_greater,
+  "magic-flame/flame-vortex-lesser": magic_flame_flame_vortex_lesser,
+  "magic-flame/flame-vortex-wild": magic_flame_flame_vortex_wild,
+  "magic-flame/flame-wave": magic_flame_flame_wave,
+  "magic-flame/flame-wave-ancient": magic_flame_flame_wave_ancient,
+  "magic-flame/flame-wave-greater": magic_flame_flame_wave_greater,
+  "magic-flame/flame-wave-lesser": magic_flame_flame_wave_lesser,
+  "magic-flame/flame-wave-wild": magic_flame_flame_wave_wild,
+  "magic-frost/frost-aura": magic_frost_frost_aura,
+  "magic-frost/frost-aura-ancient": magic_frost_frost_aura_ancient,
+  "magic-frost/frost-aura-greater": magic_frost_frost_aura_greater,
+  "magic-frost/frost-aura-lesser": magic_frost_frost_aura_lesser,
+  "magic-frost/frost-aura-wild": magic_frost_frost_aura_wild,
+  "magic-frost/frost-beam": magic_frost_frost_beam,
+  "magic-frost/frost-beam-ancient": magic_frost_frost_beam_ancient,
+  "magic-frost/frost-beam-greater": magic_frost_frost_beam_greater,
+  "magic-frost/frost-beam-lesser": magic_frost_frost_beam_lesser,
+  "magic-frost/frost-beam-wild": magic_frost_frost_beam_wild,
+  "magic-frost/frost-bolt": magic_frost_frost_bolt,
+  "magic-frost/frost-bolt-ancient": magic_frost_frost_bolt_ancient,
+  "magic-frost/frost-bolt-greater": magic_frost_frost_bolt_greater,
+  "magic-frost/frost-bolt-lesser": magic_frost_frost_bolt_lesser,
+  "magic-frost/frost-bolt-wild": magic_frost_frost_bolt_wild,
+  "magic-frost/frost-burst": magic_frost_frost_burst,
+  "magic-frost/frost-burst-ancient": magic_frost_frost_burst_ancient,
+  "magic-frost/frost-burst-greater": magic_frost_frost_burst_greater,
+  "magic-frost/frost-burst-lesser": magic_frost_frost_burst_lesser,
+  "magic-frost/frost-burst-wild": magic_frost_frost_burst_wild,
+  "magic-frost/frost-charge": magic_frost_frost_charge,
+  "magic-frost/frost-charge-ancient": magic_frost_frost_charge_ancient,
+  "magic-frost/frost-charge-greater": magic_frost_frost_charge_greater,
+  "magic-frost/frost-charge-lesser": magic_frost_frost_charge_lesser,
+  "magic-frost/frost-charge-wild": magic_frost_frost_charge_wild,
+  "magic-frost/frost-circle": magic_frost_frost_circle,
+  "magic-frost/frost-circle-ancient": magic_frost_frost_circle_ancient,
+  "magic-frost/frost-circle-greater": magic_frost_frost_circle_greater,
+  "magic-frost/frost-circle-lesser": magic_frost_frost_circle_lesser,
+  "magic-frost/frost-circle-wild": magic_frost_frost_circle_wild,
+  "magic-frost/frost-cloud": magic_frost_frost_cloud,
+  "magic-frost/frost-cloud-ancient": magic_frost_frost_cloud_ancient,
+  "magic-frost/frost-cloud-greater": magic_frost_frost_cloud_greater,
+  "magic-frost/frost-cloud-lesser": magic_frost_frost_cloud_lesser,
+  "magic-frost/frost-cloud-wild": magic_frost_frost_cloud_wild,
+  "magic-frost/frost-crescent": magic_frost_frost_crescent,
+  "magic-frost/frost-crescent-ancient": magic_frost_frost_crescent_ancient,
+  "magic-frost/frost-crescent-greater": magic_frost_frost_crescent_greater,
+  "magic-frost/frost-crescent-lesser": magic_frost_frost_crescent_lesser,
+  "magic-frost/frost-crescent-wild": magic_frost_frost_crescent_wild,
+  "magic-frost/frost-dash": magic_frost_frost_dash,
+  "magic-frost/frost-dash-ancient": magic_frost_frost_dash_ancient,
+  "magic-frost/frost-dash-greater": magic_frost_frost_dash_greater,
+  "magic-frost/frost-dash-lesser": magic_frost_frost_dash_lesser,
+  "magic-frost/frost-dash-wild": magic_frost_frost_dash_wild,
+  "magic-frost/frost-flare": magic_frost_frost_flare,
+  "magic-frost/frost-flare-ancient": magic_frost_frost_flare_ancient,
+  "magic-frost/frost-flare-greater": magic_frost_frost_flare_greater,
+  "magic-frost/frost-flare-lesser": magic_frost_frost_flare_lesser,
+  "magic-frost/frost-flare-wild": magic_frost_frost_flare_wild,
+  "magic-frost/frost-impact": magic_frost_frost_impact,
+  "magic-frost/frost-impact-ancient": magic_frost_frost_impact_ancient,
+  "magic-frost/frost-impact-greater": magic_frost_frost_impact_greater,
+  "magic-frost/frost-impact-lesser": magic_frost_frost_impact_lesser,
+  "magic-frost/frost-impact-wild": magic_frost_frost_impact_wild,
+  "magic-frost/frost-meteor": magic_frost_frost_meteor,
+  "magic-frost/frost-meteor-ancient": magic_frost_frost_meteor_ancient,
+  "magic-frost/frost-meteor-greater": magic_frost_frost_meteor_greater,
+  "magic-frost/frost-meteor-lesser": magic_frost_frost_meteor_lesser,
+  "magic-frost/frost-meteor-wild": magic_frost_frost_meteor_wild,
+  "magic-frost/frost-nova": magic_frost_frost_nova,
+  "magic-frost/frost-nova-ancient": magic_frost_frost_nova_ancient,
+  "magic-frost/frost-nova-greater": magic_frost_frost_nova_greater,
+  "magic-frost/frost-nova-lesser": magic_frost_frost_nova_lesser,
+  "magic-frost/frost-nova-wild": magic_frost_frost_nova_wild,
+  "magic-frost/frost-orb": magic_frost_frost_orb,
+  "magic-frost/frost-orb-ancient": magic_frost_frost_orb_ancient,
+  "magic-frost/frost-orb-greater": magic_frost_frost_orb_greater,
+  "magic-frost/frost-orb-lesser": magic_frost_frost_orb_lesser,
+  "magic-frost/frost-orb-wild": magic_frost_frost_orb_wild,
+  "magic-frost/frost-orbit": magic_frost_frost_orbit,
+  "magic-frost/frost-orbit-ancient": magic_frost_frost_orbit_ancient,
+  "magic-frost/frost-orbit-greater": magic_frost_frost_orbit_greater,
+  "magic-frost/frost-orbit-lesser": magic_frost_frost_orbit_lesser,
+  "magic-frost/frost-orbit-wild": magic_frost_frost_orbit_wild,
+  "magic-frost/frost-pillar": magic_frost_frost_pillar,
+  "magic-frost/frost-pillar-ancient": magic_frost_frost_pillar_ancient,
+  "magic-frost/frost-pillar-greater": magic_frost_frost_pillar_greater,
+  "magic-frost/frost-pillar-lesser": magic_frost_frost_pillar_lesser,
+  "magic-frost/frost-pillar-wild": magic_frost_frost_pillar_wild,
+  "magic-frost/frost-portal": magic_frost_frost_portal,
+  "magic-frost/frost-portal-ancient": magic_frost_frost_portal_ancient,
+  "magic-frost/frost-portal-greater": magic_frost_frost_portal_greater,
+  "magic-frost/frost-portal-lesser": magic_frost_frost_portal_lesser,
+  "magic-frost/frost-portal-wild": magic_frost_frost_portal_wild,
+  "magic-frost/frost-rain": magic_frost_frost_rain,
+  "magic-frost/frost-rain-ancient": magic_frost_frost_rain_ancient,
+  "magic-frost/frost-rain-greater": magic_frost_frost_rain_greater,
+  "magic-frost/frost-rain-lesser": magic_frost_frost_rain_lesser,
+  "magic-frost/frost-rain-wild": magic_frost_frost_rain_wild,
+  "magic-frost/frost-shield": magic_frost_frost_shield,
+  "magic-frost/frost-shield-ancient": magic_frost_frost_shield_ancient,
+  "magic-frost/frost-shield-greater": magic_frost_frost_shield_greater,
+  "magic-frost/frost-shield-lesser": magic_frost_frost_shield_lesser,
+  "magic-frost/frost-shield-wild": magic_frost_frost_shield_wild,
+  "magic-frost/frost-sigil": magic_frost_frost_sigil,
+  "magic-frost/frost-sigil-ancient": magic_frost_frost_sigil_ancient,
+  "magic-frost/frost-sigil-greater": magic_frost_frost_sigil_greater,
+  "magic-frost/frost-sigil-lesser": magic_frost_frost_sigil_lesser,
+  "magic-frost/frost-sigil-wild": magic_frost_frost_sigil_wild,
+  "magic-frost/frost-spikes": magic_frost_frost_spikes,
+  "magic-frost/frost-spikes-ancient": magic_frost_frost_spikes_ancient,
+  "magic-frost/frost-spikes-greater": magic_frost_frost_spikes_greater,
+  "magic-frost/frost-spikes-lesser": magic_frost_frost_spikes_lesser,
+  "magic-frost/frost-spikes-wild": magic_frost_frost_spikes_wild,
+  "magic-frost/frost-summon": magic_frost_frost_summon,
+  "magic-frost/frost-summon-ancient": magic_frost_frost_summon_ancient,
+  "magic-frost/frost-summon-greater": magic_frost_frost_summon_greater,
+  "magic-frost/frost-summon-lesser": magic_frost_frost_summon_lesser,
+  "magic-frost/frost-summon-wild": magic_frost_frost_summon_wild,
+  "magic-frost/frost-vortex": magic_frost_frost_vortex,
+  "magic-frost/frost-vortex-ancient": magic_frost_frost_vortex_ancient,
+  "magic-frost/frost-vortex-greater": magic_frost_frost_vortex_greater,
+  "magic-frost/frost-vortex-lesser": magic_frost_frost_vortex_lesser,
+  "magic-frost/frost-vortex-wild": magic_frost_frost_vortex_wild,
+  "magic-frost/frost-wave": magic_frost_frost_wave,
+  "magic-frost/frost-wave-ancient": magic_frost_frost_wave_ancient,
+  "magic-frost/frost-wave-greater": magic_frost_frost_wave_greater,
+  "magic-frost/frost-wave-lesser": magic_frost_frost_wave_lesser,
+  "magic-frost/frost-wave-wild": magic_frost_frost_wave_wild,
+  "magic-storm/storm-aura": magic_storm_storm_aura,
+  "magic-storm/storm-aura-ancient": magic_storm_storm_aura_ancient,
+  "magic-storm/storm-aura-greater": magic_storm_storm_aura_greater,
+  "magic-storm/storm-aura-lesser": magic_storm_storm_aura_lesser,
+  "magic-storm/storm-aura-wild": magic_storm_storm_aura_wild,
+  "magic-storm/storm-beam": magic_storm_storm_beam,
+  "magic-storm/storm-beam-ancient": magic_storm_storm_beam_ancient,
+  "magic-storm/storm-beam-greater": magic_storm_storm_beam_greater,
+  "magic-storm/storm-beam-lesser": magic_storm_storm_beam_lesser,
+  "magic-storm/storm-beam-wild": magic_storm_storm_beam_wild,
+  "magic-storm/storm-bolt": magic_storm_storm_bolt,
+  "magic-storm/storm-bolt-ancient": magic_storm_storm_bolt_ancient,
+  "magic-storm/storm-bolt-greater": magic_storm_storm_bolt_greater,
+  "magic-storm/storm-bolt-lesser": magic_storm_storm_bolt_lesser,
+  "magic-storm/storm-bolt-wild": magic_storm_storm_bolt_wild,
+  "magic-storm/storm-burst": magic_storm_storm_burst,
+  "magic-storm/storm-burst-ancient": magic_storm_storm_burst_ancient,
+  "magic-storm/storm-burst-greater": magic_storm_storm_burst_greater,
+  "magic-storm/storm-burst-lesser": magic_storm_storm_burst_lesser,
+  "magic-storm/storm-burst-wild": magic_storm_storm_burst_wild,
+  "magic-storm/storm-charge": magic_storm_storm_charge,
+  "magic-storm/storm-charge-ancient": magic_storm_storm_charge_ancient,
+  "magic-storm/storm-charge-greater": magic_storm_storm_charge_greater,
+  "magic-storm/storm-charge-lesser": magic_storm_storm_charge_lesser,
+  "magic-storm/storm-charge-wild": magic_storm_storm_charge_wild,
+  "magic-storm/storm-circle": magic_storm_storm_circle,
+  "magic-storm/storm-circle-ancient": magic_storm_storm_circle_ancient,
+  "magic-storm/storm-circle-greater": magic_storm_storm_circle_greater,
+  "magic-storm/storm-circle-lesser": magic_storm_storm_circle_lesser,
+  "magic-storm/storm-circle-wild": magic_storm_storm_circle_wild,
+  "magic-storm/storm-cloud": magic_storm_storm_cloud,
+  "magic-storm/storm-cloud-ancient": magic_storm_storm_cloud_ancient,
+  "magic-storm/storm-cloud-greater": magic_storm_storm_cloud_greater,
+  "magic-storm/storm-cloud-lesser": magic_storm_storm_cloud_lesser,
+  "magic-storm/storm-cloud-wild": magic_storm_storm_cloud_wild,
+  "magic-storm/storm-crescent": magic_storm_storm_crescent,
+  "magic-storm/storm-crescent-ancient": magic_storm_storm_crescent_ancient,
+  "magic-storm/storm-crescent-greater": magic_storm_storm_crescent_greater,
+  "magic-storm/storm-crescent-lesser": magic_storm_storm_crescent_lesser,
+  "magic-storm/storm-crescent-wild": magic_storm_storm_crescent_wild,
+  "magic-storm/storm-dash": magic_storm_storm_dash,
+  "magic-storm/storm-dash-ancient": magic_storm_storm_dash_ancient,
+  "magic-storm/storm-dash-greater": magic_storm_storm_dash_greater,
+  "magic-storm/storm-dash-lesser": magic_storm_storm_dash_lesser,
+  "magic-storm/storm-dash-wild": magic_storm_storm_dash_wild,
+  "magic-storm/storm-flare": magic_storm_storm_flare,
+  "magic-storm/storm-flare-ancient": magic_storm_storm_flare_ancient,
+  "magic-storm/storm-flare-greater": magic_storm_storm_flare_greater,
+  "magic-storm/storm-flare-lesser": magic_storm_storm_flare_lesser,
+  "magic-storm/storm-flare-wild": magic_storm_storm_flare_wild,
+  "magic-storm/storm-impact": magic_storm_storm_impact,
+  "magic-storm/storm-impact-ancient": magic_storm_storm_impact_ancient,
+  "magic-storm/storm-impact-greater": magic_storm_storm_impact_greater,
+  "magic-storm/storm-impact-lesser": magic_storm_storm_impact_lesser,
+  "magic-storm/storm-impact-wild": magic_storm_storm_impact_wild,
+  "magic-storm/storm-meteor": magic_storm_storm_meteor,
+  "magic-storm/storm-meteor-ancient": magic_storm_storm_meteor_ancient,
+  "magic-storm/storm-meteor-greater": magic_storm_storm_meteor_greater,
+  "magic-storm/storm-meteor-lesser": magic_storm_storm_meteor_lesser,
+  "magic-storm/storm-meteor-wild": magic_storm_storm_meteor_wild,
+  "magic-storm/storm-nova": magic_storm_storm_nova,
+  "magic-storm/storm-nova-ancient": magic_storm_storm_nova_ancient,
+  "magic-storm/storm-nova-greater": magic_storm_storm_nova_greater,
+  "magic-storm/storm-nova-lesser": magic_storm_storm_nova_lesser,
+  "magic-storm/storm-nova-wild": magic_storm_storm_nova_wild,
+  "magic-storm/storm-orb": magic_storm_storm_orb,
+  "magic-storm/storm-orb-ancient": magic_storm_storm_orb_ancient,
+  "magic-storm/storm-orb-greater": magic_storm_storm_orb_greater,
+  "magic-storm/storm-orb-lesser": magic_storm_storm_orb_lesser,
+  "magic-storm/storm-orb-wild": magic_storm_storm_orb_wild,
+  "magic-storm/storm-orbit": magic_storm_storm_orbit,
+  "magic-storm/storm-orbit-ancient": magic_storm_storm_orbit_ancient,
+  "magic-storm/storm-orbit-greater": magic_storm_storm_orbit_greater,
+  "magic-storm/storm-orbit-lesser": magic_storm_storm_orbit_lesser,
+  "magic-storm/storm-orbit-wild": magic_storm_storm_orbit_wild,
+  "magic-storm/storm-pillar": magic_storm_storm_pillar,
+  "magic-storm/storm-pillar-ancient": magic_storm_storm_pillar_ancient,
+  "magic-storm/storm-pillar-greater": magic_storm_storm_pillar_greater,
+  "magic-storm/storm-pillar-lesser": magic_storm_storm_pillar_lesser,
+  "magic-storm/storm-pillar-wild": magic_storm_storm_pillar_wild,
+  "magic-storm/storm-portal": magic_storm_storm_portal,
+  "magic-storm/storm-portal-ancient": magic_storm_storm_portal_ancient,
+  "magic-storm/storm-portal-greater": magic_storm_storm_portal_greater,
+  "magic-storm/storm-portal-lesser": magic_storm_storm_portal_lesser,
+  "magic-storm/storm-portal-wild": magic_storm_storm_portal_wild,
+  "magic-storm/storm-rain": magic_storm_storm_rain,
+  "magic-storm/storm-rain-ancient": magic_storm_storm_rain_ancient,
+  "magic-storm/storm-rain-greater": magic_storm_storm_rain_greater,
+  "magic-storm/storm-rain-lesser": magic_storm_storm_rain_lesser,
+  "magic-storm/storm-rain-wild": magic_storm_storm_rain_wild,
+  "magic-storm/storm-shield": magic_storm_storm_shield,
+  "magic-storm/storm-shield-ancient": magic_storm_storm_shield_ancient,
+  "magic-storm/storm-shield-greater": magic_storm_storm_shield_greater,
+  "magic-storm/storm-shield-lesser": magic_storm_storm_shield_lesser,
+  "magic-storm/storm-shield-wild": magic_storm_storm_shield_wild,
+  "magic-storm/storm-sigil": magic_storm_storm_sigil,
+  "magic-storm/storm-sigil-ancient": magic_storm_storm_sigil_ancient,
+  "magic-storm/storm-sigil-greater": magic_storm_storm_sigil_greater,
+  "magic-storm/storm-sigil-lesser": magic_storm_storm_sigil_lesser,
+  "magic-storm/storm-sigil-wild": magic_storm_storm_sigil_wild,
+  "magic-storm/storm-spikes": magic_storm_storm_spikes,
+  "magic-storm/storm-spikes-ancient": magic_storm_storm_spikes_ancient,
+  "magic-storm/storm-spikes-greater": magic_storm_storm_spikes_greater,
+  "magic-storm/storm-spikes-lesser": magic_storm_storm_spikes_lesser,
+  "magic-storm/storm-spikes-wild": magic_storm_storm_spikes_wild,
+  "magic-storm/storm-summon": magic_storm_storm_summon,
+  "magic-storm/storm-summon-ancient": magic_storm_storm_summon_ancient,
+  "magic-storm/storm-summon-greater": magic_storm_storm_summon_greater,
+  "magic-storm/storm-summon-lesser": magic_storm_storm_summon_lesser,
+  "magic-storm/storm-summon-wild": magic_storm_storm_summon_wild,
+  "magic-storm/storm-vortex": magic_storm_storm_vortex,
+  "magic-storm/storm-vortex-ancient": magic_storm_storm_vortex_ancient,
+  "magic-storm/storm-vortex-greater": magic_storm_storm_vortex_greater,
+  "magic-storm/storm-vortex-lesser": magic_storm_storm_vortex_lesser,
+  "magic-storm/storm-vortex-wild": magic_storm_storm_vortex_wild,
+  "magic-storm/storm-wave": magic_storm_storm_wave,
+  "magic-storm/storm-wave-ancient": magic_storm_storm_wave_ancient,
+  "magic-storm/storm-wave-greater": magic_storm_storm_wave_greater,
+  "magic-storm/storm-wave-lesser": magic_storm_storm_wave_lesser,
+  "magic-storm/storm-wave-wild": magic_storm_storm_wave_wild,
+  "magic-earth/earth-aura": magic_earth_earth_aura,
+  "magic-earth/earth-aura-ancient": magic_earth_earth_aura_ancient,
+  "magic-earth/earth-aura-greater": magic_earth_earth_aura_greater,
+  "magic-earth/earth-aura-lesser": magic_earth_earth_aura_lesser,
+  "magic-earth/earth-aura-wild": magic_earth_earth_aura_wild,
+  "magic-earth/earth-beam": magic_earth_earth_beam,
+  "magic-earth/earth-beam-ancient": magic_earth_earth_beam_ancient,
+  "magic-earth/earth-beam-greater": magic_earth_earth_beam_greater,
+  "magic-earth/earth-beam-lesser": magic_earth_earth_beam_lesser,
+  "magic-earth/earth-beam-wild": magic_earth_earth_beam_wild,
+  "magic-earth/earth-bolt": magic_earth_earth_bolt,
+  "magic-earth/earth-bolt-ancient": magic_earth_earth_bolt_ancient,
+  "magic-earth/earth-bolt-greater": magic_earth_earth_bolt_greater,
+  "magic-earth/earth-bolt-lesser": magic_earth_earth_bolt_lesser,
+  "magic-earth/earth-bolt-wild": magic_earth_earth_bolt_wild,
+  "magic-earth/earth-burst": magic_earth_earth_burst,
+  "magic-earth/earth-burst-ancient": magic_earth_earth_burst_ancient,
+  "magic-earth/earth-burst-greater": magic_earth_earth_burst_greater,
+  "magic-earth/earth-burst-lesser": magic_earth_earth_burst_lesser,
+  "magic-earth/earth-burst-wild": magic_earth_earth_burst_wild,
+  "magic-earth/earth-charge": magic_earth_earth_charge,
+  "magic-earth/earth-charge-ancient": magic_earth_earth_charge_ancient,
+  "magic-earth/earth-charge-greater": magic_earth_earth_charge_greater,
+  "magic-earth/earth-charge-lesser": magic_earth_earth_charge_lesser,
+  "magic-earth/earth-charge-wild": magic_earth_earth_charge_wild,
+  "magic-earth/earth-circle": magic_earth_earth_circle,
+  "magic-earth/earth-circle-ancient": magic_earth_earth_circle_ancient,
+  "magic-earth/earth-circle-greater": magic_earth_earth_circle_greater,
+  "magic-earth/earth-circle-lesser": magic_earth_earth_circle_lesser,
+  "magic-earth/earth-circle-wild": magic_earth_earth_circle_wild,
+  "magic-earth/earth-cloud": magic_earth_earth_cloud,
+  "magic-earth/earth-cloud-ancient": magic_earth_earth_cloud_ancient,
+  "magic-earth/earth-cloud-greater": magic_earth_earth_cloud_greater,
+  "magic-earth/earth-cloud-lesser": magic_earth_earth_cloud_lesser,
+  "magic-earth/earth-cloud-wild": magic_earth_earth_cloud_wild,
+  "magic-earth/earth-crescent": magic_earth_earth_crescent,
+  "magic-earth/earth-crescent-ancient": magic_earth_earth_crescent_ancient,
+  "magic-earth/earth-crescent-greater": magic_earth_earth_crescent_greater,
+  "magic-earth/earth-crescent-lesser": magic_earth_earth_crescent_lesser,
+  "magic-earth/earth-crescent-wild": magic_earth_earth_crescent_wild,
+  "magic-earth/earth-dash": magic_earth_earth_dash,
+  "magic-earth/earth-dash-ancient": magic_earth_earth_dash_ancient,
+  "magic-earth/earth-dash-greater": magic_earth_earth_dash_greater,
+  "magic-earth/earth-dash-lesser": magic_earth_earth_dash_lesser,
+  "magic-earth/earth-dash-wild": magic_earth_earth_dash_wild,
+  "magic-earth/earth-flare": magic_earth_earth_flare,
+  "magic-earth/earth-flare-ancient": magic_earth_earth_flare_ancient,
+  "magic-earth/earth-flare-greater": magic_earth_earth_flare_greater,
+  "magic-earth/earth-flare-lesser": magic_earth_earth_flare_lesser,
+  "magic-earth/earth-flare-wild": magic_earth_earth_flare_wild,
+  "magic-earth/earth-impact": magic_earth_earth_impact,
+  "magic-earth/earth-impact-ancient": magic_earth_earth_impact_ancient,
+  "magic-earth/earth-impact-greater": magic_earth_earth_impact_greater,
+  "magic-earth/earth-impact-lesser": magic_earth_earth_impact_lesser,
+  "magic-earth/earth-impact-wild": magic_earth_earth_impact_wild,
+  "magic-earth/earth-meteor": magic_earth_earth_meteor,
+  "magic-earth/earth-meteor-ancient": magic_earth_earth_meteor_ancient,
+  "magic-earth/earth-meteor-greater": magic_earth_earth_meteor_greater,
+  "magic-earth/earth-meteor-lesser": magic_earth_earth_meteor_lesser,
+  "magic-earth/earth-meteor-wild": magic_earth_earth_meteor_wild,
+  "magic-earth/earth-nova": magic_earth_earth_nova,
+  "magic-earth/earth-nova-ancient": magic_earth_earth_nova_ancient,
+  "magic-earth/earth-nova-greater": magic_earth_earth_nova_greater,
+  "magic-earth/earth-nova-lesser": magic_earth_earth_nova_lesser,
+  "magic-earth/earth-nova-wild": magic_earth_earth_nova_wild,
+  "magic-earth/earth-orb": magic_earth_earth_orb,
+  "magic-earth/earth-orb-ancient": magic_earth_earth_orb_ancient,
+  "magic-earth/earth-orb-greater": magic_earth_earth_orb_greater,
+  "magic-earth/earth-orb-lesser": magic_earth_earth_orb_lesser,
+  "magic-earth/earth-orb-wild": magic_earth_earth_orb_wild,
+  "magic-earth/earth-orbit": magic_earth_earth_orbit,
+  "magic-earth/earth-orbit-ancient": magic_earth_earth_orbit_ancient,
+  "magic-earth/earth-orbit-greater": magic_earth_earth_orbit_greater,
+  "magic-earth/earth-orbit-lesser": magic_earth_earth_orbit_lesser,
+  "magic-earth/earth-orbit-wild": magic_earth_earth_orbit_wild,
+  "magic-earth/earth-pillar": magic_earth_earth_pillar,
+  "magic-earth/earth-pillar-ancient": magic_earth_earth_pillar_ancient,
+  "magic-earth/earth-pillar-greater": magic_earth_earth_pillar_greater,
+  "magic-earth/earth-pillar-lesser": magic_earth_earth_pillar_lesser,
+  "magic-earth/earth-pillar-wild": magic_earth_earth_pillar_wild,
+  "magic-earth/earth-portal": magic_earth_earth_portal,
+  "magic-earth/earth-portal-ancient": magic_earth_earth_portal_ancient,
+  "magic-earth/earth-portal-greater": magic_earth_earth_portal_greater,
+  "magic-earth/earth-portal-lesser": magic_earth_earth_portal_lesser,
+  "magic-earth/earth-portal-wild": magic_earth_earth_portal_wild,
+  "magic-earth/earth-rain": magic_earth_earth_rain,
+  "magic-earth/earth-rain-ancient": magic_earth_earth_rain_ancient,
+  "magic-earth/earth-rain-greater": magic_earth_earth_rain_greater,
+  "magic-earth/earth-rain-lesser": magic_earth_earth_rain_lesser,
+  "magic-earth/earth-rain-wild": magic_earth_earth_rain_wild,
+  "magic-earth/earth-shield": magic_earth_earth_shield,
+  "magic-earth/earth-shield-ancient": magic_earth_earth_shield_ancient,
+  "magic-earth/earth-shield-greater": magic_earth_earth_shield_greater,
+  "magic-earth/earth-shield-lesser": magic_earth_earth_shield_lesser,
+  "magic-earth/earth-shield-wild": magic_earth_earth_shield_wild,
+  "magic-earth/earth-sigil": magic_earth_earth_sigil,
+  "magic-earth/earth-sigil-ancient": magic_earth_earth_sigil_ancient,
+  "magic-earth/earth-sigil-greater": magic_earth_earth_sigil_greater,
+  "magic-earth/earth-sigil-lesser": magic_earth_earth_sigil_lesser,
+  "magic-earth/earth-sigil-wild": magic_earth_earth_sigil_wild,
+  "magic-earth/earth-spikes": magic_earth_earth_spikes,
+  "magic-earth/earth-spikes-ancient": magic_earth_earth_spikes_ancient,
+  "magic-earth/earth-spikes-greater": magic_earth_earth_spikes_greater,
+  "magic-earth/earth-spikes-lesser": magic_earth_earth_spikes_lesser,
+  "magic-earth/earth-spikes-wild": magic_earth_earth_spikes_wild,
+  "magic-earth/earth-summon": magic_earth_earth_summon,
+  "magic-earth/earth-summon-ancient": magic_earth_earth_summon_ancient,
+  "magic-earth/earth-summon-greater": magic_earth_earth_summon_greater,
+  "magic-earth/earth-summon-lesser": magic_earth_earth_summon_lesser,
+  "magic-earth/earth-summon-wild": magic_earth_earth_summon_wild,
+  "magic-earth/earth-vortex": magic_earth_earth_vortex,
+  "magic-earth/earth-vortex-ancient": magic_earth_earth_vortex_ancient,
+  "magic-earth/earth-vortex-greater": magic_earth_earth_vortex_greater,
+  "magic-earth/earth-vortex-lesser": magic_earth_earth_vortex_lesser,
+  "magic-earth/earth-vortex-wild": magic_earth_earth_vortex_wild,
+  "magic-earth/earth-wave": magic_earth_earth_wave,
+  "magic-earth/earth-wave-ancient": magic_earth_earth_wave_ancient,
+  "magic-earth/earth-wave-greater": magic_earth_earth_wave_greater,
+  "magic-earth/earth-wave-lesser": magic_earth_earth_wave_lesser,
+  "magic-earth/earth-wave-wild": magic_earth_earth_wave_wild,
+  "magic-verdant/verdant-aura": magic_verdant_verdant_aura,
+  "magic-verdant/verdant-aura-ancient": magic_verdant_verdant_aura_ancient,
+  "magic-verdant/verdant-aura-greater": magic_verdant_verdant_aura_greater,
+  "magic-verdant/verdant-aura-lesser": magic_verdant_verdant_aura_lesser,
+  "magic-verdant/verdant-aura-wild": magic_verdant_verdant_aura_wild,
+  "magic-verdant/verdant-beam": magic_verdant_verdant_beam,
+  "magic-verdant/verdant-beam-ancient": magic_verdant_verdant_beam_ancient,
+  "magic-verdant/verdant-beam-greater": magic_verdant_verdant_beam_greater,
+  "magic-verdant/verdant-beam-lesser": magic_verdant_verdant_beam_lesser,
+  "magic-verdant/verdant-beam-wild": magic_verdant_verdant_beam_wild,
+  "magic-verdant/verdant-bolt": magic_verdant_verdant_bolt,
+  "magic-verdant/verdant-bolt-ancient": magic_verdant_verdant_bolt_ancient,
+  "magic-verdant/verdant-bolt-greater": magic_verdant_verdant_bolt_greater,
+  "magic-verdant/verdant-bolt-lesser": magic_verdant_verdant_bolt_lesser,
+  "magic-verdant/verdant-bolt-wild": magic_verdant_verdant_bolt_wild,
+  "magic-verdant/verdant-burst": magic_verdant_verdant_burst,
+  "magic-verdant/verdant-burst-ancient": magic_verdant_verdant_burst_ancient,
+  "magic-verdant/verdant-burst-greater": magic_verdant_verdant_burst_greater,
+  "magic-verdant/verdant-burst-lesser": magic_verdant_verdant_burst_lesser,
+  "magic-verdant/verdant-burst-wild": magic_verdant_verdant_burst_wild,
+  "magic-verdant/verdant-charge": magic_verdant_verdant_charge,
+  "magic-verdant/verdant-charge-ancient": magic_verdant_verdant_charge_ancient,
+  "magic-verdant/verdant-charge-greater": magic_verdant_verdant_charge_greater,
+  "magic-verdant/verdant-charge-lesser": magic_verdant_verdant_charge_lesser,
+  "magic-verdant/verdant-charge-wild": magic_verdant_verdant_charge_wild,
+  "magic-verdant/verdant-circle": magic_verdant_verdant_circle,
+  "magic-verdant/verdant-circle-ancient": magic_verdant_verdant_circle_ancient,
+  "magic-verdant/verdant-circle-greater": magic_verdant_verdant_circle_greater,
+  "magic-verdant/verdant-circle-lesser": magic_verdant_verdant_circle_lesser,
+  "magic-verdant/verdant-circle-wild": magic_verdant_verdant_circle_wild,
+  "magic-verdant/verdant-cloud": magic_verdant_verdant_cloud,
+  "magic-verdant/verdant-cloud-ancient": magic_verdant_verdant_cloud_ancient,
+  "magic-verdant/verdant-cloud-greater": magic_verdant_verdant_cloud_greater,
+  "magic-verdant/verdant-cloud-lesser": magic_verdant_verdant_cloud_lesser,
+  "magic-verdant/verdant-cloud-wild": magic_verdant_verdant_cloud_wild,
+  "magic-verdant/verdant-crescent": magic_verdant_verdant_crescent,
+  "magic-verdant/verdant-crescent-ancient": magic_verdant_verdant_crescent_ancient,
+  "magic-verdant/verdant-crescent-greater": magic_verdant_verdant_crescent_greater,
+  "magic-verdant/verdant-crescent-lesser": magic_verdant_verdant_crescent_lesser,
+  "magic-verdant/verdant-crescent-wild": magic_verdant_verdant_crescent_wild,
+  "magic-verdant/verdant-dash": magic_verdant_verdant_dash,
+  "magic-verdant/verdant-dash-ancient": magic_verdant_verdant_dash_ancient,
+  "magic-verdant/verdant-dash-greater": magic_verdant_verdant_dash_greater,
+  "magic-verdant/verdant-dash-lesser": magic_verdant_verdant_dash_lesser,
+  "magic-verdant/verdant-dash-wild": magic_verdant_verdant_dash_wild,
+  "magic-verdant/verdant-flare": magic_verdant_verdant_flare,
+  "magic-verdant/verdant-flare-ancient": magic_verdant_verdant_flare_ancient,
+  "magic-verdant/verdant-flare-greater": magic_verdant_verdant_flare_greater,
+  "magic-verdant/verdant-flare-lesser": magic_verdant_verdant_flare_lesser,
+  "magic-verdant/verdant-flare-wild": magic_verdant_verdant_flare_wild,
+  "magic-verdant/verdant-impact": magic_verdant_verdant_impact,
+  "magic-verdant/verdant-impact-ancient": magic_verdant_verdant_impact_ancient,
+  "magic-verdant/verdant-impact-greater": magic_verdant_verdant_impact_greater,
+  "magic-verdant/verdant-impact-lesser": magic_verdant_verdant_impact_lesser,
+  "magic-verdant/verdant-impact-wild": magic_verdant_verdant_impact_wild,
+  "magic-verdant/verdant-meteor": magic_verdant_verdant_meteor,
+  "magic-verdant/verdant-meteor-ancient": magic_verdant_verdant_meteor_ancient,
+  "magic-verdant/verdant-meteor-greater": magic_verdant_verdant_meteor_greater,
+  "magic-verdant/verdant-meteor-lesser": magic_verdant_verdant_meteor_lesser,
+  "magic-verdant/verdant-meteor-wild": magic_verdant_verdant_meteor_wild,
+  "magic-verdant/verdant-nova": magic_verdant_verdant_nova,
+  "magic-verdant/verdant-nova-ancient": magic_verdant_verdant_nova_ancient,
+  "magic-verdant/verdant-nova-greater": magic_verdant_verdant_nova_greater,
+  "magic-verdant/verdant-nova-lesser": magic_verdant_verdant_nova_lesser,
+  "magic-verdant/verdant-nova-wild": magic_verdant_verdant_nova_wild,
+  "magic-verdant/verdant-orb": magic_verdant_verdant_orb,
+  "magic-verdant/verdant-orb-ancient": magic_verdant_verdant_orb_ancient,
+  "magic-verdant/verdant-orb-greater": magic_verdant_verdant_orb_greater,
+  "magic-verdant/verdant-orb-lesser": magic_verdant_verdant_orb_lesser,
+  "magic-verdant/verdant-orb-wild": magic_verdant_verdant_orb_wild,
+  "magic-verdant/verdant-orbit": magic_verdant_verdant_orbit,
+  "magic-verdant/verdant-orbit-ancient": magic_verdant_verdant_orbit_ancient,
+  "magic-verdant/verdant-orbit-greater": magic_verdant_verdant_orbit_greater,
+  "magic-verdant/verdant-orbit-lesser": magic_verdant_verdant_orbit_lesser,
+  "magic-verdant/verdant-orbit-wild": magic_verdant_verdant_orbit_wild,
+  "magic-verdant/verdant-pillar": magic_verdant_verdant_pillar,
+  "magic-verdant/verdant-pillar-ancient": magic_verdant_verdant_pillar_ancient,
+  "magic-verdant/verdant-pillar-greater": magic_verdant_verdant_pillar_greater,
+  "magic-verdant/verdant-pillar-lesser": magic_verdant_verdant_pillar_lesser,
+  "magic-verdant/verdant-pillar-wild": magic_verdant_verdant_pillar_wild,
+  "magic-verdant/verdant-portal": magic_verdant_verdant_portal,
+  "magic-verdant/verdant-portal-ancient": magic_verdant_verdant_portal_ancient,
+  "magic-verdant/verdant-portal-greater": magic_verdant_verdant_portal_greater,
+  "magic-verdant/verdant-portal-lesser": magic_verdant_verdant_portal_lesser,
+  "magic-verdant/verdant-portal-wild": magic_verdant_verdant_portal_wild,
+  "magic-verdant/verdant-rain": magic_verdant_verdant_rain,
+  "magic-verdant/verdant-rain-ancient": magic_verdant_verdant_rain_ancient,
+  "magic-verdant/verdant-rain-greater": magic_verdant_verdant_rain_greater,
+  "magic-verdant/verdant-rain-lesser": magic_verdant_verdant_rain_lesser,
+  "magic-verdant/verdant-rain-wild": magic_verdant_verdant_rain_wild,
+  "magic-verdant/verdant-shield": magic_verdant_verdant_shield,
+  "magic-verdant/verdant-shield-ancient": magic_verdant_verdant_shield_ancient,
+  "magic-verdant/verdant-shield-greater": magic_verdant_verdant_shield_greater,
+  "magic-verdant/verdant-shield-lesser": magic_verdant_verdant_shield_lesser,
+  "magic-verdant/verdant-shield-wild": magic_verdant_verdant_shield_wild,
+  "magic-verdant/verdant-sigil": magic_verdant_verdant_sigil,
+  "magic-verdant/verdant-sigil-ancient": magic_verdant_verdant_sigil_ancient,
+  "magic-verdant/verdant-sigil-greater": magic_verdant_verdant_sigil_greater,
+  "magic-verdant/verdant-sigil-lesser": magic_verdant_verdant_sigil_lesser,
+  "magic-verdant/verdant-sigil-wild": magic_verdant_verdant_sigil_wild,
+  "magic-verdant/verdant-spikes": magic_verdant_verdant_spikes,
+  "magic-verdant/verdant-spikes-ancient": magic_verdant_verdant_spikes_ancient,
+  "magic-verdant/verdant-spikes-greater": magic_verdant_verdant_spikes_greater,
+  "magic-verdant/verdant-spikes-lesser": magic_verdant_verdant_spikes_lesser,
+  "magic-verdant/verdant-spikes-wild": magic_verdant_verdant_spikes_wild,
+  "magic-verdant/verdant-summon": magic_verdant_verdant_summon,
+  "magic-verdant/verdant-summon-ancient": magic_verdant_verdant_summon_ancient,
+  "magic-verdant/verdant-summon-greater": magic_verdant_verdant_summon_greater,
+  "magic-verdant/verdant-summon-lesser": magic_verdant_verdant_summon_lesser,
+  "magic-verdant/verdant-summon-wild": magic_verdant_verdant_summon_wild,
+  "magic-verdant/verdant-vortex": magic_verdant_verdant_vortex,
+  "magic-verdant/verdant-vortex-ancient": magic_verdant_verdant_vortex_ancient,
+  "magic-verdant/verdant-vortex-greater": magic_verdant_verdant_vortex_greater,
+  "magic-verdant/verdant-vortex-lesser": magic_verdant_verdant_vortex_lesser,
+  "magic-verdant/verdant-vortex-wild": magic_verdant_verdant_vortex_wild,
+  "magic-verdant/verdant-wave": magic_verdant_verdant_wave,
+  "magic-verdant/verdant-wave-ancient": magic_verdant_verdant_wave_ancient,
+  "magic-verdant/verdant-wave-greater": magic_verdant_verdant_wave_greater,
+  "magic-verdant/verdant-wave-lesser": magic_verdant_verdant_wave_lesser,
+  "magic-verdant/verdant-wave-wild": magic_verdant_verdant_wave_wild,
+  "magic-tide/tide-aura": magic_tide_tide_aura,
+  "magic-tide/tide-aura-ancient": magic_tide_tide_aura_ancient,
+  "magic-tide/tide-aura-greater": magic_tide_tide_aura_greater,
+  "magic-tide/tide-aura-lesser": magic_tide_tide_aura_lesser,
+  "magic-tide/tide-aura-wild": magic_tide_tide_aura_wild,
+  "magic-tide/tide-beam": magic_tide_tide_beam,
+  "magic-tide/tide-beam-ancient": magic_tide_tide_beam_ancient,
+  "magic-tide/tide-beam-greater": magic_tide_tide_beam_greater,
+  "magic-tide/tide-beam-lesser": magic_tide_tide_beam_lesser,
+  "magic-tide/tide-beam-wild": magic_tide_tide_beam_wild,
+  "magic-tide/tide-bolt": magic_tide_tide_bolt,
+  "magic-tide/tide-bolt-ancient": magic_tide_tide_bolt_ancient,
+  "magic-tide/tide-bolt-greater": magic_tide_tide_bolt_greater,
+  "magic-tide/tide-bolt-lesser": magic_tide_tide_bolt_lesser,
+  "magic-tide/tide-bolt-wild": magic_tide_tide_bolt_wild,
+  "magic-tide/tide-burst": magic_tide_tide_burst,
+  "magic-tide/tide-burst-ancient": magic_tide_tide_burst_ancient,
+  "magic-tide/tide-burst-greater": magic_tide_tide_burst_greater,
+  "magic-tide/tide-burst-lesser": magic_tide_tide_burst_lesser,
+  "magic-tide/tide-burst-wild": magic_tide_tide_burst_wild,
+  "magic-tide/tide-charge": magic_tide_tide_charge,
+  "magic-tide/tide-charge-ancient": magic_tide_tide_charge_ancient,
+  "magic-tide/tide-charge-greater": magic_tide_tide_charge_greater,
+  "magic-tide/tide-charge-lesser": magic_tide_tide_charge_lesser,
+  "magic-tide/tide-charge-wild": magic_tide_tide_charge_wild,
+  "magic-tide/tide-circle": magic_tide_tide_circle,
+  "magic-tide/tide-circle-ancient": magic_tide_tide_circle_ancient,
+  "magic-tide/tide-circle-greater": magic_tide_tide_circle_greater,
+  "magic-tide/tide-circle-lesser": magic_tide_tide_circle_lesser,
+  "magic-tide/tide-circle-wild": magic_tide_tide_circle_wild,
+  "magic-tide/tide-cloud": magic_tide_tide_cloud,
+  "magic-tide/tide-cloud-ancient": magic_tide_tide_cloud_ancient,
+  "magic-tide/tide-cloud-greater": magic_tide_tide_cloud_greater,
+  "magic-tide/tide-cloud-lesser": magic_tide_tide_cloud_lesser,
+  "magic-tide/tide-cloud-wild": magic_tide_tide_cloud_wild,
+  "magic-tide/tide-crescent": magic_tide_tide_crescent,
+  "magic-tide/tide-crescent-ancient": magic_tide_tide_crescent_ancient,
+  "magic-tide/tide-crescent-greater": magic_tide_tide_crescent_greater,
+  "magic-tide/tide-crescent-lesser": magic_tide_tide_crescent_lesser,
+  "magic-tide/tide-crescent-wild": magic_tide_tide_crescent_wild,
+  "magic-tide/tide-dash": magic_tide_tide_dash,
+  "magic-tide/tide-dash-ancient": magic_tide_tide_dash_ancient,
+  "magic-tide/tide-dash-greater": magic_tide_tide_dash_greater,
+  "magic-tide/tide-dash-lesser": magic_tide_tide_dash_lesser,
+  "magic-tide/tide-dash-wild": magic_tide_tide_dash_wild,
+  "magic-tide/tide-flare": magic_tide_tide_flare,
+  "magic-tide/tide-flare-ancient": magic_tide_tide_flare_ancient,
+  "magic-tide/tide-flare-greater": magic_tide_tide_flare_greater,
+  "magic-tide/tide-flare-lesser": magic_tide_tide_flare_lesser,
+  "magic-tide/tide-flare-wild": magic_tide_tide_flare_wild,
+  "magic-tide/tide-impact": magic_tide_tide_impact,
+  "magic-tide/tide-impact-ancient": magic_tide_tide_impact_ancient,
+  "magic-tide/tide-impact-greater": magic_tide_tide_impact_greater,
+  "magic-tide/tide-impact-lesser": magic_tide_tide_impact_lesser,
+  "magic-tide/tide-impact-wild": magic_tide_tide_impact_wild,
+  "magic-tide/tide-meteor": magic_tide_tide_meteor,
+  "magic-tide/tide-meteor-ancient": magic_tide_tide_meteor_ancient,
+  "magic-tide/tide-meteor-greater": magic_tide_tide_meteor_greater,
+  "magic-tide/tide-meteor-lesser": magic_tide_tide_meteor_lesser,
+  "magic-tide/tide-meteor-wild": magic_tide_tide_meteor_wild,
+  "magic-tide/tide-nova": magic_tide_tide_nova,
+  "magic-tide/tide-nova-ancient": magic_tide_tide_nova_ancient,
+  "magic-tide/tide-nova-greater": magic_tide_tide_nova_greater,
+  "magic-tide/tide-nova-lesser": magic_tide_tide_nova_lesser,
+  "magic-tide/tide-nova-wild": magic_tide_tide_nova_wild,
+  "magic-tide/tide-orb": magic_tide_tide_orb,
+  "magic-tide/tide-orb-ancient": magic_tide_tide_orb_ancient,
+  "magic-tide/tide-orb-greater": magic_tide_tide_orb_greater,
+  "magic-tide/tide-orb-lesser": magic_tide_tide_orb_lesser,
+  "magic-tide/tide-orb-wild": magic_tide_tide_orb_wild,
+  "magic-tide/tide-orbit": magic_tide_tide_orbit,
+  "magic-tide/tide-orbit-ancient": magic_tide_tide_orbit_ancient,
+  "magic-tide/tide-orbit-greater": magic_tide_tide_orbit_greater,
+  "magic-tide/tide-orbit-lesser": magic_tide_tide_orbit_lesser,
+  "magic-tide/tide-orbit-wild": magic_tide_tide_orbit_wild,
+  "magic-tide/tide-pillar": magic_tide_tide_pillar,
+  "magic-tide/tide-pillar-ancient": magic_tide_tide_pillar_ancient,
+  "magic-tide/tide-pillar-greater": magic_tide_tide_pillar_greater,
+  "magic-tide/tide-pillar-lesser": magic_tide_tide_pillar_lesser,
+  "magic-tide/tide-pillar-wild": magic_tide_tide_pillar_wild,
+  "magic-tide/tide-portal": magic_tide_tide_portal,
+  "magic-tide/tide-portal-ancient": magic_tide_tide_portal_ancient,
+  "magic-tide/tide-portal-greater": magic_tide_tide_portal_greater,
+  "magic-tide/tide-portal-lesser": magic_tide_tide_portal_lesser,
+  "magic-tide/tide-portal-wild": magic_tide_tide_portal_wild,
+  "magic-tide/tide-rain": magic_tide_tide_rain,
+  "magic-tide/tide-rain-ancient": magic_tide_tide_rain_ancient,
+  "magic-tide/tide-rain-greater": magic_tide_tide_rain_greater,
+  "magic-tide/tide-rain-lesser": magic_tide_tide_rain_lesser,
+  "magic-tide/tide-rain-wild": magic_tide_tide_rain_wild,
+  "magic-tide/tide-shield": magic_tide_tide_shield,
+  "magic-tide/tide-shield-ancient": magic_tide_tide_shield_ancient,
+  "magic-tide/tide-shield-greater": magic_tide_tide_shield_greater,
+  "magic-tide/tide-shield-lesser": magic_tide_tide_shield_lesser,
+  "magic-tide/tide-shield-wild": magic_tide_tide_shield_wild,
+  "magic-tide/tide-sigil": magic_tide_tide_sigil,
+  "magic-tide/tide-sigil-ancient": magic_tide_tide_sigil_ancient,
+  "magic-tide/tide-sigil-greater": magic_tide_tide_sigil_greater,
+  "magic-tide/tide-sigil-lesser": magic_tide_tide_sigil_lesser,
+  "magic-tide/tide-sigil-wild": magic_tide_tide_sigil_wild,
+  "magic-tide/tide-spikes": magic_tide_tide_spikes,
+  "magic-tide/tide-spikes-ancient": magic_tide_tide_spikes_ancient,
+  "magic-tide/tide-spikes-greater": magic_tide_tide_spikes_greater,
+  "magic-tide/tide-spikes-lesser": magic_tide_tide_spikes_lesser,
+  "magic-tide/tide-spikes-wild": magic_tide_tide_spikes_wild,
+  "magic-tide/tide-summon": magic_tide_tide_summon,
+  "magic-tide/tide-summon-ancient": magic_tide_tide_summon_ancient,
+  "magic-tide/tide-summon-greater": magic_tide_tide_summon_greater,
+  "magic-tide/tide-summon-lesser": magic_tide_tide_summon_lesser,
+  "magic-tide/tide-summon-wild": magic_tide_tide_summon_wild,
+  "magic-tide/tide-vortex": magic_tide_tide_vortex,
+  "magic-tide/tide-vortex-ancient": magic_tide_tide_vortex_ancient,
+  "magic-tide/tide-vortex-greater": magic_tide_tide_vortex_greater,
+  "magic-tide/tide-vortex-lesser": magic_tide_tide_vortex_lesser,
+  "magic-tide/tide-vortex-wild": magic_tide_tide_vortex_wild,
+  "magic-tide/tide-wave": magic_tide_tide_wave,
+  "magic-tide/tide-wave-ancient": magic_tide_tide_wave_ancient,
+  "magic-tide/tide-wave-greater": magic_tide_tide_wave_greater,
+  "magic-tide/tide-wave-lesser": magic_tide_tide_wave_lesser,
+  "magic-tide/tide-wave-wild": magic_tide_tide_wave_wild,
+  "magic-void/void-aura": magic_void_void_aura,
+  "magic-void/void-aura-ancient": magic_void_void_aura_ancient,
+  "magic-void/void-aura-greater": magic_void_void_aura_greater,
+  "magic-void/void-aura-lesser": magic_void_void_aura_lesser,
+  "magic-void/void-aura-wild": magic_void_void_aura_wild,
+  "magic-void/void-beam": magic_void_void_beam,
+  "magic-void/void-beam-ancient": magic_void_void_beam_ancient,
+  "magic-void/void-beam-greater": magic_void_void_beam_greater,
+  "magic-void/void-beam-lesser": magic_void_void_beam_lesser,
+  "magic-void/void-beam-wild": magic_void_void_beam_wild,
+  "magic-void/void-bolt": magic_void_void_bolt,
+  "magic-void/void-bolt-ancient": magic_void_void_bolt_ancient,
+  "magic-void/void-bolt-greater": magic_void_void_bolt_greater,
+  "magic-void/void-bolt-lesser": magic_void_void_bolt_lesser,
+  "magic-void/void-bolt-wild": magic_void_void_bolt_wild,
+  "magic-void/void-burst": magic_void_void_burst,
+  "magic-void/void-burst-ancient": magic_void_void_burst_ancient,
+  "magic-void/void-burst-greater": magic_void_void_burst_greater,
+  "magic-void/void-burst-lesser": magic_void_void_burst_lesser,
+  "magic-void/void-burst-wild": magic_void_void_burst_wild,
+  "magic-void/void-charge": magic_void_void_charge,
+  "magic-void/void-charge-ancient": magic_void_void_charge_ancient,
+  "magic-void/void-charge-greater": magic_void_void_charge_greater,
+  "magic-void/void-charge-lesser": magic_void_void_charge_lesser,
+  "magic-void/void-charge-wild": magic_void_void_charge_wild,
+  "magic-void/void-circle": magic_void_void_circle,
+  "magic-void/void-circle-ancient": magic_void_void_circle_ancient,
+  "magic-void/void-circle-greater": magic_void_void_circle_greater,
+  "magic-void/void-circle-lesser": magic_void_void_circle_lesser,
+  "magic-void/void-circle-wild": magic_void_void_circle_wild,
+  "magic-void/void-cloud": magic_void_void_cloud,
+  "magic-void/void-cloud-ancient": magic_void_void_cloud_ancient,
+  "magic-void/void-cloud-greater": magic_void_void_cloud_greater,
+  "magic-void/void-cloud-lesser": magic_void_void_cloud_lesser,
+  "magic-void/void-cloud-wild": magic_void_void_cloud_wild,
+  "magic-void/void-crescent": magic_void_void_crescent,
+  "magic-void/void-crescent-ancient": magic_void_void_crescent_ancient,
+  "magic-void/void-crescent-greater": magic_void_void_crescent_greater,
+  "magic-void/void-crescent-lesser": magic_void_void_crescent_lesser,
+  "magic-void/void-crescent-wild": magic_void_void_crescent_wild,
+  "magic-void/void-dash": magic_void_void_dash,
+  "magic-void/void-dash-ancient": magic_void_void_dash_ancient,
+  "magic-void/void-dash-greater": magic_void_void_dash_greater,
+  "magic-void/void-dash-lesser": magic_void_void_dash_lesser,
+  "magic-void/void-dash-wild": magic_void_void_dash_wild,
+  "magic-void/void-flare": magic_void_void_flare,
+  "magic-void/void-flare-ancient": magic_void_void_flare_ancient,
+  "magic-void/void-flare-greater": magic_void_void_flare_greater,
+  "magic-void/void-flare-lesser": magic_void_void_flare_lesser,
+  "magic-void/void-flare-wild": magic_void_void_flare_wild,
+  "magic-void/void-impact": magic_void_void_impact,
+  "magic-void/void-impact-ancient": magic_void_void_impact_ancient,
+  "magic-void/void-impact-greater": magic_void_void_impact_greater,
+  "magic-void/void-impact-lesser": magic_void_void_impact_lesser,
+  "magic-void/void-impact-wild": magic_void_void_impact_wild,
+  "magic-void/void-meteor": magic_void_void_meteor,
+  "magic-void/void-meteor-ancient": magic_void_void_meteor_ancient,
+  "magic-void/void-meteor-greater": magic_void_void_meteor_greater,
+  "magic-void/void-meteor-lesser": magic_void_void_meteor_lesser,
+  "magic-void/void-meteor-wild": magic_void_void_meteor_wild,
+  "magic-void/void-nova": magic_void_void_nova,
+  "magic-void/void-nova-ancient": magic_void_void_nova_ancient,
+  "magic-void/void-nova-greater": magic_void_void_nova_greater,
+  "magic-void/void-nova-lesser": magic_void_void_nova_lesser,
+  "magic-void/void-nova-wild": magic_void_void_nova_wild,
+  "magic-void/void-orb": magic_void_void_orb,
+  "magic-void/void-orb-ancient": magic_void_void_orb_ancient,
+  "magic-void/void-orb-greater": magic_void_void_orb_greater,
+  "magic-void/void-orb-lesser": magic_void_void_orb_lesser,
+  "magic-void/void-orb-wild": magic_void_void_orb_wild,
+  "magic-void/void-orbit": magic_void_void_orbit,
+  "magic-void/void-orbit-ancient": magic_void_void_orbit_ancient,
+  "magic-void/void-orbit-greater": magic_void_void_orbit_greater,
+  "magic-void/void-orbit-lesser": magic_void_void_orbit_lesser,
+  "magic-void/void-orbit-wild": magic_void_void_orbit_wild,
+  "magic-void/void-pillar": magic_void_void_pillar,
+  "magic-void/void-pillar-ancient": magic_void_void_pillar_ancient,
+  "magic-void/void-pillar-greater": magic_void_void_pillar_greater,
+  "magic-void/void-pillar-lesser": magic_void_void_pillar_lesser,
+  "magic-void/void-pillar-wild": magic_void_void_pillar_wild,
+  "magic-void/void-portal": magic_void_void_portal,
+  "magic-void/void-portal-ancient": magic_void_void_portal_ancient,
+  "magic-void/void-portal-greater": magic_void_void_portal_greater,
+  "magic-void/void-portal-lesser": magic_void_void_portal_lesser,
+  "magic-void/void-portal-wild": magic_void_void_portal_wild,
+  "magic-void/void-rain": magic_void_void_rain,
+  "magic-void/void-rain-ancient": magic_void_void_rain_ancient,
+  "magic-void/void-rain-greater": magic_void_void_rain_greater,
+  "magic-void/void-rain-lesser": magic_void_void_rain_lesser,
+  "magic-void/void-rain-wild": magic_void_void_rain_wild,
+  "magic-void/void-shield": magic_void_void_shield,
+  "magic-void/void-shield-ancient": magic_void_void_shield_ancient,
+  "magic-void/void-shield-greater": magic_void_void_shield_greater,
+  "magic-void/void-shield-lesser": magic_void_void_shield_lesser,
+  "magic-void/void-shield-wild": magic_void_void_shield_wild,
+  "magic-void/void-sigil": magic_void_void_sigil,
+  "magic-void/void-sigil-ancient": magic_void_void_sigil_ancient,
+  "magic-void/void-sigil-greater": magic_void_void_sigil_greater,
+  "magic-void/void-sigil-lesser": magic_void_void_sigil_lesser,
+  "magic-void/void-sigil-wild": magic_void_void_sigil_wild,
+  "magic-void/void-spikes": magic_void_void_spikes,
+  "magic-void/void-spikes-ancient": magic_void_void_spikes_ancient,
+  "magic-void/void-spikes-greater": magic_void_void_spikes_greater,
+  "magic-void/void-spikes-lesser": magic_void_void_spikes_lesser,
+  "magic-void/void-spikes-wild": magic_void_void_spikes_wild,
+  "magic-void/void-summon": magic_void_void_summon,
+  "magic-void/void-summon-ancient": magic_void_void_summon_ancient,
+  "magic-void/void-summon-greater": magic_void_void_summon_greater,
+  "magic-void/void-summon-lesser": magic_void_void_summon_lesser,
+  "magic-void/void-summon-wild": magic_void_void_summon_wild,
+  "magic-void/void-vortex": magic_void_void_vortex,
+  "magic-void/void-vortex-ancient": magic_void_void_vortex_ancient,
+  "magic-void/void-vortex-greater": magic_void_void_vortex_greater,
+  "magic-void/void-vortex-lesser": magic_void_void_vortex_lesser,
+  "magic-void/void-vortex-wild": magic_void_void_vortex_wild,
+  "magic-void/void-wave": magic_void_void_wave,
+  "magic-void/void-wave-ancient": magic_void_void_wave_ancient,
+  "magic-void/void-wave-greater": magic_void_void_wave_greater,
+  "magic-void/void-wave-lesser": magic_void_void_wave_lesser,
+  "magic-void/void-wave-wild": magic_void_void_wave_wild,
+  "magic-holy/holy-aura": magic_holy_holy_aura,
+  "magic-holy/holy-aura-ancient": magic_holy_holy_aura_ancient,
+  "magic-holy/holy-aura-greater": magic_holy_holy_aura_greater,
+  "magic-holy/holy-aura-lesser": magic_holy_holy_aura_lesser,
+  "magic-holy/holy-aura-wild": magic_holy_holy_aura_wild,
+  "magic-holy/holy-beam": magic_holy_holy_beam,
+  "magic-holy/holy-beam-ancient": magic_holy_holy_beam_ancient,
+  "magic-holy/holy-beam-greater": magic_holy_holy_beam_greater,
+  "magic-holy/holy-beam-lesser": magic_holy_holy_beam_lesser,
+  "magic-holy/holy-beam-wild": magic_holy_holy_beam_wild,
+  "magic-holy/holy-bolt": magic_holy_holy_bolt,
+  "magic-holy/holy-bolt-ancient": magic_holy_holy_bolt_ancient,
+  "magic-holy/holy-bolt-greater": magic_holy_holy_bolt_greater,
+  "magic-holy/holy-bolt-lesser": magic_holy_holy_bolt_lesser,
+  "magic-holy/holy-bolt-wild": magic_holy_holy_bolt_wild,
+  "magic-holy/holy-burst": magic_holy_holy_burst,
+  "magic-holy/holy-burst-ancient": magic_holy_holy_burst_ancient,
+  "magic-holy/holy-burst-greater": magic_holy_holy_burst_greater,
+  "magic-holy/holy-burst-lesser": magic_holy_holy_burst_lesser,
+  "magic-holy/holy-burst-wild": magic_holy_holy_burst_wild,
+  "magic-holy/holy-charge": magic_holy_holy_charge,
+  "magic-holy/holy-charge-ancient": magic_holy_holy_charge_ancient,
+  "magic-holy/holy-charge-greater": magic_holy_holy_charge_greater,
+  "magic-holy/holy-charge-lesser": magic_holy_holy_charge_lesser,
+  "magic-holy/holy-charge-wild": magic_holy_holy_charge_wild,
+  "magic-holy/holy-circle": magic_holy_holy_circle,
+  "magic-holy/holy-circle-ancient": magic_holy_holy_circle_ancient,
+  "magic-holy/holy-circle-greater": magic_holy_holy_circle_greater,
+  "magic-holy/holy-circle-lesser": magic_holy_holy_circle_lesser,
+  "magic-holy/holy-circle-wild": magic_holy_holy_circle_wild,
+  "magic-holy/holy-cloud": magic_holy_holy_cloud,
+  "magic-holy/holy-cloud-ancient": magic_holy_holy_cloud_ancient,
+  "magic-holy/holy-cloud-greater": magic_holy_holy_cloud_greater,
+  "magic-holy/holy-cloud-lesser": magic_holy_holy_cloud_lesser,
+  "magic-holy/holy-cloud-wild": magic_holy_holy_cloud_wild,
+  "magic-holy/holy-crescent": magic_holy_holy_crescent,
+  "magic-holy/holy-crescent-ancient": magic_holy_holy_crescent_ancient,
+  "magic-holy/holy-crescent-greater": magic_holy_holy_crescent_greater,
+  "magic-holy/holy-crescent-lesser": magic_holy_holy_crescent_lesser,
+  "magic-holy/holy-crescent-wild": magic_holy_holy_crescent_wild,
+  "magic-holy/holy-dash": magic_holy_holy_dash,
+  "magic-holy/holy-dash-ancient": magic_holy_holy_dash_ancient,
+  "magic-holy/holy-dash-greater": magic_holy_holy_dash_greater,
+  "magic-holy/holy-dash-lesser": magic_holy_holy_dash_lesser,
+  "magic-holy/holy-dash-wild": magic_holy_holy_dash_wild,
+  "magic-holy/holy-flare": magic_holy_holy_flare,
+  "magic-holy/holy-flare-ancient": magic_holy_holy_flare_ancient,
+  "magic-holy/holy-flare-greater": magic_holy_holy_flare_greater,
+  "magic-holy/holy-flare-lesser": magic_holy_holy_flare_lesser,
+  "magic-holy/holy-flare-wild": magic_holy_holy_flare_wild,
+  "magic-holy/holy-impact": magic_holy_holy_impact,
+  "magic-holy/holy-impact-ancient": magic_holy_holy_impact_ancient,
+  "magic-holy/holy-impact-greater": magic_holy_holy_impact_greater,
+  "magic-holy/holy-impact-lesser": magic_holy_holy_impact_lesser,
+  "magic-holy/holy-impact-wild": magic_holy_holy_impact_wild,
+  "magic-holy/holy-meteor": magic_holy_holy_meteor,
+  "magic-holy/holy-meteor-ancient": magic_holy_holy_meteor_ancient,
+  "magic-holy/holy-meteor-greater": magic_holy_holy_meteor_greater,
+  "magic-holy/holy-meteor-lesser": magic_holy_holy_meteor_lesser,
+  "magic-holy/holy-meteor-wild": magic_holy_holy_meteor_wild,
+  "magic-holy/holy-nova": magic_holy_holy_nova,
+  "magic-holy/holy-nova-ancient": magic_holy_holy_nova_ancient,
+  "magic-holy/holy-nova-greater": magic_holy_holy_nova_greater,
+  "magic-holy/holy-nova-lesser": magic_holy_holy_nova_lesser,
+  "magic-holy/holy-nova-wild": magic_holy_holy_nova_wild,
+  "magic-holy/holy-orb": magic_holy_holy_orb,
+  "magic-holy/holy-orb-ancient": magic_holy_holy_orb_ancient,
+  "magic-holy/holy-orb-greater": magic_holy_holy_orb_greater,
+  "magic-holy/holy-orb-lesser": magic_holy_holy_orb_lesser,
+  "magic-holy/holy-orb-wild": magic_holy_holy_orb_wild,
+  "magic-holy/holy-orbit": magic_holy_holy_orbit,
+  "magic-holy/holy-orbit-ancient": magic_holy_holy_orbit_ancient,
+  "magic-holy/holy-orbit-greater": magic_holy_holy_orbit_greater,
+  "magic-holy/holy-orbit-lesser": magic_holy_holy_orbit_lesser,
+  "magic-holy/holy-orbit-wild": magic_holy_holy_orbit_wild,
+  "magic-holy/holy-pillar": magic_holy_holy_pillar,
+  "magic-holy/holy-pillar-ancient": magic_holy_holy_pillar_ancient,
+  "magic-holy/holy-pillar-greater": magic_holy_holy_pillar_greater,
+  "magic-holy/holy-pillar-lesser": magic_holy_holy_pillar_lesser,
+  "magic-holy/holy-pillar-wild": magic_holy_holy_pillar_wild,
+  "magic-holy/holy-portal": magic_holy_holy_portal,
+  "magic-holy/holy-portal-ancient": magic_holy_holy_portal_ancient,
+  "magic-holy/holy-portal-greater": magic_holy_holy_portal_greater,
+  "magic-holy/holy-portal-lesser": magic_holy_holy_portal_lesser,
+  "magic-holy/holy-portal-wild": magic_holy_holy_portal_wild,
+  "magic-holy/holy-rain": magic_holy_holy_rain,
+  "magic-holy/holy-rain-ancient": magic_holy_holy_rain_ancient,
+  "magic-holy/holy-rain-greater": magic_holy_holy_rain_greater,
+  "magic-holy/holy-rain-lesser": magic_holy_holy_rain_lesser,
+  "magic-holy/holy-rain-wild": magic_holy_holy_rain_wild,
+  "magic-holy/holy-shield": magic_holy_holy_shield,
+  "magic-holy/holy-shield-ancient": magic_holy_holy_shield_ancient,
+  "magic-holy/holy-shield-greater": magic_holy_holy_shield_greater,
+  "magic-holy/holy-shield-lesser": magic_holy_holy_shield_lesser,
+  "magic-holy/holy-shield-wild": magic_holy_holy_shield_wild,
+  "magic-holy/holy-sigil": magic_holy_holy_sigil,
+  "magic-holy/holy-sigil-ancient": magic_holy_holy_sigil_ancient,
+  "magic-holy/holy-sigil-greater": magic_holy_holy_sigil_greater,
+  "magic-holy/holy-sigil-lesser": magic_holy_holy_sigil_lesser,
+  "magic-holy/holy-sigil-wild": magic_holy_holy_sigil_wild,
+  "magic-holy/holy-spikes": magic_holy_holy_spikes,
+  "magic-holy/holy-spikes-ancient": magic_holy_holy_spikes_ancient,
+  "magic-holy/holy-spikes-greater": magic_holy_holy_spikes_greater,
+  "magic-holy/holy-spikes-lesser": magic_holy_holy_spikes_lesser,
+  "magic-holy/holy-spikes-wild": magic_holy_holy_spikes_wild,
+  "magic-holy/holy-summon": magic_holy_holy_summon,
+  "magic-holy/holy-summon-ancient": magic_holy_holy_summon_ancient,
+  "magic-holy/holy-summon-greater": magic_holy_holy_summon_greater,
+  "magic-holy/holy-summon-lesser": magic_holy_holy_summon_lesser,
+  "magic-holy/holy-summon-wild": magic_holy_holy_summon_wild,
+  "magic-holy/holy-vortex": magic_holy_holy_vortex,
+  "magic-holy/holy-vortex-ancient": magic_holy_holy_vortex_ancient,
+  "magic-holy/holy-vortex-greater": magic_holy_holy_vortex_greater,
+  "magic-holy/holy-vortex-lesser": magic_holy_holy_vortex_lesser,
+  "magic-holy/holy-vortex-wild": magic_holy_holy_vortex_wild,
+  "magic-holy/holy-wave": magic_holy_holy_wave,
+  "magic-holy/holy-wave-ancient": magic_holy_holy_wave_ancient,
+  "magic-holy/holy-wave-greater": magic_holy_holy_wave_greater,
+  "magic-holy/holy-wave-lesser": magic_holy_holy_wave_lesser,
+  "magic-holy/holy-wave-wild": magic_holy_holy_wave_wild,
+  "magic-arcane/arcane-aura": magic_arcane_arcane_aura,
+  "magic-arcane/arcane-aura-ancient": magic_arcane_arcane_aura_ancient,
+  "magic-arcane/arcane-aura-greater": magic_arcane_arcane_aura_greater,
+  "magic-arcane/arcane-aura-lesser": magic_arcane_arcane_aura_lesser,
+  "magic-arcane/arcane-aura-wild": magic_arcane_arcane_aura_wild,
+  "magic-arcane/arcane-beam": magic_arcane_arcane_beam,
+  "magic-arcane/arcane-beam-ancient": magic_arcane_arcane_beam_ancient,
+  "magic-arcane/arcane-beam-greater": magic_arcane_arcane_beam_greater,
+  "magic-arcane/arcane-beam-lesser": magic_arcane_arcane_beam_lesser,
+  "magic-arcane/arcane-beam-wild": magic_arcane_arcane_beam_wild,
+  "magic-arcane/arcane-bolt": magic_arcane_arcane_bolt,
+  "magic-arcane/arcane-bolt-ancient": magic_arcane_arcane_bolt_ancient,
+  "magic-arcane/arcane-bolt-greater": magic_arcane_arcane_bolt_greater,
+  "magic-arcane/arcane-bolt-lesser": magic_arcane_arcane_bolt_lesser,
+  "magic-arcane/arcane-bolt-wild": magic_arcane_arcane_bolt_wild,
+  "magic-arcane/arcane-burst": magic_arcane_arcane_burst,
+  "magic-arcane/arcane-burst-ancient": magic_arcane_arcane_burst_ancient,
+  "magic-arcane/arcane-burst-greater": magic_arcane_arcane_burst_greater,
+  "magic-arcane/arcane-burst-lesser": magic_arcane_arcane_burst_lesser,
+  "magic-arcane/arcane-burst-wild": magic_arcane_arcane_burst_wild,
+  "magic-arcane/arcane-charge": magic_arcane_arcane_charge,
+  "magic-arcane/arcane-charge-ancient": magic_arcane_arcane_charge_ancient,
+  "magic-arcane/arcane-charge-greater": magic_arcane_arcane_charge_greater,
+  "magic-arcane/arcane-charge-lesser": magic_arcane_arcane_charge_lesser,
+  "magic-arcane/arcane-charge-wild": magic_arcane_arcane_charge_wild,
+  "magic-arcane/arcane-circle": magic_arcane_arcane_circle,
+  "magic-arcane/arcane-circle-ancient": magic_arcane_arcane_circle_ancient,
+  "magic-arcane/arcane-circle-greater": magic_arcane_arcane_circle_greater,
+  "magic-arcane/arcane-circle-lesser": magic_arcane_arcane_circle_lesser,
+  "magic-arcane/arcane-circle-wild": magic_arcane_arcane_circle_wild,
+  "magic-arcane/arcane-cloud": magic_arcane_arcane_cloud,
+  "magic-arcane/arcane-cloud-ancient": magic_arcane_arcane_cloud_ancient,
+  "magic-arcane/arcane-cloud-greater": magic_arcane_arcane_cloud_greater,
+  "magic-arcane/arcane-cloud-lesser": magic_arcane_arcane_cloud_lesser,
+  "magic-arcane/arcane-cloud-wild": magic_arcane_arcane_cloud_wild,
+  "magic-arcane/arcane-crescent": magic_arcane_arcane_crescent,
+  "magic-arcane/arcane-crescent-ancient": magic_arcane_arcane_crescent_ancient,
+  "magic-arcane/arcane-crescent-greater": magic_arcane_arcane_crescent_greater,
+  "magic-arcane/arcane-crescent-lesser": magic_arcane_arcane_crescent_lesser,
+  "magic-arcane/arcane-crescent-wild": magic_arcane_arcane_crescent_wild,
+  "magic-arcane/arcane-dash": magic_arcane_arcane_dash,
+  "magic-arcane/arcane-dash-ancient": magic_arcane_arcane_dash_ancient,
+  "magic-arcane/arcane-dash-greater": magic_arcane_arcane_dash_greater,
+  "magic-arcane/arcane-dash-lesser": magic_arcane_arcane_dash_lesser,
+  "magic-arcane/arcane-dash-wild": magic_arcane_arcane_dash_wild,
+  "magic-arcane/arcane-flare": magic_arcane_arcane_flare,
+  "magic-arcane/arcane-flare-ancient": magic_arcane_arcane_flare_ancient,
+  "magic-arcane/arcane-flare-greater": magic_arcane_arcane_flare_greater,
+  "magic-arcane/arcane-flare-lesser": magic_arcane_arcane_flare_lesser,
+  "magic-arcane/arcane-flare-wild": magic_arcane_arcane_flare_wild,
+  "magic-arcane/arcane-impact": magic_arcane_arcane_impact,
+  "magic-arcane/arcane-impact-ancient": magic_arcane_arcane_impact_ancient,
+  "magic-arcane/arcane-impact-greater": magic_arcane_arcane_impact_greater,
+  "magic-arcane/arcane-impact-lesser": magic_arcane_arcane_impact_lesser,
+  "magic-arcane/arcane-impact-wild": magic_arcane_arcane_impact_wild,
+  "magic-arcane/arcane-meteor": magic_arcane_arcane_meteor,
+  "magic-arcane/arcane-meteor-ancient": magic_arcane_arcane_meteor_ancient,
+  "magic-arcane/arcane-meteor-greater": magic_arcane_arcane_meteor_greater,
+  "magic-arcane/arcane-meteor-lesser": magic_arcane_arcane_meteor_lesser,
+  "magic-arcane/arcane-meteor-wild": magic_arcane_arcane_meteor_wild,
+  "magic-arcane/arcane-nova": magic_arcane_arcane_nova,
+  "magic-arcane/arcane-nova-ancient": magic_arcane_arcane_nova_ancient,
+  "magic-arcane/arcane-nova-greater": magic_arcane_arcane_nova_greater,
+  "magic-arcane/arcane-nova-lesser": magic_arcane_arcane_nova_lesser,
+  "magic-arcane/arcane-nova-wild": magic_arcane_arcane_nova_wild,
+  "magic-arcane/arcane-orb": magic_arcane_arcane_orb,
+  "magic-arcane/arcane-orb-ancient": magic_arcane_arcane_orb_ancient,
+  "magic-arcane/arcane-orb-greater": magic_arcane_arcane_orb_greater,
+  "magic-arcane/arcane-orb-lesser": magic_arcane_arcane_orb_lesser,
+  "magic-arcane/arcane-orb-wild": magic_arcane_arcane_orb_wild,
+  "magic-arcane/arcane-orbit": magic_arcane_arcane_orbit,
+  "magic-arcane/arcane-orbit-ancient": magic_arcane_arcane_orbit_ancient,
+  "magic-arcane/arcane-orbit-greater": magic_arcane_arcane_orbit_greater,
+  "magic-arcane/arcane-orbit-lesser": magic_arcane_arcane_orbit_lesser,
+  "magic-arcane/arcane-orbit-wild": magic_arcane_arcane_orbit_wild,
+  "magic-arcane/arcane-pillar": magic_arcane_arcane_pillar,
+  "magic-arcane/arcane-pillar-ancient": magic_arcane_arcane_pillar_ancient,
+  "magic-arcane/arcane-pillar-greater": magic_arcane_arcane_pillar_greater,
+  "magic-arcane/arcane-pillar-lesser": magic_arcane_arcane_pillar_lesser,
+  "magic-arcane/arcane-pillar-wild": magic_arcane_arcane_pillar_wild,
+  "magic-arcane/arcane-portal": magic_arcane_arcane_portal,
+  "magic-arcane/arcane-portal-ancient": magic_arcane_arcane_portal_ancient,
+  "magic-arcane/arcane-portal-greater": magic_arcane_arcane_portal_greater,
+  "magic-arcane/arcane-portal-lesser": magic_arcane_arcane_portal_lesser,
+  "magic-arcane/arcane-portal-wild": magic_arcane_arcane_portal_wild,
+  "magic-arcane/arcane-rain": magic_arcane_arcane_rain,
+  "magic-arcane/arcane-rain-ancient": magic_arcane_arcane_rain_ancient,
+  "magic-arcane/arcane-rain-greater": magic_arcane_arcane_rain_greater,
+  "magic-arcane/arcane-rain-lesser": magic_arcane_arcane_rain_lesser,
+  "magic-arcane/arcane-rain-wild": magic_arcane_arcane_rain_wild,
+  "magic-arcane/arcane-shield": magic_arcane_arcane_shield,
+  "magic-arcane/arcane-shield-ancient": magic_arcane_arcane_shield_ancient,
+  "magic-arcane/arcane-shield-greater": magic_arcane_arcane_shield_greater,
+  "magic-arcane/arcane-shield-lesser": magic_arcane_arcane_shield_lesser,
+  "magic-arcane/arcane-shield-wild": magic_arcane_arcane_shield_wild,
+  "magic-arcane/arcane-sigil": magic_arcane_arcane_sigil,
+  "magic-arcane/arcane-sigil-ancient": magic_arcane_arcane_sigil_ancient,
+  "magic-arcane/arcane-sigil-greater": magic_arcane_arcane_sigil_greater,
+  "magic-arcane/arcane-sigil-lesser": magic_arcane_arcane_sigil_lesser,
+  "magic-arcane/arcane-sigil-wild": magic_arcane_arcane_sigil_wild,
+  "magic-arcane/arcane-spikes": magic_arcane_arcane_spikes,
+  "magic-arcane/arcane-spikes-ancient": magic_arcane_arcane_spikes_ancient,
+  "magic-arcane/arcane-spikes-greater": magic_arcane_arcane_spikes_greater,
+  "magic-arcane/arcane-spikes-lesser": magic_arcane_arcane_spikes_lesser,
+  "magic-arcane/arcane-spikes-wild": magic_arcane_arcane_spikes_wild,
+  "magic-arcane/arcane-summon": magic_arcane_arcane_summon,
+  "magic-arcane/arcane-summon-ancient": magic_arcane_arcane_summon_ancient,
+  "magic-arcane/arcane-summon-greater": magic_arcane_arcane_summon_greater,
+  "magic-arcane/arcane-summon-lesser": magic_arcane_arcane_summon_lesser,
+  "magic-arcane/arcane-summon-wild": magic_arcane_arcane_summon_wild,
+  "magic-arcane/arcane-vortex": magic_arcane_arcane_vortex,
+  "magic-arcane/arcane-vortex-ancient": magic_arcane_arcane_vortex_ancient,
+  "magic-arcane/arcane-vortex-greater": magic_arcane_arcane_vortex_greater,
+  "magic-arcane/arcane-vortex-lesser": magic_arcane_arcane_vortex_lesser,
+  "magic-arcane/arcane-vortex-wild": magic_arcane_arcane_vortex_wild,
+  "magic-arcane/arcane-wave": magic_arcane_arcane_wave,
+  "magic-arcane/arcane-wave-ancient": magic_arcane_arcane_wave_ancient,
+  "magic-arcane/arcane-wave-greater": magic_arcane_arcane_wave_greater,
+  "magic-arcane/arcane-wave-lesser": magic_arcane_arcane_wave_lesser,
+  "magic-arcane/arcane-wave-wild": magic_arcane_arcane_wave_wild,
+  "magic-necrotic/necrotic-aura": magic_necrotic_necrotic_aura,
+  "magic-necrotic/necrotic-aura-ancient": magic_necrotic_necrotic_aura_ancient,
+  "magic-necrotic/necrotic-aura-greater": magic_necrotic_necrotic_aura_greater,
+  "magic-necrotic/necrotic-aura-lesser": magic_necrotic_necrotic_aura_lesser,
+  "magic-necrotic/necrotic-aura-wild": magic_necrotic_necrotic_aura_wild,
+  "magic-necrotic/necrotic-beam": magic_necrotic_necrotic_beam,
+  "magic-necrotic/necrotic-beam-ancient": magic_necrotic_necrotic_beam_ancient,
+  "magic-necrotic/necrotic-beam-greater": magic_necrotic_necrotic_beam_greater,
+  "magic-necrotic/necrotic-beam-lesser": magic_necrotic_necrotic_beam_lesser,
+  "magic-necrotic/necrotic-beam-wild": magic_necrotic_necrotic_beam_wild,
+  "magic-necrotic/necrotic-bolt": magic_necrotic_necrotic_bolt,
+  "magic-necrotic/necrotic-bolt-ancient": magic_necrotic_necrotic_bolt_ancient,
+  "magic-necrotic/necrotic-bolt-greater": magic_necrotic_necrotic_bolt_greater,
+  "magic-necrotic/necrotic-bolt-lesser": magic_necrotic_necrotic_bolt_lesser,
+  "magic-necrotic/necrotic-bolt-wild": magic_necrotic_necrotic_bolt_wild,
+  "magic-necrotic/necrotic-burst": magic_necrotic_necrotic_burst,
+  "magic-necrotic/necrotic-burst-ancient": magic_necrotic_necrotic_burst_ancient,
+  "magic-necrotic/necrotic-burst-greater": magic_necrotic_necrotic_burst_greater,
+  "magic-necrotic/necrotic-burst-lesser": magic_necrotic_necrotic_burst_lesser,
+  "magic-necrotic/necrotic-burst-wild": magic_necrotic_necrotic_burst_wild,
+  "magic-necrotic/necrotic-charge": magic_necrotic_necrotic_charge,
+  "magic-necrotic/necrotic-charge-ancient": magic_necrotic_necrotic_charge_ancient,
+  "magic-necrotic/necrotic-charge-greater": magic_necrotic_necrotic_charge_greater,
+  "magic-necrotic/necrotic-charge-lesser": magic_necrotic_necrotic_charge_lesser,
+  "magic-necrotic/necrotic-charge-wild": magic_necrotic_necrotic_charge_wild,
+  "magic-necrotic/necrotic-circle": magic_necrotic_necrotic_circle,
+  "magic-necrotic/necrotic-circle-ancient": magic_necrotic_necrotic_circle_ancient,
+  "magic-necrotic/necrotic-circle-greater": magic_necrotic_necrotic_circle_greater,
+  "magic-necrotic/necrotic-circle-lesser": magic_necrotic_necrotic_circle_lesser,
+  "magic-necrotic/necrotic-circle-wild": magic_necrotic_necrotic_circle_wild,
+  "magic-necrotic/necrotic-cloud": magic_necrotic_necrotic_cloud,
+  "magic-necrotic/necrotic-cloud-ancient": magic_necrotic_necrotic_cloud_ancient,
+  "magic-necrotic/necrotic-cloud-greater": magic_necrotic_necrotic_cloud_greater,
+  "magic-necrotic/necrotic-cloud-lesser": magic_necrotic_necrotic_cloud_lesser,
+  "magic-necrotic/necrotic-cloud-wild": magic_necrotic_necrotic_cloud_wild,
+  "magic-necrotic/necrotic-crescent": magic_necrotic_necrotic_crescent,
+  "magic-necrotic/necrotic-crescent-ancient": magic_necrotic_necrotic_crescent_ancient,
+  "magic-necrotic/necrotic-crescent-greater": magic_necrotic_necrotic_crescent_greater,
+  "magic-necrotic/necrotic-crescent-lesser": magic_necrotic_necrotic_crescent_lesser,
+  "magic-necrotic/necrotic-crescent-wild": magic_necrotic_necrotic_crescent_wild,
+  "magic-necrotic/necrotic-dash": magic_necrotic_necrotic_dash,
+  "magic-necrotic/necrotic-dash-ancient": magic_necrotic_necrotic_dash_ancient,
+  "magic-necrotic/necrotic-dash-greater": magic_necrotic_necrotic_dash_greater,
+  "magic-necrotic/necrotic-dash-lesser": magic_necrotic_necrotic_dash_lesser,
+  "magic-necrotic/necrotic-dash-wild": magic_necrotic_necrotic_dash_wild,
+  "magic-necrotic/necrotic-flare": magic_necrotic_necrotic_flare,
+  "magic-necrotic/necrotic-flare-ancient": magic_necrotic_necrotic_flare_ancient,
+  "magic-necrotic/necrotic-flare-greater": magic_necrotic_necrotic_flare_greater,
+  "magic-necrotic/necrotic-flare-lesser": magic_necrotic_necrotic_flare_lesser,
+  "magic-necrotic/necrotic-flare-wild": magic_necrotic_necrotic_flare_wild,
+  "magic-necrotic/necrotic-impact": magic_necrotic_necrotic_impact,
+  "magic-necrotic/necrotic-impact-ancient": magic_necrotic_necrotic_impact_ancient,
+  "magic-necrotic/necrotic-impact-greater": magic_necrotic_necrotic_impact_greater,
+  "magic-necrotic/necrotic-impact-lesser": magic_necrotic_necrotic_impact_lesser,
+  "magic-necrotic/necrotic-impact-wild": magic_necrotic_necrotic_impact_wild,
+  "magic-necrotic/necrotic-meteor": magic_necrotic_necrotic_meteor,
+  "magic-necrotic/necrotic-meteor-ancient": magic_necrotic_necrotic_meteor_ancient,
+  "magic-necrotic/necrotic-meteor-greater": magic_necrotic_necrotic_meteor_greater,
+  "magic-necrotic/necrotic-meteor-lesser": magic_necrotic_necrotic_meteor_lesser,
+  "magic-necrotic/necrotic-meteor-wild": magic_necrotic_necrotic_meteor_wild,
+  "magic-necrotic/necrotic-nova": magic_necrotic_necrotic_nova,
+  "magic-necrotic/necrotic-nova-ancient": magic_necrotic_necrotic_nova_ancient,
+  "magic-necrotic/necrotic-nova-greater": magic_necrotic_necrotic_nova_greater,
+  "magic-necrotic/necrotic-nova-lesser": magic_necrotic_necrotic_nova_lesser,
+  "magic-necrotic/necrotic-nova-wild": magic_necrotic_necrotic_nova_wild,
+  "magic-necrotic/necrotic-orb": magic_necrotic_necrotic_orb,
+  "magic-necrotic/necrotic-orb-ancient": magic_necrotic_necrotic_orb_ancient,
+  "magic-necrotic/necrotic-orb-greater": magic_necrotic_necrotic_orb_greater,
+  "magic-necrotic/necrotic-orb-lesser": magic_necrotic_necrotic_orb_lesser,
+  "magic-necrotic/necrotic-orb-wild": magic_necrotic_necrotic_orb_wild,
+  "magic-necrotic/necrotic-orbit": magic_necrotic_necrotic_orbit,
+  "magic-necrotic/necrotic-orbit-ancient": magic_necrotic_necrotic_orbit_ancient,
+  "magic-necrotic/necrotic-orbit-greater": magic_necrotic_necrotic_orbit_greater,
+  "magic-necrotic/necrotic-orbit-lesser": magic_necrotic_necrotic_orbit_lesser,
+  "magic-necrotic/necrotic-orbit-wild": magic_necrotic_necrotic_orbit_wild,
+  "magic-necrotic/necrotic-pillar": magic_necrotic_necrotic_pillar,
+  "magic-necrotic/necrotic-pillar-ancient": magic_necrotic_necrotic_pillar_ancient,
+  "magic-necrotic/necrotic-pillar-greater": magic_necrotic_necrotic_pillar_greater,
+  "magic-necrotic/necrotic-pillar-lesser": magic_necrotic_necrotic_pillar_lesser,
+  "magic-necrotic/necrotic-pillar-wild": magic_necrotic_necrotic_pillar_wild,
+  "magic-necrotic/necrotic-portal": magic_necrotic_necrotic_portal,
+  "magic-necrotic/necrotic-portal-ancient": magic_necrotic_necrotic_portal_ancient,
+  "magic-necrotic/necrotic-portal-greater": magic_necrotic_necrotic_portal_greater,
+  "magic-necrotic/necrotic-portal-lesser": magic_necrotic_necrotic_portal_lesser,
+  "magic-necrotic/necrotic-portal-wild": magic_necrotic_necrotic_portal_wild,
+  "magic-necrotic/necrotic-rain": magic_necrotic_necrotic_rain,
+  "magic-necrotic/necrotic-rain-ancient": magic_necrotic_necrotic_rain_ancient,
+  "magic-necrotic/necrotic-rain-greater": magic_necrotic_necrotic_rain_greater,
+  "magic-necrotic/necrotic-rain-lesser": magic_necrotic_necrotic_rain_lesser,
+  "magic-necrotic/necrotic-rain-wild": magic_necrotic_necrotic_rain_wild,
+  "magic-necrotic/necrotic-shield": magic_necrotic_necrotic_shield,
+  "magic-necrotic/necrotic-shield-ancient": magic_necrotic_necrotic_shield_ancient,
+  "magic-necrotic/necrotic-shield-greater": magic_necrotic_necrotic_shield_greater,
+  "magic-necrotic/necrotic-shield-lesser": magic_necrotic_necrotic_shield_lesser,
+  "magic-necrotic/necrotic-shield-wild": magic_necrotic_necrotic_shield_wild,
+  "magic-necrotic/necrotic-sigil": magic_necrotic_necrotic_sigil,
+  "magic-necrotic/necrotic-sigil-ancient": magic_necrotic_necrotic_sigil_ancient,
+  "magic-necrotic/necrotic-sigil-greater": magic_necrotic_necrotic_sigil_greater,
+  "magic-necrotic/necrotic-sigil-lesser": magic_necrotic_necrotic_sigil_lesser,
+  "magic-necrotic/necrotic-sigil-wild": magic_necrotic_necrotic_sigil_wild,
+  "magic-necrotic/necrotic-spikes": magic_necrotic_necrotic_spikes,
+  "magic-necrotic/necrotic-spikes-ancient": magic_necrotic_necrotic_spikes_ancient,
+  "magic-necrotic/necrotic-spikes-greater": magic_necrotic_necrotic_spikes_greater,
+  "magic-necrotic/necrotic-spikes-lesser": magic_necrotic_necrotic_spikes_lesser,
+  "magic-necrotic/necrotic-spikes-wild": magic_necrotic_necrotic_spikes_wild,
+  "magic-necrotic/necrotic-summon": magic_necrotic_necrotic_summon,
+  "magic-necrotic/necrotic-summon-ancient": magic_necrotic_necrotic_summon_ancient,
+  "magic-necrotic/necrotic-summon-greater": magic_necrotic_necrotic_summon_greater,
+  "magic-necrotic/necrotic-summon-lesser": magic_necrotic_necrotic_summon_lesser,
+  "magic-necrotic/necrotic-summon-wild": magic_necrotic_necrotic_summon_wild,
+  "magic-necrotic/necrotic-vortex": magic_necrotic_necrotic_vortex,
+  "magic-necrotic/necrotic-vortex-ancient": magic_necrotic_necrotic_vortex_ancient,
+  "magic-necrotic/necrotic-vortex-greater": magic_necrotic_necrotic_vortex_greater,
+  "magic-necrotic/necrotic-vortex-lesser": magic_necrotic_necrotic_vortex_lesser,
+  "magic-necrotic/necrotic-vortex-wild": magic_necrotic_necrotic_vortex_wild,
+  "magic-necrotic/necrotic-wave": magic_necrotic_necrotic_wave,
+  "magic-necrotic/necrotic-wave-ancient": magic_necrotic_necrotic_wave_ancient,
+  "magic-necrotic/necrotic-wave-greater": magic_necrotic_necrotic_wave_greater,
+  "magic-necrotic/necrotic-wave-lesser": magic_necrotic_necrotic_wave_lesser,
+  "magic-necrotic/necrotic-wave-wild": magic_necrotic_necrotic_wave_wild,
+  "magic-plague/plague-aura": magic_plague_plague_aura,
+  "magic-plague/plague-aura-ancient": magic_plague_plague_aura_ancient,
+  "magic-plague/plague-aura-greater": magic_plague_plague_aura_greater,
+  "magic-plague/plague-aura-lesser": magic_plague_plague_aura_lesser,
+  "magic-plague/plague-aura-wild": magic_plague_plague_aura_wild,
+  "magic-plague/plague-beam": magic_plague_plague_beam,
+  "magic-plague/plague-beam-ancient": magic_plague_plague_beam_ancient,
+  "magic-plague/plague-beam-greater": magic_plague_plague_beam_greater,
+  "magic-plague/plague-beam-lesser": magic_plague_plague_beam_lesser,
+  "magic-plague/plague-beam-wild": magic_plague_plague_beam_wild,
+  "magic-plague/plague-bolt": magic_plague_plague_bolt,
+  "magic-plague/plague-bolt-ancient": magic_plague_plague_bolt_ancient,
+  "magic-plague/plague-bolt-greater": magic_plague_plague_bolt_greater,
+  "magic-plague/plague-bolt-lesser": magic_plague_plague_bolt_lesser,
+  "magic-plague/plague-bolt-wild": magic_plague_plague_bolt_wild,
+  "magic-plague/plague-burst": magic_plague_plague_burst,
+  "magic-plague/plague-burst-ancient": magic_plague_plague_burst_ancient,
+  "magic-plague/plague-burst-greater": magic_plague_plague_burst_greater,
+  "magic-plague/plague-burst-lesser": magic_plague_plague_burst_lesser,
+  "magic-plague/plague-burst-wild": magic_plague_plague_burst_wild,
+  "magic-plague/plague-charge": magic_plague_plague_charge,
+  "magic-plague/plague-charge-ancient": magic_plague_plague_charge_ancient,
+  "magic-plague/plague-charge-greater": magic_plague_plague_charge_greater,
+  "magic-plague/plague-charge-lesser": magic_plague_plague_charge_lesser,
+  "magic-plague/plague-charge-wild": magic_plague_plague_charge_wild,
+  "magic-plague/plague-circle": magic_plague_plague_circle,
+  "magic-plague/plague-circle-ancient": magic_plague_plague_circle_ancient,
+  "magic-plague/plague-circle-greater": magic_plague_plague_circle_greater,
+  "magic-plague/plague-circle-lesser": magic_plague_plague_circle_lesser,
+  "magic-plague/plague-circle-wild": magic_plague_plague_circle_wild,
+  "magic-plague/plague-cloud": magic_plague_plague_cloud,
+  "magic-plague/plague-cloud-ancient": magic_plague_plague_cloud_ancient,
+  "magic-plague/plague-cloud-greater": magic_plague_plague_cloud_greater,
+  "magic-plague/plague-cloud-lesser": magic_plague_plague_cloud_lesser,
+  "magic-plague/plague-cloud-wild": magic_plague_plague_cloud_wild,
+  "magic-plague/plague-crescent": magic_plague_plague_crescent,
+  "magic-plague/plague-crescent-ancient": magic_plague_plague_crescent_ancient,
+  "magic-plague/plague-crescent-greater": magic_plague_plague_crescent_greater,
+  "magic-plague/plague-crescent-lesser": magic_plague_plague_crescent_lesser,
+  "magic-plague/plague-crescent-wild": magic_plague_plague_crescent_wild,
+  "magic-plague/plague-dash": magic_plague_plague_dash,
+  "magic-plague/plague-dash-ancient": magic_plague_plague_dash_ancient,
+  "magic-plague/plague-dash-greater": magic_plague_plague_dash_greater,
+  "magic-plague/plague-dash-lesser": magic_plague_plague_dash_lesser,
+  "magic-plague/plague-dash-wild": magic_plague_plague_dash_wild,
+  "magic-plague/plague-flare": magic_plague_plague_flare,
+  "magic-plague/plague-flare-ancient": magic_plague_plague_flare_ancient,
+  "magic-plague/plague-flare-greater": magic_plague_plague_flare_greater,
+  "magic-plague/plague-flare-lesser": magic_plague_plague_flare_lesser,
+  "magic-plague/plague-flare-wild": magic_plague_plague_flare_wild,
+  "magic-plague/plague-impact": magic_plague_plague_impact,
+  "magic-plague/plague-impact-ancient": magic_plague_plague_impact_ancient,
+  "magic-plague/plague-impact-greater": magic_plague_plague_impact_greater,
+  "magic-plague/plague-impact-lesser": magic_plague_plague_impact_lesser,
+  "magic-plague/plague-impact-wild": magic_plague_plague_impact_wild,
+  "magic-plague/plague-meteor": magic_plague_plague_meteor,
+  "magic-plague/plague-meteor-ancient": magic_plague_plague_meteor_ancient,
+  "magic-plague/plague-meteor-greater": magic_plague_plague_meteor_greater,
+  "magic-plague/plague-meteor-lesser": magic_plague_plague_meteor_lesser,
+  "magic-plague/plague-meteor-wild": magic_plague_plague_meteor_wild,
+  "magic-plague/plague-nova": magic_plague_plague_nova,
+  "magic-plague/plague-nova-ancient": magic_plague_plague_nova_ancient,
+  "magic-plague/plague-nova-greater": magic_plague_plague_nova_greater,
+  "magic-plague/plague-nova-lesser": magic_plague_plague_nova_lesser,
+  "magic-plague/plague-nova-wild": magic_plague_plague_nova_wild,
+  "magic-plague/plague-orb": magic_plague_plague_orb,
+  "magic-plague/plague-orb-ancient": magic_plague_plague_orb_ancient,
+  "magic-plague/plague-orb-greater": magic_plague_plague_orb_greater,
+  "magic-plague/plague-orb-lesser": magic_plague_plague_orb_lesser,
+  "magic-plague/plague-orb-wild": magic_plague_plague_orb_wild,
+  "magic-plague/plague-orbit": magic_plague_plague_orbit,
+  "magic-plague/plague-orbit-ancient": magic_plague_plague_orbit_ancient,
+  "magic-plague/plague-orbit-greater": magic_plague_plague_orbit_greater,
+  "magic-plague/plague-orbit-lesser": magic_plague_plague_orbit_lesser,
+  "magic-plague/plague-orbit-wild": magic_plague_plague_orbit_wild,
+  "magic-plague/plague-pillar": magic_plague_plague_pillar,
+  "magic-plague/plague-pillar-ancient": magic_plague_plague_pillar_ancient,
+  "magic-plague/plague-pillar-greater": magic_plague_plague_pillar_greater,
+  "magic-plague/plague-pillar-lesser": magic_plague_plague_pillar_lesser,
+  "magic-plague/plague-pillar-wild": magic_plague_plague_pillar_wild,
+  "magic-plague/plague-portal": magic_plague_plague_portal,
+  "magic-plague/plague-portal-ancient": magic_plague_plague_portal_ancient,
+  "magic-plague/plague-portal-greater": magic_plague_plague_portal_greater,
+  "magic-plague/plague-portal-lesser": magic_plague_plague_portal_lesser,
+  "magic-plague/plague-portal-wild": magic_plague_plague_portal_wild,
+  "magic-plague/plague-rain": magic_plague_plague_rain,
+  "magic-plague/plague-rain-ancient": magic_plague_plague_rain_ancient,
+  "magic-plague/plague-rain-greater": magic_plague_plague_rain_greater,
+  "magic-plague/plague-rain-lesser": magic_plague_plague_rain_lesser,
+  "magic-plague/plague-rain-wild": magic_plague_plague_rain_wild,
+  "magic-plague/plague-shield": magic_plague_plague_shield,
+  "magic-plague/plague-shield-ancient": magic_plague_plague_shield_ancient,
+  "magic-plague/plague-shield-greater": magic_plague_plague_shield_greater,
+  "magic-plague/plague-shield-lesser": magic_plague_plague_shield_lesser,
+  "magic-plague/plague-shield-wild": magic_plague_plague_shield_wild,
+  "magic-plague/plague-sigil": magic_plague_plague_sigil,
+  "magic-plague/plague-sigil-ancient": magic_plague_plague_sigil_ancient,
+  "magic-plague/plague-sigil-greater": magic_plague_plague_sigil_greater,
+  "magic-plague/plague-sigil-lesser": magic_plague_plague_sigil_lesser,
+  "magic-plague/plague-sigil-wild": magic_plague_plague_sigil_wild,
+  "magic-plague/plague-spikes": magic_plague_plague_spikes,
+  "magic-plague/plague-spikes-ancient": magic_plague_plague_spikes_ancient,
+  "magic-plague/plague-spikes-greater": magic_plague_plague_spikes_greater,
+  "magic-plague/plague-spikes-lesser": magic_plague_plague_spikes_lesser,
+  "magic-plague/plague-spikes-wild": magic_plague_plague_spikes_wild,
+  "magic-plague/plague-summon": magic_plague_plague_summon,
+  "magic-plague/plague-summon-ancient": magic_plague_plague_summon_ancient,
+  "magic-plague/plague-summon-greater": magic_plague_plague_summon_greater,
+  "magic-plague/plague-summon-lesser": magic_plague_plague_summon_lesser,
+  "magic-plague/plague-summon-wild": magic_plague_plague_summon_wild,
+  "magic-plague/plague-vortex": magic_plague_plague_vortex,
+  "magic-plague/plague-vortex-ancient": magic_plague_plague_vortex_ancient,
+  "magic-plague/plague-vortex-greater": magic_plague_plague_vortex_greater,
+  "magic-plague/plague-vortex-lesser": magic_plague_plague_vortex_lesser,
+  "magic-plague/plague-vortex-wild": magic_plague_plague_vortex_wild,
+  "magic-plague/plague-wave": magic_plague_plague_wave,
+  "magic-plague/plague-wave-ancient": magic_plague_plague_wave_ancient,
+  "magic-plague/plague-wave-greater": magic_plague_plague_wave_greater,
+  "magic-plague/plague-wave-lesser": magic_plague_plague_wave_lesser,
+  "magic-plague/plague-wave-wild": magic_plague_plague_wave_wild,
+  "magic-chrono/chrono-aura": magic_chrono_chrono_aura,
+  "magic-chrono/chrono-aura-ancient": magic_chrono_chrono_aura_ancient,
+  "magic-chrono/chrono-aura-greater": magic_chrono_chrono_aura_greater,
+  "magic-chrono/chrono-aura-lesser": magic_chrono_chrono_aura_lesser,
+  "magic-chrono/chrono-aura-wild": magic_chrono_chrono_aura_wild,
+  "magic-chrono/chrono-beam": magic_chrono_chrono_beam,
+  "magic-chrono/chrono-beam-ancient": magic_chrono_chrono_beam_ancient,
+  "magic-chrono/chrono-beam-greater": magic_chrono_chrono_beam_greater,
+  "magic-chrono/chrono-beam-lesser": magic_chrono_chrono_beam_lesser,
+  "magic-chrono/chrono-beam-wild": magic_chrono_chrono_beam_wild,
+  "magic-chrono/chrono-bolt": magic_chrono_chrono_bolt,
+  "magic-chrono/chrono-bolt-ancient": magic_chrono_chrono_bolt_ancient,
+  "magic-chrono/chrono-bolt-greater": magic_chrono_chrono_bolt_greater,
+  "magic-chrono/chrono-bolt-lesser": magic_chrono_chrono_bolt_lesser,
+  "magic-chrono/chrono-bolt-wild": magic_chrono_chrono_bolt_wild,
+  "magic-chrono/chrono-burst": magic_chrono_chrono_burst,
+  "magic-chrono/chrono-burst-ancient": magic_chrono_chrono_burst_ancient,
+  "magic-chrono/chrono-burst-greater": magic_chrono_chrono_burst_greater,
+  "magic-chrono/chrono-burst-lesser": magic_chrono_chrono_burst_lesser,
+  "magic-chrono/chrono-burst-wild": magic_chrono_chrono_burst_wild,
+  "magic-chrono/chrono-charge": magic_chrono_chrono_charge,
+  "magic-chrono/chrono-charge-ancient": magic_chrono_chrono_charge_ancient,
+  "magic-chrono/chrono-charge-greater": magic_chrono_chrono_charge_greater,
+  "magic-chrono/chrono-charge-lesser": magic_chrono_chrono_charge_lesser,
+  "magic-chrono/chrono-charge-wild": magic_chrono_chrono_charge_wild,
+  "magic-chrono/chrono-circle": magic_chrono_chrono_circle,
+  "magic-chrono/chrono-circle-ancient": magic_chrono_chrono_circle_ancient,
+  "magic-chrono/chrono-circle-greater": magic_chrono_chrono_circle_greater,
+  "magic-chrono/chrono-circle-lesser": magic_chrono_chrono_circle_lesser,
+  "magic-chrono/chrono-circle-wild": magic_chrono_chrono_circle_wild,
+  "magic-chrono/chrono-cloud": magic_chrono_chrono_cloud,
+  "magic-chrono/chrono-cloud-ancient": magic_chrono_chrono_cloud_ancient,
+  "magic-chrono/chrono-cloud-greater": magic_chrono_chrono_cloud_greater,
+  "magic-chrono/chrono-cloud-lesser": magic_chrono_chrono_cloud_lesser,
+  "magic-chrono/chrono-cloud-wild": magic_chrono_chrono_cloud_wild,
+  "magic-chrono/chrono-crescent": magic_chrono_chrono_crescent,
+  "magic-chrono/chrono-crescent-ancient": magic_chrono_chrono_crescent_ancient,
+  "magic-chrono/chrono-crescent-greater": magic_chrono_chrono_crescent_greater,
+  "magic-chrono/chrono-crescent-lesser": magic_chrono_chrono_crescent_lesser,
+  "magic-chrono/chrono-crescent-wild": magic_chrono_chrono_crescent_wild,
+  "magic-chrono/chrono-dash": magic_chrono_chrono_dash,
+  "magic-chrono/chrono-dash-ancient": magic_chrono_chrono_dash_ancient,
+  "magic-chrono/chrono-dash-greater": magic_chrono_chrono_dash_greater,
+  "magic-chrono/chrono-dash-lesser": magic_chrono_chrono_dash_lesser,
+  "magic-chrono/chrono-dash-wild": magic_chrono_chrono_dash_wild,
+  "magic-chrono/chrono-flare": magic_chrono_chrono_flare,
+  "magic-chrono/chrono-flare-ancient": magic_chrono_chrono_flare_ancient,
+  "magic-chrono/chrono-flare-greater": magic_chrono_chrono_flare_greater,
+  "magic-chrono/chrono-flare-lesser": magic_chrono_chrono_flare_lesser,
+  "magic-chrono/chrono-flare-wild": magic_chrono_chrono_flare_wild,
+  "magic-chrono/chrono-impact": magic_chrono_chrono_impact,
+  "magic-chrono/chrono-impact-ancient": magic_chrono_chrono_impact_ancient,
+  "magic-chrono/chrono-impact-greater": magic_chrono_chrono_impact_greater,
+  "magic-chrono/chrono-impact-lesser": magic_chrono_chrono_impact_lesser,
+  "magic-chrono/chrono-impact-wild": magic_chrono_chrono_impact_wild,
+  "magic-chrono/chrono-meteor": magic_chrono_chrono_meteor,
+  "magic-chrono/chrono-meteor-ancient": magic_chrono_chrono_meteor_ancient,
+  "magic-chrono/chrono-meteor-greater": magic_chrono_chrono_meteor_greater,
+  "magic-chrono/chrono-meteor-lesser": magic_chrono_chrono_meteor_lesser,
+  "magic-chrono/chrono-meteor-wild": magic_chrono_chrono_meteor_wild,
+  "magic-chrono/chrono-nova": magic_chrono_chrono_nova,
+  "magic-chrono/chrono-nova-ancient": magic_chrono_chrono_nova_ancient,
+  "magic-chrono/chrono-nova-greater": magic_chrono_chrono_nova_greater,
+  "magic-chrono/chrono-nova-lesser": magic_chrono_chrono_nova_lesser,
+  "magic-chrono/chrono-nova-wild": magic_chrono_chrono_nova_wild,
+  "magic-chrono/chrono-orb": magic_chrono_chrono_orb,
+  "magic-chrono/chrono-orb-ancient": magic_chrono_chrono_orb_ancient,
+  "magic-chrono/chrono-orb-greater": magic_chrono_chrono_orb_greater,
+  "magic-chrono/chrono-orb-lesser": magic_chrono_chrono_orb_lesser,
+  "magic-chrono/chrono-orb-wild": magic_chrono_chrono_orb_wild,
+  "magic-chrono/chrono-orbit": magic_chrono_chrono_orbit,
+  "magic-chrono/chrono-orbit-ancient": magic_chrono_chrono_orbit_ancient,
+  "magic-chrono/chrono-orbit-greater": magic_chrono_chrono_orbit_greater,
+  "magic-chrono/chrono-orbit-lesser": magic_chrono_chrono_orbit_lesser,
+  "magic-chrono/chrono-orbit-wild": magic_chrono_chrono_orbit_wild,
+  "magic-chrono/chrono-pillar": magic_chrono_chrono_pillar,
+  "magic-chrono/chrono-pillar-ancient": magic_chrono_chrono_pillar_ancient,
+  "magic-chrono/chrono-pillar-greater": magic_chrono_chrono_pillar_greater,
+  "magic-chrono/chrono-pillar-lesser": magic_chrono_chrono_pillar_lesser,
+  "magic-chrono/chrono-pillar-wild": magic_chrono_chrono_pillar_wild,
+  "magic-chrono/chrono-portal": magic_chrono_chrono_portal,
+  "magic-chrono/chrono-portal-ancient": magic_chrono_chrono_portal_ancient,
+  "magic-chrono/chrono-portal-greater": magic_chrono_chrono_portal_greater,
+  "magic-chrono/chrono-portal-lesser": magic_chrono_chrono_portal_lesser,
+  "magic-chrono/chrono-portal-wild": magic_chrono_chrono_portal_wild,
+  "magic-chrono/chrono-rain": magic_chrono_chrono_rain,
+  "magic-chrono/chrono-rain-ancient": magic_chrono_chrono_rain_ancient,
+  "magic-chrono/chrono-rain-greater": magic_chrono_chrono_rain_greater,
+  "magic-chrono/chrono-rain-lesser": magic_chrono_chrono_rain_lesser,
+  "magic-chrono/chrono-rain-wild": magic_chrono_chrono_rain_wild,
+  "magic-chrono/chrono-shield": magic_chrono_chrono_shield,
+  "magic-chrono/chrono-shield-ancient": magic_chrono_chrono_shield_ancient,
+  "magic-chrono/chrono-shield-greater": magic_chrono_chrono_shield_greater,
+  "magic-chrono/chrono-shield-lesser": magic_chrono_chrono_shield_lesser,
+  "magic-chrono/chrono-shield-wild": magic_chrono_chrono_shield_wild,
+  "magic-chrono/chrono-sigil": magic_chrono_chrono_sigil,
+  "magic-chrono/chrono-sigil-ancient": magic_chrono_chrono_sigil_ancient,
+  "magic-chrono/chrono-sigil-greater": magic_chrono_chrono_sigil_greater,
+  "magic-chrono/chrono-sigil-lesser": magic_chrono_chrono_sigil_lesser,
+  "magic-chrono/chrono-sigil-wild": magic_chrono_chrono_sigil_wild,
+  "magic-chrono/chrono-spikes": magic_chrono_chrono_spikes,
+  "magic-chrono/chrono-spikes-ancient": magic_chrono_chrono_spikes_ancient,
+  "magic-chrono/chrono-spikes-greater": magic_chrono_chrono_spikes_greater,
+  "magic-chrono/chrono-spikes-lesser": magic_chrono_chrono_spikes_lesser,
+  "magic-chrono/chrono-spikes-wild": magic_chrono_chrono_spikes_wild,
+  "magic-chrono/chrono-summon": magic_chrono_chrono_summon,
+  "magic-chrono/chrono-summon-ancient": magic_chrono_chrono_summon_ancient,
+  "magic-chrono/chrono-summon-greater": magic_chrono_chrono_summon_greater,
+  "magic-chrono/chrono-summon-lesser": magic_chrono_chrono_summon_lesser,
+  "magic-chrono/chrono-summon-wild": magic_chrono_chrono_summon_wild,
+  "magic-chrono/chrono-vortex": magic_chrono_chrono_vortex,
+  "magic-chrono/chrono-vortex-ancient": magic_chrono_chrono_vortex_ancient,
+  "magic-chrono/chrono-vortex-greater": magic_chrono_chrono_vortex_greater,
+  "magic-chrono/chrono-vortex-lesser": magic_chrono_chrono_vortex_lesser,
+  "magic-chrono/chrono-vortex-wild": magic_chrono_chrono_vortex_wild,
+  "magic-chrono/chrono-wave": magic_chrono_chrono_wave,
+  "magic-chrono/chrono-wave-ancient": magic_chrono_chrono_wave_ancient,
+  "magic-chrono/chrono-wave-greater": magic_chrono_chrono_wave_greater,
+  "magic-chrono/chrono-wave-lesser": magic_chrono_chrono_wave_lesser,
+  "magic-chrono/chrono-wave-wild": magic_chrono_chrono_wave_wild,
+  "magic-gravity/gravity-aura": magic_gravity_gravity_aura,
+  "magic-gravity/gravity-aura-ancient": magic_gravity_gravity_aura_ancient,
+  "magic-gravity/gravity-aura-greater": magic_gravity_gravity_aura_greater,
+  "magic-gravity/gravity-aura-lesser": magic_gravity_gravity_aura_lesser,
+  "magic-gravity/gravity-aura-wild": magic_gravity_gravity_aura_wild,
+  "magic-gravity/gravity-beam": magic_gravity_gravity_beam,
+  "magic-gravity/gravity-beam-ancient": magic_gravity_gravity_beam_ancient,
+  "magic-gravity/gravity-beam-greater": magic_gravity_gravity_beam_greater,
+  "magic-gravity/gravity-beam-lesser": magic_gravity_gravity_beam_lesser,
+  "magic-gravity/gravity-beam-wild": magic_gravity_gravity_beam_wild,
+  "magic-gravity/gravity-bolt": magic_gravity_gravity_bolt,
+  "magic-gravity/gravity-bolt-ancient": magic_gravity_gravity_bolt_ancient,
+  "magic-gravity/gravity-bolt-greater": magic_gravity_gravity_bolt_greater,
+  "magic-gravity/gravity-bolt-lesser": magic_gravity_gravity_bolt_lesser,
+  "magic-gravity/gravity-bolt-wild": magic_gravity_gravity_bolt_wild,
+  "magic-gravity/gravity-burst": magic_gravity_gravity_burst,
+  "magic-gravity/gravity-burst-ancient": magic_gravity_gravity_burst_ancient,
+  "magic-gravity/gravity-burst-greater": magic_gravity_gravity_burst_greater,
+  "magic-gravity/gravity-burst-lesser": magic_gravity_gravity_burst_lesser,
+  "magic-gravity/gravity-burst-wild": magic_gravity_gravity_burst_wild,
+  "magic-gravity/gravity-charge": magic_gravity_gravity_charge,
+  "magic-gravity/gravity-charge-ancient": magic_gravity_gravity_charge_ancient,
+  "magic-gravity/gravity-charge-greater": magic_gravity_gravity_charge_greater,
+  "magic-gravity/gravity-charge-lesser": magic_gravity_gravity_charge_lesser,
+  "magic-gravity/gravity-charge-wild": magic_gravity_gravity_charge_wild,
+  "magic-gravity/gravity-circle": magic_gravity_gravity_circle,
+  "magic-gravity/gravity-circle-ancient": magic_gravity_gravity_circle_ancient,
+  "magic-gravity/gravity-circle-greater": magic_gravity_gravity_circle_greater,
+  "magic-gravity/gravity-circle-lesser": magic_gravity_gravity_circle_lesser,
+  "magic-gravity/gravity-circle-wild": magic_gravity_gravity_circle_wild,
+  "magic-gravity/gravity-cloud": magic_gravity_gravity_cloud,
+  "magic-gravity/gravity-cloud-ancient": magic_gravity_gravity_cloud_ancient,
+  "magic-gravity/gravity-cloud-greater": magic_gravity_gravity_cloud_greater,
+  "magic-gravity/gravity-cloud-lesser": magic_gravity_gravity_cloud_lesser,
+  "magic-gravity/gravity-cloud-wild": magic_gravity_gravity_cloud_wild,
+  "magic-gravity/gravity-crescent": magic_gravity_gravity_crescent,
+  "magic-gravity/gravity-crescent-ancient": magic_gravity_gravity_crescent_ancient,
+  "magic-gravity/gravity-crescent-greater": magic_gravity_gravity_crescent_greater,
+  "magic-gravity/gravity-crescent-lesser": magic_gravity_gravity_crescent_lesser,
+  "magic-gravity/gravity-crescent-wild": magic_gravity_gravity_crescent_wild,
+  "magic-gravity/gravity-dash": magic_gravity_gravity_dash,
+  "magic-gravity/gravity-dash-ancient": magic_gravity_gravity_dash_ancient,
+  "magic-gravity/gravity-dash-greater": magic_gravity_gravity_dash_greater,
+  "magic-gravity/gravity-dash-lesser": magic_gravity_gravity_dash_lesser,
+  "magic-gravity/gravity-dash-wild": magic_gravity_gravity_dash_wild,
+  "magic-gravity/gravity-flare": magic_gravity_gravity_flare,
+  "magic-gravity/gravity-flare-ancient": magic_gravity_gravity_flare_ancient,
+  "magic-gravity/gravity-flare-greater": magic_gravity_gravity_flare_greater,
+  "magic-gravity/gravity-flare-lesser": magic_gravity_gravity_flare_lesser,
+  "magic-gravity/gravity-flare-wild": magic_gravity_gravity_flare_wild,
+  "magic-gravity/gravity-impact": magic_gravity_gravity_impact,
+  "magic-gravity/gravity-impact-ancient": magic_gravity_gravity_impact_ancient,
+  "magic-gravity/gravity-impact-greater": magic_gravity_gravity_impact_greater,
+  "magic-gravity/gravity-impact-lesser": magic_gravity_gravity_impact_lesser,
+  "magic-gravity/gravity-impact-wild": magic_gravity_gravity_impact_wild,
+  "magic-gravity/gravity-meteor": magic_gravity_gravity_meteor,
+  "magic-gravity/gravity-meteor-ancient": magic_gravity_gravity_meteor_ancient,
+  "magic-gravity/gravity-meteor-greater": magic_gravity_gravity_meteor_greater,
+  "magic-gravity/gravity-meteor-lesser": magic_gravity_gravity_meteor_lesser,
+  "magic-gravity/gravity-meteor-wild": magic_gravity_gravity_meteor_wild,
+  "magic-gravity/gravity-nova": magic_gravity_gravity_nova,
+  "magic-gravity/gravity-nova-ancient": magic_gravity_gravity_nova_ancient,
+  "magic-gravity/gravity-nova-greater": magic_gravity_gravity_nova_greater,
+  "magic-gravity/gravity-nova-lesser": magic_gravity_gravity_nova_lesser,
+  "magic-gravity/gravity-nova-wild": magic_gravity_gravity_nova_wild,
+  "magic-gravity/gravity-orb": magic_gravity_gravity_orb,
+  "magic-gravity/gravity-orb-ancient": magic_gravity_gravity_orb_ancient,
+  "magic-gravity/gravity-orb-greater": magic_gravity_gravity_orb_greater,
+  "magic-gravity/gravity-orb-lesser": magic_gravity_gravity_orb_lesser,
+  "magic-gravity/gravity-orb-wild": magic_gravity_gravity_orb_wild,
+  "magic-gravity/gravity-orbit": magic_gravity_gravity_orbit,
+  "magic-gravity/gravity-orbit-ancient": magic_gravity_gravity_orbit_ancient,
+  "magic-gravity/gravity-orbit-greater": magic_gravity_gravity_orbit_greater,
+  "magic-gravity/gravity-orbit-lesser": magic_gravity_gravity_orbit_lesser,
+  "magic-gravity/gravity-orbit-wild": magic_gravity_gravity_orbit_wild,
+  "magic-gravity/gravity-pillar": magic_gravity_gravity_pillar,
+  "magic-gravity/gravity-pillar-ancient": magic_gravity_gravity_pillar_ancient,
+  "magic-gravity/gravity-pillar-greater": magic_gravity_gravity_pillar_greater,
+  "magic-gravity/gravity-pillar-lesser": magic_gravity_gravity_pillar_lesser,
+  "magic-gravity/gravity-pillar-wild": magic_gravity_gravity_pillar_wild,
+  "magic-gravity/gravity-portal": magic_gravity_gravity_portal,
+  "magic-gravity/gravity-portal-ancient": magic_gravity_gravity_portal_ancient,
+  "magic-gravity/gravity-portal-greater": magic_gravity_gravity_portal_greater,
+  "magic-gravity/gravity-portal-lesser": magic_gravity_gravity_portal_lesser,
+  "magic-gravity/gravity-portal-wild": magic_gravity_gravity_portal_wild,
+  "magic-gravity/gravity-rain": magic_gravity_gravity_rain,
+  "magic-gravity/gravity-rain-ancient": magic_gravity_gravity_rain_ancient,
+  "magic-gravity/gravity-rain-greater": magic_gravity_gravity_rain_greater,
+  "magic-gravity/gravity-rain-lesser": magic_gravity_gravity_rain_lesser,
+  "magic-gravity/gravity-rain-wild": magic_gravity_gravity_rain_wild,
+  "magic-gravity/gravity-shield": magic_gravity_gravity_shield,
+  "magic-gravity/gravity-shield-ancient": magic_gravity_gravity_shield_ancient,
+  "magic-gravity/gravity-shield-greater": magic_gravity_gravity_shield_greater,
+  "magic-gravity/gravity-shield-lesser": magic_gravity_gravity_shield_lesser,
+  "magic-gravity/gravity-shield-wild": magic_gravity_gravity_shield_wild,
+  "magic-gravity/gravity-sigil": magic_gravity_gravity_sigil,
+  "magic-gravity/gravity-sigil-ancient": magic_gravity_gravity_sigil_ancient,
+  "magic-gravity/gravity-sigil-greater": magic_gravity_gravity_sigil_greater,
+  "magic-gravity/gravity-sigil-lesser": magic_gravity_gravity_sigil_lesser,
+  "magic-gravity/gravity-sigil-wild": magic_gravity_gravity_sigil_wild,
+  "magic-gravity/gravity-spikes": magic_gravity_gravity_spikes,
+  "magic-gravity/gravity-spikes-ancient": magic_gravity_gravity_spikes_ancient,
+  "magic-gravity/gravity-spikes-greater": magic_gravity_gravity_spikes_greater,
+  "magic-gravity/gravity-spikes-lesser": magic_gravity_gravity_spikes_lesser,
+  "magic-gravity/gravity-spikes-wild": magic_gravity_gravity_spikes_wild,
+  "magic-gravity/gravity-summon": magic_gravity_gravity_summon,
+  "magic-gravity/gravity-summon-ancient": magic_gravity_gravity_summon_ancient,
+  "magic-gravity/gravity-summon-greater": magic_gravity_gravity_summon_greater,
+  "magic-gravity/gravity-summon-lesser": magic_gravity_gravity_summon_lesser,
+  "magic-gravity/gravity-summon-wild": magic_gravity_gravity_summon_wild,
+  "magic-gravity/gravity-vortex": magic_gravity_gravity_vortex,
+  "magic-gravity/gravity-vortex-ancient": magic_gravity_gravity_vortex_ancient,
+  "magic-gravity/gravity-vortex-greater": magic_gravity_gravity_vortex_greater,
+  "magic-gravity/gravity-vortex-lesser": magic_gravity_gravity_vortex_lesser,
+  "magic-gravity/gravity-vortex-wild": magic_gravity_gravity_vortex_wild,
+  "magic-gravity/gravity-wave": magic_gravity_gravity_wave,
+  "magic-gravity/gravity-wave-ancient": magic_gravity_gravity_wave_ancient,
+  "magic-gravity/gravity-wave-greater": magic_gravity_gravity_wave_greater,
+  "magic-gravity/gravity-wave-lesser": magic_gravity_gravity_wave_lesser,
+  "magic-gravity/gravity-wave-wild": magic_gravity_gravity_wave_wild,
+  "magic-crystal/crystal-aura": magic_crystal_crystal_aura,
+  "magic-crystal/crystal-aura-ancient": magic_crystal_crystal_aura_ancient,
+  "magic-crystal/crystal-aura-greater": magic_crystal_crystal_aura_greater,
+  "magic-crystal/crystal-aura-lesser": magic_crystal_crystal_aura_lesser,
+  "magic-crystal/crystal-aura-wild": magic_crystal_crystal_aura_wild,
+  "magic-crystal/crystal-beam": magic_crystal_crystal_beam,
+  "magic-crystal/crystal-beam-ancient": magic_crystal_crystal_beam_ancient,
+  "magic-crystal/crystal-beam-greater": magic_crystal_crystal_beam_greater,
+  "magic-crystal/crystal-beam-lesser": magic_crystal_crystal_beam_lesser,
+  "magic-crystal/crystal-beam-wild": magic_crystal_crystal_beam_wild,
+  "magic-crystal/crystal-bolt": magic_crystal_crystal_bolt,
+  "magic-crystal/crystal-bolt-ancient": magic_crystal_crystal_bolt_ancient,
+  "magic-crystal/crystal-bolt-greater": magic_crystal_crystal_bolt_greater,
+  "magic-crystal/crystal-bolt-lesser": magic_crystal_crystal_bolt_lesser,
+  "magic-crystal/crystal-bolt-wild": magic_crystal_crystal_bolt_wild,
+  "magic-crystal/crystal-burst": magic_crystal_crystal_burst,
+  "magic-crystal/crystal-burst-ancient": magic_crystal_crystal_burst_ancient,
+  "magic-crystal/crystal-burst-greater": magic_crystal_crystal_burst_greater,
+  "magic-crystal/crystal-burst-lesser": magic_crystal_crystal_burst_lesser,
+  "magic-crystal/crystal-burst-wild": magic_crystal_crystal_burst_wild,
+  "magic-crystal/crystal-charge": magic_crystal_crystal_charge,
+  "magic-crystal/crystal-charge-ancient": magic_crystal_crystal_charge_ancient,
+  "magic-crystal/crystal-charge-greater": magic_crystal_crystal_charge_greater,
+  "magic-crystal/crystal-charge-lesser": magic_crystal_crystal_charge_lesser,
+  "magic-crystal/crystal-charge-wild": magic_crystal_crystal_charge_wild,
+  "magic-crystal/crystal-circle": magic_crystal_crystal_circle,
+  "magic-crystal/crystal-circle-ancient": magic_crystal_crystal_circle_ancient,
+  "magic-crystal/crystal-circle-greater": magic_crystal_crystal_circle_greater,
+  "magic-crystal/crystal-circle-lesser": magic_crystal_crystal_circle_lesser,
+  "magic-crystal/crystal-circle-wild": magic_crystal_crystal_circle_wild,
+  "magic-crystal/crystal-cloud": magic_crystal_crystal_cloud,
+  "magic-crystal/crystal-cloud-ancient": magic_crystal_crystal_cloud_ancient,
+  "magic-crystal/crystal-cloud-greater": magic_crystal_crystal_cloud_greater,
+  "magic-crystal/crystal-cloud-lesser": magic_crystal_crystal_cloud_lesser,
+  "magic-crystal/crystal-cloud-wild": magic_crystal_crystal_cloud_wild,
+  "magic-crystal/crystal-crescent": magic_crystal_crystal_crescent,
+  "magic-crystal/crystal-crescent-ancient": magic_crystal_crystal_crescent_ancient,
+  "magic-crystal/crystal-crescent-greater": magic_crystal_crystal_crescent_greater,
+  "magic-crystal/crystal-crescent-lesser": magic_crystal_crystal_crescent_lesser,
+  "magic-crystal/crystal-crescent-wild": magic_crystal_crystal_crescent_wild,
+  "magic-crystal/crystal-dash": magic_crystal_crystal_dash,
+  "magic-crystal/crystal-dash-ancient": magic_crystal_crystal_dash_ancient,
+  "magic-crystal/crystal-dash-greater": magic_crystal_crystal_dash_greater,
+  "magic-crystal/crystal-dash-lesser": magic_crystal_crystal_dash_lesser,
+  "magic-crystal/crystal-dash-wild": magic_crystal_crystal_dash_wild,
+  "magic-crystal/crystal-flare": magic_crystal_crystal_flare,
+  "magic-crystal/crystal-flare-ancient": magic_crystal_crystal_flare_ancient,
+  "magic-crystal/crystal-flare-greater": magic_crystal_crystal_flare_greater,
+  "magic-crystal/crystal-flare-lesser": magic_crystal_crystal_flare_lesser,
+  "magic-crystal/crystal-flare-wild": magic_crystal_crystal_flare_wild,
+  "magic-crystal/crystal-impact": magic_crystal_crystal_impact,
+  "magic-crystal/crystal-impact-ancient": magic_crystal_crystal_impact_ancient,
+  "magic-crystal/crystal-impact-greater": magic_crystal_crystal_impact_greater,
+  "magic-crystal/crystal-impact-lesser": magic_crystal_crystal_impact_lesser,
+  "magic-crystal/crystal-impact-wild": magic_crystal_crystal_impact_wild,
+  "magic-crystal/crystal-meteor": magic_crystal_crystal_meteor,
+  "magic-crystal/crystal-meteor-ancient": magic_crystal_crystal_meteor_ancient,
+  "magic-crystal/crystal-meteor-greater": magic_crystal_crystal_meteor_greater,
+  "magic-crystal/crystal-meteor-lesser": magic_crystal_crystal_meteor_lesser,
+  "magic-crystal/crystal-meteor-wild": magic_crystal_crystal_meteor_wild,
+  "magic-crystal/crystal-nova": magic_crystal_crystal_nova,
+  "magic-crystal/crystal-nova-ancient": magic_crystal_crystal_nova_ancient,
+  "magic-crystal/crystal-nova-greater": magic_crystal_crystal_nova_greater,
+  "magic-crystal/crystal-nova-lesser": magic_crystal_crystal_nova_lesser,
+  "magic-crystal/crystal-nova-wild": magic_crystal_crystal_nova_wild,
+  "magic-crystal/crystal-orb": magic_crystal_crystal_orb,
+  "magic-crystal/crystal-orb-ancient": magic_crystal_crystal_orb_ancient,
+  "magic-crystal/crystal-orb-greater": magic_crystal_crystal_orb_greater,
+  "magic-crystal/crystal-orb-lesser": magic_crystal_crystal_orb_lesser,
+  "magic-crystal/crystal-orb-wild": magic_crystal_crystal_orb_wild,
+  "magic-crystal/crystal-orbit": magic_crystal_crystal_orbit,
+  "magic-crystal/crystal-orbit-ancient": magic_crystal_crystal_orbit_ancient,
+  "magic-crystal/crystal-orbit-greater": magic_crystal_crystal_orbit_greater,
+  "magic-crystal/crystal-orbit-lesser": magic_crystal_crystal_orbit_lesser,
+  "magic-crystal/crystal-orbit-wild": magic_crystal_crystal_orbit_wild,
+  "magic-crystal/crystal-pillar": magic_crystal_crystal_pillar,
+  "magic-crystal/crystal-pillar-ancient": magic_crystal_crystal_pillar_ancient,
+  "magic-crystal/crystal-pillar-greater": magic_crystal_crystal_pillar_greater,
+  "magic-crystal/crystal-pillar-lesser": magic_crystal_crystal_pillar_lesser,
+  "magic-crystal/crystal-pillar-wild": magic_crystal_crystal_pillar_wild,
+  "magic-crystal/crystal-portal": magic_crystal_crystal_portal,
+  "magic-crystal/crystal-portal-ancient": magic_crystal_crystal_portal_ancient,
+  "magic-crystal/crystal-portal-greater": magic_crystal_crystal_portal_greater,
+  "magic-crystal/crystal-portal-lesser": magic_crystal_crystal_portal_lesser,
+  "magic-crystal/crystal-portal-wild": magic_crystal_crystal_portal_wild,
+  "magic-crystal/crystal-rain": magic_crystal_crystal_rain,
+  "magic-crystal/crystal-rain-ancient": magic_crystal_crystal_rain_ancient,
+  "magic-crystal/crystal-rain-greater": magic_crystal_crystal_rain_greater,
+  "magic-crystal/crystal-rain-lesser": magic_crystal_crystal_rain_lesser,
+  "magic-crystal/crystal-rain-wild": magic_crystal_crystal_rain_wild,
+  "magic-crystal/crystal-shield": magic_crystal_crystal_shield,
+  "magic-crystal/crystal-shield-ancient": magic_crystal_crystal_shield_ancient,
+  "magic-crystal/crystal-shield-greater": magic_crystal_crystal_shield_greater,
+  "magic-crystal/crystal-shield-lesser": magic_crystal_crystal_shield_lesser,
+  "magic-crystal/crystal-shield-wild": magic_crystal_crystal_shield_wild,
+  "magic-crystal/crystal-sigil": magic_crystal_crystal_sigil,
+  "magic-crystal/crystal-sigil-ancient": magic_crystal_crystal_sigil_ancient,
+  "magic-crystal/crystal-sigil-greater": magic_crystal_crystal_sigil_greater,
+  "magic-crystal/crystal-sigil-lesser": magic_crystal_crystal_sigil_lesser,
+  "magic-crystal/crystal-sigil-wild": magic_crystal_crystal_sigil_wild,
+  "magic-crystal/crystal-spikes": magic_crystal_crystal_spikes,
+  "magic-crystal/crystal-spikes-ancient": magic_crystal_crystal_spikes_ancient,
+  "magic-crystal/crystal-spikes-greater": magic_crystal_crystal_spikes_greater,
+  "magic-crystal/crystal-spikes-lesser": magic_crystal_crystal_spikes_lesser,
+  "magic-crystal/crystal-spikes-wild": magic_crystal_crystal_spikes_wild,
+  "magic-crystal/crystal-summon": magic_crystal_crystal_summon,
+  "magic-crystal/crystal-summon-ancient": magic_crystal_crystal_summon_ancient,
+  "magic-crystal/crystal-summon-greater": magic_crystal_crystal_summon_greater,
+  "magic-crystal/crystal-summon-lesser": magic_crystal_crystal_summon_lesser,
+  "magic-crystal/crystal-summon-wild": magic_crystal_crystal_summon_wild,
+  "magic-crystal/crystal-vortex": magic_crystal_crystal_vortex,
+  "magic-crystal/crystal-vortex-ancient": magic_crystal_crystal_vortex_ancient,
+  "magic-crystal/crystal-vortex-greater": magic_crystal_crystal_vortex_greater,
+  "magic-crystal/crystal-vortex-lesser": magic_crystal_crystal_vortex_lesser,
+  "magic-crystal/crystal-vortex-wild": magic_crystal_crystal_vortex_wild,
+  "magic-crystal/crystal-wave": magic_crystal_crystal_wave,
+  "magic-crystal/crystal-wave-ancient": magic_crystal_crystal_wave_ancient,
+  "magic-crystal/crystal-wave-greater": magic_crystal_crystal_wave_greater,
+  "magic-crystal/crystal-wave-lesser": magic_crystal_crystal_wave_lesser,
+  "magic-crystal/crystal-wave-wild": magic_crystal_crystal_wave_wild,
+  "magic-sonic/sonic-aura": magic_sonic_sonic_aura,
+  "magic-sonic/sonic-aura-ancient": magic_sonic_sonic_aura_ancient,
+  "magic-sonic/sonic-aura-greater": magic_sonic_sonic_aura_greater,
+  "magic-sonic/sonic-aura-lesser": magic_sonic_sonic_aura_lesser,
+  "magic-sonic/sonic-aura-wild": magic_sonic_sonic_aura_wild,
+  "magic-sonic/sonic-beam": magic_sonic_sonic_beam,
+  "magic-sonic/sonic-beam-ancient": magic_sonic_sonic_beam_ancient,
+  "magic-sonic/sonic-beam-greater": magic_sonic_sonic_beam_greater,
+  "magic-sonic/sonic-beam-lesser": magic_sonic_sonic_beam_lesser,
+  "magic-sonic/sonic-beam-wild": magic_sonic_sonic_beam_wild,
+  "magic-sonic/sonic-bolt": magic_sonic_sonic_bolt,
+  "magic-sonic/sonic-bolt-ancient": magic_sonic_sonic_bolt_ancient,
+  "magic-sonic/sonic-bolt-greater": magic_sonic_sonic_bolt_greater,
+  "magic-sonic/sonic-bolt-lesser": magic_sonic_sonic_bolt_lesser,
+  "magic-sonic/sonic-bolt-wild": magic_sonic_sonic_bolt_wild,
+  "magic-sonic/sonic-burst": magic_sonic_sonic_burst,
+  "magic-sonic/sonic-burst-ancient": magic_sonic_sonic_burst_ancient,
+  "magic-sonic/sonic-burst-greater": magic_sonic_sonic_burst_greater,
+  "magic-sonic/sonic-burst-lesser": magic_sonic_sonic_burst_lesser,
+  "magic-sonic/sonic-burst-wild": magic_sonic_sonic_burst_wild,
+  "magic-sonic/sonic-charge": magic_sonic_sonic_charge,
+  "magic-sonic/sonic-charge-ancient": magic_sonic_sonic_charge_ancient,
+  "magic-sonic/sonic-charge-greater": magic_sonic_sonic_charge_greater,
+  "magic-sonic/sonic-charge-lesser": magic_sonic_sonic_charge_lesser,
+  "magic-sonic/sonic-charge-wild": magic_sonic_sonic_charge_wild,
+  "magic-sonic/sonic-circle": magic_sonic_sonic_circle,
+  "magic-sonic/sonic-circle-ancient": magic_sonic_sonic_circle_ancient,
+  "magic-sonic/sonic-circle-greater": magic_sonic_sonic_circle_greater,
+  "magic-sonic/sonic-circle-lesser": magic_sonic_sonic_circle_lesser,
+  "magic-sonic/sonic-circle-wild": magic_sonic_sonic_circle_wild,
+  "magic-sonic/sonic-cloud": magic_sonic_sonic_cloud,
+  "magic-sonic/sonic-cloud-ancient": magic_sonic_sonic_cloud_ancient,
+  "magic-sonic/sonic-cloud-greater": magic_sonic_sonic_cloud_greater,
+  "magic-sonic/sonic-cloud-lesser": magic_sonic_sonic_cloud_lesser,
+  "magic-sonic/sonic-cloud-wild": magic_sonic_sonic_cloud_wild,
+  "magic-sonic/sonic-crescent": magic_sonic_sonic_crescent,
+  "magic-sonic/sonic-crescent-ancient": magic_sonic_sonic_crescent_ancient,
+  "magic-sonic/sonic-crescent-greater": magic_sonic_sonic_crescent_greater,
+  "magic-sonic/sonic-crescent-lesser": magic_sonic_sonic_crescent_lesser,
+  "magic-sonic/sonic-crescent-wild": magic_sonic_sonic_crescent_wild,
+  "magic-sonic/sonic-dash": magic_sonic_sonic_dash,
+  "magic-sonic/sonic-dash-ancient": magic_sonic_sonic_dash_ancient,
+  "magic-sonic/sonic-dash-greater": magic_sonic_sonic_dash_greater,
+  "magic-sonic/sonic-dash-lesser": magic_sonic_sonic_dash_lesser,
+  "magic-sonic/sonic-dash-wild": magic_sonic_sonic_dash_wild,
+  "magic-sonic/sonic-flare": magic_sonic_sonic_flare,
+  "magic-sonic/sonic-flare-ancient": magic_sonic_sonic_flare_ancient,
+  "magic-sonic/sonic-flare-greater": magic_sonic_sonic_flare_greater,
+  "magic-sonic/sonic-flare-lesser": magic_sonic_sonic_flare_lesser,
+  "magic-sonic/sonic-flare-wild": magic_sonic_sonic_flare_wild,
+  "magic-sonic/sonic-impact": magic_sonic_sonic_impact,
+  "magic-sonic/sonic-impact-ancient": magic_sonic_sonic_impact_ancient,
+  "magic-sonic/sonic-impact-greater": magic_sonic_sonic_impact_greater,
+  "magic-sonic/sonic-impact-lesser": magic_sonic_sonic_impact_lesser,
+  "magic-sonic/sonic-impact-wild": magic_sonic_sonic_impact_wild,
+  "magic-sonic/sonic-meteor": magic_sonic_sonic_meteor,
+  "magic-sonic/sonic-meteor-ancient": magic_sonic_sonic_meteor_ancient,
+  "magic-sonic/sonic-meteor-greater": magic_sonic_sonic_meteor_greater,
+  "magic-sonic/sonic-meteor-lesser": magic_sonic_sonic_meteor_lesser,
+  "magic-sonic/sonic-meteor-wild": magic_sonic_sonic_meteor_wild,
+  "magic-sonic/sonic-nova": magic_sonic_sonic_nova,
+  "magic-sonic/sonic-nova-ancient": magic_sonic_sonic_nova_ancient,
+  "magic-sonic/sonic-nova-greater": magic_sonic_sonic_nova_greater,
+  "magic-sonic/sonic-nova-lesser": magic_sonic_sonic_nova_lesser,
+  "magic-sonic/sonic-nova-wild": magic_sonic_sonic_nova_wild,
+  "magic-sonic/sonic-orb": magic_sonic_sonic_orb,
+  "magic-sonic/sonic-orb-ancient": magic_sonic_sonic_orb_ancient,
+  "magic-sonic/sonic-orb-greater": magic_sonic_sonic_orb_greater,
+  "magic-sonic/sonic-orb-lesser": magic_sonic_sonic_orb_lesser,
+  "magic-sonic/sonic-orb-wild": magic_sonic_sonic_orb_wild,
+  "magic-sonic/sonic-orbit": magic_sonic_sonic_orbit,
+  "magic-sonic/sonic-orbit-ancient": magic_sonic_sonic_orbit_ancient,
+  "magic-sonic/sonic-orbit-greater": magic_sonic_sonic_orbit_greater,
+  "magic-sonic/sonic-orbit-lesser": magic_sonic_sonic_orbit_lesser,
+  "magic-sonic/sonic-orbit-wild": magic_sonic_sonic_orbit_wild,
+  "magic-sonic/sonic-pillar": magic_sonic_sonic_pillar,
+  "magic-sonic/sonic-pillar-ancient": magic_sonic_sonic_pillar_ancient,
+  "magic-sonic/sonic-pillar-greater": magic_sonic_sonic_pillar_greater,
+  "magic-sonic/sonic-pillar-lesser": magic_sonic_sonic_pillar_lesser,
+  "magic-sonic/sonic-pillar-wild": magic_sonic_sonic_pillar_wild,
+  "magic-sonic/sonic-portal": magic_sonic_sonic_portal,
+  "magic-sonic/sonic-portal-ancient": magic_sonic_sonic_portal_ancient,
+  "magic-sonic/sonic-portal-greater": magic_sonic_sonic_portal_greater,
+  "magic-sonic/sonic-portal-lesser": magic_sonic_sonic_portal_lesser,
+  "magic-sonic/sonic-portal-wild": magic_sonic_sonic_portal_wild,
+  "magic-sonic/sonic-rain": magic_sonic_sonic_rain,
+  "magic-sonic/sonic-rain-ancient": magic_sonic_sonic_rain_ancient,
+  "magic-sonic/sonic-rain-greater": magic_sonic_sonic_rain_greater,
+  "magic-sonic/sonic-rain-lesser": magic_sonic_sonic_rain_lesser,
+  "magic-sonic/sonic-rain-wild": magic_sonic_sonic_rain_wild,
+  "magic-sonic/sonic-shield": magic_sonic_sonic_shield,
+  "magic-sonic/sonic-shield-ancient": magic_sonic_sonic_shield_ancient,
+  "magic-sonic/sonic-shield-greater": magic_sonic_sonic_shield_greater,
+  "magic-sonic/sonic-shield-lesser": magic_sonic_sonic_shield_lesser,
+  "magic-sonic/sonic-shield-wild": magic_sonic_sonic_shield_wild,
+  "magic-sonic/sonic-sigil": magic_sonic_sonic_sigil,
+  "magic-sonic/sonic-sigil-ancient": magic_sonic_sonic_sigil_ancient,
+  "magic-sonic/sonic-sigil-greater": magic_sonic_sonic_sigil_greater,
+  "magic-sonic/sonic-sigil-lesser": magic_sonic_sonic_sigil_lesser,
+  "magic-sonic/sonic-sigil-wild": magic_sonic_sonic_sigil_wild,
+  "magic-sonic/sonic-spikes": magic_sonic_sonic_spikes,
+  "magic-sonic/sonic-spikes-ancient": magic_sonic_sonic_spikes_ancient,
+  "magic-sonic/sonic-spikes-greater": magic_sonic_sonic_spikes_greater,
+  "magic-sonic/sonic-spikes-lesser": magic_sonic_sonic_spikes_lesser,
+  "magic-sonic/sonic-spikes-wild": magic_sonic_sonic_spikes_wild,
+  "magic-sonic/sonic-summon": magic_sonic_sonic_summon,
+  "magic-sonic/sonic-summon-ancient": magic_sonic_sonic_summon_ancient,
+  "magic-sonic/sonic-summon-greater": magic_sonic_sonic_summon_greater,
+  "magic-sonic/sonic-summon-lesser": magic_sonic_sonic_summon_lesser,
+  "magic-sonic/sonic-summon-wild": magic_sonic_sonic_summon_wild,
+  "magic-sonic/sonic-vortex": magic_sonic_sonic_vortex,
+  "magic-sonic/sonic-vortex-ancient": magic_sonic_sonic_vortex_ancient,
+  "magic-sonic/sonic-vortex-greater": magic_sonic_sonic_vortex_greater,
+  "magic-sonic/sonic-vortex-lesser": magic_sonic_sonic_vortex_lesser,
+  "magic-sonic/sonic-vortex-wild": magic_sonic_sonic_vortex_wild,
+  "magic-sonic/sonic-wave": magic_sonic_sonic_wave,
+  "magic-sonic/sonic-wave-ancient": magic_sonic_sonic_wave_ancient,
+  "magic-sonic/sonic-wave-greater": magic_sonic_sonic_wave_greater,
+  "magic-sonic/sonic-wave-lesser": magic_sonic_sonic_wave_lesser,
+  "magic-sonic/sonic-wave-wild": magic_sonic_sonic_wave_wild,
+  "magic-astral/astral-aura": magic_astral_astral_aura,
+  "magic-astral/astral-aura-ancient": magic_astral_astral_aura_ancient,
+  "magic-astral/astral-aura-greater": magic_astral_astral_aura_greater,
+  "magic-astral/astral-aura-lesser": magic_astral_astral_aura_lesser,
+  "magic-astral/astral-aura-wild": magic_astral_astral_aura_wild,
+  "magic-astral/astral-beam": magic_astral_astral_beam,
+  "magic-astral/astral-beam-ancient": magic_astral_astral_beam_ancient,
+  "magic-astral/astral-beam-greater": magic_astral_astral_beam_greater,
+  "magic-astral/astral-beam-lesser": magic_astral_astral_beam_lesser,
+  "magic-astral/astral-beam-wild": magic_astral_astral_beam_wild,
+  "magic-astral/astral-bolt": magic_astral_astral_bolt,
+  "magic-astral/astral-bolt-ancient": magic_astral_astral_bolt_ancient,
+  "magic-astral/astral-bolt-greater": magic_astral_astral_bolt_greater,
+  "magic-astral/astral-bolt-lesser": magic_astral_astral_bolt_lesser,
+  "magic-astral/astral-bolt-wild": magic_astral_astral_bolt_wild,
+  "magic-astral/astral-burst": magic_astral_astral_burst,
+  "magic-astral/astral-burst-ancient": magic_astral_astral_burst_ancient,
+  "magic-astral/astral-burst-greater": magic_astral_astral_burst_greater,
+  "magic-astral/astral-burst-lesser": magic_astral_astral_burst_lesser,
+  "magic-astral/astral-burst-wild": magic_astral_astral_burst_wild,
+  "magic-astral/astral-charge": magic_astral_astral_charge,
+  "magic-astral/astral-charge-ancient": magic_astral_astral_charge_ancient,
+  "magic-astral/astral-charge-greater": magic_astral_astral_charge_greater,
+  "magic-astral/astral-charge-lesser": magic_astral_astral_charge_lesser,
+  "magic-astral/astral-charge-wild": magic_astral_astral_charge_wild,
+  "magic-astral/astral-circle": magic_astral_astral_circle,
+  "magic-astral/astral-circle-ancient": magic_astral_astral_circle_ancient,
+  "magic-astral/astral-circle-greater": magic_astral_astral_circle_greater,
+  "magic-astral/astral-circle-lesser": magic_astral_astral_circle_lesser,
+  "magic-astral/astral-circle-wild": magic_astral_astral_circle_wild,
+  "magic-astral/astral-cloud": magic_astral_astral_cloud,
+  "magic-astral/astral-cloud-ancient": magic_astral_astral_cloud_ancient,
+  "magic-astral/astral-cloud-greater": magic_astral_astral_cloud_greater,
+  "magic-astral/astral-cloud-lesser": magic_astral_astral_cloud_lesser,
+  "magic-astral/astral-cloud-wild": magic_astral_astral_cloud_wild,
+  "magic-astral/astral-crescent": magic_astral_astral_crescent,
+  "magic-astral/astral-crescent-ancient": magic_astral_astral_crescent_ancient,
+  "magic-astral/astral-crescent-greater": magic_astral_astral_crescent_greater,
+  "magic-astral/astral-crescent-lesser": magic_astral_astral_crescent_lesser,
+  "magic-astral/astral-crescent-wild": magic_astral_astral_crescent_wild,
+  "magic-astral/astral-dash": magic_astral_astral_dash,
+  "magic-astral/astral-dash-ancient": magic_astral_astral_dash_ancient,
+  "magic-astral/astral-dash-greater": magic_astral_astral_dash_greater,
+  "magic-astral/astral-dash-lesser": magic_astral_astral_dash_lesser,
+  "magic-astral/astral-dash-wild": magic_astral_astral_dash_wild,
+  "magic-astral/astral-flare": magic_astral_astral_flare,
+  "magic-astral/astral-flare-ancient": magic_astral_astral_flare_ancient,
+  "magic-astral/astral-flare-greater": magic_astral_astral_flare_greater,
+  "magic-astral/astral-flare-lesser": magic_astral_astral_flare_lesser,
+  "magic-astral/astral-flare-wild": magic_astral_astral_flare_wild,
+  "magic-astral/astral-impact": magic_astral_astral_impact,
+  "magic-astral/astral-impact-ancient": magic_astral_astral_impact_ancient,
+  "magic-astral/astral-impact-greater": magic_astral_astral_impact_greater,
+  "magic-astral/astral-impact-lesser": magic_astral_astral_impact_lesser,
+  "magic-astral/astral-impact-wild": magic_astral_astral_impact_wild,
+  "magic-astral/astral-meteor": magic_astral_astral_meteor,
+  "magic-astral/astral-meteor-ancient": magic_astral_astral_meteor_ancient,
+  "magic-astral/astral-meteor-greater": magic_astral_astral_meteor_greater,
+  "magic-astral/astral-meteor-lesser": magic_astral_astral_meteor_lesser,
+  "magic-astral/astral-meteor-wild": magic_astral_astral_meteor_wild,
+  "magic-astral/astral-nova": magic_astral_astral_nova,
+  "magic-astral/astral-nova-ancient": magic_astral_astral_nova_ancient,
+  "magic-astral/astral-nova-greater": magic_astral_astral_nova_greater,
+  "magic-astral/astral-nova-lesser": magic_astral_astral_nova_lesser,
+  "magic-astral/astral-nova-wild": magic_astral_astral_nova_wild,
+  "magic-astral/astral-orb": magic_astral_astral_orb,
+  "magic-astral/astral-orb-ancient": magic_astral_astral_orb_ancient,
+  "magic-astral/astral-orb-greater": magic_astral_astral_orb_greater,
+  "magic-astral/astral-orb-lesser": magic_astral_astral_orb_lesser,
+  "magic-astral/astral-orb-wild": magic_astral_astral_orb_wild,
+  "magic-astral/astral-orbit": magic_astral_astral_orbit,
+  "magic-astral/astral-orbit-ancient": magic_astral_astral_orbit_ancient,
+  "magic-astral/astral-orbit-greater": magic_astral_astral_orbit_greater,
+  "magic-astral/astral-orbit-lesser": magic_astral_astral_orbit_lesser,
+  "magic-astral/astral-orbit-wild": magic_astral_astral_orbit_wild,
+  "magic-astral/astral-pillar": magic_astral_astral_pillar,
+  "magic-astral/astral-pillar-ancient": magic_astral_astral_pillar_ancient,
+  "magic-astral/astral-pillar-greater": magic_astral_astral_pillar_greater,
+  "magic-astral/astral-pillar-lesser": magic_astral_astral_pillar_lesser,
+  "magic-astral/astral-pillar-wild": magic_astral_astral_pillar_wild,
+  "magic-astral/astral-portal": magic_astral_astral_portal,
+  "magic-astral/astral-portal-ancient": magic_astral_astral_portal_ancient,
+  "magic-astral/astral-portal-greater": magic_astral_astral_portal_greater,
+  "magic-astral/astral-portal-lesser": magic_astral_astral_portal_lesser,
+  "magic-astral/astral-portal-wild": magic_astral_astral_portal_wild,
+  "magic-astral/astral-rain": magic_astral_astral_rain,
+  "magic-astral/astral-rain-ancient": magic_astral_astral_rain_ancient,
+  "magic-astral/astral-rain-greater": magic_astral_astral_rain_greater,
+  "magic-astral/astral-rain-lesser": magic_astral_astral_rain_lesser,
+  "magic-astral/astral-rain-wild": magic_astral_astral_rain_wild,
+  "magic-astral/astral-shield": magic_astral_astral_shield,
+  "magic-astral/astral-shield-ancient": magic_astral_astral_shield_ancient,
+  "magic-astral/astral-shield-greater": magic_astral_astral_shield_greater,
+  "magic-astral/astral-shield-lesser": magic_astral_astral_shield_lesser,
+  "magic-astral/astral-shield-wild": magic_astral_astral_shield_wild,
+  "magic-astral/astral-sigil": magic_astral_astral_sigil,
+  "magic-astral/astral-sigil-ancient": magic_astral_astral_sigil_ancient,
+  "magic-astral/astral-sigil-greater": magic_astral_astral_sigil_greater,
+  "magic-astral/astral-sigil-lesser": magic_astral_astral_sigil_lesser,
+  "magic-astral/astral-sigil-wild": magic_astral_astral_sigil_wild,
+  "magic-astral/astral-spikes": magic_astral_astral_spikes,
+  "magic-astral/astral-spikes-ancient": magic_astral_astral_spikes_ancient,
+  "magic-astral/astral-spikes-greater": magic_astral_astral_spikes_greater,
+  "magic-astral/astral-spikes-lesser": magic_astral_astral_spikes_lesser,
+  "magic-astral/astral-spikes-wild": magic_astral_astral_spikes_wild,
+  "magic-astral/astral-summon": magic_astral_astral_summon,
+  "magic-astral/astral-summon-ancient": magic_astral_astral_summon_ancient,
+  "magic-astral/astral-summon-greater": magic_astral_astral_summon_greater,
+  "magic-astral/astral-summon-lesser": magic_astral_astral_summon_lesser,
+  "magic-astral/astral-summon-wild": magic_astral_astral_summon_wild,
+  "magic-astral/astral-vortex": magic_astral_astral_vortex,
+  "magic-astral/astral-vortex-ancient": magic_astral_astral_vortex_ancient,
+  "magic-astral/astral-vortex-greater": magic_astral_astral_vortex_greater,
+  "magic-astral/astral-vortex-lesser": magic_astral_astral_vortex_lesser,
+  "magic-astral/astral-vortex-wild": magic_astral_astral_vortex_wild,
+  "magic-astral/astral-wave": magic_astral_astral_wave,
+  "magic-astral/astral-wave-ancient": magic_astral_astral_wave_ancient,
+  "magic-astral/astral-wave-greater": magic_astral_astral_wave_greater,
+  "magic-astral/astral-wave-lesser": magic_astral_astral_wave_lesser,
+  "magic-astral/astral-wave-wild": magic_astral_astral_wave_wild,
+  "magic-sand/sand-aura": magic_sand_sand_aura,
+  "magic-sand/sand-aura-ancient": magic_sand_sand_aura_ancient,
+  "magic-sand/sand-aura-greater": magic_sand_sand_aura_greater,
+  "magic-sand/sand-aura-lesser": magic_sand_sand_aura_lesser,
+  "magic-sand/sand-aura-wild": magic_sand_sand_aura_wild,
+  "magic-sand/sand-beam": magic_sand_sand_beam,
+  "magic-sand/sand-beam-ancient": magic_sand_sand_beam_ancient,
+  "magic-sand/sand-beam-greater": magic_sand_sand_beam_greater,
+  "magic-sand/sand-beam-lesser": magic_sand_sand_beam_lesser,
+  "magic-sand/sand-beam-wild": magic_sand_sand_beam_wild,
+  "magic-sand/sand-bolt": magic_sand_sand_bolt,
+  "magic-sand/sand-bolt-ancient": magic_sand_sand_bolt_ancient,
+  "magic-sand/sand-bolt-greater": magic_sand_sand_bolt_greater,
+  "magic-sand/sand-bolt-lesser": magic_sand_sand_bolt_lesser,
+  "magic-sand/sand-bolt-wild": magic_sand_sand_bolt_wild,
+  "magic-sand/sand-burst": magic_sand_sand_burst,
+  "magic-sand/sand-burst-ancient": magic_sand_sand_burst_ancient,
+  "magic-sand/sand-burst-greater": magic_sand_sand_burst_greater,
+  "magic-sand/sand-burst-lesser": magic_sand_sand_burst_lesser,
+  "magic-sand/sand-burst-wild": magic_sand_sand_burst_wild,
+  "magic-sand/sand-charge": magic_sand_sand_charge,
+  "magic-sand/sand-charge-ancient": magic_sand_sand_charge_ancient,
+  "magic-sand/sand-charge-greater": magic_sand_sand_charge_greater,
+  "magic-sand/sand-charge-lesser": magic_sand_sand_charge_lesser,
+  "magic-sand/sand-charge-wild": magic_sand_sand_charge_wild,
+  "magic-sand/sand-circle": magic_sand_sand_circle,
+  "magic-sand/sand-circle-ancient": magic_sand_sand_circle_ancient,
+  "magic-sand/sand-circle-greater": magic_sand_sand_circle_greater,
+  "magic-sand/sand-circle-lesser": magic_sand_sand_circle_lesser,
+  "magic-sand/sand-circle-wild": magic_sand_sand_circle_wild,
+  "magic-sand/sand-cloud": magic_sand_sand_cloud,
+  "magic-sand/sand-cloud-ancient": magic_sand_sand_cloud_ancient,
+  "magic-sand/sand-cloud-greater": magic_sand_sand_cloud_greater,
+  "magic-sand/sand-cloud-lesser": magic_sand_sand_cloud_lesser,
+  "magic-sand/sand-cloud-wild": magic_sand_sand_cloud_wild,
+  "magic-sand/sand-crescent": magic_sand_sand_crescent,
+  "magic-sand/sand-crescent-ancient": magic_sand_sand_crescent_ancient,
+  "magic-sand/sand-crescent-greater": magic_sand_sand_crescent_greater,
+  "magic-sand/sand-crescent-lesser": magic_sand_sand_crescent_lesser,
+  "magic-sand/sand-crescent-wild": magic_sand_sand_crescent_wild,
+  "magic-sand/sand-dash": magic_sand_sand_dash,
+  "magic-sand/sand-dash-ancient": magic_sand_sand_dash_ancient,
+  "magic-sand/sand-dash-greater": magic_sand_sand_dash_greater,
+  "magic-sand/sand-dash-lesser": magic_sand_sand_dash_lesser,
+  "magic-sand/sand-dash-wild": magic_sand_sand_dash_wild,
+  "magic-sand/sand-flare": magic_sand_sand_flare,
+  "magic-sand/sand-flare-ancient": magic_sand_sand_flare_ancient,
+  "magic-sand/sand-flare-greater": magic_sand_sand_flare_greater,
+  "magic-sand/sand-flare-lesser": magic_sand_sand_flare_lesser,
+  "magic-sand/sand-flare-wild": magic_sand_sand_flare_wild,
+  "magic-sand/sand-impact": magic_sand_sand_impact,
+  "magic-sand/sand-impact-ancient": magic_sand_sand_impact_ancient,
+  "magic-sand/sand-impact-greater": magic_sand_sand_impact_greater,
+  "magic-sand/sand-impact-lesser": magic_sand_sand_impact_lesser,
+  "magic-sand/sand-impact-wild": magic_sand_sand_impact_wild,
+  "magic-sand/sand-meteor": magic_sand_sand_meteor,
+  "magic-sand/sand-meteor-ancient": magic_sand_sand_meteor_ancient,
+  "magic-sand/sand-meteor-greater": magic_sand_sand_meteor_greater,
+  "magic-sand/sand-meteor-lesser": magic_sand_sand_meteor_lesser,
+  "magic-sand/sand-meteor-wild": magic_sand_sand_meteor_wild,
+  "magic-sand/sand-nova": magic_sand_sand_nova,
+  "magic-sand/sand-nova-ancient": magic_sand_sand_nova_ancient,
+  "magic-sand/sand-nova-greater": magic_sand_sand_nova_greater,
+  "magic-sand/sand-nova-lesser": magic_sand_sand_nova_lesser,
+  "magic-sand/sand-nova-wild": magic_sand_sand_nova_wild,
+  "magic-sand/sand-orb": magic_sand_sand_orb,
+  "magic-sand/sand-orb-ancient": magic_sand_sand_orb_ancient,
+  "magic-sand/sand-orb-greater": magic_sand_sand_orb_greater,
+  "magic-sand/sand-orb-lesser": magic_sand_sand_orb_lesser,
+  "magic-sand/sand-orb-wild": magic_sand_sand_orb_wild,
+  "magic-sand/sand-orbit": magic_sand_sand_orbit,
+  "magic-sand/sand-orbit-ancient": magic_sand_sand_orbit_ancient,
+  "magic-sand/sand-orbit-greater": magic_sand_sand_orbit_greater,
+  "magic-sand/sand-orbit-lesser": magic_sand_sand_orbit_lesser,
+  "magic-sand/sand-orbit-wild": magic_sand_sand_orbit_wild,
+  "magic-sand/sand-pillar": magic_sand_sand_pillar,
+  "magic-sand/sand-pillar-ancient": magic_sand_sand_pillar_ancient,
+  "magic-sand/sand-pillar-greater": magic_sand_sand_pillar_greater,
+  "magic-sand/sand-pillar-lesser": magic_sand_sand_pillar_lesser,
+  "magic-sand/sand-pillar-wild": magic_sand_sand_pillar_wild,
+  "magic-sand/sand-portal": magic_sand_sand_portal,
+  "magic-sand/sand-portal-ancient": magic_sand_sand_portal_ancient,
+  "magic-sand/sand-portal-greater": magic_sand_sand_portal_greater,
+  "magic-sand/sand-portal-lesser": magic_sand_sand_portal_lesser,
+  "magic-sand/sand-portal-wild": magic_sand_sand_portal_wild,
+  "magic-sand/sand-rain": magic_sand_sand_rain,
+  "magic-sand/sand-rain-ancient": magic_sand_sand_rain_ancient,
+  "magic-sand/sand-rain-greater": magic_sand_sand_rain_greater,
+  "magic-sand/sand-rain-lesser": magic_sand_sand_rain_lesser,
+  "magic-sand/sand-rain-wild": magic_sand_sand_rain_wild,
+  "magic-sand/sand-shield": magic_sand_sand_shield,
+  "magic-sand/sand-shield-ancient": magic_sand_sand_shield_ancient,
+  "magic-sand/sand-shield-greater": magic_sand_sand_shield_greater,
+  "magic-sand/sand-shield-lesser": magic_sand_sand_shield_lesser,
+  "magic-sand/sand-shield-wild": magic_sand_sand_shield_wild,
+  "magic-sand/sand-sigil": magic_sand_sand_sigil,
+  "magic-sand/sand-sigil-ancient": magic_sand_sand_sigil_ancient,
+  "magic-sand/sand-sigil-greater": magic_sand_sand_sigil_greater,
+  "magic-sand/sand-sigil-lesser": magic_sand_sand_sigil_lesser,
+  "magic-sand/sand-sigil-wild": magic_sand_sand_sigil_wild,
+  "magic-sand/sand-spikes": magic_sand_sand_spikes,
+  "magic-sand/sand-spikes-ancient": magic_sand_sand_spikes_ancient,
+  "magic-sand/sand-spikes-greater": magic_sand_sand_spikes_greater,
+  "magic-sand/sand-spikes-lesser": magic_sand_sand_spikes_lesser,
+  "magic-sand/sand-spikes-wild": magic_sand_sand_spikes_wild,
+  "magic-sand/sand-summon": magic_sand_sand_summon,
+  "magic-sand/sand-summon-ancient": magic_sand_sand_summon_ancient,
+  "magic-sand/sand-summon-greater": magic_sand_sand_summon_greater,
+  "magic-sand/sand-summon-lesser": magic_sand_sand_summon_lesser,
+  "magic-sand/sand-summon-wild": magic_sand_sand_summon_wild,
+  "magic-sand/sand-vortex": magic_sand_sand_vortex,
+  "magic-sand/sand-vortex-ancient": magic_sand_sand_vortex_ancient,
+  "magic-sand/sand-vortex-greater": magic_sand_sand_vortex_greater,
+  "magic-sand/sand-vortex-lesser": magic_sand_sand_vortex_lesser,
+  "magic-sand/sand-vortex-wild": magic_sand_sand_vortex_wild,
+  "magic-sand/sand-wave": magic_sand_sand_wave,
+  "magic-sand/sand-wave-ancient": magic_sand_sand_wave_ancient,
+  "magic-sand/sand-wave-greater": magic_sand_sand_wave_greater,
+  "magic-sand/sand-wave-lesser": magic_sand_sand_wave_lesser,
+  "magic-sand/sand-wave-wild": magic_sand_sand_wave_wild,
+  "magic-magma/magma-aura": magic_magma_magma_aura,
+  "magic-magma/magma-aura-ancient": magic_magma_magma_aura_ancient,
+  "magic-magma/magma-aura-greater": magic_magma_magma_aura_greater,
+  "magic-magma/magma-aura-lesser": magic_magma_magma_aura_lesser,
+  "magic-magma/magma-aura-wild": magic_magma_magma_aura_wild,
+  "magic-magma/magma-beam": magic_magma_magma_beam,
+  "magic-magma/magma-beam-ancient": magic_magma_magma_beam_ancient,
+  "magic-magma/magma-beam-greater": magic_magma_magma_beam_greater,
+  "magic-magma/magma-beam-lesser": magic_magma_magma_beam_lesser,
+  "magic-magma/magma-beam-wild": magic_magma_magma_beam_wild,
+  "magic-magma/magma-bolt": magic_magma_magma_bolt,
+  "magic-magma/magma-bolt-ancient": magic_magma_magma_bolt_ancient,
+  "magic-magma/magma-bolt-greater": magic_magma_magma_bolt_greater,
+  "magic-magma/magma-bolt-lesser": magic_magma_magma_bolt_lesser,
+  "magic-magma/magma-bolt-wild": magic_magma_magma_bolt_wild,
+  "magic-magma/magma-burst": magic_magma_magma_burst,
+  "magic-magma/magma-burst-ancient": magic_magma_magma_burst_ancient,
+  "magic-magma/magma-burst-greater": magic_magma_magma_burst_greater,
+  "magic-magma/magma-burst-lesser": magic_magma_magma_burst_lesser,
+  "magic-magma/magma-burst-wild": magic_magma_magma_burst_wild,
+  "magic-magma/magma-charge": magic_magma_magma_charge,
+  "magic-magma/magma-charge-ancient": magic_magma_magma_charge_ancient,
+  "magic-magma/magma-charge-greater": magic_magma_magma_charge_greater,
+  "magic-magma/magma-charge-lesser": magic_magma_magma_charge_lesser,
+  "magic-magma/magma-charge-wild": magic_magma_magma_charge_wild,
+  "magic-magma/magma-circle": magic_magma_magma_circle,
+  "magic-magma/magma-circle-ancient": magic_magma_magma_circle_ancient,
+  "magic-magma/magma-circle-greater": magic_magma_magma_circle_greater,
+  "magic-magma/magma-circle-lesser": magic_magma_magma_circle_lesser,
+  "magic-magma/magma-circle-wild": magic_magma_magma_circle_wild,
+  "magic-magma/magma-cloud": magic_magma_magma_cloud,
+  "magic-magma/magma-cloud-ancient": magic_magma_magma_cloud_ancient,
+  "magic-magma/magma-cloud-greater": magic_magma_magma_cloud_greater,
+  "magic-magma/magma-cloud-lesser": magic_magma_magma_cloud_lesser,
+  "magic-magma/magma-cloud-wild": magic_magma_magma_cloud_wild,
+  "magic-magma/magma-crescent": magic_magma_magma_crescent,
+  "magic-magma/magma-crescent-ancient": magic_magma_magma_crescent_ancient,
+  "magic-magma/magma-crescent-greater": magic_magma_magma_crescent_greater,
+  "magic-magma/magma-crescent-lesser": magic_magma_magma_crescent_lesser,
+  "magic-magma/magma-crescent-wild": magic_magma_magma_crescent_wild,
+  "magic-magma/magma-dash": magic_magma_magma_dash,
+  "magic-magma/magma-dash-ancient": magic_magma_magma_dash_ancient,
+  "magic-magma/magma-dash-greater": magic_magma_magma_dash_greater,
+  "magic-magma/magma-dash-lesser": magic_magma_magma_dash_lesser,
+  "magic-magma/magma-dash-wild": magic_magma_magma_dash_wild,
+  "magic-magma/magma-flare": magic_magma_magma_flare,
+  "magic-magma/magma-flare-ancient": magic_magma_magma_flare_ancient,
+  "magic-magma/magma-flare-greater": magic_magma_magma_flare_greater,
+  "magic-magma/magma-flare-lesser": magic_magma_magma_flare_lesser,
+  "magic-magma/magma-flare-wild": magic_magma_magma_flare_wild,
+  "magic-magma/magma-impact": magic_magma_magma_impact,
+  "magic-magma/magma-impact-ancient": magic_magma_magma_impact_ancient,
+  "magic-magma/magma-impact-greater": magic_magma_magma_impact_greater,
+  "magic-magma/magma-impact-lesser": magic_magma_magma_impact_lesser,
+  "magic-magma/magma-impact-wild": magic_magma_magma_impact_wild,
+  "magic-magma/magma-meteor": magic_magma_magma_meteor,
+  "magic-magma/magma-meteor-ancient": magic_magma_magma_meteor_ancient,
+  "magic-magma/magma-meteor-greater": magic_magma_magma_meteor_greater,
+  "magic-magma/magma-meteor-lesser": magic_magma_magma_meteor_lesser,
+  "magic-magma/magma-meteor-wild": magic_magma_magma_meteor_wild,
+  "magic-magma/magma-nova": magic_magma_magma_nova,
+  "magic-magma/magma-nova-ancient": magic_magma_magma_nova_ancient,
+  "magic-magma/magma-nova-greater": magic_magma_magma_nova_greater,
+  "magic-magma/magma-nova-lesser": magic_magma_magma_nova_lesser,
+  "magic-magma/magma-nova-wild": magic_magma_magma_nova_wild,
+  "magic-magma/magma-orb": magic_magma_magma_orb,
+  "magic-magma/magma-orb-ancient": magic_magma_magma_orb_ancient,
+  "magic-magma/magma-orb-greater": magic_magma_magma_orb_greater,
+  "magic-magma/magma-orb-lesser": magic_magma_magma_orb_lesser,
+  "magic-magma/magma-orb-wild": magic_magma_magma_orb_wild,
+  "magic-magma/magma-orbit": magic_magma_magma_orbit,
+  "magic-magma/magma-orbit-ancient": magic_magma_magma_orbit_ancient,
+  "magic-magma/magma-orbit-greater": magic_magma_magma_orbit_greater,
+  "magic-magma/magma-orbit-lesser": magic_magma_magma_orbit_lesser,
+  "magic-magma/magma-orbit-wild": magic_magma_magma_orbit_wild,
+  "magic-magma/magma-pillar": magic_magma_magma_pillar,
+  "magic-magma/magma-pillar-ancient": magic_magma_magma_pillar_ancient,
+  "magic-magma/magma-pillar-greater": magic_magma_magma_pillar_greater,
+  "magic-magma/magma-pillar-lesser": magic_magma_magma_pillar_lesser,
+  "magic-magma/magma-pillar-wild": magic_magma_magma_pillar_wild,
+  "magic-magma/magma-portal": magic_magma_magma_portal,
+  "magic-magma/magma-portal-ancient": magic_magma_magma_portal_ancient,
+  "magic-magma/magma-portal-greater": magic_magma_magma_portal_greater,
+  "magic-magma/magma-portal-lesser": magic_magma_magma_portal_lesser,
+  "magic-magma/magma-portal-wild": magic_magma_magma_portal_wild,
+  "magic-magma/magma-rain": magic_magma_magma_rain,
+  "magic-magma/magma-rain-ancient": magic_magma_magma_rain_ancient,
+  "magic-magma/magma-rain-greater": magic_magma_magma_rain_greater,
+  "magic-magma/magma-rain-lesser": magic_magma_magma_rain_lesser,
+  "magic-magma/magma-rain-wild": magic_magma_magma_rain_wild,
+  "magic-magma/magma-shield": magic_magma_magma_shield,
+  "magic-magma/magma-shield-ancient": magic_magma_magma_shield_ancient,
+  "magic-magma/magma-shield-greater": magic_magma_magma_shield_greater,
+  "magic-magma/magma-shield-lesser": magic_magma_magma_shield_lesser,
+  "magic-magma/magma-shield-wild": magic_magma_magma_shield_wild,
+  "magic-magma/magma-sigil": magic_magma_magma_sigil,
+  "magic-magma/magma-sigil-ancient": magic_magma_magma_sigil_ancient,
+  "magic-magma/magma-sigil-greater": magic_magma_magma_sigil_greater,
+  "magic-magma/magma-sigil-lesser": magic_magma_magma_sigil_lesser,
+  "magic-magma/magma-sigil-wild": magic_magma_magma_sigil_wild,
+  "magic-magma/magma-spikes": magic_magma_magma_spikes,
+  "magic-magma/magma-spikes-ancient": magic_magma_magma_spikes_ancient,
+  "magic-magma/magma-spikes-greater": magic_magma_magma_spikes_greater,
+  "magic-magma/magma-spikes-lesser": magic_magma_magma_spikes_lesser,
+  "magic-magma/magma-spikes-wild": magic_magma_magma_spikes_wild,
+  "magic-magma/magma-summon": magic_magma_magma_summon,
+  "magic-magma/magma-summon-ancient": magic_magma_magma_summon_ancient,
+  "magic-magma/magma-summon-greater": magic_magma_magma_summon_greater,
+  "magic-magma/magma-summon-lesser": magic_magma_magma_summon_lesser,
+  "magic-magma/magma-summon-wild": magic_magma_magma_summon_wild,
+  "magic-magma/magma-vortex": magic_magma_magma_vortex,
+  "magic-magma/magma-vortex-ancient": magic_magma_magma_vortex_ancient,
+  "magic-magma/magma-vortex-greater": magic_magma_magma_vortex_greater,
+  "magic-magma/magma-vortex-lesser": magic_magma_magma_vortex_lesser,
+  "magic-magma/magma-vortex-wild": magic_magma_magma_vortex_wild,
+  "magic-magma/magma-wave": magic_magma_magma_wave,
+  "magic-magma/magma-wave-ancient": magic_magma_magma_wave_ancient,
+  "magic-magma/magma-wave-greater": magic_magma_magma_wave_greater,
+  "magic-magma/magma-wave-lesser": magic_magma_magma_wave_lesser,
+  "magic-magma/magma-wave-wild": magic_magma_magma_wave_wild,
+  "magic-spirit/spirit-aura": magic_spirit_spirit_aura,
+  "magic-spirit/spirit-aura-ancient": magic_spirit_spirit_aura_ancient,
+  "magic-spirit/spirit-aura-greater": magic_spirit_spirit_aura_greater,
+  "magic-spirit/spirit-aura-lesser": magic_spirit_spirit_aura_lesser,
+  "magic-spirit/spirit-aura-wild": magic_spirit_spirit_aura_wild,
+  "magic-spirit/spirit-beam": magic_spirit_spirit_beam,
+  "magic-spirit/spirit-beam-ancient": magic_spirit_spirit_beam_ancient,
+  "magic-spirit/spirit-beam-greater": magic_spirit_spirit_beam_greater,
+  "magic-spirit/spirit-beam-lesser": magic_spirit_spirit_beam_lesser,
+  "magic-spirit/spirit-beam-wild": magic_spirit_spirit_beam_wild,
+  "magic-spirit/spirit-bolt": magic_spirit_spirit_bolt,
+  "magic-spirit/spirit-bolt-ancient": magic_spirit_spirit_bolt_ancient,
+  "magic-spirit/spirit-bolt-greater": magic_spirit_spirit_bolt_greater,
+  "magic-spirit/spirit-bolt-lesser": magic_spirit_spirit_bolt_lesser,
+  "magic-spirit/spirit-bolt-wild": magic_spirit_spirit_bolt_wild,
+  "magic-spirit/spirit-burst": magic_spirit_spirit_burst,
+  "magic-spirit/spirit-burst-ancient": magic_spirit_spirit_burst_ancient,
+  "magic-spirit/spirit-burst-greater": magic_spirit_spirit_burst_greater,
+  "magic-spirit/spirit-burst-lesser": magic_spirit_spirit_burst_lesser,
+  "magic-spirit/spirit-burst-wild": magic_spirit_spirit_burst_wild,
+  "magic-spirit/spirit-charge": magic_spirit_spirit_charge,
+  "magic-spirit/spirit-charge-ancient": magic_spirit_spirit_charge_ancient,
+  "magic-spirit/spirit-charge-greater": magic_spirit_spirit_charge_greater,
+  "magic-spirit/spirit-charge-lesser": magic_spirit_spirit_charge_lesser,
+  "magic-spirit/spirit-charge-wild": magic_spirit_spirit_charge_wild,
+  "magic-spirit/spirit-circle": magic_spirit_spirit_circle,
+  "magic-spirit/spirit-circle-ancient": magic_spirit_spirit_circle_ancient,
+  "magic-spirit/spirit-circle-greater": magic_spirit_spirit_circle_greater,
+  "magic-spirit/spirit-circle-lesser": magic_spirit_spirit_circle_lesser,
+  "magic-spirit/spirit-circle-wild": magic_spirit_spirit_circle_wild,
+  "magic-spirit/spirit-cloud": magic_spirit_spirit_cloud,
+  "magic-spirit/spirit-cloud-ancient": magic_spirit_spirit_cloud_ancient,
+  "magic-spirit/spirit-cloud-greater": magic_spirit_spirit_cloud_greater,
+  "magic-spirit/spirit-cloud-lesser": magic_spirit_spirit_cloud_lesser,
+  "magic-spirit/spirit-cloud-wild": magic_spirit_spirit_cloud_wild,
+  "magic-spirit/spirit-crescent": magic_spirit_spirit_crescent,
+  "magic-spirit/spirit-crescent-ancient": magic_spirit_spirit_crescent_ancient,
+  "magic-spirit/spirit-crescent-greater": magic_spirit_spirit_crescent_greater,
+  "magic-spirit/spirit-crescent-lesser": magic_spirit_spirit_crescent_lesser,
+  "magic-spirit/spirit-crescent-wild": magic_spirit_spirit_crescent_wild,
+  "magic-spirit/spirit-dash": magic_spirit_spirit_dash,
+  "magic-spirit/spirit-dash-ancient": magic_spirit_spirit_dash_ancient,
+  "magic-spirit/spirit-dash-greater": magic_spirit_spirit_dash_greater,
+  "magic-spirit/spirit-dash-lesser": magic_spirit_spirit_dash_lesser,
+  "magic-spirit/spirit-dash-wild": magic_spirit_spirit_dash_wild,
+  "magic-spirit/spirit-flare": magic_spirit_spirit_flare,
+  "magic-spirit/spirit-flare-ancient": magic_spirit_spirit_flare_ancient,
+  "magic-spirit/spirit-flare-greater": magic_spirit_spirit_flare_greater,
+  "magic-spirit/spirit-flare-lesser": magic_spirit_spirit_flare_lesser,
+  "magic-spirit/spirit-flare-wild": magic_spirit_spirit_flare_wild,
+  "magic-spirit/spirit-impact": magic_spirit_spirit_impact,
+  "magic-spirit/spirit-impact-ancient": magic_spirit_spirit_impact_ancient,
+  "magic-spirit/spirit-impact-greater": magic_spirit_spirit_impact_greater,
+  "magic-spirit/spirit-impact-lesser": magic_spirit_spirit_impact_lesser,
+  "magic-spirit/spirit-impact-wild": magic_spirit_spirit_impact_wild,
+  "magic-spirit/spirit-meteor": magic_spirit_spirit_meteor,
+  "magic-spirit/spirit-meteor-ancient": magic_spirit_spirit_meteor_ancient,
+  "magic-spirit/spirit-meteor-greater": magic_spirit_spirit_meteor_greater,
+  "magic-spirit/spirit-meteor-lesser": magic_spirit_spirit_meteor_lesser,
+  "magic-spirit/spirit-meteor-wild": magic_spirit_spirit_meteor_wild,
+  "magic-spirit/spirit-nova": magic_spirit_spirit_nova,
+  "magic-spirit/spirit-nova-ancient": magic_spirit_spirit_nova_ancient,
+  "magic-spirit/spirit-nova-greater": magic_spirit_spirit_nova_greater,
+  "magic-spirit/spirit-nova-lesser": magic_spirit_spirit_nova_lesser,
+  "magic-spirit/spirit-nova-wild": magic_spirit_spirit_nova_wild,
+  "magic-spirit/spirit-orb": magic_spirit_spirit_orb,
+  "magic-spirit/spirit-orb-ancient": magic_spirit_spirit_orb_ancient,
+  "magic-spirit/spirit-orb-greater": magic_spirit_spirit_orb_greater,
+  "magic-spirit/spirit-orb-lesser": magic_spirit_spirit_orb_lesser,
+  "magic-spirit/spirit-orb-wild": magic_spirit_spirit_orb_wild,
+  "magic-spirit/spirit-orbit": magic_spirit_spirit_orbit,
+  "magic-spirit/spirit-orbit-ancient": magic_spirit_spirit_orbit_ancient,
+  "magic-spirit/spirit-orbit-greater": magic_spirit_spirit_orbit_greater,
+  "magic-spirit/spirit-orbit-lesser": magic_spirit_spirit_orbit_lesser,
+  "magic-spirit/spirit-orbit-wild": magic_spirit_spirit_orbit_wild,
+  "magic-spirit/spirit-pillar": magic_spirit_spirit_pillar,
+  "magic-spirit/spirit-pillar-ancient": magic_spirit_spirit_pillar_ancient,
+  "magic-spirit/spirit-pillar-greater": magic_spirit_spirit_pillar_greater,
+  "magic-spirit/spirit-pillar-lesser": magic_spirit_spirit_pillar_lesser,
+  "magic-spirit/spirit-pillar-wild": magic_spirit_spirit_pillar_wild,
+  "magic-spirit/spirit-portal": magic_spirit_spirit_portal,
+  "magic-spirit/spirit-portal-ancient": magic_spirit_spirit_portal_ancient,
+  "magic-spirit/spirit-portal-greater": magic_spirit_spirit_portal_greater,
+  "magic-spirit/spirit-portal-lesser": magic_spirit_spirit_portal_lesser,
+  "magic-spirit/spirit-portal-wild": magic_spirit_spirit_portal_wild,
+  "magic-spirit/spirit-rain": magic_spirit_spirit_rain,
+  "magic-spirit/spirit-rain-ancient": magic_spirit_spirit_rain_ancient,
+  "magic-spirit/spirit-rain-greater": magic_spirit_spirit_rain_greater,
+  "magic-spirit/spirit-rain-lesser": magic_spirit_spirit_rain_lesser,
+  "magic-spirit/spirit-rain-wild": magic_spirit_spirit_rain_wild,
+  "magic-spirit/spirit-shield": magic_spirit_spirit_shield,
+  "magic-spirit/spirit-shield-ancient": magic_spirit_spirit_shield_ancient,
+  "magic-spirit/spirit-shield-greater": magic_spirit_spirit_shield_greater,
+  "magic-spirit/spirit-shield-lesser": magic_spirit_spirit_shield_lesser,
+  "magic-spirit/spirit-shield-wild": magic_spirit_spirit_shield_wild,
+  "magic-spirit/spirit-sigil": magic_spirit_spirit_sigil,
+  "magic-spirit/spirit-sigil-ancient": magic_spirit_spirit_sigil_ancient,
+  "magic-spirit/spirit-sigil-greater": magic_spirit_spirit_sigil_greater,
+  "magic-spirit/spirit-sigil-lesser": magic_spirit_spirit_sigil_lesser,
+  "magic-spirit/spirit-sigil-wild": magic_spirit_spirit_sigil_wild,
+  "magic-spirit/spirit-spikes": magic_spirit_spirit_spikes,
+  "magic-spirit/spirit-spikes-ancient": magic_spirit_spirit_spikes_ancient,
+  "magic-spirit/spirit-spikes-greater": magic_spirit_spirit_spikes_greater,
+  "magic-spirit/spirit-spikes-lesser": magic_spirit_spirit_spikes_lesser,
+  "magic-spirit/spirit-spikes-wild": magic_spirit_spirit_spikes_wild,
+  "magic-spirit/spirit-summon": magic_spirit_spirit_summon,
+  "magic-spirit/spirit-summon-ancient": magic_spirit_spirit_summon_ancient,
+  "magic-spirit/spirit-summon-greater": magic_spirit_spirit_summon_greater,
+  "magic-spirit/spirit-summon-lesser": magic_spirit_spirit_summon_lesser,
+  "magic-spirit/spirit-summon-wild": magic_spirit_spirit_summon_wild,
+  "magic-spirit/spirit-vortex": magic_spirit_spirit_vortex,
+  "magic-spirit/spirit-vortex-ancient": magic_spirit_spirit_vortex_ancient,
+  "magic-spirit/spirit-vortex-greater": magic_spirit_spirit_vortex_greater,
+  "magic-spirit/spirit-vortex-lesser": magic_spirit_spirit_vortex_lesser,
+  "magic-spirit/spirit-vortex-wild": magic_spirit_spirit_vortex_wild,
+  "magic-spirit/spirit-wave": magic_spirit_spirit_wave,
+  "magic-spirit/spirit-wave-ancient": magic_spirit_spirit_wave_ancient,
+  "magic-spirit/spirit-wave-greater": magic_spirit_spirit_wave_greater,
+  "magic-spirit/spirit-wave-lesser": magic_spirit_spirit_wave_lesser,
+  "magic-spirit/spirit-wave-wild": magic_spirit_spirit_wave_wild,
+  "magic-iron/iron-aura": magic_iron_iron_aura,
+  "magic-iron/iron-aura-ancient": magic_iron_iron_aura_ancient,
+  "magic-iron/iron-aura-greater": magic_iron_iron_aura_greater,
+  "magic-iron/iron-aura-lesser": magic_iron_iron_aura_lesser,
+  "magic-iron/iron-aura-wild": magic_iron_iron_aura_wild,
+  "magic-iron/iron-beam": magic_iron_iron_beam,
+  "magic-iron/iron-beam-ancient": magic_iron_iron_beam_ancient,
+  "magic-iron/iron-beam-greater": magic_iron_iron_beam_greater,
+  "magic-iron/iron-beam-lesser": magic_iron_iron_beam_lesser,
+  "magic-iron/iron-beam-wild": magic_iron_iron_beam_wild,
+  "magic-iron/iron-bolt": magic_iron_iron_bolt,
+  "magic-iron/iron-bolt-ancient": magic_iron_iron_bolt_ancient,
+  "magic-iron/iron-bolt-greater": magic_iron_iron_bolt_greater,
+  "magic-iron/iron-bolt-lesser": magic_iron_iron_bolt_lesser,
+  "magic-iron/iron-bolt-wild": magic_iron_iron_bolt_wild,
+  "magic-iron/iron-burst": magic_iron_iron_burst,
+  "magic-iron/iron-burst-ancient": magic_iron_iron_burst_ancient,
+  "magic-iron/iron-burst-greater": magic_iron_iron_burst_greater,
+  "magic-iron/iron-burst-lesser": magic_iron_iron_burst_lesser,
+  "magic-iron/iron-burst-wild": magic_iron_iron_burst_wild,
+  "magic-iron/iron-charge": magic_iron_iron_charge,
+  "magic-iron/iron-charge-ancient": magic_iron_iron_charge_ancient,
+  "magic-iron/iron-charge-greater": magic_iron_iron_charge_greater,
+  "magic-iron/iron-charge-lesser": magic_iron_iron_charge_lesser,
+  "magic-iron/iron-charge-wild": magic_iron_iron_charge_wild,
+  "magic-iron/iron-circle": magic_iron_iron_circle,
+  "magic-iron/iron-circle-ancient": magic_iron_iron_circle_ancient,
+  "magic-iron/iron-circle-greater": magic_iron_iron_circle_greater,
+  "magic-iron/iron-circle-lesser": magic_iron_iron_circle_lesser,
+  "magic-iron/iron-circle-wild": magic_iron_iron_circle_wild,
+  "magic-iron/iron-cloud": magic_iron_iron_cloud,
+  "magic-iron/iron-cloud-ancient": magic_iron_iron_cloud_ancient,
+  "magic-iron/iron-cloud-greater": magic_iron_iron_cloud_greater,
+  "magic-iron/iron-cloud-lesser": magic_iron_iron_cloud_lesser,
+  "magic-iron/iron-cloud-wild": magic_iron_iron_cloud_wild,
+  "magic-iron/iron-crescent": magic_iron_iron_crescent,
+  "magic-iron/iron-crescent-ancient": magic_iron_iron_crescent_ancient,
+  "magic-iron/iron-crescent-greater": magic_iron_iron_crescent_greater,
+  "magic-iron/iron-crescent-lesser": magic_iron_iron_crescent_lesser,
+  "magic-iron/iron-crescent-wild": magic_iron_iron_crescent_wild,
+  "magic-iron/iron-dash": magic_iron_iron_dash,
+  "magic-iron/iron-dash-ancient": magic_iron_iron_dash_ancient,
+  "magic-iron/iron-dash-greater": magic_iron_iron_dash_greater,
+  "magic-iron/iron-dash-lesser": magic_iron_iron_dash_lesser,
+  "magic-iron/iron-dash-wild": magic_iron_iron_dash_wild,
+  "magic-iron/iron-flare": magic_iron_iron_flare,
+  "magic-iron/iron-flare-ancient": magic_iron_iron_flare_ancient,
+  "magic-iron/iron-flare-greater": magic_iron_iron_flare_greater,
+  "magic-iron/iron-flare-lesser": magic_iron_iron_flare_lesser,
+  "magic-iron/iron-flare-wild": magic_iron_iron_flare_wild,
+  "magic-iron/iron-impact": magic_iron_iron_impact,
+  "magic-iron/iron-impact-ancient": magic_iron_iron_impact_ancient,
+  "magic-iron/iron-impact-greater": magic_iron_iron_impact_greater,
+  "magic-iron/iron-impact-lesser": magic_iron_iron_impact_lesser,
+  "magic-iron/iron-impact-wild": magic_iron_iron_impact_wild,
+  "magic-iron/iron-meteor": magic_iron_iron_meteor,
+  "magic-iron/iron-meteor-ancient": magic_iron_iron_meteor_ancient,
+  "magic-iron/iron-meteor-greater": magic_iron_iron_meteor_greater,
+  "magic-iron/iron-meteor-lesser": magic_iron_iron_meteor_lesser,
+  "magic-iron/iron-meteor-wild": magic_iron_iron_meteor_wild,
+  "magic-iron/iron-nova": magic_iron_iron_nova,
+  "magic-iron/iron-nova-ancient": magic_iron_iron_nova_ancient,
+  "magic-iron/iron-nova-greater": magic_iron_iron_nova_greater,
+  "magic-iron/iron-nova-lesser": magic_iron_iron_nova_lesser,
+  "magic-iron/iron-nova-wild": magic_iron_iron_nova_wild,
+  "magic-iron/iron-orb": magic_iron_iron_orb,
+  "magic-iron/iron-orb-ancient": magic_iron_iron_orb_ancient,
+  "magic-iron/iron-orb-greater": magic_iron_iron_orb_greater,
+  "magic-iron/iron-orb-lesser": magic_iron_iron_orb_lesser,
+  "magic-iron/iron-orb-wild": magic_iron_iron_orb_wild,
+  "magic-iron/iron-orbit": magic_iron_iron_orbit,
+  "magic-iron/iron-orbit-ancient": magic_iron_iron_orbit_ancient,
+  "magic-iron/iron-orbit-greater": magic_iron_iron_orbit_greater,
+  "magic-iron/iron-orbit-lesser": magic_iron_iron_orbit_lesser,
+  "magic-iron/iron-orbit-wild": magic_iron_iron_orbit_wild,
+  "magic-iron/iron-pillar": magic_iron_iron_pillar,
+  "magic-iron/iron-pillar-ancient": magic_iron_iron_pillar_ancient,
+  "magic-iron/iron-pillar-greater": magic_iron_iron_pillar_greater,
+  "magic-iron/iron-pillar-lesser": magic_iron_iron_pillar_lesser,
+  "magic-iron/iron-pillar-wild": magic_iron_iron_pillar_wild,
+  "magic-iron/iron-portal": magic_iron_iron_portal,
+  "magic-iron/iron-portal-ancient": magic_iron_iron_portal_ancient,
+  "magic-iron/iron-portal-greater": magic_iron_iron_portal_greater,
+  "magic-iron/iron-portal-lesser": magic_iron_iron_portal_lesser,
+  "magic-iron/iron-portal-wild": magic_iron_iron_portal_wild,
+  "magic-iron/iron-rain": magic_iron_iron_rain,
+  "magic-iron/iron-rain-ancient": magic_iron_iron_rain_ancient,
+  "magic-iron/iron-rain-greater": magic_iron_iron_rain_greater,
+  "magic-iron/iron-rain-lesser": magic_iron_iron_rain_lesser,
+  "magic-iron/iron-rain-wild": magic_iron_iron_rain_wild,
+  "magic-iron/iron-shield": magic_iron_iron_shield,
+  "magic-iron/iron-shield-ancient": magic_iron_iron_shield_ancient,
+  "magic-iron/iron-shield-greater": magic_iron_iron_shield_greater,
+  "magic-iron/iron-shield-lesser": magic_iron_iron_shield_lesser,
+  "magic-iron/iron-shield-wild": magic_iron_iron_shield_wild,
+  "magic-iron/iron-sigil": magic_iron_iron_sigil,
+  "magic-iron/iron-sigil-ancient": magic_iron_iron_sigil_ancient,
+  "magic-iron/iron-sigil-greater": magic_iron_iron_sigil_greater,
+  "magic-iron/iron-sigil-lesser": magic_iron_iron_sigil_lesser,
+  "magic-iron/iron-sigil-wild": magic_iron_iron_sigil_wild,
+  "magic-iron/iron-spikes": magic_iron_iron_spikes,
+  "magic-iron/iron-spikes-ancient": magic_iron_iron_spikes_ancient,
+  "magic-iron/iron-spikes-greater": magic_iron_iron_spikes_greater,
+  "magic-iron/iron-spikes-lesser": magic_iron_iron_spikes_lesser,
+  "magic-iron/iron-spikes-wild": magic_iron_iron_spikes_wild,
+  "magic-iron/iron-summon": magic_iron_iron_summon,
+  "magic-iron/iron-summon-ancient": magic_iron_iron_summon_ancient,
+  "magic-iron/iron-summon-greater": magic_iron_iron_summon_greater,
+  "magic-iron/iron-summon-lesser": magic_iron_iron_summon_lesser,
+  "magic-iron/iron-summon-wild": magic_iron_iron_summon_wild,
+  "magic-iron/iron-vortex": magic_iron_iron_vortex,
+  "magic-iron/iron-vortex-ancient": magic_iron_iron_vortex_ancient,
+  "magic-iron/iron-vortex-greater": magic_iron_iron_vortex_greater,
+  "magic-iron/iron-vortex-lesser": magic_iron_iron_vortex_lesser,
+  "magic-iron/iron-vortex-wild": magic_iron_iron_vortex_wild,
+  "magic-iron/iron-wave": magic_iron_iron_wave,
+  "magic-iron/iron-wave-ancient": magic_iron_iron_wave_ancient,
+  "magic-iron/iron-wave-greater": magic_iron_iron_wave_greater,
+  "magic-iron/iron-wave-lesser": magic_iron_iron_wave_lesser,
+  "magic-iron/iron-wave-wild": magic_iron_iron_wave_wild,
+  "magic-prism/prism-aura": magic_prism_prism_aura,
+  "magic-prism/prism-aura-ancient": magic_prism_prism_aura_ancient,
+  "magic-prism/prism-aura-greater": magic_prism_prism_aura_greater,
+  "magic-prism/prism-aura-lesser": magic_prism_prism_aura_lesser,
+  "magic-prism/prism-aura-wild": magic_prism_prism_aura_wild,
+  "magic-prism/prism-beam": magic_prism_prism_beam,
+  "magic-prism/prism-beam-ancient": magic_prism_prism_beam_ancient,
+  "magic-prism/prism-beam-greater": magic_prism_prism_beam_greater,
+  "magic-prism/prism-beam-lesser": magic_prism_prism_beam_lesser,
+  "magic-prism/prism-beam-wild": magic_prism_prism_beam_wild,
+  "magic-prism/prism-bolt": magic_prism_prism_bolt,
+  "magic-prism/prism-bolt-ancient": magic_prism_prism_bolt_ancient,
+  "magic-prism/prism-bolt-greater": magic_prism_prism_bolt_greater,
+  "magic-prism/prism-bolt-lesser": magic_prism_prism_bolt_lesser,
+  "magic-prism/prism-bolt-wild": magic_prism_prism_bolt_wild,
+  "magic-prism/prism-burst": magic_prism_prism_burst,
+  "magic-prism/prism-burst-ancient": magic_prism_prism_burst_ancient,
+  "magic-prism/prism-burst-greater": magic_prism_prism_burst_greater,
+  "magic-prism/prism-burst-lesser": magic_prism_prism_burst_lesser,
+  "magic-prism/prism-burst-wild": magic_prism_prism_burst_wild,
+  "magic-prism/prism-charge": magic_prism_prism_charge,
+  "magic-prism/prism-charge-ancient": magic_prism_prism_charge_ancient,
+  "magic-prism/prism-charge-greater": magic_prism_prism_charge_greater,
+  "magic-prism/prism-charge-lesser": magic_prism_prism_charge_lesser,
+  "magic-prism/prism-charge-wild": magic_prism_prism_charge_wild,
+  "magic-prism/prism-circle": magic_prism_prism_circle,
+  "magic-prism/prism-circle-ancient": magic_prism_prism_circle_ancient,
+  "magic-prism/prism-circle-greater": magic_prism_prism_circle_greater,
+  "magic-prism/prism-circle-lesser": magic_prism_prism_circle_lesser,
+  "magic-prism/prism-circle-wild": magic_prism_prism_circle_wild,
+  "magic-prism/prism-cloud": magic_prism_prism_cloud,
+  "magic-prism/prism-cloud-ancient": magic_prism_prism_cloud_ancient,
+  "magic-prism/prism-cloud-greater": magic_prism_prism_cloud_greater,
+  "magic-prism/prism-cloud-lesser": magic_prism_prism_cloud_lesser,
+  "magic-prism/prism-cloud-wild": magic_prism_prism_cloud_wild,
+  "magic-prism/prism-crescent": magic_prism_prism_crescent,
+  "magic-prism/prism-crescent-ancient": magic_prism_prism_crescent_ancient,
+  "magic-prism/prism-crescent-greater": magic_prism_prism_crescent_greater,
+  "magic-prism/prism-crescent-lesser": magic_prism_prism_crescent_lesser,
+  "magic-prism/prism-crescent-wild": magic_prism_prism_crescent_wild,
+  "magic-prism/prism-dash": magic_prism_prism_dash,
+  "magic-prism/prism-dash-ancient": magic_prism_prism_dash_ancient,
+  "magic-prism/prism-dash-greater": magic_prism_prism_dash_greater,
+  "magic-prism/prism-dash-lesser": magic_prism_prism_dash_lesser,
+  "magic-prism/prism-dash-wild": magic_prism_prism_dash_wild,
+  "magic-prism/prism-flare": magic_prism_prism_flare,
+  "magic-prism/prism-flare-ancient": magic_prism_prism_flare_ancient,
+  "magic-prism/prism-flare-greater": magic_prism_prism_flare_greater,
+  "magic-prism/prism-flare-lesser": magic_prism_prism_flare_lesser,
+  "magic-prism/prism-flare-wild": magic_prism_prism_flare_wild,
+  "magic-prism/prism-impact": magic_prism_prism_impact,
+  "magic-prism/prism-impact-ancient": magic_prism_prism_impact_ancient,
+  "magic-prism/prism-impact-greater": magic_prism_prism_impact_greater,
+  "magic-prism/prism-impact-lesser": magic_prism_prism_impact_lesser,
+  "magic-prism/prism-impact-wild": magic_prism_prism_impact_wild,
+  "magic-prism/prism-meteor": magic_prism_prism_meteor,
+  "magic-prism/prism-meteor-ancient": magic_prism_prism_meteor_ancient,
+  "magic-prism/prism-meteor-greater": magic_prism_prism_meteor_greater,
+  "magic-prism/prism-meteor-lesser": magic_prism_prism_meteor_lesser,
+  "magic-prism/prism-meteor-wild": magic_prism_prism_meteor_wild,
+  "magic-prism/prism-nova": magic_prism_prism_nova,
+  "magic-prism/prism-nova-ancient": magic_prism_prism_nova_ancient,
+  "magic-prism/prism-nova-greater": magic_prism_prism_nova_greater,
+  "magic-prism/prism-nova-lesser": magic_prism_prism_nova_lesser,
+  "magic-prism/prism-nova-wild": magic_prism_prism_nova_wild,
+  "magic-prism/prism-orb": magic_prism_prism_orb,
+  "magic-prism/prism-orb-ancient": magic_prism_prism_orb_ancient,
+  "magic-prism/prism-orb-greater": magic_prism_prism_orb_greater,
+  "magic-prism/prism-orb-lesser": magic_prism_prism_orb_lesser,
+  "magic-prism/prism-orb-wild": magic_prism_prism_orb_wild,
+  "magic-prism/prism-orbit": magic_prism_prism_orbit,
+  "magic-prism/prism-orbit-ancient": magic_prism_prism_orbit_ancient,
+  "magic-prism/prism-orbit-greater": magic_prism_prism_orbit_greater,
+  "magic-prism/prism-orbit-lesser": magic_prism_prism_orbit_lesser,
+  "magic-prism/prism-orbit-wild": magic_prism_prism_orbit_wild,
+  "magic-prism/prism-pillar": magic_prism_prism_pillar,
+  "magic-prism/prism-pillar-ancient": magic_prism_prism_pillar_ancient,
+  "magic-prism/prism-pillar-greater": magic_prism_prism_pillar_greater,
+  "magic-prism/prism-pillar-lesser": magic_prism_prism_pillar_lesser,
+  "magic-prism/prism-pillar-wild": magic_prism_prism_pillar_wild,
+  "magic-prism/prism-portal": magic_prism_prism_portal,
+  "magic-prism/prism-portal-ancient": magic_prism_prism_portal_ancient,
+  "magic-prism/prism-portal-greater": magic_prism_prism_portal_greater,
+  "magic-prism/prism-portal-lesser": magic_prism_prism_portal_lesser,
+  "magic-prism/prism-portal-wild": magic_prism_prism_portal_wild,
+  "magic-prism/prism-rain": magic_prism_prism_rain,
+  "magic-prism/prism-rain-ancient": magic_prism_prism_rain_ancient,
+  "magic-prism/prism-rain-greater": magic_prism_prism_rain_greater,
+  "magic-prism/prism-rain-lesser": magic_prism_prism_rain_lesser,
+  "magic-prism/prism-rain-wild": magic_prism_prism_rain_wild,
+  "magic-prism/prism-shield": magic_prism_prism_shield,
+  "magic-prism/prism-shield-ancient": magic_prism_prism_shield_ancient,
+  "magic-prism/prism-shield-greater": magic_prism_prism_shield_greater,
+  "magic-prism/prism-shield-lesser": magic_prism_prism_shield_lesser,
+  "magic-prism/prism-shield-wild": magic_prism_prism_shield_wild,
+  "magic-prism/prism-sigil": magic_prism_prism_sigil,
+  "magic-prism/prism-sigil-ancient": magic_prism_prism_sigil_ancient,
+  "magic-prism/prism-sigil-greater": magic_prism_prism_sigil_greater,
+  "magic-prism/prism-sigil-lesser": magic_prism_prism_sigil_lesser,
+  "magic-prism/prism-sigil-wild": magic_prism_prism_sigil_wild,
+  "magic-prism/prism-spikes": magic_prism_prism_spikes,
+  "magic-prism/prism-spikes-ancient": magic_prism_prism_spikes_ancient,
+  "magic-prism/prism-spikes-greater": magic_prism_prism_spikes_greater,
+  "magic-prism/prism-spikes-lesser": magic_prism_prism_spikes_lesser,
+  "magic-prism/prism-spikes-wild": magic_prism_prism_spikes_wild,
+  "magic-prism/prism-summon": magic_prism_prism_summon,
+  "magic-prism/prism-summon-ancient": magic_prism_prism_summon_ancient,
+  "magic-prism/prism-summon-greater": magic_prism_prism_summon_greater,
+  "magic-prism/prism-summon-lesser": magic_prism_prism_summon_lesser,
+  "magic-prism/prism-summon-wild": magic_prism_prism_summon_wild,
+  "magic-prism/prism-vortex": magic_prism_prism_vortex,
+  "magic-prism/prism-vortex-ancient": magic_prism_prism_vortex_ancient,
+  "magic-prism/prism-vortex-greater": magic_prism_prism_vortex_greater,
+  "magic-prism/prism-vortex-lesser": magic_prism_prism_vortex_lesser,
+  "magic-prism/prism-vortex-wild": magic_prism_prism_vortex_wild,
+  "magic-prism/prism-wave": magic_prism_prism_wave,
+  "magic-prism/prism-wave-ancient": magic_prism_prism_wave_ancient,
+  "magic-prism/prism-wave-greater": magic_prism_prism_wave_greater,
+  "magic-prism/prism-wave-lesser": magic_prism_prism_wave_lesser,
+  "magic-prism/prism-wave-wild": magic_prism_prism_wave_wild,
+  "magic-rot/rot-aura": magic_rot_rot_aura,
+  "magic-rot/rot-aura-ancient": magic_rot_rot_aura_ancient,
+  "magic-rot/rot-aura-greater": magic_rot_rot_aura_greater,
+  "magic-rot/rot-aura-lesser": magic_rot_rot_aura_lesser,
+  "magic-rot/rot-aura-wild": magic_rot_rot_aura_wild,
+  "magic-rot/rot-beam": magic_rot_rot_beam,
+  "magic-rot/rot-beam-ancient": magic_rot_rot_beam_ancient,
+  "magic-rot/rot-beam-greater": magic_rot_rot_beam_greater,
+  "magic-rot/rot-beam-lesser": magic_rot_rot_beam_lesser,
+  "magic-rot/rot-beam-wild": magic_rot_rot_beam_wild,
+  "magic-rot/rot-bolt": magic_rot_rot_bolt,
+  "magic-rot/rot-bolt-ancient": magic_rot_rot_bolt_ancient,
+  "magic-rot/rot-bolt-greater": magic_rot_rot_bolt_greater,
+  "magic-rot/rot-bolt-lesser": magic_rot_rot_bolt_lesser,
+  "magic-rot/rot-bolt-wild": magic_rot_rot_bolt_wild,
+  "magic-rot/rot-burst": magic_rot_rot_burst,
+  "magic-rot/rot-burst-ancient": magic_rot_rot_burst_ancient,
+  "magic-rot/rot-burst-greater": magic_rot_rot_burst_greater,
+  "magic-rot/rot-burst-lesser": magic_rot_rot_burst_lesser,
+  "magic-rot/rot-burst-wild": magic_rot_rot_burst_wild,
+  "magic-rot/rot-charge": magic_rot_rot_charge,
+  "magic-rot/rot-charge-ancient": magic_rot_rot_charge_ancient,
+  "magic-rot/rot-charge-greater": magic_rot_rot_charge_greater,
+  "magic-rot/rot-charge-lesser": magic_rot_rot_charge_lesser,
+  "magic-rot/rot-charge-wild": magic_rot_rot_charge_wild,
+  "magic-rot/rot-circle": magic_rot_rot_circle,
+  "magic-rot/rot-circle-ancient": magic_rot_rot_circle_ancient,
+  "magic-rot/rot-circle-greater": magic_rot_rot_circle_greater,
+  "magic-rot/rot-circle-lesser": magic_rot_rot_circle_lesser,
+  "magic-rot/rot-circle-wild": magic_rot_rot_circle_wild,
+  "magic-rot/rot-cloud": magic_rot_rot_cloud,
+  "magic-rot/rot-cloud-ancient": magic_rot_rot_cloud_ancient,
+  "magic-rot/rot-cloud-greater": magic_rot_rot_cloud_greater,
+  "magic-rot/rot-cloud-lesser": magic_rot_rot_cloud_lesser,
+  "magic-rot/rot-cloud-wild": magic_rot_rot_cloud_wild,
+  "magic-rot/rot-crescent": magic_rot_rot_crescent,
+  "magic-rot/rot-crescent-ancient": magic_rot_rot_crescent_ancient,
+  "magic-rot/rot-crescent-greater": magic_rot_rot_crescent_greater,
+  "magic-rot/rot-crescent-lesser": magic_rot_rot_crescent_lesser,
+  "magic-rot/rot-crescent-wild": magic_rot_rot_crescent_wild,
+  "magic-rot/rot-dash": magic_rot_rot_dash,
+  "magic-rot/rot-dash-ancient": magic_rot_rot_dash_ancient,
+  "magic-rot/rot-dash-greater": magic_rot_rot_dash_greater,
+  "magic-rot/rot-dash-lesser": magic_rot_rot_dash_lesser,
+  "magic-rot/rot-dash-wild": magic_rot_rot_dash_wild,
+  "magic-rot/rot-flare": magic_rot_rot_flare,
+  "magic-rot/rot-flare-ancient": magic_rot_rot_flare_ancient,
+  "magic-rot/rot-flare-greater": magic_rot_rot_flare_greater,
+  "magic-rot/rot-flare-lesser": magic_rot_rot_flare_lesser,
+  "magic-rot/rot-flare-wild": magic_rot_rot_flare_wild,
+  "magic-rot/rot-impact": magic_rot_rot_impact,
+  "magic-rot/rot-impact-ancient": magic_rot_rot_impact_ancient,
+  "magic-rot/rot-impact-greater": magic_rot_rot_impact_greater,
+  "magic-rot/rot-impact-lesser": magic_rot_rot_impact_lesser,
+  "magic-rot/rot-impact-wild": magic_rot_rot_impact_wild,
+  "magic-rot/rot-meteor": magic_rot_rot_meteor,
+  "magic-rot/rot-meteor-ancient": magic_rot_rot_meteor_ancient,
+  "magic-rot/rot-meteor-greater": magic_rot_rot_meteor_greater,
+  "magic-rot/rot-meteor-lesser": magic_rot_rot_meteor_lesser,
+  "magic-rot/rot-meteor-wild": magic_rot_rot_meteor_wild,
+  "magic-rot/rot-nova": magic_rot_rot_nova,
+  "magic-rot/rot-nova-ancient": magic_rot_rot_nova_ancient,
+  "magic-rot/rot-nova-greater": magic_rot_rot_nova_greater,
+  "magic-rot/rot-nova-lesser": magic_rot_rot_nova_lesser,
+  "magic-rot/rot-nova-wild": magic_rot_rot_nova_wild,
+  "magic-rot/rot-orb": magic_rot_rot_orb,
+  "magic-rot/rot-orb-ancient": magic_rot_rot_orb_ancient,
+  "magic-rot/rot-orb-greater": magic_rot_rot_orb_greater,
+  "magic-rot/rot-orb-lesser": magic_rot_rot_orb_lesser,
+  "magic-rot/rot-orb-wild": magic_rot_rot_orb_wild,
+  "magic-rot/rot-orbit": magic_rot_rot_orbit,
+  "magic-rot/rot-orbit-ancient": magic_rot_rot_orbit_ancient,
+  "magic-rot/rot-orbit-greater": magic_rot_rot_orbit_greater,
+  "magic-rot/rot-orbit-lesser": magic_rot_rot_orbit_lesser,
+  "magic-rot/rot-orbit-wild": magic_rot_rot_orbit_wild,
+  "magic-rot/rot-pillar": magic_rot_rot_pillar,
+  "magic-rot/rot-pillar-ancient": magic_rot_rot_pillar_ancient,
+  "magic-rot/rot-pillar-greater": magic_rot_rot_pillar_greater,
+  "magic-rot/rot-pillar-lesser": magic_rot_rot_pillar_lesser,
+  "magic-rot/rot-pillar-wild": magic_rot_rot_pillar_wild,
+  "magic-rot/rot-portal": magic_rot_rot_portal,
+  "magic-rot/rot-portal-ancient": magic_rot_rot_portal_ancient,
+  "magic-rot/rot-portal-greater": magic_rot_rot_portal_greater,
+  "magic-rot/rot-portal-lesser": magic_rot_rot_portal_lesser,
+  "magic-rot/rot-portal-wild": magic_rot_rot_portal_wild,
+  "magic-rot/rot-rain": magic_rot_rot_rain,
+  "magic-rot/rot-rain-ancient": magic_rot_rot_rain_ancient,
+  "magic-rot/rot-rain-greater": magic_rot_rot_rain_greater,
+  "magic-rot/rot-rain-lesser": magic_rot_rot_rain_lesser,
+  "magic-rot/rot-rain-wild": magic_rot_rot_rain_wild,
+  "magic-rot/rot-shield": magic_rot_rot_shield,
+  "magic-rot/rot-shield-ancient": magic_rot_rot_shield_ancient,
+  "magic-rot/rot-shield-greater": magic_rot_rot_shield_greater,
+  "magic-rot/rot-shield-lesser": magic_rot_rot_shield_lesser,
+  "magic-rot/rot-shield-wild": magic_rot_rot_shield_wild,
+  "magic-rot/rot-sigil": magic_rot_rot_sigil,
+  "magic-rot/rot-sigil-ancient": magic_rot_rot_sigil_ancient,
+  "magic-rot/rot-sigil-greater": magic_rot_rot_sigil_greater,
+  "magic-rot/rot-sigil-lesser": magic_rot_rot_sigil_lesser,
+  "magic-rot/rot-sigil-wild": magic_rot_rot_sigil_wild,
+  "magic-rot/rot-spikes": magic_rot_rot_spikes,
+  "magic-rot/rot-spikes-ancient": magic_rot_rot_spikes_ancient,
+  "magic-rot/rot-spikes-greater": magic_rot_rot_spikes_greater,
+  "magic-rot/rot-spikes-lesser": magic_rot_rot_spikes_lesser,
+  "magic-rot/rot-spikes-wild": magic_rot_rot_spikes_wild,
+  "magic-rot/rot-summon": magic_rot_rot_summon,
+  "magic-rot/rot-summon-ancient": magic_rot_rot_summon_ancient,
+  "magic-rot/rot-summon-greater": magic_rot_rot_summon_greater,
+  "magic-rot/rot-summon-lesser": magic_rot_rot_summon_lesser,
+  "magic-rot/rot-summon-wild": magic_rot_rot_summon_wild,
+  "magic-rot/rot-vortex": magic_rot_rot_vortex,
+  "magic-rot/rot-vortex-ancient": magic_rot_rot_vortex_ancient,
+  "magic-rot/rot-vortex-greater": magic_rot_rot_vortex_greater,
+  "magic-rot/rot-vortex-lesser": magic_rot_rot_vortex_lesser,
+  "magic-rot/rot-vortex-wild": magic_rot_rot_vortex_wild,
+  "magic-rot/rot-wave": magic_rot_rot_wave,
+  "magic-rot/rot-wave-ancient": magic_rot_rot_wave_ancient,
+  "magic-rot/rot-wave-greater": magic_rot_rot_wave_greater,
+  "magic-rot/rot-wave-lesser": magic_rot_rot_wave_lesser,
+  "magic-rot/rot-wave-wild": magic_rot_rot_wave_wild,
+  "magic-lunar/lunar-aura": magic_lunar_lunar_aura,
+  "magic-lunar/lunar-aura-ancient": magic_lunar_lunar_aura_ancient,
+  "magic-lunar/lunar-aura-greater": magic_lunar_lunar_aura_greater,
+  "magic-lunar/lunar-aura-lesser": magic_lunar_lunar_aura_lesser,
+  "magic-lunar/lunar-aura-wild": magic_lunar_lunar_aura_wild,
+  "magic-lunar/lunar-beam": magic_lunar_lunar_beam,
+  "magic-lunar/lunar-beam-ancient": magic_lunar_lunar_beam_ancient,
+  "magic-lunar/lunar-beam-greater": magic_lunar_lunar_beam_greater,
+  "magic-lunar/lunar-beam-lesser": magic_lunar_lunar_beam_lesser,
+  "magic-lunar/lunar-beam-wild": magic_lunar_lunar_beam_wild,
+  "magic-lunar/lunar-bolt": magic_lunar_lunar_bolt,
+  "magic-lunar/lunar-bolt-ancient": magic_lunar_lunar_bolt_ancient,
+  "magic-lunar/lunar-bolt-greater": magic_lunar_lunar_bolt_greater,
+  "magic-lunar/lunar-bolt-lesser": magic_lunar_lunar_bolt_lesser,
+  "magic-lunar/lunar-bolt-wild": magic_lunar_lunar_bolt_wild,
+  "magic-lunar/lunar-burst": magic_lunar_lunar_burst,
+  "magic-lunar/lunar-burst-ancient": magic_lunar_lunar_burst_ancient,
+  "magic-lunar/lunar-burst-greater": magic_lunar_lunar_burst_greater,
+  "magic-lunar/lunar-burst-lesser": magic_lunar_lunar_burst_lesser,
+  "magic-lunar/lunar-burst-wild": magic_lunar_lunar_burst_wild,
+  "magic-lunar/lunar-charge": magic_lunar_lunar_charge,
+  "magic-lunar/lunar-charge-ancient": magic_lunar_lunar_charge_ancient,
+  "magic-lunar/lunar-charge-greater": magic_lunar_lunar_charge_greater,
+  "magic-lunar/lunar-charge-lesser": magic_lunar_lunar_charge_lesser,
+  "magic-lunar/lunar-charge-wild": magic_lunar_lunar_charge_wild,
+  "magic-lunar/lunar-circle": magic_lunar_lunar_circle,
+  "magic-lunar/lunar-circle-ancient": magic_lunar_lunar_circle_ancient,
+  "magic-lunar/lunar-circle-greater": magic_lunar_lunar_circle_greater,
+  "magic-lunar/lunar-circle-lesser": magic_lunar_lunar_circle_lesser,
+  "magic-lunar/lunar-circle-wild": magic_lunar_lunar_circle_wild,
+  "magic-lunar/lunar-cloud": magic_lunar_lunar_cloud,
+  "magic-lunar/lunar-cloud-ancient": magic_lunar_lunar_cloud_ancient,
+  "magic-lunar/lunar-cloud-greater": magic_lunar_lunar_cloud_greater,
+  "magic-lunar/lunar-cloud-lesser": magic_lunar_lunar_cloud_lesser,
+  "magic-lunar/lunar-cloud-wild": magic_lunar_lunar_cloud_wild,
+  "magic-lunar/lunar-crescent": magic_lunar_lunar_crescent,
+  "magic-lunar/lunar-crescent-ancient": magic_lunar_lunar_crescent_ancient,
+  "magic-lunar/lunar-crescent-greater": magic_lunar_lunar_crescent_greater,
+  "magic-lunar/lunar-crescent-lesser": magic_lunar_lunar_crescent_lesser,
+  "magic-lunar/lunar-crescent-wild": magic_lunar_lunar_crescent_wild,
+  "magic-lunar/lunar-dash": magic_lunar_lunar_dash,
+  "magic-lunar/lunar-dash-ancient": magic_lunar_lunar_dash_ancient,
+  "magic-lunar/lunar-dash-greater": magic_lunar_lunar_dash_greater,
+  "magic-lunar/lunar-dash-lesser": magic_lunar_lunar_dash_lesser,
+  "magic-lunar/lunar-dash-wild": magic_lunar_lunar_dash_wild,
+  "magic-lunar/lunar-flare": magic_lunar_lunar_flare,
+  "magic-lunar/lunar-flare-ancient": magic_lunar_lunar_flare_ancient,
+  "magic-lunar/lunar-flare-greater": magic_lunar_lunar_flare_greater,
+  "magic-lunar/lunar-flare-lesser": magic_lunar_lunar_flare_lesser,
+  "magic-lunar/lunar-flare-wild": magic_lunar_lunar_flare_wild,
+  "magic-lunar/lunar-impact": magic_lunar_lunar_impact,
+  "magic-lunar/lunar-impact-ancient": magic_lunar_lunar_impact_ancient,
+  "magic-lunar/lunar-impact-greater": magic_lunar_lunar_impact_greater,
+  "magic-lunar/lunar-impact-lesser": magic_lunar_lunar_impact_lesser,
+  "magic-lunar/lunar-impact-wild": magic_lunar_lunar_impact_wild,
+  "magic-lunar/lunar-meteor": magic_lunar_lunar_meteor,
+  "magic-lunar/lunar-meteor-ancient": magic_lunar_lunar_meteor_ancient,
+  "magic-lunar/lunar-meteor-greater": magic_lunar_lunar_meteor_greater,
+  "magic-lunar/lunar-meteor-lesser": magic_lunar_lunar_meteor_lesser,
+  "magic-lunar/lunar-meteor-wild": magic_lunar_lunar_meteor_wild,
+  "magic-lunar/lunar-nova": magic_lunar_lunar_nova,
+  "magic-lunar/lunar-nova-ancient": magic_lunar_lunar_nova_ancient,
+  "magic-lunar/lunar-nova-greater": magic_lunar_lunar_nova_greater,
+  "magic-lunar/lunar-nova-lesser": magic_lunar_lunar_nova_lesser,
+  "magic-lunar/lunar-nova-wild": magic_lunar_lunar_nova_wild,
+  "magic-lunar/lunar-orb": magic_lunar_lunar_orb,
+  "magic-lunar/lunar-orb-ancient": magic_lunar_lunar_orb_ancient,
+  "magic-lunar/lunar-orb-greater": magic_lunar_lunar_orb_greater,
+  "magic-lunar/lunar-orb-lesser": magic_lunar_lunar_orb_lesser,
+  "magic-lunar/lunar-orb-wild": magic_lunar_lunar_orb_wild,
+  "magic-lunar/lunar-orbit": magic_lunar_lunar_orbit,
+  "magic-lunar/lunar-orbit-ancient": magic_lunar_lunar_orbit_ancient,
+  "magic-lunar/lunar-orbit-greater": magic_lunar_lunar_orbit_greater,
+  "magic-lunar/lunar-orbit-lesser": magic_lunar_lunar_orbit_lesser,
+  "magic-lunar/lunar-orbit-wild": magic_lunar_lunar_orbit_wild,
+  "magic-lunar/lunar-pillar": magic_lunar_lunar_pillar,
+  "magic-lunar/lunar-pillar-ancient": magic_lunar_lunar_pillar_ancient,
+  "magic-lunar/lunar-pillar-greater": magic_lunar_lunar_pillar_greater,
+  "magic-lunar/lunar-pillar-lesser": magic_lunar_lunar_pillar_lesser,
+  "magic-lunar/lunar-pillar-wild": magic_lunar_lunar_pillar_wild,
+  "magic-lunar/lunar-portal": magic_lunar_lunar_portal,
+  "magic-lunar/lunar-portal-ancient": magic_lunar_lunar_portal_ancient,
+  "magic-lunar/lunar-portal-greater": magic_lunar_lunar_portal_greater,
+  "magic-lunar/lunar-portal-lesser": magic_lunar_lunar_portal_lesser,
+  "magic-lunar/lunar-portal-wild": magic_lunar_lunar_portal_wild,
+  "magic-lunar/lunar-rain": magic_lunar_lunar_rain,
+  "magic-lunar/lunar-rain-ancient": magic_lunar_lunar_rain_ancient,
+  "magic-lunar/lunar-rain-greater": magic_lunar_lunar_rain_greater,
+  "magic-lunar/lunar-rain-lesser": magic_lunar_lunar_rain_lesser,
+  "magic-lunar/lunar-rain-wild": magic_lunar_lunar_rain_wild,
+  "magic-lunar/lunar-shield": magic_lunar_lunar_shield,
+  "magic-lunar/lunar-shield-ancient": magic_lunar_lunar_shield_ancient,
+  "magic-lunar/lunar-shield-greater": magic_lunar_lunar_shield_greater,
+  "magic-lunar/lunar-shield-lesser": magic_lunar_lunar_shield_lesser,
+  "magic-lunar/lunar-shield-wild": magic_lunar_lunar_shield_wild,
+  "magic-lunar/lunar-sigil": magic_lunar_lunar_sigil,
+  "magic-lunar/lunar-sigil-ancient": magic_lunar_lunar_sigil_ancient,
+  "magic-lunar/lunar-sigil-greater": magic_lunar_lunar_sigil_greater,
+  "magic-lunar/lunar-sigil-lesser": magic_lunar_lunar_sigil_lesser,
+  "magic-lunar/lunar-sigil-wild": magic_lunar_lunar_sigil_wild,
+  "magic-lunar/lunar-spikes": magic_lunar_lunar_spikes,
+  "magic-lunar/lunar-spikes-ancient": magic_lunar_lunar_spikes_ancient,
+  "magic-lunar/lunar-spikes-greater": magic_lunar_lunar_spikes_greater,
+  "magic-lunar/lunar-spikes-lesser": magic_lunar_lunar_spikes_lesser,
+  "magic-lunar/lunar-spikes-wild": magic_lunar_lunar_spikes_wild,
+  "magic-lunar/lunar-summon": magic_lunar_lunar_summon,
+  "magic-lunar/lunar-summon-ancient": magic_lunar_lunar_summon_ancient,
+  "magic-lunar/lunar-summon-greater": magic_lunar_lunar_summon_greater,
+  "magic-lunar/lunar-summon-lesser": magic_lunar_lunar_summon_lesser,
+  "magic-lunar/lunar-summon-wild": magic_lunar_lunar_summon_wild,
+  "magic-lunar/lunar-vortex": magic_lunar_lunar_vortex,
+  "magic-lunar/lunar-vortex-ancient": magic_lunar_lunar_vortex_ancient,
+  "magic-lunar/lunar-vortex-greater": magic_lunar_lunar_vortex_greater,
+  "magic-lunar/lunar-vortex-lesser": magic_lunar_lunar_vortex_lesser,
+  "magic-lunar/lunar-vortex-wild": magic_lunar_lunar_vortex_wild,
+  "magic-lunar/lunar-wave": magic_lunar_lunar_wave,
+  "magic-lunar/lunar-wave-ancient": magic_lunar_lunar_wave_ancient,
+  "magic-lunar/lunar-wave-greater": magic_lunar_lunar_wave_greater,
+  "magic-lunar/lunar-wave-lesser": magic_lunar_lunar_wave_lesser,
+  "magic-lunar/lunar-wave-wild": magic_lunar_lunar_wave_wild,
 };
