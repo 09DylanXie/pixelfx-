@@ -51,3 +51,5 @@ for (const [k, list] of Object.entries(issues)) {
   console.log(`${k}: ${list.length}`);
   for (const s of list.slice(0, 80)) console.log("   " + s);
 }
+// real faults fail the run (so CI stops a broken regenerate); slow frames are only reported, since timing is noisy
+if (count === 0 || ["throw", "outside", "notEmpty", "seam"].some((k) => issues[k].length)) process.exitCode = 1;

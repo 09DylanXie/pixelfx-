@@ -1,4 +1,7 @@
-name: gallery
+name: magic gallery
+# Publishes magic-gallery/ (the 3000 generated magic effects) to GitHub Pages.
+# One-time setup: Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+# This deliberately does not publish pixelfx's own gallery/, whose font is not MIT (see NOTICE.md).
 on:
   push:
     branches: [main]
@@ -19,11 +22,18 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: node tools/check.mjs
-      - run: node tools/build-gallery.mjs
+      - name: Check every magic effect
+        run: node tools/magic/check.mjs .
+      - name: Build the site
+        run: |
+          mkdir -p dist/site
+          npx esbuild magic-gallery/entry.js --bundle --minify --format=iife --global-name=PFX --outfile=dist/site/pfx.js
+          cp magic-gallery/magic-gallery.html dist/site/index.html
+          cp LICENSE dist/site/LICENSE.txt
+          touch dist/site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/gallery
+          path: dist/site
   deploy:
     needs: build
     runs-on: ubuntu-latest
