@@ -1,3 +1,10 @@
+> **This is a copy of [pixelfx](https://github.com/patch-gg/pixelfx) by Patch, built on Hugo Duprez's method, with
+> one addition.** Everything below, the 244 effects, the toolkit in `src/core`, the tools and the skill, is their work
+> under the MIT license (see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md)). What was added here is **3000 generated
+> magic effects**: 25 schools of magic × 24 spell types × 5 forms, in `src/fx/magic-*`, with the generator in
+> `src/fx/_magic`, scripts in `tools/magic` and a browser gallery in `magic-gallery`. See [docs/MAGIC.md](docs/MAGIC.md).
+> The original history is kept so the authors stay credited.
+
 <p align="center">
   <img src="docs/readme/montage.gif" width="800" alt="A grid of pixel art effects playing at once: a campfire, a burning skull, a waterfall, a plasma ball, a portal, a tornado and more.">
 </p>
